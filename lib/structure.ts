@@ -46,7 +46,7 @@ export const FE_SKILLS: Skill[] = [
   { slug: '02-doc-hieu-tai-lieu-giai-phap', title: 'Đọc hiểu & soi lỗi tài liệu giải pháp', group: 'Quy trình & tư duy hệ thống', levels: [1, 2, 2, 3] },
   { slug: '03-lap-trinh-an-toan', title: 'Lập trình an toàn (secure coding)', group: 'Quy trình & tư duy hệ thống', levels: [1, 2, 2, 3] },
   { slug: '04-html-css-js', title: 'HTML / CSS / JavaScript', group: 'Lõi Front-end', levels: [2, 3, 3, 4] },
-  { slug: '05-framework-fe', title: 'Framework FE (React/Angular/Vue)', group: 'Lõi Front-end', levels: [1, 2, 3, 3] },
+  { slug: '05-framework-fe', title: 'Framework FE (Angular)', group: 'Lõi Front-end', levels: [1, 2, 3, 3] },
   { slug: '06-ux-ui-co-ban', title: 'UX/UI cơ bản', group: 'Lõi Front-end', levels: [0, 1, 1, 2] },
   { slug: '07-restful-api', title: 'RESTful API (tích hợp BE)', group: 'Lõi Front-end', levels: [0, 1, 2, 2] },
   { slug: '08-component-dung-chung', title: 'Component dùng chung (đóng gói, tái sử dụng)', group: 'Kỹ thuật nâng cao FE', levels: [0, 1, 2, 3] },

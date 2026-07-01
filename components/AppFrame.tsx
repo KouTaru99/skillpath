@@ -85,6 +85,17 @@ export function AppFrame({ children }: { children: React.ReactNode }) {
                       ))}
                     </div>
                   ))}
+                  <NavLink
+                    component={Link}
+                    href={`/${role.slug}/tinh-huong`}
+                    label="Tình huống thực chiến"
+                    description="50 issue/bug thật + cách gỡ"
+                    active={pathname === `/${role.slug}/tinh-huong`}
+                    color="indigo"
+                    variant="filled"
+                    onClick={close}
+                    mt="md"
+                  />
                 </>
               )}
               <Divider my="sm" />

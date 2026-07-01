@@ -34,10 +34,31 @@ export default async function RolePage({ params }: { params: Promise<{ role: str
       <Title order={1} mb={6}>
         {role.title}
       </Title>
-      <Text c="dimmed" mb="xl" maw={640}>
+      <Text c="dimmed" mb="lg" maw={640}>
         16 kỹ năng cần cho lộ trình Entry → Experienced. Mỗi kỹ năng có định nghĩa và ví dụ thực tế
         chi tiết ở từng mức thành thạo. Chọn một kỹ năng để bắt đầu.
       </Text>
+
+      <Link
+        href={`/${role.slug}/tinh-huong`}
+        style={{ textDecoration: 'none', display: 'block', marginBottom: '2rem' }}
+      >
+        <Card withBorder radius="md" padding="md" bg="indigo.0">
+          <Group justify="space-between" wrap="nowrap">
+            <div>
+              <Text fw={600} c="indigo.8">
+                🔧 Tình huống thực chiến — 50 issue/bug thật + cách gỡ
+              </Text>
+              <Text size="sm" c="dimmed">
+                Những ca gãy chân hay gặp khi làm việc thật, gom theo chủ đề để tra nhanh.
+              </Text>
+            </div>
+            <ThemeIcon variant="filled" color="indigo" size="md" radius="xl">
+              <span aria-hidden>→</span>
+            </ThemeIcon>
+          </Group>
+        </Card>
+      </Link>
 
       <Stack gap="xl">
         {skillsByGroup().map(({ group, skills }) => (

@@ -1,48 +1,48 @@
 # UX/UI cơ bản
 
-**Định nghĩa.** **UI** (User Interface) là phần nhìn–chạm: bố cục, màu, chữ, khoảng cách, trạng thái nút. **UX** (User Experience) là *cảm nhận tổng thể* khi dùng: dễ hiểu không, mất mấy bước, có bị lạc/khó chịu không. Với một Front-end dev, không cần là designer, nhưng phải hiểu đủ để **hiện thực thiết kế đúng ý đồ** và **phối hợp với Designer** qua một ngôn ngữ chung (Design System, spacing, state). Trong company skill, đây thuộc nhóm *Web GUI Design* và *Human Factors Engineering* (kỹ thuật yếu tố con người).
+**Định nghĩa.** **UI** (User Interface) là phần nhìn–chạm: bố cục, màu, chữ, khoảng cách, trạng thái. **UX** (User Experience) là *cảm nhận tổng thể* khi dùng: dễ hiểu không, mất mấy bước, có bị lạc không. Một Front-end dev không cần là designer, nhưng phải hiểu đủ để **hiện thực đúng ý đồ thiết kế** và **phối hợp với Designer** qua ngôn ngữ chung (Design System, spacing, state). Ví dụ minh hoạ trong ngữ cảnh Angular.
 
 ## ▸ Ex·V1 — ① Nhập môn
-**Ở mức này bạn làm chủ được gì.** Hiện thực đúng các trạng thái của giao diện (không chỉ "trạng thái đẹp"), tuân theo token của Design System (màu, spacing, font), và biết các nguyên tắc cơ bản: phản hồi tức thì, vùng chạm đủ lớn, tương phản đủ đọc.
+**Ở mức này bạn làm chủ được gì.** Hiện thực đủ **các trạng thái** của giao diện (không chỉ "trạng thái đẹp"), tuân token Design System, nắm nguyên tắc cơ bản: phản hồi tức thì, vùng chạm đủ lớn, tương phản đủ đọc.
 
-**Ví dụ thực tế — đủ 4 trạng thái của một danh sách.** Người mới hay chỉ làm trạng thái "có dữ liệu". Đủ UX cơ bản là:
-```jsx
-if (loading) return <Skeleton rows={5} />;     // đang tải → skeleton, không để trắng
-if (error)   return <ErrorBox onRetry={reload} />; // lỗi → có nút thử lại
-if (items.length === 0) return <Empty hint="Chưa có đơn hàng nào" />; // rỗng → gợi ý
-return <OrderList items={items} />;            // có dữ liệu
+**Ví dụ thực tế — đủ 4 trạng thái của một danh sách (Angular).** Người mới hay chỉ làm trạng thái "có dữ liệu":
+```html
+<ng-container *ngIf="vm$ | async as vm">
+  <app-skeleton *ngIf="vm.loading"></app-skeleton>                 <!-- đang tải -->
+  <app-error *ngIf="vm.error" (retry)="reload()"></app-error>      <!-- lỗi + thử lại -->
+  <app-empty *ngIf="!vm.loading && vm.items.length === 0"          <!-- rỗng + gợi ý -->
+             hint="Chưa có đơn hàng nào"></app-empty>
+  <app-order-list *ngIf="vm.items.length" [items]="vm.items"></app-order-list>
+</ng-container>
 ```
-Và dùng token thay vì số tự chế, để khớp Design System:
-```css
-.btn { padding: var(--space-2) var(--space-4); border-radius: var(--radius); background: var(--brand); }
-```
+Và dùng token thay vì số tự chế: `padding: var(--space-2) var(--space-4)` để khớp Design System.
 
-**Vì sao là mức ①:** bạn làm giao diện "dùng được" đúng chuẩn thiết kế, nhưng chưa tự đánh giá/đề xuất cải tiến trải nghiệm.
+**Vì sao là mức ①:** làm giao diện "dùng được" đúng chuẩn thiết kế, chưa tự đánh giá trải nghiệm.
 
 ## ▸ Ex·V2 — ① Nhập môn (mở rộng phạm vi)
-**Khác V1:** vẫn mức nhập môn nhưng áp ở **luồng nhiều bước** — đảm bảo trải nghiệm liền mạch qua các màn, và phối hợp chặt hơn với Designer khi thiết kế chưa phủ hết tình huống.
+**Khác V1:** áp ở **luồng nhiều bước** — trải nghiệm liền mạch qua các màn, phối hợp chặt với Designer khi thiết kế chưa phủ hết tình huống.
 
-**Ví dụ thực tế — luồng thanh toán không bỏ rơi người dùng.** Khi hiện thực luồng 3 bước (giỏ hàng → địa chỉ → thanh toán), bạn bổ sung những thứ thiết kế tĩnh hay thiếu:
+**Ví dụ thực tế — luồng thanh toán 3 bước không bỏ rơi người dùng.**
 ```
-- Chỉ báo bước hiện tại (1/3, 2/3, 3/3) để người dùng không lạc.
-- Giữ lại dữ liệu khi quay lại bước trước (không bắt nhập lại).
-- Nút "Thanh toán" khoá + hiện loading khi đang xử lý để tránh bấm 2 lần.
-- Thông báo lỗi đặt NGAY cạnh ô sai, không gom một cục trên đầu.
+- Chỉ báo bước hiện tại (1/3, 2/3, 3/3) để không lạc.
+- Giữ dữ liệu khi quay lại bước trước (không bắt nhập lại) — dùng service giữ state.
+- Nút "Thanh toán" [disabled]="submitting" + spinner để chống bấm 2 lần.
+- Lỗi đặt NGAY cạnh ô sai (mat-error), không gom một cục trên đầu.
 ```
-Bạn chủ động hỏi Designer: *"Bước 2 khi địa chỉ trống thì hiện gì?"* thay vì tự đoán.
+Bạn chủ động hỏi Designer: *"Bước 2 khi địa chỉ trống hiện gì?"* thay vì tự đoán.
 
-**Vì sao vẫn là ①:** bạn xử lý tốt trải nghiệm trong phạm vi được giao, chưa tới mức định hình UX cho sản phẩm.
+**Vì sao vẫn là ①:** xử lý tốt trải nghiệm trong phạm vi được giao.
 
 ## ▸ Ex·V3 — ② Biết làm
-**Khác V2:** bạn **tự đánh giá và đề xuất cải tiến UX** dựa trên nguyên tắc khả dụng (usability), không chỉ chờ Designer; biết cân nhắc accessibility và hành vi người dùng.
+**Khác V2:** **tự đánh giá và đề xuất cải tiến UX** dựa trên nguyên tắc khả dụng, không chỉ chờ Designer; cân nhắc accessibility và hành vi người dùng.
 
-**Ví dụ thực tế — phát hiện và sửa điểm gây bỏ cuộc.** Quan sát số liệu thấy nhiều người rời ở form đăng ký, bạn đề xuất:
+**Ví dụ 1 — giảm bỏ cuộc ở form dài.** Số liệu cho thấy nhiều người rời form đăng ký. Bạn đề xuất và làm:
 ```
 - Gộp 12 trường thành 3 nhóm có tiêu đề → bớt cảm giác "dài".
-- Validate ngay khi rời ô (onBlur), báo lỗi cụ thể "Email chưa đúng định dạng".
-- Hiện/ẩn mật khẩu + yêu cầu độ mạnh trực quan thay vì báo lỗi sau khi submit.
-- Thêm nhãn aria + focus đúng thứ tự tab cho người dùng bàn phím/đọc màn hình.
+- Validate onBlur, báo lỗi cụ thể "Email chưa đúng định dạng" ngay tại ô.
+- Ô mật khẩu có nút hiện/ẩn + thanh độ mạnh trực quan.
 ```
-Bạn trình bày đề xuất kèm lý do khả dụng để thuyết phục Designer/PO.
 
-**Vì sao là mức ②:** bạn không chỉ hiện thực mà còn góp phần nâng chất lượng trải nghiệm.
+**Ví dụ 2 — accessibility cho người dùng bàn phím/đọc màn hình.** Bạn thêm `aria-label`, thứ tự `tabindex` đúng, focus tự nhảy vào ô lỗi đầu tiên sau khi submit; kiểm bằng cách chỉ dùng phím Tab đi hết form.
+
+**Vì sao là mức ②:** không chỉ hiện thực mà còn nâng chất lượng trải nghiệm.

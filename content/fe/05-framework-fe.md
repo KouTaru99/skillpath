@@ -1,82 +1,164 @@
-# Framework Front-end (React / Angular / Vue)
+# Framework Front-end (Angular)
 
-**Định nghĩa.** Framework/thư viện Front-end giúp dựng giao diện theo **component** (khối UI đóng gói tái dùng), tự động **quản lý render** khi dữ liệu đổi (qua virtual DOM hoặc reactivity) thay vì thao tác DOM thủ công. Tư tưởng chung cho cả ba — **component, props (dữ liệu truyền vào), state (trạng thái nội bộ), vòng đời (lifecycle)** — nên hiểu sâu một cái thì chuyển cái khác nhanh. Ví dụ dưới dùng **React** (phổ biến nhất ở VN), nhưng nguyên lý áp dụng cho Vue/Angular.
+**Định nghĩa.** Framework Front-end giúp dựng giao diện theo **component** (khối UI đóng gói tái dùng), tự quản lý render khi dữ liệu đổi, thay vì thao tác DOM thủ công. Ví dụ dưới dùng **Angular** — framework nhiều sinh viên và doanh nghiệp Việt Nam đang dùng — đi kèm **TypeScript**, **RxJS** (lập trình bất đồng bộ theo luồng dữ liệu) và **Dependency Injection** (tiêm phụ thuộc). Code minh hoạ theo Angular **v9–v12** (thời NgModule cổ điển, chưa có standalone component hay signals), vì đó là phiên bản phổ biến ở nhiều dự án đang chạy.
 
 ## ▸ Entry — ① Nhập môn
-**Ở mức này bạn làm chủ được gì.** Hiểu component nhận `props` và giữ `state`; dựng component đơn giản, render danh sách, bắt sự kiện.
+**Ở mức này bạn làm chủ được gì.** Hiểu component, template và **data binding**: hiển thị dữ liệu (`{{ }}`, `[prop]`), bắt sự kiện (`(click)`), lặp danh sách (`*ngFor`), rẽ nhánh (`*ngIf`); truyền dữ liệu cha → con bằng `@Input`, phát sự kiện con → cha bằng `@Output`.
 
-**Ví dụ thực tế — component thông báo.**
-```jsx
-function NotificationItem({ item, onRead }) {     // props: item, onRead
-  return (
-    <li className={item.read ? 'read' : 'unread'}>
-      <strong>{item.title}</strong>
-      {!item.read && <button onClick={() => onRead(item.id)}>Đã đọc</button>}
+**Ví dụ thực tế — một item thông báo trong hệ thống nội bộ.**
+```typescript
+// notification-item.component.ts
+@Component({
+  selector: 'app-notification-item',
+  template: `
+    <li [class.unread]="!item.read">
+      <strong>{{ item.title }}</strong>
+      <span class="time">{{ item.createdAt | date: 'short' }}</span>
+      <button *ngIf="!item.read" (click)="read.emit(item.id)">Đánh dấu đã đọc</button>
     </li>
-  );
-}
-
-function NotificationList({ items, onRead }) {
-  return <ul>{items.map(n => <NotificationItem key={n.id} item={n} onRead={onRead} />)}</ul>;
+  `,
+})
+export class NotificationItemComponent {
+  @Input() item!: Notification;                 // nhận dữ liệu từ component cha
+  @Output() read = new EventEmitter<number>();  // phát sự kiện lên cha
 }
 ```
-Bạn hiểu `key` để React phân biệt item, và dữ liệu chảy một chiều cha → con qua props.
+`[class.unread]` gắn class theo điều kiện, `| date` là pipe định dạng, `(click)` bắt sự kiện, `@Output` + `EventEmitter` để cha xử lý logic (component con chỉ "báo lên", không tự gọi API).
 
-**Vì sao là mức ①:** dựng được UI bằng component, nhưng chưa quản state phức tạp hay tối ưu.
+**Vì sao là mức ①:** dựng được component hiển thị + tương tác cơ bản, chưa gọi dữ liệu hay quản trạng thái.
 
 ## ▸ Ex·V1 — ② Biết làm
-**Khác Entry:** dùng tốt **hooks** (`useState`, `useEffect`), gọi API, quản state cục bộ, tách component tái dùng, làm controlled form.
+**Ở mức này bạn làm chủ được gì.** Tách logic ra **service** và tiêm bằng DI; gọi API qua **HttpClient** (trả về `Observable`); dùng **`async` pipe** để tự subscribe/unsubscribe; tối ưu `*ngFor` bằng `trackBy`.
 
-**Ví dụ thực tế — custom hook `useFetch`.** Đóng gói logic tải dữ liệu để mọi màn dùng lại:
-```jsx
-function useFetch(url) {
-  const [state, setState] = useState({ loading: true, data: null, error: null });
-  useEffect(() => {
-    let alive = true;
-    fetch(url)
-      .then(r => r.json())
-      .then(d => alive && setState({ loading: false, data: d, error: null }))
-      .catch(e => alive && setState({ loading: false, data: null, error: e }));
-    return () => { alive = false; };   // cleanup: tránh setState sau khi component unmount
-  }, [url]);
-  return state;
+**Ví dụ thực tế — màn danh sách thông báo lấy từ API.**
+```typescript
+// notification.service.ts
+@Injectable({ providedIn: 'root' })
+export class NotificationService {
+  constructor(private http: HttpClient) {}
+  getAll(): Observable<Notification[]> {
+    return this.http.get<Notification[]>('/api/notifications');
+  }
+  markRead(id: number): Observable<void> {
+    return this.http.post<void>(`/api/notifications/${id}/read`, {});
+  }
 }
 ```
-Cờ `alive` + hàm cleanup là chi tiết "biết làm" — chặn lỗi cập nhật state trên component đã gỡ.
+```typescript
+// notification-list.component.ts
+@Component({
+  selector: 'app-notification-list',
+  template: `
+    <ul *ngIf="items$ | async as items; else loading">
+      <app-notification-item
+        *ngFor="let n of items; trackBy: trackById"
+        [item]="n" (read)="onRead(n.id)">
+      </app-notification-item>
+    </ul>
+    <ng-template #loading>Đang tải…</ng-template>
+  `,
+})
+export class NotificationListComponent implements OnInit {
+  items$!: Observable<Notification[]>;
+  constructor(private service: NotificationService) {}
+  ngOnInit() { this.items$ = this.service.getAll(); }
+  trackById(_: number, n: Notification) { return n.id; }   // giúp Angular không render lại cả danh sách
+  onRead(id: number) { this.service.markRead(id).subscribe(); }
+}
+```
+`async` pipe tự lo vòng đời subscribe (không rò bộ nhớ), `ng-template #loading` cho trạng thái tải, `trackBy` để Angular chỉ cập nhật item đổi thay vì dựng lại toàn danh sách.
 
-**Vì sao là mức ②:** đóng gói logic tái dùng, quản vòng đời dữ liệu đúng.
+**Vì sao là mức ②:** tách service/DI, gọi API đúng luồng Observable, xử lý vòng đời gọn.
 
 ## ▸ Ex·V2 — ③ Thành thạo
-**Khác V1:** **tối ưu render** — hiểu reconciliation (React so sánh và cập nhật phần đổi), tránh re-render thừa bằng `useMemo`/`useCallback`/`React.memo`, và quản state phức tạp bằng Context/reducer.
+**Ở mức này bạn làm chủ được gì.** RxJS nâng cao để xử lý luồng phức tạp (`debounceTime`, `switchMap`, `distinctUntilChanged`), tối ưu change detection bằng **`OnPush`**, quản state dùng chung qua service + `BehaviorSubject`, và hiểu khi nào phải tự `unsubscribe` (dùng `takeUntil`).
 
-**Ví dụ thực tế — chặn tính lại danh sách lọc mỗi lần render.**
-```jsx
-const visible = useMemo(
-  () => products.filter(p => p.name.toLowerCase().includes(kw.toLowerCase())),
-  [products, kw]                       // chỉ tính lại khi products hoặc kw đổi
-);
-
-const ProductCard = React.memo(function ProductCard({ p }) {  // không re-render nếu p không đổi
-  return <div className="card">{p.name}</div>;
-});
+**Ví dụ 1 — ô tìm kiếm sản phẩm có gợi ý, chống "kết quả cũ về muộn" (race condition).**
+```typescript
+@Component({
+  selector: 'app-product-search',
+  changeDetection: ChangeDetectionStrategy.OnPush,   // chỉ render lại khi input/Observable đổi
+  template: `
+    <input [formControl]="keyword" placeholder="Tìm sản phẩm…" />
+    <app-product-card *ngFor="let p of (results$ | async)" [product]="p"></app-product-card>
+  `,
+})
+export class ProductSearchComponent {
+  keyword = new FormControl('');
+  results$ = this.keyword.valueChanges.pipe(
+    debounceTime(300),          // gom phím: chỉ chạy sau khi ngừng gõ 300ms
+    distinctUntilChanged(),     // bỏ qua nếu từ khoá không đổi
+    switchMap((kw) => this.api.search(kw)),  // switchMap HUỶ request cũ khi có từ khoá mới → hết race
+  );
+  constructor(private api: ProductApi) {}
+}
 ```
-Bạn nhận ra khi nào `useMemo` đáng dùng (tính toán nặng / danh sách lớn) và khi nào là tối ưu thừa.
+Điểm cốt lõi: `switchMap` tự huỷ request trước đó, nên kết quả của từ khoá cũ về muộn không ghi đè kết quả mới — lỗi rất hay gặp nếu tự viết bằng `subscribe` lồng nhau.
 
-**Vì sao là mức ③:** làm chủ cơ chế render, app mượt ở quy mô thật.
+**Ví dụ 2 — state giỏ hàng dùng chung nhiều màn qua service `BehaviorSubject`.**
+```typescript
+@Injectable({ providedIn: 'root' })
+export class CartStore {
+  private readonly items$ = new BehaviorSubject<CartItem[]>([]);
+  readonly count$ = this.items$.pipe(map((items) => items.length));   // dẫn xuất số lượng
+  readonly total$ = this.items$.pipe(
+    map((items) => items.reduce((s, i) => s + i.price * i.qty, 0)),
+  );
 
-## ▸ Ex·V3 — ③ Thành thạo (mở rộng phạm vi)
-**Khác V2:** cùng mức nhưng áp ở **kiến trúc app lớn** — chia layer, tách route theo `lazy`/code-splitting, bọc lỗi bằng Error Boundary, và **đặt convention component** cho cả team.
-
-**Ví dụ thực tế — chia tải theo route + chặn sập toàn trang.**
-```jsx
-const Dashboard = lazy(() => import('./Dashboard'));   // chỉ tải khi vào route này
-
-<ErrorBoundary fallback={<ErrorPage/>}>
-  <Suspense fallback={<Spinner/>}>
-    <Dashboard/>
-  </Suspense>
-</ErrorBoundary>
+  add(item: CartItem) {
+    this.items$.next([...this.items$.value, item]);   // đổi state bất biến → OnPush nhận ra
+  }
+}
 ```
-Bạn còn đánh giá đánh đổi giữa các giải pháp quản state (Context vs Redux vs Zustand) theo quy mô dự án, và viết hướng dẫn cấu trúc thư mục/component để cả team theo.
+Icon giỏ hàng ở header và trang thanh toán cùng subscribe `count$`/`total$` qua `async` pipe — một nguồn state, mọi nơi đồng bộ. Đổi state theo kiểu bất biến (`[...]`) để `OnPush` phát hiện thay đổi.
 
-**Vì sao vẫn là ③:** bạn áp năng lực "thành thạo" lên tầm hệ thống và đội ngũ, không chỉ một màn.
+**Vì sao là mức ③:** bạn làm chủ luồng bất đồng bộ và change detection, xử lý được các bug tinh vi (race, rò bộ nhớ) mà mức dưới hay dính.
+
+## ▸ Ex·V3 — ③ Thành thạo (mở rộng phạm vi — kiến trúc app lớn)
+**Ở mức này bạn làm chủ được gì.** Cùng mức "thành thạo" nhưng áp ở **quy mô ứng dụng lớn**: chia module (core/shared/feature), **lazy load** để giảm bundle ban đầu, **HTTP interceptor** xử lý xuyên suốt (token, lỗi), **route guard** chặn truy cập, và đặt convention cho cả team.
+
+**Ví dụ 1 — lazy load module báo cáo (chỉ tải khi vào route đó).**
+```typescript
+const routes: Routes = [
+  { path: 'orders', loadChildren: () => import('./orders/orders.module').then((m) => m.OrdersModule) },
+  {
+    path: 'reports',
+    canActivate: [AdminGuard],
+    loadChildren: () => import('./reports/reports.module').then((m) => m.ReportsModule),
+  },
+];
+```
+Module báo cáo nặng (biểu đồ, export) chỉ tải khi người dùng thực sự mở — trang đăng nhập/dashboard nhẹ hơn hẳn.
+
+**Ví dụ 2 — interceptor gắn token & xử lý hết phiên (401) một chỗ cho toàn app.**
+```typescript
+@Injectable()
+export class AuthInterceptor implements HttpInterceptor {
+  constructor(private auth: AuthService, private router: Router) {}
+
+  intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
+    const authReq = req.clone({ setHeaders: { Authorization: `Bearer ${this.auth.token}` } });
+    return next.handle(authReq).pipe(
+      catchError((err: HttpErrorResponse) => {
+        if (err.status === 401) this.router.navigate(['/login']);   // hết phiên → về đăng nhập
+        return throwError(err);
+      }),
+    );
+  }
+}
+// Đăng ký trong AppModule:
+// providers: [{ provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }]
+```
+Mọi request tự động có token, mọi lỗi 401 tự động đưa về đăng nhập — không phải lặp lại logic này ở từng service.
+
+**Ví dụ 3 — cấu trúc module cho team đọc là hiểu.**
+```
+app/
+├── core/        (service dùng toàn app, interceptor, guard — import 1 lần ở AppModule)
+├── shared/      (component/pipe/directive dùng lại — import ở nhiều feature module)
+└── features/
+    ├── orders/  (OrdersModule + routing riêng, lazy load)
+    └── reports/ (ReportsModule + routing riêng, lazy load)
+```
+
+**Vì sao vẫn là ③:** bạn áp năng lực "thành thạo" lên tầm hệ thống và đội ngũ, không chỉ một màn hình.
