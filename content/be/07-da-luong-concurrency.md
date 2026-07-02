@@ -55,3 +55,15 @@ synchronized (account2) {
 Nếu luồng A giữ `account1` chờ `account2`, còn luồng B giữ `account2` chờ `account1` — cả hai chờ nhau mãi mãi (deadlock). Bạn sửa bằng cách **luôn khoá theo một thứ tự cố định** (ví dụ luôn khoá account có ID nhỏ hơn trước) ở mọi luồng, loại bỏ khả năng chờ chéo.
 
 **Vì sao là mức ③:** bạn phân tích và phòng tránh được các lỗi đa luồng khó (deadlock) — không chỉ dùng đúng cơ chế đồng bộ có sẵn.
+
+## ▸ Senior·V2 — ④ Chuyên sâu
+**Khác Ex·V2:** tối ưu **cấu hình** đa luồng dựa trên đo đạc thật, không đoán mò — chọn đúng số luồng cho đúng loại tác vụ.
+
+**Ví dụ thực tế — chọn sai kích thước thread pool làm CPU nhàn rỗi dù "đang bận".**
+```java
+// ❌ Dùng chung 1 pool cố định cho cả tác vụ CPU-bound (tính toán) lẫn I/O-bound (gọi API ngoài)
+ExecutorService pool = Executors.newFixedThreadPool(10);
+```
+Tác vụ **I/O-bound** (gọi API/CSDL) phần lớn thời gian là CHỜ, không tốn CPU — pool nhỏ khiến nhiều luồng phải xếp hàng dù CPU đang rảnh. Tác vụ **CPU-bound** (tính toán nặng) thì số luồng vượt quá số nhân CPU thực tế chỉ gây tranh chấp (context switching), không nhanh hơn. Bạn tách 2 pool riêng, đo bằng công cụ giám sát để chỉnh đúng kích thước theo loại tác vụ và số nhân CPU thật của server, thay vì chọn một con số "cảm thấy hợp lý".
+
+**Vì sao là mức ④:** bạn tối ưu cấu hình đa luồng dựa trên đo đạc và hiểu bản chất tác vụ — mức cao nhất của kỹ năng này trong thang Senior.

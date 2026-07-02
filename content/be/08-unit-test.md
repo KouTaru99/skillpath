@@ -50,3 +50,25 @@ class OrderServiceTest {
 Test chạy nhanh (không cần CSDL thật) và ổn định (không phụ thuộc dữ liệu có sẵn) — nhờ `OrderService` nhận `OrderRepository` qua constructor (dependency injection) thay vì tự tạo bên trong.
 
 **Vì sao là mức ②:** thiết kế code để test được và mock đúng phụ thuộc — không chỉ test hàm thuần đơn giản.
+
+## ▸ Senior·V1 — ③ Thành thạo
+**Khác Ex·V2:** setup được **integration test** — chạy với CSDL thật (không chỉ mock) để bắt lỗi ở tầng ghép nối mà unit test kèm mock không thấy được.
+
+**Ví dụ thực tế — Testcontainers: chạy test với PostgreSQL thật trong container, tự dọn sau khi xong.**
+```java
+@Testcontainers
+class OrderRepositoryIntegrationTest {
+  @Container
+  static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:16");
+
+  @Test
+  void lưuVàTruyVấnĐơnHàngThậtTrênCSDL() {
+    Order saved = orderRepository.save(new Order("PENDING"));
+    Optional<Order> found = orderRepository.findById(saved.getId());
+    assertTrue(found.isPresent());   // test với query THẬT, không phải mock giả định
+  }
+}
+```
+Mock (`OrderRepository` giả) chỉ đảm bảo service gọi đúng hàm, nhưng KHÔNG bắt được lỗi trong câu query JPA thật (vd sai tên cột, sai kiểu dữ liệu). Testcontainers tự dựng CSDL thật trong Docker chỉ cho lúc test, tự dọn dẹp sau khi xong — không cần CSDL cài sẵn trên máy.
+
+**Vì sao là mức ③:** setup được integration test bắt đúng lớp lỗi mà unit test/mock không bắt được — không chỉ test logic thuần.

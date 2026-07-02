@@ -40,3 +40,26 @@ try (FileReader reader = new FileReader(path)) {
 Bạn hiểu I/O (file, network) là tài nguyên hữu hạn cần đóng đúng cách — quên đóng nhiều lần sẽ làm hệ thống dần cạn tài nguyên (file handle, kết nối) dù mỗi lần chỉ rò một chút.
 
 **Vì sao là mức ②:** tự xử lý I/O đúng cách trong code thật — không chỉ hiểu khái niệm.
+
+## ▸ Specialist·V1 — ③ Thành thạo
+**Khác Ex·V1:** hiểu rõ cơ chế kiểm soát bộ nhớ (Garbage Collector) và dùng công cụ phân tích heap để chẩn đoán rò rỉ bộ nhớ.
+
+**Ví dụ thực tế — dùng heap dump để tìm rò rỉ bộ nhớ khiến service ngày càng chậm.**
+```bash
+jmap -dump:live,format=b,file=heap.bin <pid>
+```
+Mở file bằng Eclipse MAT (Memory Analyzer Tool), thấy một `Map` tĩnh (`static Map<String, Order> cache`) giữ tham chiếu tới hàng triệu object `Order` cũ mà không bao giờ được dọn — vì code chỉ thêm vào cache mà quên đặt cơ chế hết hạn/xoá. Garbage Collector không thể dọn những object vẫn còn bị tham chiếu từ một biến `static` sống suốt vòng đời ứng dụng.
+
+**Vì sao là mức ③:** bạn chẩn đoán được vấn đề bộ nhớ bằng công cụ chuyên biệt — không chỉ xử lý I/O đúng cách ở mức code thông thường.
+
+## ▸ Specialist·V3 — ④ Chuyên sâu
+**Khác V1:** tối ưu **cấu hình tham số** hệ điều hành/JVM/webserver ở tầm hệ thống — đúng nhiệm vụ "tối ưu hệ thống (tham số cấu hình HĐH/DB/webserver/framework)" mà career-path Specialist nhấn mạnh.
+
+**Ví dụ thực tế — điều chỉnh kích thước heap JVM dựa trên đo đạc thật, không theo mặc định.**
+```bash
+# Mặc định JVM tự chọn heap size dựa trên RAM máy — không phải lúc nào cũng tối ưu
+java -Xms2g -Xmx4g -jar app.jar   # đặt heap tối thiểu/tối đa dựa trên đo GC log thật
+```
+Bạn đo GC log thấy Garbage Collector chạy quá thường xuyên (heap quá nhỏ so với lượng object service tạo ra) — điều chỉnh `-Xmx` dựa trên số liệu đo, không đoán một con số "an toàn" chung chung. Đặt quá lớn cũng có hại (GC pause lâu hơn khi dọn heap lớn).
+
+**Vì sao là mức ④:** bạn tối ưu được cấu hình hệ thống dựa trên đo đạc sâu — mức cao nhất của kỹ năng này trong toàn thang BE.

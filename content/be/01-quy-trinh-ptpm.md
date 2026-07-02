@@ -46,3 +46,10 @@ Sprint 3: API tìm kiếm/lọc/phân trang
 Mỗi lát đều tự giao được giá trị dùng ngay (không phải "phải xong cả 3 lát mới demo được"), thay vì chẻ theo tầng kỹ thuật (Sprint 1: chỉ có Entity, Sprint 2: chỉ có Repository...) khiến không Sprint nào demo được gì cho PO.
 
 **Vì sao là mức ③:** vận dụng nguyên tắc Agile để chẻ việc thông minh, không chỉ tuân thủ hình thức.
+
+## ▸ Senior·V2 — ④ Chuyên sâu
+**Khác Ex·V3:** hiểu đủ sâu để **chọn đúng khung quy trình cho từng loại dự án**, không áp Scrum như công thức duy nhất.
+
+**Ví dụ thực tế — đề xuất Kanban cho dự án vận hành/bảo trì hệ thống cũ.** Dự án support-heavy nhận yêu cầu sửa lỗi/nâng cấp nhỏ lẻ tẻ suốt ngày — dồn thành Sprint 2 tuần không hợp lý (việc mới tới liên tục, không đợi được). Bạn đề xuất **Kanban**: không Sprint cố định, giới hạn **WIP** theo cột, đo bằng **lead time** thay vì velocity — khớp bản chất công việc hơn Scrum.
+
+**Vì sao là mức ④:** bạn hiểu quy trình đủ sâu để **chọn** (không chỉ vận hành) khung phù hợp bản chất từng dự án.

@@ -45,3 +45,20 @@ services:
 ```
 
 **Vì sao là mức ②:** đóng gói gọn (multi-stage) và chạy được môi trường nhiều dịch vụ — không chỉ đóng gói đơn giản 1 service.
+
+## ▸ Specialist·V1 — ③ Thành thạo
+**Khác Ex·V2:** viết được Dockerfile phức tạp nhiều bước và dùng **volume** để giữ dữ liệu bền vững qua các lần chạy container.
+
+**Ví dụ thực tế — mount volume để dữ liệu CSDL không mất khi container bị xoá.**
+```yaml
+services:
+  db:
+    image: postgres:16
+    volumes:
+      - pgdata:/var/lib/postgresql/data   # dữ liệu lưu NGOÀI container, trên máy host
+volumes:
+  pgdata:
+```
+Không có volume, dữ liệu CSDL nằm trong lớp ghi (writable layer) của container — `docker compose down` xoá container là mất sạch dữ liệu. Với volume, dữ liệu tồn tại độc lập với vòng đời container, container chết/tạo lại vẫn còn nguyên dữ liệu cũ.
+
+**Vì sao là mức ③:** bạn viết được Dockerfile/compose phức tạp và hiểu đúng cách giữ dữ liệu bền vững — không chỉ đóng gói ứng dụng không trạng thái.

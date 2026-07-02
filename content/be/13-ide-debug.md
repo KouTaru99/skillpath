@@ -26,3 +26,22 @@ Bạn đặt breakpoint ngay dòng `return`, chạy debug, xem giá trị `order
 Debugger chỉ dừng đúng lần lặp đó — tiết kiệm hàng chục phút so với dừng thủ công từng vòng lặp.
 
 **Vì sao là mức ②:** dùng được kỹ thuật debug nâng cao để bắt đúng ca lỗi cụ thể trong dữ liệu lớn — không chỉ debug hàm đơn giản.
+
+## ▸ Senior·V1 — ③ Thành thạo
+**Khác V2:** đọc được **thread dump** (ảnh chụp trạng thái mọi luồng tại một thời điểm) để chẩn đoán service bị treo — công cụ mà breakpoint thường không dùng được (vì service đang treo thật ở production, không thể gắn debugger vào).
+
+**Ví dụ thực tế — dùng thread dump tìm luồng đang chờ deadlock.**
+```bash
+jstack <pid> > thread-dump.txt
+```
+```
+"pool-1-thread-3" waiting to lock 0x000000076b... (account1)
+    which is held by "pool-1-thread-7"
+"pool-1-thread-7" waiting to lock 0x000000076c... (account2)
+    which is held by "pool-1-thread-3"
+
+Found 1 deadlock.
+```
+Bạn đọc thread dump thấy rõ 2 luồng đang chờ khoá của nhau (kinh điển deadlock) — thông tin mà không thể thấy được nếu chỉ gắn breakpoint (service đã treo cứng, không đứng ở một dòng code cụ thể để bạn dừng lại).
+
+**Vì sao là mức ③:** bạn chẩn đoán được lỗi ở tầng đa luồng bằng công cụ chuyên biệt — không chỉ debug từng dòng code tuần tự.

@@ -30,3 +30,19 @@ server:
 Bạn hiểu vì sao không cấu hình `max` quá lớn tuỳ tiện — mỗi luồng tốn bộ nhớ, và CSDL phía sau cũng có giới hạn kết nối (connection pool) riêng, tăng luồng vô tội vạ không giúp xử lý nhanh hơn nếu CSDL đã là điểm nghẽn.
 
 **Vì sao là mức ②:** hiểu được cơ chế xử lý nhiều kết nối đồng thời ở tầng server — không chỉ hiểu giao thức mạng cơ bản.
+
+## ▸ Senior·V1 — ③ Thành thạo
+**Khác Ex·V2:** hiểu sâu cách networks hoạt động ở tầng thấp hơn — timeout, retry, và vì sao gọi API giữa 2 service đôi khi "treo" dù cả 2 server đều sống.
+
+**Ví dụ thực tế — thiết lập timeout đúng cách khi gọi service khác, tránh "treo" toàn chuỗi.**
+```java
+RestClient client = RestClient.builder()
+    .requestFactory(new SimpleClientHttpRequestFactory() {{
+      setConnectTimeout(2000);   // 2s để MỞ được kết nối
+      setReadTimeout(5000);      // 5s để NHẬN được phản hồi sau khi đã kết nối
+    }})
+    .build();
+```
+Không đặt timeout, nếu `payment-service` bị treo (không chết hẳn, chỉ phản hồi rất chậm), `order-service` gọi nó sẽ chờ MÃI MÃI — dần dần hết luồng xử lý, cả `order-service` cũng treo theo dù bản thân nó không có lỗi gì. Đặt timeout hợp lý giới hạn thiệt hại trong phạm vi một request, không lan ra toàn hệ thống.
+
+**Vì sao là mức ③:** hiểu đủ sâu về mạng để phòng ngừa lỗi lan truyền giữa các service — không chỉ hiểu giao thức và đa kết nối ở một service đơn lẻ.

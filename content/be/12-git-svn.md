@@ -38,3 +38,21 @@ double total = price - discount;
 Bạn tự đọc và chọn giữ phần đúng (hoặc gộp cả 2 ý), xoá các dấu `<<<<<<<`/`=======`/`>>>>>>>`, rồi commit lại — không hoảng khi thấy conflict.
 
 **Vì sao là mức ②:** làm việc được với nhiều nhánh song song, tự xử lý xung đột đơn giản — chưa dùng kỹ thuật nâng cao (rebase, cherry-pick).
+
+## ▸ Specialist·V1 — ③ Thành thạo
+**Khác Ex·V1:** thành thạo version control nâng cao — merge phức tạp, **rebase**, xem **reflog**, **cherry-pick**, dùng **patch**.
+
+**Ví dụ thực tế — cherry-pick một fix khẩn cấp sang nhánh release mà không mang theo các commit khác.**
+```bash
+git log feature/big-refactor --oneline   # tìm commit fix cụ thể, vd a1b2c3d
+git checkout release/v2.1
+git cherry-pick a1b2c3d                   # chỉ lấy đúng 1 commit đó, không mang cả nhánh
+```
+```bash
+# Lỡ tay reset nhầm, mất commit? reflog vẫn giữ lịch sử thao tác (không phải lịch sử code)
+git reflog                                # thấy được cả commit "đã mất" trước khi reset
+git reset --hard HEAD@{2}                 # khôi phục lại
+```
+Bạn dùng `reflog` như "lưới an toàn" cuối cùng khi thao tác Git sai — Git hiếm khi thực sự XOÁ dữ liệu ngay, chỉ là bạn chưa biết cách tìm lại.
+
+**Vì sao là mức ③:** bạn dùng thành thạo các công cụ Git nâng cao để xử lý tình huống phức tạp — không chỉ merge/conflict cơ bản.

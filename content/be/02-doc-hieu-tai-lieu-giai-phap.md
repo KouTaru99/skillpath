@@ -36,3 +36,10 @@ Bạn nêu ngay: *"Đặc tả chưa có 400 và chưa nói rõ customerId khôn
 **Ví dụ thực tế — mâu thuẫn giữa luồng "huỷ đơn" và luồng "hoàn kho".** Tài liệu mô tả luồng A: "Huỷ đơn → đổi status thành CANCELLED". Tài liệu mô tả luồng B (viết bởi người khác): "Hoàn kho khi đơn chuyển sang CANCELLED hoặc RETURNED". Đọc riêng từng luồng đều hợp lý — nhưng bạn nhận ra: nếu một đơn bị huỷ **sau khi đã giao hàng** (trạng thái RETURNED thực chất phải qua bước hoàn hàng vật lý, không tự động), luồng B có thể hoàn kho SAI cho một đơn hàng thực ra khách chưa trả lại. Bạn chỉ ra mâu thuẫn ngầm này trước khi 2 team code xong theo 2 tài liệu riêng biệt.
 
 **Vì sao là mức ③:** bạn soi được lỗi nằm ở *ranh giới giữa các luồng nghiệp vụ*, không chỉ trong một tài liệu đơn lẻ.
+
+## ▸ Senior·V2 — ④ Chuyên sâu
+**Khác Ex·V3:** soi lỗi ở tầm **liên hệ thống** — mâu thuẫn giữa các service khác nhau, không chỉ trong một ứng dụng.
+
+**Ví dụ thực tế — hai service mâu thuẫn nhau về "ai là nguồn chân lý".** Tài liệu `order-service` ghi: giá sản phẩm lấy tại thời điểm đặt (`order.price`, lưu cố định). Tài liệu `promotion-service` (team khác) lại giả định giá hiển thị luôn là giá mới nhất từ `product-service`. Riêng lẻ mỗi tài liệu đều hợp lý — nhưng ghép lại, đơn hàng cũ có thể hiển thị SAI giá nếu `promotion-service` vô tình dùng nhầm nguồn. Bạn chỉ ra mâu thuẫn này ngay ở review liên team, trước khi 2 đội code xong mới phát hiện.
+
+**Vì sao là mức ④:** bạn soi được lỗi nằm ở *ranh giới giữa các hệ thống* — nơi mỗi tài liệu riêng lẻ đều "đúng", chỉ sai khi ghép lại.

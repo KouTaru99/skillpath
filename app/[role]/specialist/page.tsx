@@ -32,8 +32,8 @@ export default async function SpecialistPage({ params }: { params: Promise<{ rol
       <Text c="dimmed" mb="lg" maw={640}>
         Specialist giữ nguyên yêu cầu của Senior và thêm mảng &quot;Chiến lược &amp; quản trị công
         nghệ&quot; — nghiên cứu công nghệ mới, quản lý dự án, sở hữu Technology Stack của đơn vị.
-        Đây là 3 vùng cuối cùng của toàn bộ thang FE: từ chuyên gia kỹ thuật sang người ra quyết
-        định công nghệ cấp đơn vị.
+        Đây là 3 vùng cuối cùng của toàn bộ thang {role.title}: từ chuyên gia kỹ thuật sang người
+        ra quyết định công nghệ cấp đơn vị.
       </Text>
 
       <Stack gap="xl">

@@ -58,3 +58,10 @@ public TokenResponse loginFallback(LoginRequest req, Throwable t) {
 Giới hạn số lần gọi `/api/login` từ cùng một IP trong một khoảng thời gian — chặn kiểu tấn công dò mật khẩu hàng loạt, một lớp phòng thủ mà từng API riêng lẻ không tự có.
 
 **Vì sao là mức ③:** bạn chủ động đề xuất giải pháp bảo mật ở tầm hệ thống — không chỉ viết code an toàn cho phần việc của mình.
+
+## ▸ Senior·V3 — ④ Chuyên sâu
+**Khác Ex·V3:** đánh giá rủi ro bảo mật **trước khi code** (threat modeling) ngay từ khâu thiết kế, không chỉ review sau khi đã có code.
+
+**Ví dụ thực tế — threat modeling cho API "chia sẻ đơn hàng qua link công khai".** Trước khi ai viết dòng code nào, bạn đặt câu hỏi phòng thủ: Link có đoán được không (nếu dùng `orderId=123` tuần tự → kẻ xấu dò hết đơn người khác, cần đổi sang token ngẫu nhiên)? Link có hết hạn không? Ai xem link có thấy thông tin nhạy cảm (địa chỉ đầy đủ) không? Ba câu hỏi này được đặt ra khi sửa còn rẻ — phát hiện muộn (sau khi đã có schema, dữ liệu thật) sẽ tốn công hơn nhiều.
+
+**Vì sao là mức ④:** bạn chủ động đánh giá rủi ro bảo mật ở khâu thiết kế — mức phòng thủ sâu nhất, rẻ nhất.
