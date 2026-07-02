@@ -53,3 +53,10 @@ Bạn chủ động hỏi Designer: *"Bước 2 khi địa chỉ trống hiện 
 **Ví dụ thực tế — audit phát hiện 3 kiểu nút "Xoá" khác nhau trong cùng một app.** Bạn rà qua các màn và thấy: màn A dùng nút đỏ + icon thùng rác, màn B dùng chữ "Xoá" thường không cảnh báo, màn C có popup xác nhận còn màn A/B thì không — cùng một hành động nhưng 3 trải nghiệm khác nhau vì mỗi dev tự làm theo ý mình. Bạn chốt lại **một component `DeleteButton` dùng chung** (icon + màu + popup xác nhận cố định) trong Design System, thay thế cả 3 cách cũ, và đặt quy ước: hành động phá huỷ dữ liệu luôn phải qua component này.
 
 **Vì sao là mức ③:** bạn nhìn UX ở tầm **toàn sản phẩm**, chủ động phát hiện và dọn sự thiếu nhất quán trước khi người dùng thật nhận ra.
+
+## ▸ Specialist·V3 — ④ Chuyên sâu
+**Khác Senior·V2:** điều phối chuẩn UX/UI cho **nhiều sản phẩm khác nhau** của cả công ty (không chỉ một sản phẩm) — Design System dùng chung ở tầm tổ chức.
+
+**Ví dụ thực tế — Design System dùng chung cho 5 sản phẩm khác nhau của công ty.** Trước đây mỗi sản phẩm (bán hàng, chăm sóc khách hàng, quản trị nội bộ...) có bộ giao diện riêng — cùng là công ty nhưng người dùng chuyển giữa các sản phẩm thấy như 5 thương hiệu khác nhau. Bạn dẫn dắt xây một Design System dùng chung ở tầm công ty: bảng màu, typography, component cơ bản (button, input, table) thống nhất, đóng gói thành package (`@company/design-system`) để mọi sản phẩm cùng cài về dùng — mỗi sản phẩm vẫn có thể tuỳ biến phần đặc thù, nhưng phần nền tảng (màu thương hiệu, khoảng cách, component cơ bản) là MỘT chuẩn duy nhất.
+
+**Vì sao là mức ④:** bạn tạo ra được sự nhất quán trải nghiệm ở tầm **toàn công ty**, không chỉ một sản phẩm — mức cao nhất của kỹ năng UX/UI trong toàn thang.

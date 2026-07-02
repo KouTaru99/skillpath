@@ -52,3 +52,23 @@ public void markAsPaid(Long orderId) {
 Không có `@Transactional`, nếu bước 2 (trừ kho) lỗi giữa chừng, đơn hàng đã bị đánh dấu "đã thanh toán" nhưng kho chưa trừ — dữ liệu lệch nhau vĩnh viễn. Bạn hiểu và áp dụng đúng ranh giới giao dịch, không chỉ viết CRUD đơn lẻ.
 
 **Vì sao là mức ②:** bạn xử lý đúng các thao tác Back-end nhiều bước cần toàn vẹn dữ liệu — không chỉ viết được API CRUD đơn giản từng bảng riêng lẻ.
+
+## ▸ Specialist·V2 — ③ Thành thạo
+**Khác V1:** tự viết được phần **kiểm quyền (authorization)** đúng cách ở Back-end, không chỉ dựa vào FE ẩn nút — nhắc lại đúng nguyên tắc đã học ở [Lập trình an toàn](/fe/ky-nang/03-lap-trinh-an-toan) nhưng lần này tự tay code phần đó.
+
+**Ví dụ thực tế — API "xoá đơn hàng" chỉ admin mới được gọi, kiểm tra Ở BACKEND chứ không chỉ ẩn nút FE.**
+```java
+@DeleteMapping("/api/orders/{id}")
+@PreAuthorize("hasRole('ADMIN')")   // Spring Security tự chặn nếu không phải role ADMIN
+public ResponseEntity<Void> delete(@PathVariable Long id, Authentication auth) {
+  Order order = orderRepo.findById(id).orElseThrow();
+  if (!canManage(auth, order)) {
+    throw new AccessDeniedException("Không có quyền xoá đơn này");   // kiểm thêm ở mức nghiệp vụ
+  }
+  orderRepo.delete(order);
+  return ResponseEntity.noContent().build();
+}
+```
+Bạn tự viết đủ 2 lớp kiểm quyền: `@PreAuthorize` (kiểm role chung) và kiểm nghiệp vụ cụ thể (`canManage`, ví dụ chỉ được xoá đơn thuộc chi nhánh mình quản lý) — không dừng ở việc ẩn nút "Xoá" phía FE như mức Senior đã cảnh báo.
+
+**Vì sao là mức ③:** bạn tự tay hiện thực được lớp bảo mật Back-end quan trọng nhất (kiểm quyền), không chỉ viết CRUD/transaction — mức cao nhất của kỹ năng fullstack trong thang này.

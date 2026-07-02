@@ -51,3 +51,10 @@ Hai điểm đắt giá: (1) phân loại mức độ (🔴 phải sửa / 🟡 
 Checklist này gắn vào template PR — reviewer nào cũng thấy, không phụ thuộc vào việc một người nhớ hết mọi cạm bẫy.
 
 **Vì sao là mức ③:** bạn biến kinh nghiệm cá nhân thành **chuẩn chung** cho cả team, giảm phụ thuộc vào trí nhớ hay kinh nghiệm của riêng một reviewer.
+
+## ▸ Specialist·V1 — ④ Chuyên sâu
+**Khác Senior·V3:** review ở tầm **quyết định kiến trúc xuyên team/xuyên sản phẩm**, không chỉ code của một PR.
+
+**Ví dụ thực tế — review đề xuất kiến trúc của một team khác, phát hiện rủi ro ảnh hưởng nhiều sản phẩm.** Team B đề xuất mỗi sản phẩm mới tự chọn thư viện quản lý State riêng "cho linh hoạt". Bạn review đề xuất này ở tầm tổ chức (không phải review một dòng code) và chỉ ra rủi ro: 5 sản phẩm dùng 5 thư viện State khác nhau (NgRx, Akita, service tự chế...) sẽ khiến (1) dev khó chuyển đổi giữa các team, (2) không thể xây thư viện dùng chung (đã làm ở mức Senior) vì mỗi nơi một chuẩn khác nhau. Bạn đề xuất: cho phép linh hoạt về **cách tổ chức module**, nhưng **thống nhất một thư viện State** cho toàn công ty — cân bằng giữa tự do của team và khả năng chia sẻ nguồn lực.
+
+**Vì sao là mức ④:** bạn review được cả **quyết định kiến trúc** ảnh hưởng nhiều team, không chỉ chất lượng code trong một PR — đây là review ở tầm cao nhất của kỹ năng này.

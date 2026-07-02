@@ -34,3 +34,17 @@ Tháng 3: mở form để mọi người tự đăng ký đề tài muốn chia 
 Bạn không tự ôm việc trình bày mãi — mục tiêu là xây được **thói quen chia sẻ** lan ra cả phòng, để kiến thức không dồn vào một vài người giỏi nói, mà được nhiều người tự tin đóng góp.
 
 **Vì sao là mức ②:** bạn xây dựng được cơ chế chia sẻ kiến thức bền vững cho cả bộ phận — không chỉ tự mình trình bày tốt một buổi.
+
+## ▸ Specialist·V1 — ③ Thành thạo
+**Khác Senior·V3:** trình bày được cho **quy mô lớn hơn nhiều** (nhiều phòng ban, hoặc bên ngoài đơn vị) — về công nghệ mới hoặc kết quả nghiên cứu (R&D), không chỉ chia sẻ nội bộ nhóm nhỏ.
+
+**Ví dụ thực tế — trình bày kết quả PoC công nghệ mới cho toàn bộ các phòng ban kỹ thuật.** Sau khi làm PoC đánh giá một công nghệ mới (ở kỹ năng "Nghiên cứu công nghệ mới"), bạn trình bày kết quả không chỉ cho team mình mà cho đại diện nhiều phòng ban khác nhau cùng quan tâm — vì kết luận PoC ảnh hưởng tới quyết định công nghệ chung. Bạn điều chỉnh cách trình bày: ít chi tiết code hơn, nhiều hơn về **tác động** (ai bị ảnh hưởng, chi phí chuyển đổi, mốc thời gian) — vì khán giả đa dạng vai trò hơn, không phải toàn dev cùng chuyên môn.
+
+**Vì sao là mức ③:** bạn trình bày hiệu quả cho khán giả đa dạng, quy mô lớn hơn hẳn nhóm nhỏ — điều chỉnh nội dung theo đối tượng nghe, không chỉ lặp lại format cũ ở quy mô lớn hơn.
+
+## ▸ Specialist·V2 — ④ Chuyên sâu
+**Khác V1:** xây dựng được **văn hoá chia sẻ tri thức ở tầm toàn công ty** (không chỉ một chuỗi sự kiện của một phòng ban) — nhiều phòng ban tự tổ chức được, không cần bạn đứng ra mỗi lần.
+
+**Ví dụ thực tế — nhân rộng mô hình "Tech Talk" từ một phòng ban ra toàn công ty.** Mô hình "Tech Talk Friday" bạn khởi động ở phòng Front-end (mốc Senior) chạy tốt sau nhiều tháng. Bạn tổng hợp thành một **playbook** (mô hình + checklist tổ chức + mẫu form đăng ký đề tài) và chia sẻ cho các phòng ban khác (Back-end, QA, DevOps) tự áp dụng theo cách của họ — không cần bạn trực tiếp tổ chức cho từng phòng. Sau 1 năm, công ty có 4 chuỗi Tech Talk độc lập ở 4 phòng ban, đều bắt nguồn từ một mô hình chung.
+
+**Vì sao là mức ④:** bạn tạo ra được ảnh hưởng ở tầm **toàn công ty** thông qua việc nhân rộng mô hình cho người khác tự vận hành — mức cao nhất, không còn giới hạn trong một phòng ban hay một chuỗi sự kiện bạn trực tiếp đứng ra.

@@ -42,3 +42,16 @@ this.http.put(`/api/orders/123`, { ...changes, version: 5 });
 Thay vì âm thầm ghi đè, hệ thống báo rõ cho tab A biết đơn đã bị tab khác sửa trước, để người dùng tải lại và merge thủ công thay vì mất dữ liệu trong im lặng.
 
 **Vì sao là mức ②:** bạn xử lý được xung đột dữ liệu nghiệp vụ thật giữa các phiên làm việc song song — không chỉ đồng bộ trạng thái đăng nhập đơn giản.
+
+## ▸ Specialist·V2 — ③ Thành thạo
+**Khác V3 (Senior):** đồng bộ session giữa **nhiều thiết bị khác nhau** (điện thoại + máy tính), không chỉ nhiều tab của cùng một trình duyệt — `BroadcastChannel` không giúp được ở đây vì nó chỉ hoạt động trong cùng một trình duyệt.
+
+**Ví dụ thực tế — người dùng đăng xuất trên điện thoại, phiên trên máy tính cũng phải tự hết hạn.** `BroadcastChannel` (dùng ở mốc trước) chỉ đồng bộ được các tab trong CÙNG một trình duyệt — không giúp được giữa điện thoại và máy tính (2 thiết bị khác nhau). Bài toán này cần xử lý ở phía server: khi người dùng đăng xuất, server **thu hồi (invalidate)** token/session ở phía mình (không chỉ xoá ở client đang đăng xuất):
+```
+- Server lưu danh sách session đang hoạt động theo user (không chỉ tin vào token còn hạn).
+- Đăng xuất → server đánh dấu session đó đã thu hồi trong danh sách.
+- Mọi request từ thiết bị khác dùng token cũ → server kiểm danh sách, thấy đã thu hồi → trả 401.
+```
+Khác với đồng bộ qua `BroadcastChannel` (chỉ đồng bộ được trình duyệt với trình duyệt), đây là cơ chế đồng bộ qua **server làm trung tâm** — hoạt động được bất kể người dùng đang ở thiết bị/trình duyệt nào.
+
+**Vì sao là mức ③:** bạn xử lý được đồng bộ phiên làm việc ở phạm vi rộng hơn hẳn (nhiều thiết bị), hiểu đúng giới hạn của giải pháp client-side đã dùng ở các mốc trước.

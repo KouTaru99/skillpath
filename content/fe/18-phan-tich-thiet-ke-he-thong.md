@@ -50,3 +50,17 @@ Bạn tự quyết: **không** để `order-service` gọi thẳng API gửi ema
 Tài liệu đủ chi tiết để team A (order-service) và team B (notification-service) triển khai song song mà không cần hỏi lại nhau liên tục — hợp đồng (mục 3) là điểm neo chung.
 
 **Vì sao là mức ③:** bạn viết được thiết kế thành tài liệu người khác dùng được để triển khai độc lập — không chỉ tự chốt thiết kế trong đầu mình.
+
+## ▸ Specialist·V1 — ④ Chuyên sâu
+**Khác Senior·V3:** thiết kế ở quy mô **nhiều sản phẩm/nhiều đơn vị dùng chung**, không chỉ một tính năng cho 2 team — trở thành **kiến trúc tham chiếu** (reference architecture) cho cả tổ chức.
+
+**Ví dụ thực tế — thiết kế "khung thông báo" dùng chung cho mọi sản phẩm của công ty, không chỉ một tính năng.** Thay vì mỗi sản phẩm (bán hàng, chăm sóc khách hàng, nội bộ) tự xây lại luồng gửi thông báo riêng, bạn thiết kế một kiến trúc dùng chung:
+```
+[Bất kỳ sản phẩm nào] ──phát sự kiện chuẩn──> [Notification Platform]
+                                                      │
+                                          ├─ Email · SMS · Push · In-app
+                                          └─ Cấu hình theo sản phẩm (template, tần suất, kênh ưu tiên)
+```
+Bạn định nghĩa **hợp đồng sự kiện chuẩn** mà mọi sản phẩm phải tuân theo để dùng chung nền tảng này — không phải thiết kế cho một tính năng cụ thể, mà cho **mọi tính năng thông báo trong tương lai** của toàn công ty.
+
+**Vì sao là mức ④:** bạn thiết kế được kiến trúc ở tầm **tổ chức**, được nhiều sản phẩm khác nhau dùng lại — mức cao nhất của kỹ năng này trong toàn thang FE.

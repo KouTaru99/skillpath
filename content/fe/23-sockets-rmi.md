@@ -43,3 +43,10 @@ function connectWithRetry(url: string, onMessage: (data: any) => void, retryDela
 Không có cơ chế này, người dùng ngồi trong quán cà phê wifi chập chờn sẽ mất thông báo real-time mà không hề biết, tưởng ứng dụng vẫn hoạt động bình thường.
 
 **Vì sao là mức ②:** bạn xử lý được vấn đề thật của kết nối real-time trong môi trường mạng không ổn định — không chỉ code cho trường hợp mạng luôn tốt.
+
+## ▸ Specialist·V2 — ③ Thành thạo
+**Khác V1:** hiểu vấn đề khi hệ thống có **nhiều server cùng xử lý WebSocket** — một vấn đề chỉ lộ ra khi hệ thống có tải cao, cần scale nhiều instance.
+
+**Ví dụ thực tế — thông báo không tới khi có 2 server, vì client và người gửi không cùng kết nối vào 1 server.** Hệ thống chạy 2 instance API để chịu tải cao hơn. Client A kết nối WebSocket vào server 1. Khi có sự kiện cần báo cho client A, nhưng code xử lý sự kiện đó lại chạy trên server 2 — server 2 không biết client A đang giữ kết nối ở server 1, nên không gửi được gì. Bạn nhận diện đây là vấn đề cần một **backplane** (kênh trung gian, ví dụ Redis Pub/Sub) để mọi server đều biết và chuyển tiếp được tin nhắn cho đúng client, bất kể client đang kết nối vào server nào.
+
+**Vì sao là mức ③:** bạn hiểu được giới hạn của WebSocket khi hệ thống scale ra nhiều server — vấn đề chỉ xuất hiện ở quy mô thật, không thấy được khi chỉ chạy 1 server lúc code/test.

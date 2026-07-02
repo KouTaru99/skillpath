@@ -55,3 +55,10 @@ Bạn C (ngại hỏi): chủ động hỏi thăm giữa chừng thay vì đợi
 Bạn theo dõi tiến độ từng người, không dùng một tiêu chuẩn "hoàn thành đúng X tuần" cho tất cả.
 
 **Vì sao là mức ③:** bạn dẫn dắt được nhiều người có năng lực khác nhau cùng lúc, điều chỉnh cách tiếp cận theo từng cá nhân — không chỉ áp dụng một lộ trình cứng cho mọi người.
+
+## ▸ Specialist·V1 — ④ Chuyên sâu
+**Khác Senior·V3:** mentor được cả **Senior khác** hướng tới tư duy kiến trúc — khác hẳn dẫn dắt người mới về kỹ thuật cụ thể.
+
+**Tình huống thực tế — một Senior giỏi code nhưng thiết kế còn "cục bộ" (chỉ nhìn 1 tính năng, chưa nhìn toàn hệ thống).** Bạn Senior này thường đề xuất giải pháp đúng cho tính năng đang làm, nhưng chưa quen đặt câu hỏi "cái này có ảnh hưởng gì tới các phần khác của hệ thống không". Thay vì tự làm hộ phần thiết kế, bạn dẫn dắt bằng câu hỏi ở tầm cao hơn: *"Thiết kế này ổn cho tính năng hiện tại — nhưng nếu 3 tháng nữa có tính năng B cũng cần dữ liệu tương tự, thiết kế này có phải sửa lại từ đầu không?"* Câu hỏi này giúp Senior đó dần hình thành thói quen tự đặt câu hỏi phạm vi rộng hơn cho chính mình ở các thiết kế sau, không cần bạn nhắc lại.
+
+**Vì sao là mức ④:** bạn nâng được tư duy của người **cùng cấp cao** (Senior) lên một tầm mới — mức mentor sâu nhất, không còn là truyền kiến thức kỹ thuật cụ thể mà là truyền **cách tư duy**.

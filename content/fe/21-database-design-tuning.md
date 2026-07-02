@@ -57,3 +57,21 @@ ALTER TABLE products ADD COLUMN avg_rating NUMERIC(2,1) DEFAULT 0;
 Bạn cố ý phá chuẩn hoá 3NF ở đúng một chỗ (lưu `avg_rating` trùng lặp với dữ liệu tính được từ `reviews`) — vì trang sản phẩm được đọc hàng nghìn lần nhưng review chỉ được ghi thỉnh thoảng, đánh đổi này đúng hướng.
 
 **Vì sao là mức ③:** bạn thiết kế schema mới cho cả module, biết khi nào NÊN phá chuẩn hoá có chủ đích vì lý do hiệu năng — không chỉ tuân thủ nguyên tắc chuẩn hoá một cách máy móc.
+
+## ▸ Specialist·V1 — ④ Chuyên sâu
+**Khác Senior·V3:** ra quyết định khi một bảng đã **vượt quá khả năng của một CSDL đơn**, không chỉ tối ưu trong phạm vi một máy.
+
+**Ví dụ thực tế — bảng `orders` phình tới hàng trăm triệu dòng, tối ưu index không còn đủ.** Đến một quy mô nhất định, thêm index hay viết lại query không còn giải quyết được — index cũng chậm dần vì bảng quá lớn để giữ gọn trong bộ nhớ. Bạn đánh giá và đề xuất hướng đi tiếp theo:
+```
+Phương án 1 — Partitioning theo thời gian: chia bảng orders thành orders_2026_01,
+  orders_2026_02,... Query thường chỉ lọc theo tháng gần đây → chỉ quét 1 phân vùng nhỏ.
+
+Phương án 2 — Archival: đơn hàng cũ hơn 2 năm chuyển sang bảng/kho lưu trữ riêng
+  (đọc chậm hơn nhưng hiếm khi cần), giữ bảng chính gọn cho truy vấn hàng ngày.
+
+Đề xuất: bắt đầu bằng Partitioning (rẻ hơn, không đổi kiến trúc lưu trữ) — CHỈ cân nhắc
+sharding sang nhiều CSDL vật lý khi cả một partition cũng đã quá lớn cho một máy.
+```
+Bạn không nhảy thẳng lên giải pháp phức tạp nhất (sharding nhiều CSDL) khi giải pháp đơn giản hơn (partitioning) đã đủ giải quyết vấn đề hiện tại.
+
+**Vì sao là mức ④:** bạn ra được quyết định kiến trúc dữ liệu ở quy mô vượt ngoài một CSDL đơn, cân nhắc đúng mức độ phức tạp cần thiết — không giải quyết vấn đề nhỏ bằng công cụ quá lớn.

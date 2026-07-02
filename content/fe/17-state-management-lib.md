@@ -87,3 +87,23 @@ export class OrdersModule {}
 Mỗi team quản lý phần state của module mình, chỉ những gì thật sự dùng chung (thông tin đăng nhập, giỏ hàng) mới đặt ở root store — giảm xung đột khi nhiều người cùng sửa store, và state của module nào chỉ tải khi module đó được tải (đỡ nặng ứng dụng ban đầu).
 
 **Vì sao là mức ③:** bạn đặt được chuẩn tổ chức state ở quy mô nhiều team cùng làm, không chỉ tự thiết kế tốt cho phần việc của mình.
+
+## ▸ Specialist·V2 — ④ Chuyên sâu
+**Khác Senior·V3:** đặt ra **hướng dẫn lựa chọn công cụ quản lý State cho toàn đơn vị** (không chỉ tổ chức tốt trong một app) — khi nào bắt buộc dùng NgRx, khi nào service đơn giản là đủ.
+
+**Ví dụ thực tế — hướng dẫn chọn công cụ, áp dụng cho mọi dự án mới của đơn vị.**
+```
+Hướng dẫn chọn state management (áp dụng khi khởi tạo dự án mới):
+
+- State đơn giản, ít luồng phụ thuộc chéo (< 3 màn hình chia sẻ state)
+  → Service + BehaviorSubject. KHÔNG bắt buộc NgRx — tránh boilerplate thừa.
+
+- State phức tạp, nhiều team cùng đóng góp, cần time-travel debug khi lỗi khó tái hiện
+  → NgRx bắt buộc, theo chuẩn "feature state" đã thiết lập.
+
+- Ngoại lệ: nếu team dưới 3 người và dự án dự kiến < 6 tháng → luôn chọn phương án đơn giản
+  trước, dù state có phức tạp, vì chi phí học NgRx không đáng cho dự án ngắn hạn.
+```
+Bạn không áp một công cụ "chuẩn" cho mọi dự án — mà đặt ra **tiêu chí quyết định** để mọi team tự áp dụng đúng theo bối cảnh của họ, giảm việc mỗi dự án mới lại tranh cãi lại từ đầu.
+
+**Vì sao là mức ④:** bạn đặt ra được chuẩn quyết định công nghệ ở tầm **toàn đơn vị**, không chỉ tổ chức tốt trong phạm vi một ứng dụng.
