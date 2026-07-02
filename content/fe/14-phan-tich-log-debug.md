@@ -67,3 +67,17 @@ export class GlobalErrorHandler implements ErrorHandler {
 ```
 
 **Vì sao là mức ③:** xử được lớp lỗi khó nhất và xây năng lực chẩn đoán cho cả đội.
+
+## ▸ Senior·V2 — ④ Chuyên sâu
+**Khác Ex·V3:** điều tra lỗi đi **xuyên nhiều service** — nơi log của một hệ thống không đủ, phải lần theo một request qua toàn bộ hành trình của nó.
+
+**Ví dụ thực tế — một đơn hàng "biến mất" giữa 3 service.** Khách báo đặt hàng xong nhưng không thấy trong lịch sử đơn. Log riêng từng service đều "sạch" (không lỗi). Bạn lần theo **trace id** — một mã sinh ra ngay từ request đầu tiên ở FE, được truyền xuyên suốt qua header (`X-Trace-Id`) qua từng service:
+```
+FE → order-service   (trace=abc123): tạo đơn OK
+order-service → payment-service (trace=abc123): gọi thanh toán — timeout sau 5s
+order-service: coi timeout = thất bại → KHÔNG lưu đơn
+payment-service: thực ra đã xử lý thành công, chỉ trả lời chậm
+```
+Không có `trace=abc123` xuyên suốt, bạn sẽ phải đoán mò xem đơn "biến mất" ở service nào; có nó, bạn lần thẳng ra: bug nằm ở chỗ `order-service` xử lý sai khi timeout (không phân biệt "chắc chắn thất bại" với "chưa biết kết quả").
+
+**Vì sao là mức ④:** bạn chẩn đoán được lỗi ở tầm **hệ thống phân tán**, nơi nguyên nhân và triệu chứng nằm ở hai service khác nhau.

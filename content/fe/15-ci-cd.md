@@ -62,3 +62,44 @@ deploy release-$SHA && switch-traffic release-$SHA
 Bạn nghĩ tới "khi deploy hỏng thì sao" ngay từ đầu, không chỉ "khi mọi thứ chạy tốt".
 
 **Vì sao vẫn là ②:** vận hành CI/CD vững ở quy mô thật, chưa tới thiết kế hạ tầng triển khai toàn hệ thống.
+
+## ▸ Senior·V1 — ③ Thành thạo
+**Khác Ex·V3:** không chỉ tối ưu pipeline của dự án mình mà **chuẩn hoá cho nhiều dự án/team dùng chung** — đúng tinh thần "thành thạo công cụ CI/CD" ở tầm Senior trong career-path.
+
+**Ví dụ — pipeline dùng chung (composite action) cho nhiều microfrontend khác team.**
+```yaml
+# .github/actions/fe-pipeline/action.yml — 1 chuẩn, nhiều repo MFE cùng gọi
+runs:
+  using: composite
+  steps:
+    - run: npm ci
+    - run: npm run lint && npm test -- --code-coverage
+    - run: npx bundlesize
+    - run: npm run build -- --configuration production
+```
+```yaml
+# products-mfe/.github/workflows/ci.yml — mỗi team chỉ cần gọi lại
+steps: [ { uses: './.github/actions/fe-pipeline' } ]
+```
+Mỗi team vẫn tự chủ repo, nhưng chuẩn chất lượng (lint/test/coverage/bundle) là MỘT, không mỗi nơi làm một kiểu.
+
+**Vì sao là mức ③:** bạn nâng chất lượng CI/CD ở tầm nhiều dự án, không chỉ dự án đang làm.
+
+## ▸ Senior·V3 — ④ Chuyên sâu
+**Khác Senior·V1:** thiết kế chiến lược **deploy an toàn ở quy mô sản xuất thật** — triển khai dần thay vì đổi toàn bộ một lúc.
+
+**Ví dụ thực tế — canary release cho bản Angular mới, giảm rủi ro khi lên production.**
+```yaml
+deploy-canary:
+  steps:
+    - run: deploy new-version --traffic 5%     # chỉ 5% người dùng thấy bản mới
+    - run: sleep 600 && check-error-rate        # theo dõi 10 phút, so tỷ lệ lỗi với bản cũ
+    - run: |
+        if [ "$ERROR_RATE_INCREASED" = "true" ]; then
+          rollback; exit 1                      # tự động lùi nếu lỗi tăng bất thường
+        fi
+    - run: deploy new-version --traffic 100%   # ổn thì mới đẩy full
+```
+Nếu bản mới có bug ẩn (chỉ lộ ra ở một số trình duyệt/thiết bị cụ thể), chỉ 5% người dùng bị ảnh hưởng và hệ thống tự lùi lại — thay vì cả triệu người dùng cùng gặp lỗi rồi mới biết.
+
+**Vì sao là mức ④:** bạn thiết kế được quy trình triển khai giảm thiểu rủi ro ở quy mô thật, không chỉ làm cho pipeline chạy xanh.

@@ -108,5 +108,43 @@ Router điều hướng giữa các mảnh; event bus lo chia sẻ state (giỏ 
 
 **Vì sao là mức ②:** chọn được kiểu tích hợp hợp bối cảnh và giải quyết các đánh đổi cốt lõi (version, đa framework, giao tiếp) — không đóng khung microfrontend vào một cách duy nhất.
 
+## ▸ Senior·V1 — ③ Thành thạo
+**Khác Ex·V3:** không chỉ ghép được mảnh mà **vận hành nó ở production** — CI/CD độc lập cho từng mảnh, kiểm tra hợp đồng giữa shell/remote trước khi deploy, và biết **khi nào KHÔNG nên** chọn microfrontend.
+
+**Ví dụ 1 — pipeline deploy độc lập cho một mảnh (không kéo theo cả hệ thống).**
+```yaml
+# products-mfe/.github/workflows/deploy.yml — chỉ deploy khi mảnh này đổi
+on:
+  push:
+    paths: ['products-mfe/**']
+jobs:
+  deploy:
+    steps:
+      - run: npm run build
+      - run: aws s3 sync dist/ s3://products.cty.com   # remoteEntry.js mới, shell tự nạp bản mới
+```
+Đây là lợi ích cốt lõi mà PDF career-path gọi là "thành thạo lập trình theo mô hình microfrontends": mảnh "products" đổi và lên production mà không cần build lại "cart" hay "account".
+
+**Ví dụ 2 — kiểm hợp đồng (contract test) giữa shell và remote trước khi deploy.**
+```typescript
+// shell kỳ vọng remote "products" phơi đúng shape này — chạy trong CI của remote trước khi deploy
+it('remoteEntry phơi đúng ProductsModule', async () => {
+  const remote = await loadRemoteModule({ remoteEntry: STAGING_URL, exposedModule: './Module' });
+  expect(remote.ProductsModule).toBeDefined();
+});
+```
+Không có test này, một remote đổi tên export có thể làm sập shell mà CI riêng của remote vẫn xanh.
+
+**Ví dụ 3 — biết khi nào KHÔNG nên dùng microfrontend.** Team 5 người, 1 sản phẩm, không có nhu cầu deploy độc lập theo đội → microfrontend chỉ thêm độ phức tạp vận hành (nhiều pipeline, nhiều nơi theo dõi lỗi, đồng bộ version framework) mà không đổi lại lợi ích gì — ở quy mô này, một Angular app thường (monolith FE) là lựa chọn đúng, không phải "lỗi thời".
+
+**Vì sao là mức ③:** bạn làm chủ microfrontend **ở vòng đời thật** (deploy, kiểm hợp đồng, vận hành) chứ không chỉ ghép được lúc code, và đủ tỉnh táo để không áp nó vào nơi không cần.
+
+## ▸ Senior·V2 — ④ Chuyên sâu
+**Khác Senior·V1:** không chỉ vận hành một hệ microfrontend có sẵn mà **thiết kế bộ khung (platform) cho các đội khác dựng mảnh mới lên đó** — chuẩn hoá cách một mảnh "gia nhập" hệ thống.
+
+**Ví dụ thực tế — bộ khung "onboarding" cho một mảnh mới.** Khi công ty có thêm đội mới muốn thêm mảnh "Khuyến mãi" vào shell hiện có, bạn không để họ tự mò cách tích hợp — bạn định nghĩa sẵn: template repo có cấu hình Module Federation chuẩn, checklist bắt buộc (đăng ký route với shell, đúng version Angular singleton, có healthcheck, có contract test với shell), và tài liệu "thêm một microfrontend mới trong 1 ngày" thay vì vài tuần dò dẫm.
+
+**Vì sao là mức ④:** bạn thiết kế được **nền tảng** cho microfrontend mở rộng bền vững qua nhiều đội, không chỉ vận hành tốt hệ hiện có.
+
 ---
 *Nguồn: [martinfowler.com — Micro Frontends](https://martinfowler.com/articles/micro-frontends.html) · [micro-frontends.org](https://micro-frontends.org/) · [single-spa](https://single-spa.js.org/) · [webpack — Module Federation](https://webpack.js.org/concepts/module-federation/) · [@angular-architects/module-federation](https://www.npmjs.com/package/@angular-architects/module-federation)*

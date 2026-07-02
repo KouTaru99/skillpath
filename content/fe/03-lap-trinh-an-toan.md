@@ -76,3 +76,19 @@ Bạn nhấn với team: guard chỉ chặn UI — **API vẫn phải tự kiể
 **Ví dụ 3 — thiết lập Content Security Policy.** Đề xuất header CSP để trình duyệt chỉ chạy script từ nguồn tin cậy, chặn inline script lạ — một lớp phòng thủ nữa cho XSS, ghi vào checklist trước khi lên production.
 
 **Vì sao là mức ③:** bảo vệ cả sản phẩm chứ không chỉ code của mình, nâng chuẩn an toàn cho đội.
+
+## ▸ Senior·V3 — ④ Chuyên sâu
+**Khác Ex·V3:** không chỉ review bắt lỗ hổng đã có mà **đánh giá rủi ro trước khi code** (threat modeling) cho tính năng mới, ngay từ khâu thiết kế.
+
+**Ví dụ thực tế — threat modeling nhanh cho tính năng "chia sẻ đơn hàng qua link công khai".** Trước khi ai viết dòng code nào, bạn đặt câu hỏi phòng thủ:
+```
+- Link công khai có đoán được không? (nếu dùng orderId=123 tuần tự → kẻ xấu dò hết đơn của người khác)
+  → đổi sang token ngẫu nhiên dài, không đoán được.
+- Link có hết hạn không? (nếu không, lộ vĩnh viễn dù đơn đã xong từ lâu)
+  → đặt thời hạn hết hạn (vd 7 ngày).
+- Ai xem được link có thấy thông tin nhạy cảm không? (địa chỉ, số điện thoại đầy đủ)
+  → ẩn bớt phần nhạy cảm ở bản xem công khai.
+```
+Ba câu hỏi này được đặt ra **trước khi code**, khi sửa vẫn còn rẻ — nếu để tới lúc review mới phát hiện `orderId` tuần tự bị lộ, sửa đã tốn công hơn nhiều (đổi cả schema, migrate dữ liệu cũ).
+
+**Vì sao là mức ④:** bạn chủ động đánh giá rủi ro bảo mật ở khâu thiết kế, trước khi có code để review — mức phòng thủ sâu nhất, rẻ nhất.

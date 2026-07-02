@@ -59,3 +59,55 @@ it('hiện lỗi khi API thất bại', () => {
 Bạn test cả nhánh lỗi — vì đó là chỗ hay vỡ nhất; và tách logic ra hàm/service thuần để dễ test thay vì nhồi hết vào component.
 
 **Vì sao là mức ②:** dùng test như công cụ thật để giữ chất lượng, không chỉ viết cho có.
+
+## ▸ Senior·V1 — ③ Thành thạo
+**Khác Ex·V3:** không chỉ tự viết test tốt mà **đặt chuẩn test cho cả team** — gate coverage có ý nghĩa trong CI, test cả logic bất đồng bộ phức tạp (effect quản lý state), viết checklist review cho người khác theo.
+
+**Ví dụ 1 — test một NgRx effect (bất đồng bộ + side-effect thật khó test nếu không có kỷ luật).**
+```typescript
+it('loadOrders effect gọi API và dispatch success', () => {
+  actions$ = of(OrdersActions.load());
+  apiService.getOrders.and.returnValue(of([{ id: 1 }]));
+
+  effects.loadOrders$.subscribe((action) => {
+    expect(action).toEqual(OrdersActions.loadSuccess({ orders: [{ id: 1 }] }));
+  });
+});
+```
+
+**Ví dụ 2 — coverage gate có ý nghĩa trong CI (không chạy theo % máy móc).**
+```yaml
+# ci: chặn merge nếu coverage TỤT so với trước, không ép 100%
+- run: npm run test:coverage
+- run: |
+    if (( $(coverage_now) < $(coverage_baseline) )); then
+      echo "Coverage giảm — chặn merge"; exit 1
+    fi
+```
+Chặn *tụt* thay vì ép một con số cứng — tránh tình trạng đội viết test rỗng (`expect(true).toBe(true)`) chỉ để đạt %.
+
+**Ví dụ 3 — checklist review test cho junior (rút từ lỗi hay gặp).**
+```
+[ ] Có test nhánh lỗi, không chỉ happy path?
+[ ] Mock đúng biên (HTTP/service), không mock cả logic đang muốn kiểm?
+[ ] Test có fail đúng lý do khi cố tình phá code không (mutation-check bằng tay)?
+```
+
+**Vì sao là mức ③:** bạn làm chủ cả phần khó test (async/state) và nâng chất lượng test của cả đội, không chỉ của riêng mình.
+
+## ▸ Senior·V3 — ④ Chuyên sâu
+**Khác Senior·V1:** đặt ra **chiến lược test cho cả dự án** — quyết định tỷ lệ unit/integration/e2e hợp lý (test pyramid), không chỉ viết test tốt cho từng phần.
+
+**Ví dụ thực tế — chẩn một dự án "test nhiều nhưng vẫn hay vỡ ở production".** Dự án có 500 unit test nhưng chỉ test từng hàm riêng lẻ với mock — không có test nào kiểm tra 2-3 phần ghép lại với nhau. Bug thật thường xảy ra ở **ranh giới ghép nối** (component gọi service thật, service gọi API thật) mà unit test kèm mock không bắt được. Bạn đề xuất cơ cấu lại theo **test pyramid**:
+```
+       /\
+      /e2e\        ít (5%) — vài luồng quan trọng nhất (đăng nhập, thanh toán)
+     /------\
+    /integr. \     vừa (25%) — ghép component thật + service thật (mock chỉ ở biên ngoài, vd API)
+   /----------\
+  /  unit test \   nhiều (70%) — hàm/logic thuần, chạy nhanh
+ /--------------\
+```
+Không phải viết THÊM test bừa bãi, mà **đổi loại test** — thêm một lớp integration test mỏng để bắt đúng lớp bug đang lọt.
+
+**Vì sao là mức ④:** bạn thiết kế được chiến lược test ở tầm dự án, biết loại test nào bắt đúng loại bug nào — không chỉ viết test nhiều mà viết đúng chỗ.

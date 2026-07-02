@@ -76,3 +76,24 @@ dist
 Ghim `node:18-alpine` (không dùng `latest`) để build hôm nay và tháng sau ra giống nhau; để CI tự build–đẩy image lên registry.
 
 **Vì sao vẫn là ②:** đóng gói tốt và an toàn ở mức thực chiến, chưa tới thiết kế nền tảng container cho tổ chức (việc của Senior/Specialist).
+
+## ▸ Senior·V1 — ③ Thành thạo
+**Khác Ex·V3:** không chỉ đóng gói an toàn cho *một* app mà đặt ra **base image chuẩn dùng chung cho nhiều dự án**, kèm healthcheck để hạ tầng biết container còn sống hay đã "treo".
+
+**Ví dụ — base image nội bộ (golden image) + healthcheck cho orchestration.**
+```dockerfile
+# fe-base-image (registry nội bộ) — mọi FE team kế thừa từ đây, không tự chọn base image riêng
+FROM nginx:alpine
+RUN adduser -D -H appuser && chown -R appuser /usr/share/nginx/html
+USER appuser                                   # không chạy container bằng root
+HEALTHCHECK --interval=30s --timeout=3s \
+  CMD wget -q --spider http://localhost/ || exit 1   # hạ tầng tự phát hiện + restart nếu "treo"
+```
+```dockerfile
+# products-mfe/Dockerfile — team chỉ kế thừa, không tự nghĩ lại phần bảo mật
+FROM registry.internal/fe-base-image:1.4
+COPY --from=build /app/dist /usr/share/nginx/html
+```
+Chuẩn hoá base image giúp mọi team tự động thừa hưởng bản vá bảo mật khi image gốc cập nhật, thay vì mỗi repo tự vá một kiểu (hoặc quên vá).
+
+**Vì sao là mức ③:** bạn đặt chuẩn container cho tổ chức, không chỉ đóng gói đúng cho dự án của mình.

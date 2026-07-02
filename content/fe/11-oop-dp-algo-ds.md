@@ -79,3 +79,28 @@ function compute(key: string): Result {
 ```
 
 **Vì sao là mức ③:** dùng nền tảng CS để ra quyết định kiến trúc, không chỉ giải bài.
+
+## ▸ Senior·V3 — ④ Chuyên sâu
+**Khác Ex·V3:** áp pattern ở **tầm kiến trúc** (nhiều module/nhiều nhà cung cấp), không chỉ trong phạm vi một class.
+
+**Ví dụ thực tế — Adapter pattern để gộp 3 SDK thanh toán khác nhau sau một hợp đồng chung.** Dự án cần tích hợp 3 cổng thanh toán (Momo, VNPay, ZaloPay), mỗi SDK có API khác hẳn nhau. Nếu gọi trực tiếp từng SDK ở khắp nơi trong code, đổi/thêm cổng thanh toán sẽ phải sửa nhiều chỗ.
+```typescript
+interface PaymentGateway {                          // hợp đồng chung
+  charge(amount: number, orderId: string): Promise<PaymentResult>;
+}
+
+class MomoAdapter implements PaymentGateway {
+  async charge(amount: number, orderId: string) {
+    const res = await momoSdk.createPayment({ amount, orderId, ...momoSpecificFields });
+    return { success: res.resultCode === 0, transactionId: res.transId };  // dịch response riêng của Momo về chung
+  }
+}
+// ZaloPayAdapter, VnPayAdapter tương tự — mỗi cái "dịch" SDK riêng về cùng 1 hợp đồng
+
+function checkout(gateway: PaymentGateway, amount: number, orderId: string) {
+  return gateway.charge(amount, orderId);   // phần còn lại của app KHÔNG cần biết đang dùng SDK nào
+}
+```
+Thêm cổng thanh toán thứ 4 chỉ cần viết thêm một Adapter, không phải sửa code checkout đang chạy.
+
+**Vì sao là mức ④:** bạn dùng design pattern để giải quyết bài toán **kiến trúc thật** (nhiều nhà cung cấp, dễ mở rộng) — không chỉ áp dụng pattern trong phạm vi một class hay một tính năng.

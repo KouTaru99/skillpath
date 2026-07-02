@@ -59,3 +59,10 @@ Kết quả kỳ vọng: giảm task "In Review" tồn cuối Sprint.
 **Ví dụ 3 — chẻ story quá to (đúng nguyên tắc INVEST).** Story "Làm trang quản trị" quá lớn → bạn chẻ theo lát giá trị mỏng (vertical slice): "xem danh sách" → "thêm mới" → "sửa/xoá", mỗi lát tự giao được giá trị trong 1 Sprint.
 
 **Vì sao là mức ③:** không chỉ tuân thủ mà điều chỉnh quy trình cho hợp dự án và nâng cả đội.
+
+## ▸ Senior·V2 — ④ Chuyên sâu
+**Khác Ex·V3:** hiểu đủ sâu để **chọn đúng khung quy trình cho từng loại dự án**, không áp Scrum như công thức duy nhất.
+
+**Ví dụ thực tế — đề xuất đổi từ Scrum sang Kanban cho dự án support-heavy.** Dự án bảo trì hệ thống cũ nhận yêu cầu lẻ tẻ suốt ngày (không dồn được thành Sprint 2 tuần); ép vào Scrum khiến Backlog Refinement vô nghĩa (việc mới tới liên tục, không đợi được). Bạn đề xuất chuyển sang **Kanban**: không Sprint cố định, giới hạn **WIP** (work in progress) theo cột, đo bằng **lead time** thay vì velocity — khớp bản chất công việc hơn Scrum.
+
+**Vì sao là mức ④:** bạn hiểu quy trình đủ sâu để **chọn** (không chỉ vận hành) khung phù hợp bản chất từng dự án, và giải thích được vì sao.

@@ -74,3 +74,44 @@ this.http.get('/api/report').pipe(
 **Ví dụ 3 — chống N+1 ở tầng API (đối thoại với backend).** Màn hiện 50 đơn rồi lặp 50 lần gọi `/users/{id}` lấy tên khách → 51 request. Bạn đề xuất backend cho `GET /orders?expand=customer` hoặc `GET /users?ids=1,2,3` để lấy lô một lần.
 
 **Vì sao vẫn là ②:** tích hợp vững ở quy mô thật, chưa tới mức thiết kế chuẩn giao tiếp cấp hệ thống.
+
+## ▸ Senior·V1 — ③ Thành thạo
+**Khác Ex·V3:** không chỉ *gọi* API tốt mà **đặt ra chuẩn giao tiếp** cho cả dự án — envelope lỗi thống nhất, versioning, hợp đồng viết trước bằng OpenAPI để BE/FE làm song song không lệch nhau.
+
+**Ví dụ 1 — envelope lỗi thống nhất, mọi API trả cùng khuôn.**
+```typescript
+interface ApiError { code: string; message: string; fields?: Record<string, string> }
+// Interceptor dịch mọi lỗi HTTP về 1 khuôn duy nhất cho toàn app
+this.http.get('/api/orders').pipe(
+  catchError((e: HttpErrorResponse) => throwError(() => e.error as ApiError)),
+);
+```
+```java
+@ExceptionHandler(ValidationException.class)
+ResponseEntity<ApiError> handle(ValidationException ex) {
+  return ResponseEntity.badRequest().body(new ApiError("VALIDATION_FAILED", ex.getMessage(), ex.getFieldErrors()));
+}
+```
+
+**Ví dụ 2 — hợp đồng viết trước (OpenAPI) để FE/BE làm song song.** Trước khi BE code xong, hai bên chốt file `orders.yaml` mô tả request/response — FE sinh type từ đó (`openapi-typescript`) và mock server chạy ngay, không phải chờ BE.
+
+**Ví dụ 3 — versioning khi đổi hợp đồng.** Đổi field `customerName` → tách `firstName`/`lastName` sẽ vỡ app cũ đang chạy → mở `/api/v2/orders` song song `/api/v1/orders`, tắt dần v1 theo lộ trình thay vì sửa thẳng.
+
+**Vì sao là mức ③:** bạn không chỉ tiêu thụ API mà **định hình** cách cả team giao tiếp qua API, giảm việc "đoán" giữa FE và BE.
+
+## ▸ Senior·V3 — ④ Chuyên sâu
+**Khác Senior·V1:** đặt ra **nguyên tắc thiết kế API cho toàn công ty** (không chỉ một dự án) — ví dụ chuẩn hoá **idempotency** (gọi lại nhiều lần không gây tác dụng phụ kép) cho các API tạo mới.
+
+**Ví dụ thực tế — API "tạo đơn hàng" bị gọi 2 lần do mạng chập chờn, và cách thiết kế để an toàn.**
+```java
+@PostMapping("/api/orders")
+public ResponseEntity<Order> create(@RequestHeader("Idempotency-Key") String key, @RequestBody OrderDto dto) {
+  Optional<Order> existing = repo.findByIdempotencyKey(key);
+  if (existing.isPresent()) return ResponseEntity.ok(existing.get());  // gọi lại → trả kết quả cũ, KHÔNG tạo đơn mới
+  Order saved = repo.save(new Order(dto, key));
+  return ResponseEntity.status(HttpStatus.CREATED).body(saved);
+}
+```
+FE gửi kèm một `Idempotency-Key` sinh ra một lần cho mỗi lần người dùng bấm "Đặt hàng"; nếu request timeout và FE tự động thử lại, server nhận ra key trùng và trả về đơn đã tạo thay vì tạo thêm một đơn mới trùng lặp. Bạn đặt nguyên tắc này thành chuẩn cho mọi API "tạo mới" quan trọng (đơn hàng, thanh toán) trong công ty.
+
+**Vì sao là mức ④:** bạn thiết kế được nguyên tắc API chống lỗi **ở tầng giao thức**, áp dụng được cho nhiều dự án, không chỉ xử lý từng trường hợp riêng lẻ.

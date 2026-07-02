@@ -55,3 +55,31 @@ CREATE INDEX idx_orders_customer ON orders(customer_id);
 ```
 
 **Vì sao là mức ②:** không chỉ tiêu thụ API mà còn góp phần làm nó hiệu quả.
+
+## ▸ Senior·V1 — ③ Thành thạo
+**Khác Ex·V3:** không chỉ tối ưu một câu query mà nhận ra khi **ranh giới dữ liệu giữa các service bị phá** — nguyên tắc "database per service" của microservices, và biết đề xuất sửa khi thiết kế đang vi phạm.
+
+**Ví dụ — phát hiện anti-pattern "shared database".**
+```
+❌ order-service VÀ shipping-service CÙNG đọc thẳng bảng `orders` của nhau
+   → đổi schema ở order-service làm sập shipping-service, hai team khoá chặt vào nhau
+
+✅ shipping-service lưu bản sao rút gọn (orderId, address) qua sự kiện
+   OrderCreated → shipping-service tự cập nhật bản sao của mình
+   → mỗi service tự chủ dữ liệu, đổi schema nội bộ không ảnh hưởng service khác
+```
+Bạn nêu vấn đề này khi review tài liệu thiết kế, trước khi nó thành nợ kỹ thuật khó gỡ.
+
+**Vì sao là mức ③:** bạn đọc được thiết kế dữ liệu ở tầm **quan hệ giữa các service**, không chỉ tầm một câu query.
+
+## ▸ Senior·V3 — ④ Chuyên sâu
+**Khác Senior·V1:** đề xuất được **cách đồng bộ dữ liệu** giữa các service đã tách đúng ranh giới (không chỉ phát hiện ranh giới bị phá).
+
+**Ví dụ thực tế — đồng bộ bản sao dữ liệu qua sự kiện (event-driven), thay vì gọi API chờ nhau.** Từ vấn đề đã nêu ở Senior·V1 (`shipping-service` cần bản sao địa chỉ từ `order-service`), bạn đề xuất cụ thể cách đồng bộ:
+```
+order-service: khi tạo đơn → phát sự kiện OrderCreated { orderId, address } lên message queue
+shipping-service: lắng nghe OrderCreated → tự lưu bản sao (orderId, address) vào CSDL riêng
+```
+Khác với việc `shipping-service` gọi API sang `order-service` mỗi lần cần địa chỉ (chậm hơn, và nếu `order-service` đang bảo trì thì `shipping-service` cũng bị ảnh hưởng theo) — đồng bộ qua sự kiện giúp `shipping-service` luôn có sẵn dữ liệu cục bộ, đọc nhanh, và **không phụ thuộc runtime** vào service kia còn sống hay không.
+
+**Vì sao là mức ④:** bạn không chỉ chỉ ra vấn đề mà **thiết kế được giải pháp** đồng bộ dữ liệu giữa các service, cân nhắc đúng đánh đổi (độ trễ đồng bộ nhỏ, đổi lấy tính độc lập).

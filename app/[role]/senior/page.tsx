@@ -1,16 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import {
-  Container,
-  Title,
-  Text,
-  Card,
-  Group,
-  Stack,
-  ThemeIcon,
-  Breadcrumbs,
-  Anchor,
-} from '@mantine/core';
+import { Container, Title, Text, Card, Group, Stack, ThemeIcon, Breadcrumbs, Anchor } from '@mantine/core';
 import { ROLES, getRole, skillsByGroup } from '@/lib/structure';
 import { LevelSwitcher } from '@/components/LevelSwitcher';
 
@@ -18,7 +8,7 @@ export function generateStaticParams() {
   return ROLES.filter((r) => r.available).map((r) => ({ role: r.slug }));
 }
 
-export default async function RolePage({ params }: { params: Promise<{ role: string }> }) {
+export default async function SeniorPage({ params }: { params: Promise<{ role: string }> }) {
   const { role: roleSlug } = await params;
   const role = getRole(roleSlug);
   if (!role || !role.available) notFound();
@@ -29,41 +19,24 @@ export default async function RolePage({ params }: { params: Promise<{ role: str
         <Anchor component={Link} href="/" c="dimmed">
           Trang chủ
         </Anchor>
-        <Text c="dimmed">{role.title}</Text>
+        <Anchor component={Link} href={`/${role.slug}`} c="dimmed">
+          {role.title}
+        </Anchor>
+        <Text c="dimmed">Senior</Text>
       </Breadcrumbs>
 
       <Title order={1} mb={6}>
         {role.title}
       </Title>
-      <LevelSwitcher role={role.slug} active="entry-experienced" />
+      <LevelSwitcher role={role.slug} active="senior" />
       <Text c="dimmed" mb="lg" maw={640}>
-        16 kỹ năng cần cho lộ trình Entry → Experienced. Mỗi kỹ năng có định nghĩa và ví dụ thực tế
-        chi tiết ở từng mức thành thạo. Chọn một kỹ năng để bắt đầu.
+        Senior giữ nguyên yêu cầu của Experienced và thêm 2 mảng mới: kiến trúc & thiết kế giải
+        pháp, quản lý & lãnh đạo kỹ thuật — đúng bản chất &quot;từ code giỏi sang tư vấn kiến trúc,
+        dẫn dắt đội&quot;. Kỹ năng cũ vẫn ở đây vì career-path vẫn yêu cầu, chỉ đào sâu hơn.
       </Text>
 
-      <Link
-        href={`/${role.slug}/tinh-huong`}
-        style={{ textDecoration: 'none', display: 'block', marginBottom: '2rem' }}
-      >
-        <Card withBorder radius="md" padding="md" bg="indigo.0">
-          <Group justify="space-between" wrap="nowrap">
-            <div>
-              <Text fw={600} c="indigo.8">
-                🔧 Tình huống thực chiến — 50 issue/bug thật + cách gỡ
-              </Text>
-              <Text size="sm" c="dimmed">
-                Những ca gãy chân hay gặp khi làm việc thật, gom theo chủ đề để tra nhanh.
-              </Text>
-            </div>
-            <ThemeIcon variant="filled" color="indigo" size="md" radius="xl">
-              <span aria-hidden>→</span>
-            </ThemeIcon>
-          </Group>
-        </Card>
-      </Link>
-
       <Stack gap="xl">
-        {skillsByGroup('entry-experienced').map(({ group, skills }) => (
+        {skillsByGroup('senior').map(({ group, skills }) => (
           <div key={group}>
             <Text fw={700} c="indigo.7" mb="sm">
               {group}

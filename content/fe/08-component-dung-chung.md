@@ -84,3 +84,16 @@ export class VndPipe implements PipeTransform {
 **Ví dụ 3 — đóng gói thành shared module + tài liệu sống.** Gom vào `SharedModule`, viết demo (Storybook) làm tài liệu, đặt quy ước versioning để team khác nâng cấp an toàn.
 
 **Vì sao là mức ③:** tạo nền tảng dùng chung cho nhiều người, không chỉ cho dự án của mình.
+
+## ▸ Senior·V2 — ④ Chuyên sâu
+**Khác Ex·V3:** không chỉ *xây* component dùng chung mà **quản lý vòng đời của nó khi đã có nhiều team phụ thuộc** — đổi API mà không làm sập dự án khác.
+
+**Ví dụ thực tế — đổi API của `TableComponent` mà 6 dự án khác đang dùng.** Bạn cần đổi `columns` từ mảng object sang cấu hình mạnh hơn (hỗ trợ sort/filter), nhưng phá thẳng API cũ sẽ làm sập build của 6 dự án đang phụ thuộc. Cách xử lý đúng tầm Senior:
+```typescript
+@Input() columns!: Column[];              // API cũ — GIỮ NGUYÊN, đánh dấu deprecated
+/** @deprecated dùng `columnsConfig` từ v3.0, sẽ gỡ ở v4.0 — xem CHANGELOG */
+@Input() columnsConfig?: ColumnConfig[];   // API mới, opt-in — team nào sẵn sàng thì đổi
+```
+Kèm theo `CHANGELOG.md` ghi rõ mốc gỡ bỏ, và một major version (`v3.0.0` theo **semver**) để các team chủ động chọn thời điểm nâng cấp thay vì bị ép đổi ngay.
+
+**Vì sao là mức ④:** bạn quản trị được thư viện dùng chung **qua thời gian** — cho phép nó tiến hoá mà không phá vỡ những đội đang phụ thuộc vào nó, đúng bản chất hạ tầng cấp công ty.

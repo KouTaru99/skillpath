@@ -162,3 +162,19 @@ app/
 ```
 
 **Vì sao vẫn là ③:** bạn áp năng lực "thành thạo" lên tầm hệ thống và đội ngũ, không chỉ một màn hình.
+
+## ▸ Senior·V2 — ④ Chuyên sâu
+**Khác Ex·V3:** không chỉ tổ chức tốt module *trong* một dự án mà **đóng gói năng lực đó thành thư viện dùng chung cho nhiều dự án** trong công ty.
+
+**Ví dụ thực tế — Angular library nội bộ cho `AuthInterceptor` + `CartStore` (đã viết ở các mốc trước).**
+```bash
+ng generate library @company/auth-kit
+# publish nội bộ: mọi dự án FE trong công ty cài về dùng, không copy-paste lại interceptor
+```
+```typescript
+// dự án khác chỉ cần:
+import { AuthInterceptorModule } from '@company/auth-kit';
+```
+Thay vì mỗi dự án tự viết lại `AuthInterceptor`, tự vá lại bug tương tự — một thư viện trung tâm, sửa một chỗ, mọi dự án nhận bản vá khi nâng version.
+
+**Vì sao là mức ④:** bạn hiểu framework đủ sâu để **trừu tượng hoá** năng lực đã làm chủ thành công cụ dùng lại được ở quy mô công ty, không chỉ giải quyết cho dự án đang chạy.

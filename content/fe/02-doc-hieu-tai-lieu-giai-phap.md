@@ -54,3 +54,10 @@ Luồng B "Áp mã giảm giá": chỉ tính discountPrice SAU khi nhập mã.
 **Ví dụ 3 — soi rủi ro hiệu năng từ data model.** Thiết kế trả về danh sách đơn kèm toàn bộ chi tiết từng đơn. Bạn chỉ ra với 1.000 đơn payload sẽ khổng lồ → đề xuất trả tóm tắt + lazy-load chi tiết khi mở.
 
 **Vì sao là mức ③:** không chỉ bắt lỗi mà còn nâng chất lượng chính bản thiết kế.
+
+## ▸ Senior·V2 — ④ Chuyên sâu
+**Khác Ex·V3:** soi lỗi ở tầm **liên hệ thống** — mâu thuẫn giữa các service/team khác nhau, không chỉ trong một ứng dụng.
+
+**Ví dụ thực tế — hai hệ thống mâu thuẫn nhau về "ai là nguồn chân lý".** Tài liệu module Đơn hàng ghi: giá sản phẩm lấy trực tiếp từ `order.price` (lưu tại thời điểm đặt). Tài liệu module Khuyến mãi (team khác) lại giả định giá hiển thị luôn là `product.currentPrice` mới nhất. Hai tài liệu không xung đột logic *nội bộ*, nhưng ghép lại thì đơn hàng cũ sẽ hiển thị SAI giá nếu module Khuyến mãi vô tình dùng nhầm nguồn. Bạn chỉ ra mâu thuẫn này ngay ở giai đoạn review liên team, trước khi hai đội code xong mới phát hiện.
+
+**Vì sao là mức ④:** bạn soi được lỗi nằm ở *ranh giới giữa các hệ thống* — nơi mà mỗi tài liệu riêng lẻ đều "đúng", chỉ sai khi ghép lại.

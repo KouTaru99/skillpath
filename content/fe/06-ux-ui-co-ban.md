@@ -46,3 +46,10 @@ Bạn chủ động hỏi Designer: *"Bước 2 khi địa chỉ trống hiện 
 **Ví dụ 2 — accessibility cho người dùng bàn phím/đọc màn hình.** Bạn thêm `aria-label`, thứ tự `tabindex` đúng, focus tự nhảy vào ô lỗi đầu tiên sau khi submit; kiểm bằng cách chỉ dùng phím Tab đi hết form.
 
 **Vì sao là mức ②:** không chỉ hiện thực mà còn nâng chất lượng trải nghiệm.
+
+## ▸ Senior·V2 — ③ Thành thạo
+**Khác Ex·V3:** không chỉ tự làm tốt UX cho phần mình mà **điều phối chuẩn UX/UI cho cả team**, đảm bảo mọi màn nhất quán dù nhiều người cùng code.
+
+**Ví dụ thực tế — audit phát hiện 3 kiểu nút "Xoá" khác nhau trong cùng một app.** Bạn rà qua các màn và thấy: màn A dùng nút đỏ + icon thùng rác, màn B dùng chữ "Xoá" thường không cảnh báo, màn C có popup xác nhận còn màn A/B thì không — cùng một hành động nhưng 3 trải nghiệm khác nhau vì mỗi dev tự làm theo ý mình. Bạn chốt lại **một component `DeleteButton` dùng chung** (icon + màu + popup xác nhận cố định) trong Design System, thay thế cả 3 cách cũ, và đặt quy ước: hành động phá huỷ dữ liệu luôn phải qua component này.
+
+**Vì sao là mức ③:** bạn nhìn UX ở tầm **toàn sản phẩm**, chủ động phát hiện và dọn sự thiếu nhất quán trước khi người dùng thật nhận ra.

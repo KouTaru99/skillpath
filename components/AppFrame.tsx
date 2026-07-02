@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { AppShell, Burger, Group, Text, NavLink, ScrollArea, Divider, Badge } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import { ROLES, skillsByGroup } from '@/lib/structure';
+import { ROLES, LEVELS, skillsByGroup } from '@/lib/structure';
 
 export function AppFrame({ children }: { children: React.ReactNode }) {
   const [opened, { toggle }] = useDisclosure();
@@ -53,38 +53,46 @@ export function AppFrame({ children }: { children: React.ReactNode }) {
 
               {role.available && (
                 <>
-                  <NavLink
-                    component={Link}
-                    href={`/${role.slug}`}
-                    label="Tổng quan"
-                    active={pathname === `/${role.slug}`}
-                    onClick={close}
-                  />
-                  {skillsByGroup().map(({ group, skills }) => (
-                    <div key={group} style={{ marginTop: 10 }}>
-                      <Text
-                        size="xs"
-                        fw={600}
-                        c="dimmed"
-                        tt="uppercase"
-                        px="xs"
-                        mb={2}
-                        style={{ letterSpacing: 0.3 }}
-                      >
-                        {group}
-                      </Text>
-                      {skills.map((s) => (
+                  {LEVELS.filter((lvl) => lvl.available).map((lvl) => {
+                    const levelHref = lvl.slug === 'entry-experienced' ? `/${role.slug}` : `/${role.slug}/${lvl.slug}`;
+                    return (
+                      <div key={lvl.slug} style={{ marginTop: 4 }}>
                         <NavLink
-                          key={s.slug}
                           component={Link}
-                          href={`/${role.slug}/ky-nang/${s.slug}`}
-                          label={s.title}
-                          active={pathname === `/${role.slug}/ky-nang/${s.slug}`}
+                          href={levelHref}
+                          label={lvl.title}
+                          fw={700}
+                          active={pathname === levelHref}
                           onClick={close}
                         />
-                      ))}
-                    </div>
-                  ))}
+                        {skillsByGroup(lvl.slug).map(({ group, skills }) => (
+                          <div key={group} style={{ marginTop: 6, marginLeft: 8 }}>
+                            <Text
+                              size="xs"
+                              fw={600}
+                              c="dimmed"
+                              tt="uppercase"
+                              px="xs"
+                              mb={2}
+                              style={{ letterSpacing: 0.3 }}
+                            >
+                              {group}
+                            </Text>
+                            {skills.map((s) => (
+                              <NavLink
+                                key={`${lvl.slug}-${s.slug}`}
+                                component={Link}
+                                href={`/${role.slug}/ky-nang/${s.slug}`}
+                                label={s.title}
+                                active={pathname === `/${role.slug}/ky-nang/${s.slug}`}
+                                onClick={close}
+                              />
+                            ))}
+                          </div>
+                        ))}
+                      </div>
+                    );
+                  })}
                   <NavLink
                     component={Link}
                     href={`/${role.slug}/tinh-huong`}
