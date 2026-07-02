@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { AppShell, Burger, Group, Text, NavLink, ScrollArea, Divider, Badge } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import { ROLES, LEVELS, skillsByGroup } from '@/lib/structure';
+import { ROLES, LEVELS, skillsByGroup, roleHasLevel } from '@/lib/structure';
 
 export function AppFrame({ children }: { children: React.ReactNode }) {
   const [opened, { toggle }] = useDisclosure();
@@ -53,7 +53,7 @@ export function AppFrame({ children }: { children: React.ReactNode }) {
 
               {role.available && (
                 <>
-                  {LEVELS.filter((lvl) => lvl.available).map((lvl) => {
+                  {LEVELS.filter((lvl) => roleHasLevel(role.slug, lvl.slug)).map((lvl) => {
                     const levelHref = lvl.slug === 'entry-experienced' ? `/${role.slug}` : `/${role.slug}/${lvl.slug}`;
                     return (
                       <div key={lvl.slug} style={{ marginTop: 4 }}>
@@ -65,7 +65,7 @@ export function AppFrame({ children }: { children: React.ReactNode }) {
                           active={pathname === levelHref}
                           onClick={close}
                         />
-                        {skillsByGroup(lvl.slug).map(({ group, skills }) => (
+                        {skillsByGroup(role.slug, lvl.slug).map(({ group, skills }) => (
                           <div key={group} style={{ marginTop: 6, marginLeft: 8 }}>
                             <Text
                               size="xs"
@@ -93,17 +93,19 @@ export function AppFrame({ children }: { children: React.ReactNode }) {
                       </div>
                     );
                   })}
-                  <NavLink
-                    component={Link}
-                    href={`/${role.slug}/tinh-huong`}
-                    label="Tình huống thực chiến"
-                    description="50 issue/bug thật + cách gỡ"
-                    active={pathname === `/${role.slug}/tinh-huong`}
-                    color="indigo"
-                    variant="filled"
-                    onClick={close}
-                    mt="md"
-                  />
+                  {role.hasTinhHuong && (
+                    <NavLink
+                      component={Link}
+                      href={`/${role.slug}/tinh-huong`}
+                      label="Tình huống thực chiến"
+                      description="50 issue/bug thật + cách gỡ"
+                      active={pathname === `/${role.slug}/tinh-huong`}
+                      color="indigo"
+                      variant="filled"
+                      onClick={close}
+                      mt="md"
+                    />
+                  )}
                 </>
               )}
               <Divider my="sm" />

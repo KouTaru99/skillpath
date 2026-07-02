@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Container, Text, Box, Breadcrumbs, Anchor, Group, Card, Divider } from '@mantine/core';
-import { ROLES, getRole, getSkill, FE_SKILLS, adjacentSkills } from '@/lib/structure';
+import { ROLES, getRole, getSkill, SKILLS_BY_ROLE, adjacentSkills } from '@/lib/structure';
 import { renderMarkdownFile } from '@/lib/md';
 
 export function generateStaticParams() {
   const out: { role: string; skill: string }[] = [];
   for (const role of ROLES.filter((r) => r.available)) {
-    for (const s of FE_SKILLS) out.push({ role: role.slug, skill: s.slug });
+    for (const s of SKILLS_BY_ROLE[role.slug] ?? []) out.push({ role: role.slug, skill: s.slug });
   }
   return out;
 }
@@ -19,11 +19,11 @@ export default async function SkillPage({
 }) {
   const { role: roleSlug, skill: skillSlug } = await params;
   const role = getRole(roleSlug);
-  const skill = getSkill(skillSlug);
+  const skill = getSkill(roleSlug, skillSlug);
   if (!role || !skill) notFound();
 
-  const html = renderMarkdownFile(`fe/${skill.slug}.md`);
-  const { prev, next } = adjacentSkills(skill.slug);
+  const html = renderMarkdownFile(`${role.slug}/${skill.slug}.md`);
+  const { prev, next } = adjacentSkills(role.slug, skill.slug);
 
   return (
     <Container size="md" py="md">

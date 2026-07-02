@@ -1,17 +1,17 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Container, Title, Text, Card, Group, Stack, ThemeIcon, Breadcrumbs, Anchor } from '@mantine/core';
-import { ROLES, getRole, skillsByGroup } from '@/lib/structure';
+import { ROLES, getRole, skillsByGroup, roleHasLevel } from '@/lib/structure';
 import { LevelSwitcher } from '@/components/LevelSwitcher';
 
 export function generateStaticParams() {
-  return ROLES.filter((r) => r.available).map((r) => ({ role: r.slug }));
+  return ROLES.filter((r) => r.available && roleHasLevel(r.slug, 'senior')).map((r) => ({ role: r.slug }));
 }
 
 export default async function SeniorPage({ params }: { params: Promise<{ role: string }> }) {
   const { role: roleSlug } = await params;
   const role = getRole(roleSlug);
-  if (!role || !role.available) notFound();
+  if (!role || !role.available || !roleHasLevel(role.slug, 'senior')) notFound();
 
   return (
     <Container size="md" py="md">
@@ -36,7 +36,7 @@ export default async function SeniorPage({ params }: { params: Promise<{ role: s
       </Text>
 
       <Stack gap="xl">
-        {skillsByGroup('senior').map(({ group, skills }) => (
+        {skillsByGroup(role.slug, 'senior').map(({ group, skills }) => (
           <div key={group}>
             <Text fw={700} c="indigo.7" mb="sm">
               {group}

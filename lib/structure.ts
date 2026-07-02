@@ -15,27 +15,25 @@ export type LevelSlug = 'entry-experienced' | 'senior' | 'specialist';
 export interface LevelInfo {
   slug: LevelSlug;
   title: string;
-  available: boolean;
   blurb: string;
 }
 
+// Metadata hiển thị level — KHÔNG chứa "available" vì độ sẵn sàng khác nhau theo từng role
+// (xem roleHasLevel). Ví dụ FE có đủ 10 vùng, BE mới có Entry→Experienced.
 export const LEVELS: LevelInfo[] = [
   {
     slug: 'entry-experienced',
     title: 'Entry → Experienced',
-    available: true,
-    blurb: '16 kỹ năng nền tảng, từ mới vào nghề tới vững vàng.',
+    blurb: 'Kỹ năng nền tảng, từ mới vào nghề tới vững vàng.',
   },
   {
     slug: 'senior',
     title: 'Senior',
-    available: true,
     blurb: 'Từ code giỏi sang tư vấn kiến trúc + dẫn dắt đội.',
   },
   {
     slug: 'specialist',
     title: 'Specialist',
-    available: true,
     blurb: 'Từ chuyên gia kỹ thuật sang người ra quyết định công nghệ cấp đơn vị.',
   },
 ];
@@ -53,37 +51,56 @@ export interface Skill {
   appearsIn: LevelSlug[];
 }
 
-// Thứ tự nhóm kỹ năng theo từng level (hiển thị trong checklist + sidenav).
-export const GROUP_ORDER: Record<LevelSlug, string[]> = {
-  'entry-experienced': [
-    'Quy trình & tư duy hệ thống',
-    'Lõi Front-end',
-    'Kỹ thuật nâng cao FE',
-    'Nền tảng CS & dữ liệu',
-    'Công cụ & vận hành',
-  ],
-  senior: [
-    'Quy trình & tư duy hệ thống',
-    'Lõi Front-end',
-    'Kỹ thuật nâng cao FE',
-    'Kiến trúc & thiết kế giải pháp',
-    'Nền tảng CS & dữ liệu',
-    'Công cụ & vận hành',
-    'Quản lý & lãnh đạo kỹ thuật',
-  ],
-  specialist: [
-    'Quy trình & tư duy hệ thống',
-    'Lõi Front-end',
-    'Kỹ thuật nâng cao FE',
-    'Kiến trúc & thiết kế giải pháp',
-    'Nền tảng CS & dữ liệu',
-    'Công cụ & vận hành',
-    'Quản lý & lãnh đạo kỹ thuật',
-    'Chiến lược & quản trị công nghệ',
-  ],
+// Thứ tự nhóm kỹ năng theo từng role + level (hiển thị trong checklist + sidenav).
+// Level rỗng ([]) = role đó CHƯA có nội dung ở level này (dùng để suy ra roleHasLevel).
+export const GROUP_ORDER: Record<string, Record<LevelSlug, string[]>> = {
+  fe: {
+    'entry-experienced': [
+      'Quy trình & tư duy hệ thống',
+      'Lõi Front-end',
+      'Kỹ thuật nâng cao FE',
+      'Nền tảng CS & dữ liệu',
+      'Công cụ & vận hành',
+    ],
+    senior: [
+      'Quy trình & tư duy hệ thống',
+      'Lõi Front-end',
+      'Kỹ thuật nâng cao FE',
+      'Kiến trúc & thiết kế giải pháp',
+      'Nền tảng CS & dữ liệu',
+      'Công cụ & vận hành',
+      'Quản lý & lãnh đạo kỹ thuật',
+    ],
+    specialist: [
+      'Quy trình & tư duy hệ thống',
+      'Lõi Front-end',
+      'Kỹ thuật nâng cao FE',
+      'Kiến trúc & thiết kế giải pháp',
+      'Nền tảng CS & dữ liệu',
+      'Công cụ & vận hành',
+      'Quản lý & lãnh đạo kỹ thuật',
+      'Chiến lược & quản trị công nghệ',
+    ],
+  },
+  be: {
+    'entry-experienced': [
+      'Quy trình & tư duy hệ thống',
+      'Lõi Back-end',
+      'Kỹ thuật nâng cao BE',
+      'Nền tảng mạng & hệ thống',
+      'Công cụ & vận hành',
+    ],
+    senior: [],
+    specialist: [],
+  },
 };
 
-// Kỹ năng Dev FE — 16 kỹ năng nền (Entry → Experienced) + kỹ năng thêm cho Senior.
+// Role nào đã có nội dung ở level nào — dùng cho LevelSwitcher + sidenav + generateStaticParams.
+export function roleHasLevel(roleSlug: string, level: LevelSlug): boolean {
+  return (GROUP_ORDER[roleSlug]?.[level]?.length ?? 0) > 0;
+}
+
+// 16 kỹ năng Dev FE nền (Entry → Experienced) + kỹ năng thêm cho Senior/Specialist.
 export const FE_SKILLS: Skill[] = [
   // --- 16 kỹ năng nền, vẫn required ở Senior (career-path Senior = "Như level Experienced và...") ---
   { slug: '01-quy-trinh-ptpm', title: 'Quy trình phát triển phần mềm (Agile/Scrum)', group: 'Quy trình & tư duy hệ thống', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
@@ -131,38 +148,67 @@ export const FE_SKILLS: Skill[] = [
   { slug: '39-dam-bao-nfr', title: 'Đảm bảo yêu cầu phi chức năng hệ thống (NFR)', group: 'Chiến lược & quản trị công nghệ', appearsIn: ['specialist'] },
 ];
 
+// 16 kỹ năng Dev BE nền (Entry → Experienced). Ngôn ngữ minh hoạ: Java/Spring Boot (PO chốt).
+export const BE_SKILLS: Skill[] = [
+  { slug: '01-quy-trinh-ptpm', title: 'Quy trình phát triển phần mềm (Agile/Scrum)', group: 'Quy trình & tư duy hệ thống', appearsIn: ['entry-experienced'] },
+  { slug: '02-doc-hieu-tai-lieu-giai-phap', title: 'Đọc hiểu & soi lỗi tài liệu giải pháp', group: 'Quy trình & tư duy hệ thống', appearsIn: ['entry-experienced'] },
+  { slug: '03-lap-trinh-an-toan', title: 'Lập trình an toàn (secure coding)', group: 'Quy trình & tư duy hệ thống', appearsIn: ['entry-experienced'] },
+  { slug: '04-java', title: 'Java (ngôn ngữ lập trình)', group: 'Lõi Back-end', appearsIn: ['entry-experienced'] },
+  { slug: '05-oop-dp-algo-ds', title: 'OOP / Design Pattern / Algorithm / Data Structure', group: 'Lõi Back-end', appearsIn: ['entry-experienced'] },
+  { slug: '06-csdl', title: 'Cơ sở dữ liệu (SQL & NoSQL) — thiết kế & tối ưu', group: 'Lõi Back-end', appearsIn: ['entry-experienced'] },
+  { slug: '07-da-luong-concurrency', title: 'Lập trình đa luồng (multithreading/concurrency)', group: 'Kỹ thuật nâng cao BE', appearsIn: ['entry-experienced'] },
+  { slug: '08-unit-test', title: 'Unit test', group: 'Kỹ thuật nâng cao BE', appearsIn: ['entry-experienced'] },
+  { slug: '09-he-dieu-hanh-io', title: 'Hệ điều hành & I/O', group: 'Kỹ thuật nâng cao BE', appearsIn: ['entry-experienced'] },
+  { slug: '10-mang-may-tinh', title: 'Mạng máy tính (giao thức, mã hoá, đa kết nối)', group: 'Nền tảng mạng & hệ thống', appearsIn: ['entry-experienced'] },
+  { slug: '11-web-server-microservices', title: 'Web server / Microservices cơ bản', group: 'Nền tảng mạng & hệ thống', appearsIn: ['entry-experienced'] },
+  { slug: '12-git-svn', title: 'Git/SVN', group: 'Công cụ & vận hành', appearsIn: ['entry-experienced'] },
+  { slug: '13-ide-debug', title: 'IDE & debug code', group: 'Công cụ & vận hành', appearsIn: ['entry-experienced'] },
+  { slug: '14-phan-tich-log-debug', title: 'Phân tích log / debug', group: 'Công cụ & vận hành', appearsIn: ['entry-experienced'] },
+  { slug: '15-docker', title: 'Docker (đóng gói ứng dụng)', group: 'Công cụ & vận hành', appearsIn: ['entry-experienced'] },
+  { slug: '16-ci-cd', title: 'CI/CD', group: 'Công cụ & vận hành', appearsIn: ['entry-experienced'] },
+];
+
+export const SKILLS_BY_ROLE: Record<string, Skill[]> = {
+  fe: FE_SKILLS,
+  be: BE_SKILLS,
+};
+
 export interface Role {
   slug: string;
   title: string;
   available: boolean;
+  // Có trang "Tình huống thực chiến" chưa — chưa viết cho role mới thì ẩn link, tránh 404.
+  hasTinhHuong: boolean;
 }
 
 export const ROLES: Role[] = [
-  { slug: 'fe', title: 'Dev Front-end', available: true },
-  { slug: 'be', title: 'Dev Back-end', available: false },
+  { slug: 'fe', title: 'Dev Front-end', available: true, hasTinhHuong: true },
+  { slug: 'be', title: 'Dev Back-end', available: true, hasTinhHuong: false },
 ];
 
 export function getRole(slug: string): Role | undefined {
   return ROLES.find((r) => r.slug === slug);
 }
 
-export function getSkill(slug: string): Skill | undefined {
-  return FE_SKILLS.find((s) => s.slug === slug);
+export function getSkill(roleSlug: string, slug: string): Skill | undefined {
+  return SKILLS_BY_ROLE[roleSlug]?.find((s) => s.slug === slug);
 }
 
-// Kỹ năng nhóm theo GROUP_ORDER của một level (cho sidenav + trang tổng quan).
-export function skillsByGroup(level: LevelSlug): { group: string; skills: Skill[] }[] {
-  return GROUP_ORDER[level].map((group) => ({
+// Kỹ năng nhóm theo GROUP_ORDER của một role + level (cho sidenav + trang tổng quan).
+export function skillsByGroup(roleSlug: string, level: LevelSlug): { group: string; skills: Skill[] }[] {
+  const skills = SKILLS_BY_ROLE[roleSlug] ?? [];
+  return (GROUP_ORDER[roleSlug]?.[level] ?? []).map((group) => ({
     group,
-    skills: FE_SKILLS.filter((s) => s.group === group && s.appearsIn.includes(level)),
+    skills: skills.filter((s) => s.group === group && s.appearsIn.includes(level)),
   }));
 }
 
 // Kỹ năng liền trước / liền sau theo thứ tự khai báo (cho nút điều hướng trước–sau).
-export function adjacentSkills(slug: string): { prev: Skill | null; next: Skill | null } {
-  const i = FE_SKILLS.findIndex((s) => s.slug === slug);
+export function adjacentSkills(roleSlug: string, slug: string): { prev: Skill | null; next: Skill | null } {
+  const skills = SKILLS_BY_ROLE[roleSlug] ?? [];
+  const i = skills.findIndex((s) => s.slug === slug);
   return {
-    prev: i > 0 ? FE_SKILLS[i - 1] : null,
-    next: i >= 0 && i < FE_SKILLS.length - 1 ? FE_SKILLS[i + 1] : null,
+    prev: i > 0 ? skills[i - 1] : null,
+    next: i >= 0 && i < skills.length - 1 ? skills[i + 1] : null,
   };
 }

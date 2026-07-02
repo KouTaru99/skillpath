@@ -5,13 +5,13 @@ import { ROLES, getRole } from '@/lib/structure';
 import { renderMarkdownFile } from '@/lib/md';
 
 export function generateStaticParams() {
-  return ROLES.filter((r) => r.available).map((r) => ({ role: r.slug }));
+  return ROLES.filter((r) => r.available && r.hasTinhHuong).map((r) => ({ role: r.slug }));
 }
 
 export default async function TinhHuongPage({ params }: { params: Promise<{ role: string }> }) {
   const { role: roleSlug } = await params;
   const role = getRole(roleSlug);
-  if (!role || !role.available) notFound();
+  if (!role || !role.available || !role.hasTinhHuong) notFound();
 
   const html = renderMarkdownFile(`tinh-huong/${role.slug}.md`);
 

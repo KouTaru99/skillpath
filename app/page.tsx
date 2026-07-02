@@ -1,6 +1,14 @@
 import Link from 'next/link';
 import { Container, Title, Text, SimpleGrid, Card, Group, Badge, Button, Stack } from '@mantine/core';
-import { ROLES } from '@/lib/structure';
+import { ROLES, SKILLS_BY_ROLE, roleHasLevel } from '@/lib/structure';
+
+function roleSummary(roleSlug: string): string {
+  const count = SKILLS_BY_ROLE[roleSlug]?.length ?? 0;
+  const scope = roleHasLevel(roleSlug, 'specialist')
+    ? 'Entry → Specialist (10 vùng)'
+    : 'Entry → Experienced';
+  return `${count} kỹ năng · ${scope} · định nghĩa + ví dụ thực tế theo 4 mức.`;
+}
 
 export default function HomePage() {
   return (
@@ -35,9 +43,7 @@ export default function HomePage() {
               )}
             </Group>
             <Text size="sm" c="dimmed" mb="md">
-              {role.available
-                ? '16 kỹ năng · Entry → Experienced · định nghĩa + ví dụ thực tế theo 4 mức.'
-                : 'Sẽ bổ sung khi có thêm tài liệu.'}
+              {role.available ? roleSummary(role.slug) : 'Sẽ bổ sung khi có thêm tài liệu.'}
             </Text>
             <Button
               component={Link}
