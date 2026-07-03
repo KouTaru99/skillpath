@@ -30,9 +30,9 @@ export default async function SeniorPage({ params }: { params: Promise<{ role: s
       </Title>
       <LevelSwitcher role={role.slug} active="senior" />
       <Text c="dimmed" mb="lg" maw={640}>
-        Senior giữ nguyên yêu cầu của Experienced và thêm 2 mảng mới: kiến trúc & thiết kế giải
-        pháp, quản lý & lãnh đạo kỹ thuật — đúng bản chất &quot;từ code giỏi sang tư vấn kiến trúc,
-        dẫn dắt đội&quot;. Kỹ năng cũ vẫn ở đây vì career-path vẫn yêu cầu, chỉ đào sâu hơn.
+        Senior giữ nguyên yêu cầu của Experienced và thêm các nhóm kỹ năng mới — đúng bản chất
+        &quot;từ làm giỏi việc sang tư vấn kiến trúc, dẫn dắt đội&quot;. Kỹ năng cũ vẫn ở đây vì
+        career-path vẫn yêu cầu, chỉ đào sâu hơn.
       </Text>
 
       <Stack gap="xl">

@@ -42,6 +42,16 @@ export function getLevel(slug: string): LevelInfo | undefined {
   return LEVELS.find((l) => l.slug === slug);
 }
 
+// Tên level hiển thị đôi khi lệch theo role (vd Tester dùng "Junior" thay vì "Entry"
+// theo đúng career-path gốc) — tra override trước, rơi về title mặc định của LEVELS.
+const LEVEL_TITLE_OVERRIDE: Record<string, Partial<Record<LevelSlug, string>>> = {
+  tester: { 'entry-experienced': 'Junior → Experienced' },
+};
+
+export function getLevelTitle(roleSlug: string, slug: LevelSlug): string {
+  return LEVEL_TITLE_OVERRIDE[roleSlug]?.[slug] ?? getLevel(slug)?.title ?? slug;
+}
+
 export interface Skill {
   slug: string;
   title: string;
@@ -108,6 +118,33 @@ export const GROUP_ORDER: Record<string, Record<LevelSlug, string[]>> = {
       'Công cụ & vận hành',
       'Quản lý & lãnh đạo kỹ thuật',
       'Chiến lược & quản trị công nghệ',
+    ],
+  },
+  tester: {
+    'entry-experienced': [
+      'Quy trình & tư duy nghiệp vụ',
+      'Lõi Kiểm thử',
+      'Kỹ thuật nâng cao Kiểm thử',
+      'Công cụ & vận hành',
+    ],
+    senior: [
+      'Quy trình & tư duy nghiệp vụ',
+      'Lõi Kiểm thử',
+      'Kỹ thuật nâng cao Kiểm thử',
+      'Kiến trúc & thiết kế giải pháp',
+      'ATTT & chuyên sâu',
+      'Công cụ & vận hành',
+      'Quản lý & lãnh đạo kỹ thuật',
+    ],
+    specialist: [
+      'Quy trình & tư duy nghiệp vụ',
+      'Lõi Kiểm thử',
+      'Kỹ thuật nâng cao Kiểm thử',
+      'Kiến trúc & thiết kế giải pháp',
+      'ATTT & chuyên sâu',
+      'Công cụ & vận hành',
+      'Quản lý & lãnh đạo kỹ thuật',
+      'Chiến lược & quản trị kiểm thử',
     ],
   },
 };
@@ -209,9 +246,49 @@ export const BE_SKILLS: Skill[] = [
   { slug: '36-dam-bao-nfr', title: 'Đảm bảo yêu cầu phi chức năng hệ thống (NFR)', group: 'Chiến lược & quản trị công nghệ', appearsIn: ['specialist'] },
 ];
 
+// 14 kỹ năng nền Tester (Junior → Experienced) + kỹ năng thêm cho Senior/Specialist.
+// Nguồn: JD thật Trung tâm Sản phẩm Telco (Data_JD) + tester-carrer-path.pdf (xem _planning/map-tester.md).
+export const TESTER_SKILLS: Skill[] = [
+  // --- 14 kỹ năng nền, vẫn required ở Senior/Specialist ---
+  { slug: '01-quy-trinh-ptpm', title: 'Quy trình phát triển phần mềm (Agile/Scrum)', group: 'Quy trình & tư duy nghiệp vụ', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '02-doc-hieu-phan-tich-yeu-cau', title: 'Đọc hiểu, phân tích & phản biện yêu cầu nghiệp vụ', group: 'Quy trình & tư duy nghiệp vụ', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '03-khai-niem-nguyen-ly-kiem-thu', title: 'Khái niệm & nguyên lý kiểm thử', group: 'Lõi Kiểm thử', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '04-cac-loai-kiem-thu', title: 'Các loại kiểm thử', group: 'Lõi Kiểm thử', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '05-cac-muc-do-kiem-thu', title: 'Các mức độ kiểm thử', group: 'Lõi Kiểm thử', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '06-ky-thuat-thiet-ke-kiem-thu', title: 'Kỹ thuật thiết kế kiểm thử', group: 'Lõi Kiểm thử', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '07-xay-dung-tai-lieu-kiem-thu', title: 'Xây dựng tài liệu kiểm thử', group: 'Lõi Kiểm thử', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '08-sql-co-so-du-lieu', title: 'SQL & cơ sở dữ liệu sản phẩm', group: 'Kỹ thuật nâng cao Kiểm thử', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '09-giao-thuc-mang', title: 'Giao thức mạng (HTTP/HTTPS)', group: 'Kỹ thuật nâng cao Kiểm thử', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '10-kiem-thu-api-tu-dong-hoa', title: 'Kiểm thử API & công cụ tự động hoá', group: 'Kỹ thuật nâng cao Kiểm thử', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '11-uoc-luong-no-luc-rui-ro', title: 'Ước lượng nỗ lực & rủi ro kiểm thử', group: 'Kỹ thuật nâng cao Kiểm thử', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '12-nghiep-vu-he-thong-san-pham', title: 'Nghiệp vụ hệ thống của sản phẩm', group: 'Kỹ thuật nâng cao Kiểm thử', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '13-cong-cu-quan-ly-loi', title: 'Công cụ quản lý lỗi & yêu cầu thay đổi', group: 'Công cụ & vận hành', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '14-tin-hoc-van-phong', title: 'Tin học văn phòng', group: 'Công cụ & vận hành', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+
+  // --- 8 kỹ năng mới xuất hiện từ Senior ---
+  { slug: '15-ci-cd-co-ban', title: 'CI/CD cơ bản', group: 'Công cụ & vận hành', appearsIn: ['senior', 'specialist'] },
+  { slug: '16-kien-thuc-attt', title: 'Kiến thức chuyên ngành ATTT', group: 'ATTT & chuyên sâu', appearsIn: ['senior', 'specialist'] },
+  { slug: '17-am-hieu-san-pham-attt', title: 'Am hiểu dòng sản phẩm ATTT', group: 'ATTT & chuyên sâu', appearsIn: ['senior', 'specialist'] },
+  { slug: '18-kiem-thu-chuyen-sau', title: 'Kiểm thử chuyên sâu theo mảng (hiệu năng/bảo mật/thiết bị)', group: 'ATTT & chuyên sâu', appearsIn: ['senior', 'specialist'] },
+  { slug: '19-danh-gia-rui-ro-chat-luong', title: 'Phân tích, đánh giá & dự báo rủi ro chất lượng sản phẩm', group: 'ATTT & chuyên sâu', appearsIn: ['senior', 'specialist'] },
+  { slug: '20-cai-tien-luong-nghiep-vu', title: 'Phân tích & đề xuất cải tiến luồng nghiệp vụ', group: 'Kiến trúc & thiết kế giải pháp', appearsIn: ['senior', 'specialist'] },
+  { slug: '21-huong-dan-review-kich-ban', title: 'Hướng dẫn & review kịch bản kiểm thử', group: 'Quản lý & lãnh đạo kỹ thuật', appearsIn: ['senior', 'specialist'] },
+  { slug: '22-quan-ly-nhom-kiem-thu', title: 'Quản lý nhóm kiểm thử', group: 'Quản lý & lãnh đạo kỹ thuật', appearsIn: ['senior', 'specialist'] },
+
+  // --- 7 kỹ năng mới xuất hiện từ Specialist ---
+  { slug: '23-nghien-cuu-cong-nghe-kiem-thu-moi', title: 'Nghiên cứu công nghệ/kỹ thuật kiểm thử mới (R&D)', group: 'Chiến lược & quản trị kiểm thử', appearsIn: ['specialist'] },
+  { slug: '24-xay-dung-chien-luoc-kiem-thu', title: 'Xây dựng chiến lược kiểm thử cho đơn vị', group: 'Chiến lược & quản trị kiểm thử', appearsIn: ['specialist'] },
+  { slug: '25-tu-van-lua-chon-cong-nghe-kiem-thu', title: 'Tư vấn lựa chọn công nghệ/công cụ kiểm thử', group: 'Chiến lược & quản trị kiểm thử', appearsIn: ['specialist'] },
+  { slug: '26-dao-tao-lan-toa-kien-thuc', title: 'Đào tạo, lan toả kiến thức chuyên sâu', group: 'Chiến lược & quản trị kiểm thử', appearsIn: ['specialist'] },
+  { slug: '27-danh-gia-nang-luc-dinh-huong-phat-trien', title: 'Đánh giá năng lực, định hướng phát triển đội ngũ', group: 'Chiến lược & quản trị kiểm thử', appearsIn: ['specialist'] },
+  { slug: '28-phan-bien-giai-phap-kien-truc', title: 'Phản biện giải pháp nghiệp vụ & kiến trúc hệ thống', group: 'Kiến trúc & thiết kế giải pháp', appearsIn: ['specialist'] },
+  { slug: '29-review-kien-truc-san-pham', title: 'Review kiến trúc sản phẩm, phát hiện rủi ro hệ thống', group: 'Kiến trúc & thiết kế giải pháp', appearsIn: ['specialist'] },
+];
+
 export const SKILLS_BY_ROLE: Record<string, Skill[]> = {
   fe: FE_SKILLS,
   be: BE_SKILLS,
+  tester: TESTER_SKILLS,
 };
 
 export interface Role {
@@ -227,6 +304,7 @@ export interface Role {
 export const ROLES: Role[] = [
   { slug: 'fe', title: 'Dev Front-end', available: true, hasTinhHuong: true, hasPhongVan: true },
   { slug: 'be', title: 'Dev Back-end', available: true, hasTinhHuong: false, hasPhongVan: true },
+  { slug: 'tester', title: 'Kiểm thử (Tester)', available: true, hasTinhHuong: false, hasPhongVan: false },
 ];
 
 export function getRole(slug: string): Role | undefined {

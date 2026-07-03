@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { AppShell, Burger, Group, Text, NavLink, ScrollArea, Divider, Badge } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import { ROLES, LEVELS, skillsByGroup, roleHasLevel } from '@/lib/structure';
+import { ROLES, LEVELS, skillsByGroup, roleHasLevel, getLevelTitle } from '@/lib/structure';
 
 export function AppFrame({ children }: { children: React.ReactNode }) {
   const [opened, { toggle }] = useDisclosure();
@@ -60,7 +60,7 @@ export function AppFrame({ children }: { children: React.ReactNode }) {
                         <NavLink
                           component={Link}
                           href={levelHref}
-                          label={lvl.title}
+                          label={getLevelTitle(role.slug, lvl.slug)}
                           fw={700}
                           active={pathname === levelHref}
                           onClick={close}

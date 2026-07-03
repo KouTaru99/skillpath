@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Group, Button, Tooltip } from '@mantine/core';
-import { LEVELS, roleHasLevel, type LevelSlug } from '@/lib/structure';
+import { LEVELS, roleHasLevel, getLevelTitle, type LevelSlug } from '@/lib/structure';
 
 export function LevelSwitcher({ role, active }: { role: string; active: LevelSlug }) {
   return (
@@ -8,12 +8,13 @@ export function LevelSwitcher({ role, active }: { role: string; active: LevelSlu
       {LEVELS.map((lvl) => {
         const isActive = lvl.slug === active;
         const available = roleHasLevel(role, lvl.slug);
+        const title = getLevelTitle(role, lvl.slug);
 
         if (!available) {
           return (
             <Tooltip key={lvl.slug} label={lvl.blurb}>
               <Button disabled variant="light" color="indigo" size="xs" radius="xl">
-                {lvl.title}
+                {title}
               </Button>
             </Tooltip>
           );
@@ -30,7 +31,7 @@ export function LevelSwitcher({ role, active }: { role: string; active: LevelSlu
             size="xs"
             radius="xl"
           >
-            {lvl.title}
+            {title}
           </Button>
         );
       })}

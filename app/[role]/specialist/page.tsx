@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Container, Title, Text, Card, Group, Stack, ThemeIcon, Breadcrumbs, Anchor } from '@mantine/core';
-import { ROLES, getRole, skillsByGroup, roleHasLevel } from '@/lib/structure';
+import { ROLES, getRole, skillsByGroup, roleHasLevel, GROUP_ORDER } from '@/lib/structure';
 import { LevelSwitcher } from '@/components/LevelSwitcher';
 
 export function generateStaticParams() {
@@ -29,12 +29,16 @@ export default async function SpecialistPage({ params }: { params: Promise<{ rol
         {role.title}
       </Title>
       <LevelSwitcher role={role.slug} active="specialist" />
-      <Text c="dimmed" mb="lg" maw={640}>
-        Specialist giữ nguyên yêu cầu của Senior và thêm mảng &quot;Chiến lược &amp; quản trị công
-        nghệ&quot; — nghiên cứu công nghệ mới, quản lý dự án, sở hữu Technology Stack của đơn vị.
-        Đây là 3 vùng cuối cùng của toàn bộ thang {role.title}: từ chuyên gia kỹ thuật sang người
-        ra quyết định công nghệ cấp đơn vị.
-      </Text>
+      {(() => {
+        const strategyGroup = GROUP_ORDER[role.slug]?.specialist?.slice(-1)[0];
+        return (
+          <Text c="dimmed" mb="lg" maw={640}>
+            Specialist giữ nguyên yêu cầu của Senior và thêm mảng &quot;{strategyGroup}&quot;. Đây
+            là 3 vùng cuối cùng của toàn bộ thang {role.title}: từ chuyên gia kỹ thuật sang người
+            ra quyết định cấp đơn vị.
+          </Text>
+        );
+      })()}
 
       <Stack gap="xl">
         {skillsByGroup(role.slug, 'specialist').map(({ group, skills }) => (

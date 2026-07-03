@@ -11,7 +11,7 @@ import {
   Breadcrumbs,
   Anchor,
 } from '@mantine/core';
-import { ROLES, getRole, skillsByGroup } from '@/lib/structure';
+import { ROLES, getRole, skillsByGroup, getLevelTitle } from '@/lib/structure';
 import { LevelSwitcher } from '@/components/LevelSwitcher';
 
 export function generateStaticParams() {
@@ -37,8 +37,8 @@ export default async function RolePage({ params }: { params: Promise<{ role: str
       </Title>
       <LevelSwitcher role={role.slug} active="entry-experienced" />
       <Text c="dimmed" mb="lg" maw={640}>
-        Kỹ năng cần cho lộ trình Entry → Experienced. Mỗi kỹ năng có định nghĩa và ví dụ thực tế
-        chi tiết ở từng mức thành thạo. Chọn một kỹ năng để bắt đầu.
+        Kỹ năng cần cho lộ trình {getLevelTitle(role.slug, 'entry-experienced')}. Mỗi kỹ năng có
+        định nghĩa và ví dụ thực tế chi tiết ở từng mức thành thạo. Chọn một kỹ năng để bắt đầu.
       </Text>
 
       {role.hasTinhHuong && (
