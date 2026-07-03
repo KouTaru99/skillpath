@@ -1,20 +1,85 @@
 # Kiến thức chuyên sâu nghiệp vụ theo lĩnh vực
 
-**Định nghĩa.** Specialist BA có kiến thức chuyên sâu về **1 lĩnh vực nghiệp vụ cụ thể** (ví dụ: tài chính, tài sản, nhân sự, hoặc ATTT) — không chỉ hiểu 1 sản phẩm mà hiểu cả bức tranh ngành, giúp tư vấn ở tầm chiến lược.
+**Định nghĩa.** Specialist BA có kiến thức chuyên sâu về **một lĩnh vực nghiệp vụ cụ thể** (tài chính, tài sản, nhân sự — hoặc với bối cảnh của chúng ta: **ATTT**, an toàn thông tin) — không chỉ hiểu một sản phẩm mà hiểu cả bức tranh ngành: chuẩn mực, quy định, cách các tổ chức khác giải cùng bài toán. Khác biệt căn bản với "nắm nghiệp vụ sản phẩm" (kỹ năng Experienced): một bên hiểu *sản phẩm mình*, một bên hiểu *cả ngành* — đủ để biết sản phẩm mình đang đứng đâu và nên đi đâu.
 
 ## ▸ Specialist·V1 — ① Nhập môn
-**Ở mức này bạn làm chủ được gì.** Bắt đầu tìm hiểu sâu hơn về ngành/lĩnh vực (ATTT) ngoài phạm vi sản phẩm cụ thể mình đang làm.
+**Ở mức này bạn làm chủ được gì.** Chủ động học có hệ thống các khung chuẩn của ngành, vượt ra ngoài phạm vi sản phẩm đang làm — và bắt đầu nối được "chuẩn ngành" với "việc hằng ngày".
 
-**Ví dụ thực tế.** Bạn tự nghiên cứu các khung chuẩn ATTT phổ biến (như ISO 27001, khung MITRE ATT&CK mô tả các kỹ thuật tấn công phổ biến) để hiểu bức tranh ngành rộng hơn hệ thống giám sát cụ thể mình đang làm.
+**Tình huống thực tế — tự học MITRE ATT&CK và ISO 27001 có mục đích.** Bạn không đọc lan man mà học theo bản đồ tự vạch:
+
+```
+KẾ HOẠCH TỰ HỌC LĨNH VỰC ATTT (quý này)
+
+  Khung           | Nó là gì                       | Nối vào việc của mình
+  ----------------|--------------------------------|------------------------
+  MITRE ATT&CK    | Bảng tra cứu chuẩn toàn cầu về | Mỗi loại cảnh báo của
+  (khung mô tả    | các KỸ THUẬT tấn công thật     | hệ thống mình đang phát
+  kỹ thuật tấn    | (vd: T1110 dò mật khẩu,        | hiện ứng với kỹ thuật
+  công)           | T1046 quét dịch vụ mạng)       | nào trong ATT&CK?
+  ISO 27001       | Chuẩn quốc tế về QUẢN LÝ an    | Khách hàng lớn sẽ đòi
+  (chuẩn hệ thống | toàn thông tin trong tổ chức   | báo cáo theo chuẩn này
+  quản lý ATTT)   | (quy trình, kiểm soát, audit)  | khi mua sản phẩm giám sát
+```
+
+Bài tập tự giao: lấy 20 loại cảnh báo hệ thống mình đang có, gắn mã ATT&CK cho từng loại. Kết quả phụ bất ngờ: 20 cảnh báo chỉ phủ 12 kỹ thuật — lần đầu bạn *nhìn thấy* vùng mù của sản phẩm bằng ngôn ngữ chuẩn ngành.
+
+**Vì sao là mức ①:** học có hệ thống và bắt đầu nối chuẩn ngành vào sản phẩm; kiến thức chưa đủ dày để tư vấn định hướng.
 
 ## ▸ Specialist·V2 — ② Biết làm
-**Khác V1:** áp dụng được kiến thức chuyên sâu ngành vào tư vấn thực tế cho sản phẩm.
+**Khác V1:** **dùng kiến thức ngành để tư vấn quyết định thực tế** — thay câu "em nghĩ nên làm X" bằng "dữ liệu ngành cho thấy nên làm X".
 
-**Ví dụ thực tế.** Dựa hiểu biết về khung MITRE ATT&CK, bạn tư vấn cho team sản phẩm nên ưu tiên phát hiện loại kỹ thuật tấn công nào trước (dựa trên tần suất xuất hiện thực tế trong ngành), thay vì team tự đoán mò nên làm tính năng phát hiện gì trước.
+**Tình huống thực tế — dùng ATT&CK chấm dứt cuộc tranh luận "làm tính năng phát hiện gì trước".** Team sản phẩm tranh luận cảm tính suốt 2 buổi họp: người muốn phát hiện mã độc, người muốn phát hiện leo thang đặc quyền. Bạn mang khung ngành vào:
 
-## ▸ Specialist·V3 — ④ Chuyên gia
-**Khác V2:** trở thành người có kiến thức chuyên sâu **được cả đơn vị tìm tới tham vấn** về lĩnh vực này.
+```
+PHÂN TÍCH ƯU TIÊN THEO DỮ LIỆU NGÀNH (trích)
 
-**Ví dụ thực tế.** Khi đơn vị cân nhắc đầu tư vào 1 hướng ATTT mới (ví dụ giám sát bảo mật cho hạ tầng cloud), bạn là người được mời tham vấn đầu tiên nhờ kiến thức chuyên sâu tích luỹ được, ý kiến của bạn ảnh hưởng trực tiếp tới quyết định đầu tư.
+  Kỹ thuật ATT&CK       | Tần suất gặp     | Mình đã     | Khoảng trống
+                        | (báo cáo ngành + | phát hiện   |
+                        | log nội bộ 6th)  | được chưa?  |
+  ----------------------|------------------|-------------|--------------
+  T1110 Dò mật khẩu     | RẤT CAO (cả 2)   | ✅ tốt      | —
+  T1566 Phishing        | RẤT CAO ngành,   | ❌          | 🔴 LỚN NHẤT
+                        | CAO nội bộ       |             |
+  T1068 Leo thang đặc   | TRUNG BÌNH       | ❌          | 🟡 làm sau
+  quyền                 |                  |             |
+  T1486 Mã hoá tống     | THẤP nội bộ      | ❌          | 🟡 (nặng nếu
+  tiền (ransomware)     | (chưa từng gặp)  |             | dính, nhưng
+                        |                  |             | xác suất thấp)
 
-**Vì sao tăng dần ①→④:** từ tự tìm hiểu, tới áp dụng tư vấn thực tế, tới trở thành người tham vấn được tìm tới cho quyết định đầu tư của đơn vị.
+KHUYẾN NGHỊ: ưu tiên phát hiện dấu hiệu Phishing — tần suất cao
+nhất trong cả dữ liệu ngành lẫn log nội bộ mà mình đang mù hoàn toàn.
+```
+
+Cuộc tranh luận 2 buổi kết thúc trong 15 phút — không phải vì bạn nói to hơn, mà vì bạn đổi mặt bằng tranh luận từ "tôi nghĩ" sang "dữ liệu ngành nói".
+
+**Vì sao là mức ②:** kiến thức ngành được chuyển hoá thành tư vấn quyết định cụ thể có căn cứ; phạm vi ảnh hưởng là quyết định của team sản phẩm.
+
+## ▸ Specialist·V3 — ④ Chuyên sâu
+**Khác V2:** trở thành **người được cả đơn vị tìm tới tham vấn** về lĩnh vực — ý kiến của bạn ảnh hưởng trực tiếp quyết định đầu tư cấp đơn vị, và bạn đủ sâu để nói "chưa nên làm" trước một cơ hội hấp dẫn.
+
+**Tình huống thực tế — tham vấn quyết định đầu tư hướng "giám sát bảo mật cloud".** Đơn vị cân nhắc mở dòng sản phẩm giám sát bảo mật hạ tầng cloud — thị trường đang nóng, lãnh đạo hào hứng. Bạn là người được mời tham vấn đầu tiên, và bản tham vấn của bạn có sức nặng vì nó **không chỉ nói về công nghệ**:
+
+```
+BẢN THAM VẤN (tóm tắt 1 trang trình lãnh đạo)
+
+GÓC NGÀNH      Giám sát cloud khác giám sát mạng nội bộ ở GỐC dữ liệu:
+               không còn "log firewall của mình" mà là API của nhà cung
+               cấp cloud (mỗi nhà một kiểu, đổi liên tục). Năng lực lõi
+               phải xây lại ~60%, không phải "mở rộng sản phẩm cũ" như
+               tư vấn bán hàng mô tả.
+GÓC QUY ĐỊNH   Khách hàng khối nhà nước (70% doanh thu đơn vị) còn bị
+               ràng buộc quy định dữ liệu đặt tại chỗ → nhu cầu cloud
+               THẬT của tệp khách này ít nhất 2-3 năm nữa mới chín.
+GÓC NĂNG LỰC   Đơn vị chưa có ai vận hành cloud ở quy mô sản xuất —
+               bán sản phẩm giám sát cloud khi chính mình chưa vận hành
+               cloud là rủi ro uy tín.
+KHUYẾN NGHỊ    CHƯA đầu tư dòng sản phẩm riêng. Bước đệm 2 quý: (1) đưa
+               1-2 nguồn log cloud phổ biến vào sản phẩm hiện có như
+               connector mới; (2) cử 2 người học vận hành cloud thật.
+               Đo nhu cầu qua connector — có số thật rồi mới quyết dòng
+               sản phẩm.
+```
+
+Sáu tháng sau, một đơn vị bạn cạnh tranh lao vào hướng này và sa lầy đúng chỗ "xây lại 60%" — còn đơn vị bạn có 2 connector cloud chạy ổn và số liệu nhu cầu thật để quyết bước tiếp. Uy tín "người tham vấn" của bạn được xây bằng những lần **dám khuyên chậm lại có căn cứ** như vậy.
+
+**Vì sao là mức ④:** kiến thức lĩnh vực đủ sâu và đủ rộng (công nghệ + quy định + năng lực tổ chức) để định hình quyết định đầu tư cấp đơn vị — kể cả quyết định "không làm", vốn khó nói và đắt giá nhất. (Thang vùng này ①→②→④ — không có mốc ③ vì đây là vùng cuối của toàn thang.)

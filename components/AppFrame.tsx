@@ -1,15 +1,73 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { AppShell, Burger, Group, Text, NavLink, ScrollArea, Divider, Badge } from '@mantine/core';
+import { AppShell, Burger, Group, Text, NavLink, ScrollArea, Badge } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import { ROLES, LEVELS, skillsByGroup, roleHasLevel, getLevelTitle } from '@/lib/structure';
+import {
+  ROLES,
+  LEVELS,
+  skillsByGroup,
+  roleHasLevel,
+  getLevelTitle,
+  type LevelSlug,
+} from '@/lib/structure';
+
+// trailingSlash:true (static export) → pathname bản build có "/" cuối, bản dev thì không.
+// Chuẩn hoá cả 2 vế trước khi so sánh, nếu không active không bao giờ khớp trên bản live.
+function norm(p: string): string {
+  const s = p.replace(/\/+$/, '');
+  return s === '' ? '/' : s;
+}
+
+// Tìm nhánh (role/level/group) chứa trang đang xem để tự mở đúng nhánh đó trong tree.
+function locateBranch(pathname: string): { role: string; level?: LevelSlug; group?: string } | null {
+  const parts = norm(pathname).split('/').filter(Boolean);
+  if (parts.length === 0) return null;
+  const roleSlug = parts[0];
+  if (!ROLES.some((r) => r.slug === roleSlug)) return null;
+
+  if (parts[1] === 'ky-nang' && parts[2]) {
+    // Trang kỹ năng không mang level trên URL — lấy level ĐẦU TIÊN chứa kỹ năng đó.
+    for (const lvl of LEVELS) {
+      if (!roleHasLevel(roleSlug, lvl.slug)) continue;
+      for (const { group, skills } of skillsByGroup(roleSlug, lvl.slug)) {
+        if (skills.some((s) => s.slug === parts[2])) {
+          return { role: roleSlug, level: lvl.slug, group };
+        }
+      }
+    }
+    return { role: roleSlug };
+  }
+
+  if (parts[1] === 'senior' || parts[1] === 'specialist') {
+    return { role: roleSlug, level: parts[1] };
+  }
+  // /[role], /[role]/tinh-huong, /[role]/phong-van → mở role + level gốc
+  return { role: roleSlug, level: 'entry-experienced' };
+}
 
 export function AppFrame({ children }: { children: React.ReactNode }) {
   const [opened, { toggle }] = useDisclosure();
   const pathname = usePathname();
   const close = opened ? toggle : undefined;
+
+  const [openRoles, setOpenRoles] = useState<Record<string, boolean>>({});
+  const [openLevels, setOpenLevels] = useState<Record<string, boolean>>({});
+  const [openGroups, setOpenGroups] = useState<Record<string, boolean>>({});
+
+  // Điều hướng tới đâu, tree tự mở nhánh đó (giữ nguyên các nhánh người dùng đã tự mở).
+  useEffect(() => {
+    const loc = locateBranch(pathname);
+    if (!loc) return;
+    setOpenRoles((s) => ({ ...s, [loc.role]: true }));
+    if (loc.level) setOpenLevels((s) => ({ ...s, [`${loc.role}/${loc.level}`]: true }));
+    if (loc.level && loc.group)
+      setOpenGroups((s) => ({ ...s, [`${loc.role}/${loc.level}/${loc.group}`]: true }));
+  }, [pathname]);
+
+  const isActive = (href: string) => norm(pathname) === norm(href);
 
   return (
     <AppShell
@@ -39,90 +97,99 @@ export function AppFrame({ children }: { children: React.ReactNode }) {
       <AppShell.Navbar>
         <ScrollArea type="scroll" px="sm" py="md">
           {ROLES.map((role) => (
-            <div key={role.slug} style={{ marginBottom: 8 }}>
-              <Group justify="space-between" px="xs" mb={6}>
-                <Text size="sm" fw={700}>
-                  {role.title}
-                </Text>
-                {!role.available && (
+            <NavLink
+              key={role.slug}
+              label={role.title}
+              fw={700}
+              disabled={!role.available}
+              rightSection={
+                !role.available ? (
                   <Badge size="xs" variant="light" color="gray">
                     sắp có
                   </Badge>
-                )}
-              </Group>
-
-              {role.available && (
-                <>
-                  {LEVELS.filter((lvl) => roleHasLevel(role.slug, lvl.slug)).map((lvl) => {
-                    const levelHref = lvl.slug === 'entry-experienced' ? `/${role.slug}` : `/${role.slug}/${lvl.slug}`;
-                    return (
-                      <div key={lvl.slug} style={{ marginTop: 4 }}>
-                        <NavLink
-                          component={Link}
-                          href={levelHref}
-                          label={getLevelTitle(role.slug, lvl.slug)}
-                          fw={700}
-                          active={pathname === levelHref}
-                          onClick={close}
-                        />
-                        {skillsByGroup(role.slug, lvl.slug).map(({ group, skills }) => (
-                          <div key={group} style={{ marginTop: 6, marginLeft: 8 }}>
-                            <Text
-                              size="xs"
-                              fw={600}
-                              c="dimmed"
-                              tt="uppercase"
-                              px="xs"
-                              mb={2}
-                              style={{ letterSpacing: 0.3 }}
-                            >
-                              {group}
-                            </Text>
+                ) : undefined
+              }
+              opened={!!openRoles[role.slug]}
+              onChange={(o) => setOpenRoles((s) => ({ ...s, [role.slug]: o }))}
+              childrenOffset={12}
+            >
+              {role.available &&
+                LEVELS.filter((lvl) => roleHasLevel(role.slug, lvl.slug)).map((lvl) => {
+                  const levelHref =
+                    lvl.slug === 'entry-experienced' ? `/${role.slug}` : `/${role.slug}/${lvl.slug}`;
+                  const levelKey = `${role.slug}/${lvl.slug}`;
+                  return (
+                    <NavLink
+                      key={levelKey}
+                      label={getLevelTitle(role.slug, lvl.slug)}
+                      fw={600}
+                      opened={!!openLevels[levelKey]}
+                      onChange={(o) => setOpenLevels((s) => ({ ...s, [levelKey]: o }))}
+                      childrenOffset={12}
+                    >
+                      <NavLink
+                        component={Link}
+                        href={levelHref}
+                        label={`Tổng quan ${getLevelTitle(role.slug, lvl.slug)}`}
+                        active={isActive(levelHref)}
+                        onClick={close}
+                      />
+                      {skillsByGroup(role.slug, lvl.slug).map(({ group, skills }) => {
+                        const groupKey = `${levelKey}/${group}`;
+                        return (
+                          <NavLink
+                            key={groupKey}
+                            label={group}
+                            fz="xs"
+                            c="dimmed"
+                            tt="uppercase"
+                            opened={!!openGroups[groupKey]}
+                            onChange={(o) => setOpenGroups((s) => ({ ...s, [groupKey]: o }))}
+                            childrenOffset={8}
+                          >
                             {skills.map((s) => (
                               <NavLink
-                                key={`${lvl.slug}-${s.slug}`}
+                                key={`${groupKey}/${s.slug}`}
                                 component={Link}
                                 href={`/${role.slug}/ky-nang/${s.slug}`}
                                 label={s.title}
-                                active={pathname === `/${role.slug}/ky-nang/${s.slug}`}
+                                active={isActive(`/${role.slug}/ky-nang/${s.slug}`)}
                                 onClick={close}
                               />
                             ))}
-                          </div>
-                        ))}
-                      </div>
-                    );
-                  })}
-                  {role.hasTinhHuong && (
-                    <NavLink
-                      component={Link}
-                      href={`/${role.slug}/tinh-huong`}
-                      label="Tình huống thực chiến"
-                      description="50 issue/bug thật + cách gỡ"
-                      active={pathname === `/${role.slug}/tinh-huong`}
-                      color="indigo"
-                      variant="filled"
-                      onClick={close}
-                      mt="md"
-                    />
-                  )}
-                  {role.hasPhongVan && (
-                    <NavLink
-                      component={Link}
-                      href={`/${role.slug}/phong-van`}
-                      label="Lab phỏng vấn"
-                      description="Kịch bản mô phỏng buổi phỏng vấn thật"
-                      active={pathname === `/${role.slug}/phong-van`}
-                      color="teal"
-                      variant="filled"
-                      onClick={close}
-                      mt={role.hasTinhHuong ? 'xs' : 'md'}
-                    />
-                  )}
-                </>
+                          </NavLink>
+                        );
+                      })}
+                    </NavLink>
+                  );
+                })}
+              {role.available && role.hasTinhHuong && (
+                <NavLink
+                  component={Link}
+                  href={`/${role.slug}/tinh-huong`}
+                  label="Tình huống thực chiến"
+                  description="50 issue/bug thật + cách gỡ"
+                  active={isActive(`/${role.slug}/tinh-huong`)}
+                  color="indigo"
+                  variant="filled"
+                  onClick={close}
+                  mt="xs"
+                />
               )}
-              <Divider my="sm" />
-            </div>
+              {role.available && role.hasPhongVan && (
+                <NavLink
+                  component={Link}
+                  href={`/${role.slug}/phong-van`}
+                  label="Lab phỏng vấn"
+                  description="Kịch bản mô phỏng buổi phỏng vấn thật"
+                  active={isActive(`/${role.slug}/phong-van`)}
+                  color="teal"
+                  variant="filled"
+                  onClick={close}
+                  mt="xs"
+                />
+              )}
+            </NavLink>
           ))}
         </ScrollArea>
       </AppShell.Navbar>
