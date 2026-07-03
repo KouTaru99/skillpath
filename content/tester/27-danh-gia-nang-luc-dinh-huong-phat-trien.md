@@ -1,20 +1,89 @@
 # Đánh giá năng lực, định hướng phát triển đội ngũ
 
-**Định nghĩa.** Specialist Tester có khả năng **đánh giá, nhìn nhận năng lực chuyên môn của các kiểm thử viên khác** — nhận ra điểm yếu kiến thức/kỹ năng của từng người, từ đó đưa ra định hướng phát triển phù hợp cho cá nhân lẫn cả đơn vị.
+**Định nghĩa.** Specialist Tester **đánh giá năng lực chuyên môn của các kiểm thử viên khác** — nhận ra điểm mạnh/yếu kiến thức-kỹ năng của từng người, từ đó định hướng phát triển cho cá nhân lẫn cả đơn vị. Đánh giá tốt phải **khách quan và có tiêu chí** (không cảm tính), và luôn kèm **định hướng** (không chỉ chấm điểm mà chỉ đường đi tiếp).
 
 ## ▸ Specialist·V1 — ① Nhập môn
-**Ở mức này bạn làm chủ được gì.** Đánh giá được năng lực của 1 vài cá nhân cụ thể khi được yêu cầu.
+**Ở mức này bạn làm chủ được gì.** Đánh giá năng lực của một vài cá nhân cụ thể khi được yêu cầu — nhận xét cụ thể, có dẫn chứng, kèm gợi ý phát triển.
 
-**Ví dụ thực tế.** Được nhờ đánh giá năng lực 1 bạn Senior đang cân nhắc thăng cấp, bạn nhận ra bạn ấy giỏi kỹ thuật kiểm thử nhưng còn yếu về kiểm thử bảo mật — đưa ra nhận xét cụ thể cho quản lý trực tiếp của bạn đó.
+**Tình huống thực tế — đánh giá một Senior đang cân nhắc thăng cấp.** Quản lý nhờ bạn cho ý kiến chuyên môn. Bạn không nói chung chung "khá" mà đánh giá theo mảng, có dẫn chứng:
+
+```
+ĐÁNH GIÁ NĂNG LỰC — Tester X (xét thăng Senior→Specialist)
+
+  Mảng                | Mức  | Dẫn chứng cụ thể
+  --------------------|------|------------------------------
+  Test chức năng      | Mạnh | thiết kế case chặt, ít lọt bug
+  Test tự động hoá    | Mạnh | tự dựng bộ Postman + Selenium tốt
+  Test bảo mật        | Yếu  | phiên test bảo mật vừa rồi bỏ sót
+                      |      | ngõ export — chưa có tư duy "mọi
+                      |      | ngõ ra dữ liệu"
+  Dẫn dắt chuyên môn  | TB   | review tốt nhưng chưa dạy được
+                      |      | cách tư duy cho người khác
+
+  GỢI Ý PHÁT TRIỂN: mạnh kỹ thuật nhưng bảo mật là lỗ hổng rõ —
+  với đơn vị ATTT, đây là mảng phải bù trước khi lên Specialist.
+  Đề xuất: giao dẫn 1 mảng test bảo mật + kèm 3 tháng.
+```
+
+**Vì sao là mức ①:** đánh giá cá nhân có tiêu chí và dẫn chứng, kèm định hướng; chưa hệ thống hoá cho nhiều người.
 
 ## ▸ Specialist·V2 — ② Biết làm
-**Khác V1:** đánh giá **có hệ thống** cho nhiều người, đưa ra định hướng phát triển cụ thể chứ không chỉ nhận xét.
+**Khác V1:** đánh giá **có hệ thống cho nhiều người** bằng bộ tiêu chí chuẩn, kèm lộ trình phát triển riêng từng người.
 
-**Ví dụ thực tế.** Bạn xây dựng 1 bộ tiêu chí đánh giá năng lực Tester theo từng mảng (kiểm thử chức năng, hiệu năng, bảo mật, tự động hoá), áp dụng đánh giá cho cả nhóm 8 người trong đơn vị, và đưa ra lộ trình phát triển riêng cho từng người dựa trên điểm yếu/mạnh cụ thể của họ.
+**Tình huống thực tế — xây khung năng lực và đánh giá cả nhóm 8 người.** Bạn chuẩn hoá việc đánh giá để công bằng và so sánh được:
 
-## ▸ Specialist·V3 — ④ Chuyên gia
-**Khác V2:** định hướng phát triển ở tầm **cả đơn vị**, không chỉ từng cá nhân — quyết định đơn vị cần đầu tư năng lực gì trong tương lai.
+```
+KHUNG NĂNG LỰC TESTER (bạn xây) — 8 người × 5 mảng
 
-**Ví dụ thực tế.** Dựa trên đánh giá tổng thể năng lực cả đơn vị, bạn nhận ra đơn vị đang thiếu hụt năng lực kiểm thử hiệu năng ở quy mô lớn (khi các sản phẩm giám sát dự kiến mở rộng gấp 5 lần) — đề xuất kế hoạch đào tạo/tuyển dụng bổ sung năng lực này cho cả đơn vị trước khi trở thành điểm nghẽn.
+  Mảng: Chức năng · Hiệu năng · Bảo mật · Tự động hoá · Dẫn dắt
+  Thang: 1 Nhập môn → 4 Chuyên gia
 
-**Vì sao tăng dần ①→④:** từ đánh giá từng cá nhân, tới đánh giá có hệ thống cho nhóm, tới định hướng năng lực chiến lược cho cả đơn vị.
+  MA TRẬN NĂNG LỰC NHÓM (ví dụ trích):
+           Chức | HN | BM | TĐH | Dẫn
+  Hà        4   | 2  | 2  | 3   | 2   → mạnh chức năng, yếu HN+BM
+  Minh      3   | 4  | 2  | 2   | 1   → chuyên gia hiệu năng
+  Lan       3   | 1  | 4  | 2   | 3   → chuyên gia bảo mật
+  ...
+  → NHÌN CẢ NHÓM: bảo mật chỉ 1 người mạnh (Lan) = RỦI RO tập
+    trung; hiệu năng cũng chỉ 1 (Minh).
+
+  LỘ TRÌNH RIÊNG:
+  - Hà: học bảo mật (Lan kèm) — vừa phát triển Hà vừa giảm rủi ro
+    "chỉ 1 người biết bảo mật"
+  - Minh: học dẫn dắt (điểm yếu nhất) để tiến Senior
+```
+
+Khác V1: đánh giá thành **công cụ quản lý năng lực** (ma trận lộ ra rủi ro tập trung, ghép cặp kèm nhau), không chỉ chấm từng người rời rạc.
+
+**Vì sao là mức ②:** đánh giá hệ thống + lộ trình cá nhân hoá cho cả nhóm, đọc được rủi ro năng lực tập thể; chưa ở tầm định hướng chiến lược đơn vị.
+
+## ▸ Specialist·V3 — ④ Chuyên sâu
+**Khác V2:** định hướng năng lực ở tầm **cả đơn vị theo chiến lược tương lai** — quyết định đơn vị cần đầu tư/tuyển năng lực gì trước khi nó thành điểm nghẽn.
+
+**Tình huống thực tế — nhìn trước lỗ hổng năng lực khi sản phẩm sắp mở rộng gấp 5.** Bạn nối đánh giá năng lực với kế hoạch kinh doanh của đơn vị:
+
+```
+PHÂN TÍCH NĂNG LỰC CHIẾN LƯỢC — Đơn vị ANM, tầm nhìn 18 tháng
+
+  BỐI CẢNH: các sản phẩm giám sát dự kiến mở rộng quy mô ×5
+            (thêm khách hàng, thêm tải).
+
+  ĐỐI CHIẾU VỚI MA TRẬN NĂNG LỰC HIỆN TẠI:
+  → Test hiệu năng ở QUY MÔ LỚN: chỉ 1 người (Minh) mạnh, mà đây
+    chính là mảng ×5 tải sẽ cần nhất → ĐIỂM NGHẼN sắp tới.
+  → Test bảo mật: đủ hiện tại nhưng mở rộng = bề mặt tấn công tăng
+    → cần thêm 1 chuyên gia.
+
+  ĐỀ XUẤT CHIẾN LƯỢC (trước khi thành nghẽn):
+  1. Đào tạo: 2 người học chuyên sâu hiệu năng (Minh kèm + khoá
+     ngoài) — bắt đầu NGAY, vì lên tay cần 6-9 tháng.
+  2. Tuyển: 1 chuyên gia bảo mật có kinh nghiệm quy mô lớn.
+  3. Công cụ: đầu tư hạ tầng test tải mô phỏng ×5 (hiện chưa có).
+
+  → Chuẩn bị năng lực TRƯỚC nhu cầu 6-9 tháng, không đợi tới lúc
+    ×5 tải mới cuống.
+```
+
+Mức ④ là khi đánh giá năng lực không còn nhìn hiện tại mà **nhìn về nhu cầu tương lai của tổ chức** — biến việc "chấm điểm người" thành việc "hoạch định năng lực chiến lược".
+
+**Vì sao là mức ④:** định hướng năng lực cả đơn vị gắn với chiến lược tương lai, nhìn trước điểm nghẽn để chuẩn bị sớm — đỉnh của kỹ năng: từ đánh giá cá nhân lên hoạch định năng lực tổ chức. (Thang vùng này ①→②→④ — không có mốc ③ vì đây là vùng cuối của toàn thang.)
