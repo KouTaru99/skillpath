@@ -46,6 +46,8 @@ export function getLevel(slug: string): LevelInfo | undefined {
 // theo đúng career-path gốc) — tra override trước, rơi về title mặc định của LEVELS.
 const LEVEL_TITLE_OVERRIDE: Record<string, Partial<Record<LevelSlug, string>>> = {
   tester: { 'entry-experienced': 'Junior → Experienced' },
+  // BA không có level Entry/Junior — career-path chỉ bắt đầu từ Experienced.
+  ba: { 'entry-experienced': 'Experienced' },
 };
 
 export function getLevelTitle(roleSlug: string, slug: LevelSlug): string {
@@ -145,6 +147,31 @@ export const GROUP_ORDER: Record<string, Record<LevelSlug, string[]>> = {
       'Công cụ & vận hành',
       'Quản lý & lãnh đạo kỹ thuật',
       'Chiến lược & quản trị kiểm thử',
+    ],
+  },
+  ba: {
+    'entry-experienced': [
+      'Phân tích & mô hình hoá nghiệp vụ',
+      'Nghiệp vụ & khách hàng',
+      'Quản lý yêu cầu & tài liệu',
+      'Kỹ năng mềm & giao tiếp',
+    ],
+    senior: [
+      'Phân tích & mô hình hoá nghiệp vụ',
+      'Nghiệp vụ & khách hàng',
+      'Trải nghiệm người dùng',
+      'Kiến trúc & thiết kế giải pháp',
+      'Quản lý yêu cầu & tài liệu',
+      'Kỹ năng mềm & giao tiếp',
+    ],
+    specialist: [
+      'Phân tích & mô hình hoá nghiệp vụ',
+      'Nghiệp vụ & khách hàng',
+      'Trải nghiệm người dùng',
+      'Kiến trúc & thiết kế giải pháp',
+      'Quản lý yêu cầu & tài liệu',
+      'Kỹ năng mềm & giao tiếp',
+      'Chiến lược & lãnh đạo chuyên môn BA',
     ],
   },
 };
@@ -285,10 +312,48 @@ export const TESTER_SKILLS: Skill[] = [
   { slug: '29-review-kien-truc-san-pham', title: 'Review kiến trúc sản phẩm, phát hiện rủi ro hệ thống', group: 'Kiến trúc & thiết kế giải pháp', appearsIn: ['specialist'] },
 ];
 
+// 11 kỹ năng nền BA (Experienced — KHÔNG có level Entry/Junior) + kỹ năng thêm Senior/Specialist.
+// Nguồn: ba-carrer-path.pdf, đối chiếu Data_JD (3 đơn vị khác Telco, chỉ có Ex+Senior) — xem _planning/map-ba.md.
+export const BA_SKILLS: Skill[] = [
+  // --- 11 kỹ năng nền, vẫn required ở Senior/Specialist ---
+  { slug: '01-ky-thuat-phan-tich-mo-hinh-hoa', title: 'Kỹ thuật phân tích nghiệp vụ & mô hình hoá (UML/Use case/BPMN)', group: 'Phân tích & mô hình hoá nghiệp vụ', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '02-xay-dung-tai-lieu-ptyc-giai-phap', title: 'Xây dựng tài liệu phân tích yêu cầu (PTYC) & giải pháp chi tiết', group: 'Phân tích & mô hình hoá nghiệp vụ', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '03-xay-dung-prototype', title: 'Xây dựng prototype sản phẩm/ứng dụng', group: 'Phân tích & mô hình hoá nghiệp vụ', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '04-nam-vung-nghiep-vu-san-pham', title: 'Nắm vững nghiệp vụ trong mảng sản phẩm liên quan', group: 'Nghiệp vụ & khách hàng', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '05-khao-sat-nhu-cau-chot-yeu-cau', title: 'Khảo sát nhu cầu & chốt thống nhất yêu cầu với khách hàng', group: 'Nghiệp vụ & khách hàng', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '06-giai-dap-trao-doi-nghiep-vu', title: 'Giải đáp, trao đổi thắc mắc nghiệp vụ với đội dự án', group: 'Nghiệp vụ & khách hàng', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '07-quan-ly-tai-lieu-yeu-cau-thay-doi', title: 'Cập nhật, quản lý & lưu trữ tài liệu/yêu cầu thay đổi theo quy trình', group: 'Quản lý yêu cầu & tài liệu', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '08-ho-tro-nghiem-thu', title: 'Hỗ trợ nghiệm thu sản phẩm/hệ thống với khách hàng', group: 'Quản lý yêu cầu & tài liệu', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '09-giao-tiep-dien-dat-thuyet-trinh', title: 'Giao tiếp, diễn đạt & thuyết trình', group: 'Kỹ năng mềm & giao tiếp', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '10-tu-duy-phan-bien', title: 'Tư duy phản biện', group: 'Kỹ năng mềm & giao tiếp', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+  { slug: '11-dam-phan-to-chuc-cuoc-hop', title: 'Kỹ năng đàm phán & tổ chức cuộc họp', group: 'Kỹ năng mềm & giao tiếp', appearsIn: ['entry-experienced', 'senior', 'specialist'] },
+
+  // --- 8 kỹ năng mới xuất hiện từ Senior ---
+  { slug: '12-phan-tich-thi-truong-doi-thu', title: 'Phân tích sản phẩm/ứng dụng thị trường & đối thủ cạnh tranh', group: 'Nghiệp vụ & khách hàng', appearsIn: ['senior', 'specialist'] },
+  { slug: '13-kien-thuc-ux', title: 'Kiến thức UX & định hướng UX sản phẩm', group: 'Trải nghiệm người dùng', appearsIn: ['senior', 'specialist'] },
+  { slug: '14-de-xuat-cach-tiep-can-ky-thuat', title: 'Đề xuất cách tiếp cận & kỹ thuật phân tích phù hợp dự án', group: 'Kiến trúc & thiết kế giải pháp', appearsIn: ['senior', 'specialist'] },
+  { slug: '15-thiet-ke-dfd', title: 'Thiết kế luồng dữ liệu hệ thống (DFD)', group: 'Kiến trúc & thiết kế giải pháp', appearsIn: ['senior', 'specialist'] },
+  { slug: '16-review-tai-lieu-giai-phap', title: 'Review tài liệu giải pháp nghiệp vụ', group: 'Kiến trúc & thiết kế giải pháp', appearsIn: ['senior', 'specialist'] },
+  { slug: '17-cai-tien-luong-giai-phap-tu-van-khach-hang', title: 'Cải tiến luồng giải pháp nghiệp vụ, tư vấn khách hàng giải pháp tối ưu', group: 'Kiến trúc & thiết kế giải pháp', appearsIn: ['senior', 'specialist'] },
+  { slug: '18-xay-dung-tai-lieu-chi-tieu-ky-thuat', title: 'Xây dựng tài liệu chỉ tiêu kỹ thuật dự án/sản phẩm', group: 'Kiến trúc & thiết kế giải pháp', appearsIn: ['senior', 'specialist'] },
+  { slug: '19-danh-gia-uu-tien-trinh-bay-quyet-dinh', title: 'Đánh giá ưu tiên yêu cầu & trình bày thông tin hỗ trợ ra quyết định', group: 'Kỹ năng mềm & giao tiếp', appearsIn: ['senior', 'specialist'] },
+
+  // --- 8 kỹ năng mới xuất hiện từ Specialist ---
+  { slug: '20-mind-mapping', title: 'Mô hình hoá bằng sơ đồ tư duy (Mind mapping)', group: 'Phân tích & mô hình hoá nghiệp vụ', appearsIn: ['specialist'] },
+  { slug: '21-kien-thuc-chuyen-sau-linh-vuc', title: 'Kiến thức chuyên sâu nghiệp vụ theo lĩnh vực (tài chính/tài sản/nhân sự...)', group: 'Nghiệp vụ & khách hàng', appearsIn: ['specialist'] },
+  { slug: '22-visual-design', title: 'Visual design của sản phẩm/ứng dụng', group: 'Trải nghiệm người dùng', appearsIn: ['specialist'] },
+  { slug: '23-giai-phap-nghiep-vu-tong-the', title: 'Phân tích & xây dựng giải pháp nghiệp vụ tổng thể, toàn trình, liên thông hệ thống', group: 'Chiến lược & lãnh đạo chuyên môn BA', appearsIn: ['specialist'] },
+  { slug: '24-tham-dinh-huong-dan-giai-phap', title: 'Thẩm định & hướng dẫn giải pháp cho thành viên trong nhóm', group: 'Chiến lược & lãnh đạo chuyên môn BA', appearsIn: ['specialist'] },
+  { slug: '25-xay-dung-phuong-phap-danh-gia-hieu-qua', title: 'Xây dựng phương pháp đánh giá hiệu quả tính năng sản phẩm', group: 'Chiến lược & lãnh đạo chuyên môn BA', appearsIn: ['specialist'] },
+  { slug: '26-dao-tao-quan-ly-nhom-ba', title: 'Đào tạo & quản lý nhóm chuyên môn BA', group: 'Chiến lược & lãnh đạo chuyên môn BA', appearsIn: ['specialist'] },
+  { slug: '27-nang-luc-lanh-dao-anh-huong', title: 'Năng lực lãnh đạo & ảnh hưởng ở tầm tổ chức', group: 'Chiến lược & lãnh đạo chuyên môn BA', appearsIn: ['specialist'] },
+];
+
 export const SKILLS_BY_ROLE: Record<string, Skill[]> = {
   fe: FE_SKILLS,
   be: BE_SKILLS,
   tester: TESTER_SKILLS,
+  ba: BA_SKILLS,
 };
 
 export interface Role {
@@ -305,6 +370,7 @@ export const ROLES: Role[] = [
   { slug: 'fe', title: 'Dev Front-end', available: true, hasTinhHuong: true, hasPhongVan: true },
   { slug: 'be', title: 'Dev Back-end', available: true, hasTinhHuong: false, hasPhongVan: true },
   { slug: 'tester', title: 'Kiểm thử (Tester)', available: true, hasTinhHuong: false, hasPhongVan: false },
+  { slug: 'ba', title: 'Giải pháp nghiệp vụ (BA)', available: true, hasTinhHuong: false, hasPhongVan: false },
 ];
 
 export function getRole(slug: string): Role | undefined {
