@@ -123,11 +123,11 @@ public ResponseEntity<Product> getProduct(@PathVariable Long id) {
 
 ## Experienced · Vùng 2
 
-### Lab — Phỏng vấn thăng cấp lên Experienced
+> Từ vùng này trở lên, một buổi phỏng vấn thật thường **tách thành nhiều vòng riêng** — nên mỗi vùng có 3 lab. Ứng viên **Diệu** (~1.5-2 năm kinh nghiệm) phỏng vấn tại một công ty sản phẩm. Người phỏng vấn: **anh Long**, Tech Lead. Chưa có vòng system design thật sự (kỹ năng đó chỉ xuất hiện từ Senior) — vòng 2 vẫn là **case thực chiến** đọc code tìm vấn đề, chưa phải case thiết kế kiến trúc.
 
-**Bối cảnh:** ứng viên **Diệu** (~1.5-2 năm kinh nghiệm) phỏng vấn tại một công ty sản phẩm. Người phỏng vấn: **anh Long**, Tech Lead. Online, 50 phút.
+### Lab 1 — Vòng kỹ thuật sâu (~25 phút)
 
-**Long:** Chào Diệu, anh Long đây. API của em có endpoint nào phải gọi đồng thời từ nhiều request cùng lúc, dễ gây tranh chấp dữ liệu không?
+**Long:** Chào Diệu, anh Long đây. Vòng này mình đi kỹ thuật khoảng 25 phút. API của em có endpoint nào phải gọi đồng thời từ nhiều request cùng lúc, dễ gây tranh chấp dữ liệu không?
 
 **Diệu:** Dạ có ạ, endpoint đặt hàng khi số lượng tồn kho có hạn — nếu 2 người cùng đặt hàng sản phẩm cuối cùng cùng lúc, có nguy cơ cả 2 request đều đọc thấy còn hàng rồi cùng trừ, dẫn tới âm kho.
 
@@ -143,7 +143,11 @@ public ResponseEntity<Product> getProduct(@PathVariable Long id) {
 
 **Diệu:** Dạ em index những cột hay dùng trong mệnh đề `WHERE`, `JOIN`, `ORDER BY` với dữ liệu lớn — ví dụ cột `customer_id` trong bảng đơn hàng vì hay query theo khách hàng. Em tránh index bừa vì mỗi index làm chậm thao tác ghi (INSERT/UPDATE phải cập nhật cả index).
 
-**Long:** Được. Giờ làm 1 bài nhỏ.
+**Long:** Tốt, vậy là xong phần kỹ thuật, hẹn Diệu vòng sau.
+
+### Lab 2 — Vòng case thực chiến (~20 phút)
+
+**Long:** Chào Diệu lại, vòng này mình làm 1 bài đọc code nhỏ.
 
 ```java
 for (Order order : orders) {
@@ -160,13 +164,25 @@ for (Order order : orders) {
 
 **Diệu:** Dạ em sẽ lấy hết `customerId` cần thiết trước, gọi 1 lần `findAllById` để lấy tất cả customer về 1 lần, rồi map lại bằng một `Map<Long, Customer>` trong bộ nhớ, thay vì query trong vòng lặp.
 
-**Long:** Chuẩn. Câu hành vi cuối — kể anh nghe một lần em phát hiện bug do mình gây ra sau khi lên production.
+**Long:** Chuẩn, vậy là xong case, hẹn Diệu vòng cuối.
+
+### Lab 3 — Vòng hành vi (~15 phút)
+
+**Long:** Chào Diệu, vòng cuối rồi. Kể anh nghe một lần em phát hiện bug do mình gây ra sau khi lên production.
 
 **Diệu:** Dạ có lần em sửa logic tính phí vận chuyển, test trên máy với vài đơn hàng mẫu thấy đúng nên merge. Sau đó phát hiện đơn hàng có nhiều sản phẩm từ nhiều kho khác nhau bị tính phí sai, vì em quên xử lý trường hợp đó trong lúc code — bộ test em viết chỉ có case 1 kho. Em sửa lại và bổ sung test case cho đúng tình huống nhiều kho, rút kinh nghiệm là phải liệt kê hết các trường hợp dữ liệu thực tế trước khi viết test, không chỉ test theo happy path.
 
-**Long:** Cảm ơn Diệu, rõ ràng.
+**Long:** Tốt, rút kinh nghiệm cụ thể. Câu cuối — kể anh nghe một lần em phải tự học một công nghệ mới để hoàn thành task đúng hạn.
 
-**Góc nhìn người chấm:** Diệu cho tín hiệu tốt về **cân nhắc đánh đổi kỹ thuật có lý do** (optimistic vs pessimistic locking) và **nhận diện đúng vấn đề hiệu năng kinh điển** (N+1 query) — đây là mức kỳ vọng chính xác ở Ex·V2 khi CSDL đã lên mức ③.
+**Diệu:** Dạ, có lần em được giao tích hợp thanh toán qua một cổng thanh toán em chưa dùng bao giờ, có 2 ngày để làm xong. Em đọc tài liệu tích hợp chính thức trước, làm theo sandbox demo của họ chạy được trong buổi sáng. Chiều gặp vấn đề chữ ký (signature) xác thực callback bị sai do em hiểu nhầm thứ tự ghép chuỗi tham số, em tra kỹ lại ví dụ mẫu bằng ngôn ngữ khác của họ (PHP) để đối chiếu logic, phát hiện ra lỗi và sửa đúng.
+
+**Long:** Ổn. Em có câu hỏi gì cho anh không?
+
+**Diệu:** Dạ, team mình có yêu cầu coverage test tối thiểu không hay chấm theo mức độ ý nghĩa ạ?
+
+**Long:** Không ép % cứng, chủ yếu coverage không được tụt và test đúng chỗ hay lỗi. Cảm ơn Diệu, rõ ràng.
+
+**Góc nhìn người chấm (cả 3 vòng):** Diệu cho tín hiệu tốt về **cân nhắc đánh đổi kỹ thuật có lý do** (optimistic vs pessimistic locking) và **nhận diện đúng vấn đề hiệu năng kinh điển** (N+1 query) — đây là mức kỳ vọng chính xác ở Ex·V2 khi CSDL đã lên mức ③. Ở vòng hành vi, Diệu biết **tra cứu chéo tài liệu để xác minh** khi gặp bế tắc, không chỉ đoán mò.
 
 ---
 

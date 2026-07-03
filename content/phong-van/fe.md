@@ -155,11 +155,11 @@ export class PriceTagComponent {
 
 ## Experienced · Vùng 2
 
-### Lab — Phỏng vấn thăng cấp lên Experienced
+> Từ vùng này trở lên, một buổi phỏng vấn thật thường **tách thành nhiều vòng riêng** (thường cách nhau vài ngày) — nên mỗi vùng có 3 lab. Ứng viên **Mai** đang ở vùng Experienced·V2 (~1.5–2 năm kinh nghiệm Angular), phỏng vấn tại một công ty sản phẩm cỡ vừa. Người phỏng vấn: **anh Huy**, Tech Lead. Chưa có vòng system design thật sự (kỹ năng "Phân tích & thiết kế hệ thống" chỉ xuất hiện từ Senior) — vòng 2 ở vùng này vẫn là **case thực chiến** (đọc code, tìm bug), chưa phải case thiết kế kiến trúc.
 
-**Bối cảnh:** ứng viên **Mai** đang ở vùng Experienced·V2 (~1.5–2 năm kinh nghiệm Angular), phỏng vấn tại một công ty sản phẩm cỡ vừa. Online, 55 phút. Người phỏng vấn: **anh Huy**, Tech Lead. Chưa có vòng system design (thực tế vòng này chỉ bắt đầu rõ từ Senior).
+### Lab 1 — Vòng kỹ thuật sâu (~25 phút)
 
-**Huy:** Chào Mai, anh Huy đây, Tech Lead của team Platform bên anh. Hôm nay mình nói chuyện khoảng 55 phút thôi, không căng thẳng đâu, cứ coi như trao đổi công việc bình thường nhé. Mai giới thiệu nhanh cho anh dự án gần nhất em đang làm được không?
+**Huy:** Chào Mai, anh Huy đây, Tech Lead của team Platform bên anh. Vòng này mình đi kỹ thuật khoảng 25 phút thôi, không căng thẳng đâu, cứ coi như trao đổi công việc bình thường nhé. Mai giới thiệu nhanh cho anh dự án gần nhất em đang làm được không?
 
 **Mai:** Dạ vâng ạ. Em đang làm ở một sản phẩm quản lý đơn hàng, dùng Angular, team em khoảng 6 người. Em phụ trách chính mảng thông báo và một số component dùng chung cho cả 3 module trong app.
 
@@ -205,7 +205,11 @@ Câu đầu tiên: component của em đang gọi API, giữa chừng user thao 
 
 **Mai:** Dạ em từng nghe tên Module Federation của Webpack ạ, nhưng em chưa đọc kỹ.
 
-**Huy:** Ok không sao, biết tên là được rồi. Giờ mình làm một bài thực hành nhỏ nhé, anh share màn hình.
+**Huy:** Ok không sao, biết tên là được rồi. Vậy là xong phần kỹ thuật, hẹn Mai ở vòng sau nhé.
+
+### Lab 2 — Vòng case thực chiến (~20 phút)
+
+**Huy:** Chào Mai lại, vòng này mình làm một bài thực hành nhỏ, đọc code thật và tìm bug nhé, anh share màn hình.
 
 [Huy chia sẻ màn hình, mở một component có sẵn trong codebase mẫu]
 
@@ -251,7 +255,11 @@ it('ẩn badge khi count = 0', () => {
 
 Em nghĩ nên viết thêm một test nữa cho trường hợp count là chuỗi "0" luôn, vì đó chính là nguyên nhân thật của bug.
 
-**Huy:** Anh thích điểm đó — em test đúng cái vừa gây lỗi thật, chứ không chỉ test cho có. Ok, mình chuyển sang phần cuối, anh hỏi hai câu không thuộc chuyên môn code.
+**Huy:** Anh thích điểm đó — em test đúng cái vừa gây lỗi thật, chứ không chỉ test cho có. Vậy là xong case, hẹn Mai vòng cuối.
+
+### Lab 3 — Vòng hành vi (~15 phút)
+
+**Huy:** Chào Mai, vòng cuối rồi, anh hỏi hai câu không thuộc chuyên môn code thôi.
 
 Kể cho anh nghe một lần em phát hiện ra bug do chính mình gây ra, sau khi code đã lên production rồi ấy.
 
@@ -279,7 +287,7 @@ Em thử áp dụng thì hết lỗi. Em không hỏi đồng nghiệp ngay từ
 
 **Huy:** Câu hỏi tốt, để anh trả lời chi tiết hơn ở buổi tiếp theo nếu em qua vòng này nhé. Cảm ơn Mai, hẹn gặp lại.
 
-**Góc nhìn người chấm:** tín hiệu quan trọng nhất của cả buổi là Mai **hỏi lại để làm rõ bug trước khi sửa** thay vì đoán bừa, và **viết test đúng nguyên nhân gốc** chứ không chỉ test cho có. Với 2 kỹ năng mới của vùng này (Unit test, Microfrontends), Mai trả lời đúng mức ① kỳ vọng — không cố tỏ ra biết nhiều hơn thật, đây cũng là một tín hiệu tốt (biết lượng sức mình).
+**Góc nhìn người chấm (cả 3 vòng):** tín hiệu quan trọng nhất là Mai **hỏi lại để làm rõ bug trước khi sửa** thay vì đoán bừa, và **viết test đúng nguyên nhân gốc** chứ không chỉ test cho có. Với 2 kỹ năng mới của vùng này (Unit test, Microfrontends), Mai trả lời đúng mức ① kỳ vọng — không cố tỏ ra biết nhiều hơn thật, đây cũng là một tín hiệu tốt (biết lượng sức mình).
 
 ---
 
