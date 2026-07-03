@@ -106,6 +106,19 @@ export function AppFrame({ children }: { children: React.ReactNode }) {
                       mt="md"
                     />
                   )}
+                  {role.hasPhongVan && (
+                    <NavLink
+                      component={Link}
+                      href={`/${role.slug}/phong-van`}
+                      label="Lab phỏng vấn"
+                      description="Kịch bản mô phỏng buổi phỏng vấn thật"
+                      active={pathname === `/${role.slug}/phong-van`}
+                      color="teal"
+                      variant="filled"
+                      onClick={close}
+                      mt={role.hasTinhHuong ? 'xs' : 'md'}
+                    />
+                  )}
                 </>
               )}
               <Divider my="sm" />

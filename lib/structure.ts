@@ -220,11 +220,13 @@ export interface Role {
   available: boolean;
   // Có trang "Tình huống thực chiến" chưa — chưa viết cho role mới thì ẩn link, tránh 404.
   hasTinhHuong: boolean;
+  // Có trang "Lab phỏng vấn" chưa — chưa viết cho role mới thì ẩn link, tránh 404.
+  hasPhongVan: boolean;
 }
 
 export const ROLES: Role[] = [
-  { slug: 'fe', title: 'Dev Front-end', available: true, hasTinhHuong: true },
-  { slug: 'be', title: 'Dev Back-end', available: true, hasTinhHuong: false },
+  { slug: 'fe', title: 'Dev Front-end', available: true, hasTinhHuong: true, hasPhongVan: true },
+  { slug: 'be', title: 'Dev Back-end', available: true, hasTinhHuong: false, hasPhongVan: true },
 ];
 
 export function getRole(slug: string): Role | undefined {
