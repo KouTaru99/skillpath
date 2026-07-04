@@ -369,8 +369,8 @@ export interface Role {
 export const ROLES: Role[] = [
   { slug: 'fe', title: 'Dev Front-end', available: true, hasTinhHuong: true, hasPhongVan: true },
   { slug: 'be', title: 'Dev Back-end', available: true, hasTinhHuong: false, hasPhongVan: true },
-  { slug: 'tester', title: 'Kiểm thử (Tester)', available: true, hasTinhHuong: false, hasPhongVan: false },
-  { slug: 'ba', title: 'Giải pháp nghiệp vụ (BA)', available: true, hasTinhHuong: false, hasPhongVan: false },
+  { slug: 'tester', title: 'Kiểm thử (Tester)', available: true, hasTinhHuong: false, hasPhongVan: true },
+  { slug: 'ba', title: 'Giải pháp nghiệp vụ (BA)', available: true, hasTinhHuong: false, hasPhongVan: true },
 ];
 
 export function getRole(slug: string): Role | undefined {
