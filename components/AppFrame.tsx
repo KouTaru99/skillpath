@@ -11,6 +11,7 @@ import {
   skillsByGroup,
   roleHasLevel,
   getLevelTitle,
+  phongVanDomains,
   type LevelSlug,
 } from '@/lib/structure';
 
@@ -177,17 +178,31 @@ export function AppFrame({ children }: { children: React.ReactNode }) {
                 />
               )}
               {role.available && role.hasPhongVan && (
-                <NavLink
-                  component={Link}
-                  href={`/${role.slug}/phong-van`}
-                  label="Lab phỏng vấn"
-                  description="Kịch bản mô phỏng buổi phỏng vấn thật"
-                  active={isActive(`/${role.slug}/phong-van`)}
-                  color="teal"
-                  variant="filled"
-                  onClick={close}
-                  mt="xs"
-                />
+                <>
+                  <NavLink
+                    component={Link}
+                    href={`/${role.slug}/phong-van`}
+                    label="Lab phỏng vấn"
+                    description="Kịch bản mô phỏng buổi phỏng vấn thật"
+                    active={isActive(`/${role.slug}/phong-van`)}
+                    color="teal"
+                    variant="filled"
+                    onClick={close}
+                    mt="xs"
+                  />
+                  {phongVanDomains(role.slug).map((d) => (
+                    <NavLink
+                      key={d.slug}
+                      component={Link}
+                      href={`/${role.slug}/phong-van/${d.slug}`}
+                      label={`Lab phỏng vấn · ${d.title}`}
+                      active={isActive(`/${role.slug}/phong-van/${d.slug}`)}
+                      color="teal"
+                      variant="light"
+                      onClick={close}
+                    />
+                  ))}
+                </>
               )}
             </NavLink>
           ))}

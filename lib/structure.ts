@@ -377,6 +377,33 @@ export function getRole(slug: string): Role | undefined {
   return ROLES.find((r) => r.slug === slug);
 }
 
+// Lab phỏng vấn theo DOMAIN nghiệp vụ — trục mở rộng mới (pilot: BA × Ngân hàng).
+// Thêm domain/role mới = thêm 1 dòng ở đây + 1 file content/phong-van/<role>-<domain>.md.
+export interface PhongVanDomain {
+  slug: string;
+  title: string;
+  // Mô tả ngắn hiện ở sidenav + card giới thiệu trên trang Lab phỏng vấn chung.
+  short: string;
+}
+
+export const PHONG_VAN_DOMAINS: Record<string, PhongVanDomain[]> = {
+  ba: [
+    {
+      slug: 'ngan-hang',
+      title: 'Nghiệp vụ Ngân hàng',
+      short: 'Hành trình vay vốn trên hệ thống LOS — tiếp nhận → CIC → thẩm định → phê duyệt → giải ngân',
+    },
+  ],
+};
+
+export function phongVanDomains(roleSlug: string): PhongVanDomain[] {
+  return PHONG_VAN_DOMAINS[roleSlug] ?? [];
+}
+
+export function getPhongVanDomain(roleSlug: string, domainSlug: string): PhongVanDomain | undefined {
+  return phongVanDomains(roleSlug).find((d) => d.slug === domainSlug);
+}
+
 export function getSkill(roleSlug: string, slug: string): Skill | undefined {
   return SKILLS_BY_ROLE[roleSlug]?.find((s) => s.slug === slug);
 }
