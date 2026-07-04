@@ -1,0 +1,86 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","ba","ky-nang","20-mind-mapping",""],"i":false,"f":[[["",{"children":[["role","ba","d"],{"children":["ky-nang",{"children":[["skill","20-mind-mapping","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","ba","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","20-mind-mapping","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T1c52,<h1>Mô hình hoá bằng sơ đồ tư duy (Mind mapping)</h1>
+<p><strong>Định nghĩa.</strong> Kỹ năng mới ở Specialist — dùng <strong>sơ đồ tư duy</strong> (mind map) để mô hình hoá ý tưởng/mối quan hệ phức tạp một cách trực quan: một chủ đề trung tâm toả nhánh ra các khía cạnh, mỗi nhánh lại toả tiếp. Chỗ đứng của nó trong hộp đồ nghề BA: <strong>dùng khi bài toán còn mù mờ</strong> — chưa biết có những khía cạnh nào — khác BPMN/UML vốn dùng khi luồng đã tương đối rõ. Mind map là công cụ <em>khám phá</em>, BPMN là công cụ <em>đặc tả</em>; dùng nhầm chỗ (đặc tả bằng mind map, khám phá bằng BPMN) đều khổ.</p>
+<h2>▸ Specialist·V1 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Dùng mind map để hệ thống hoá toàn cảnh một bài toán mới trước khi phân tích chi tiết — chống bỏ sót khía cạnh.</p>
+<p><strong>Tình huống thực tế — mở bài toán &quot;Threat Intelligence&quot; bằng mind map.</strong> Tính năng hoàn toàn mới, chưa ai trong team biết nó gồm những gì. Trước khi viết bất kỳ PTYC nào, bạn dành 1 giờ vẽ:</p>
+<pre><code>                        ┌─ Nguồn feed: AbuseIPDB? OTX? trả phí?
+          ┌─ DỮ LIỆU ───┼─ Tần suất cập nhật? (giờ/ngày)
+          │             └─ Độ tin cậy nguồn — ai thẩm định?
+          │             ┌─ Đối chiếu lúc nào: real-time hay batch?
+THREAT ───┼─ XỬ LÝ ─────┼─ IP khớp danh sách đen → làm gì?
+INTEL     │             └─ Cache — nguồn ngoài sập thì sao?
+          │             ┌─ Hiện nhãn &quot;TI xác nhận&quot; ở đâu?
+          ├─ NGƯỜI DÙNG ┼─ Ai được cấu hình nguồn feed?
+          │             └─ Có cần giải thích &quot;vì sao IP này đen&quot;?
+          └─ VẬN HÀNH ──┬─ Hiệu năng: +1 lượt tra/cảnh báo?
+                        ├─ Giới hạn 1.000 truy vấn/ngày của bản free
+                        └─ Chi phí license khi vượt
+</code></pre>
+<p>Nhánh &quot;VẬN HÀNH&quot; là thứ suýt bị bỏ sót nếu đi thẳng vào viết tài liệu — và về sau chính giới hạn 1.000 truy vấn/ngày quyết định kiến trúc phải có cache.</p>
+<p><strong>Vì sao là mức ①:</strong> dùng mind map cá nhân để khám phá đủ khía cạnh một bài toán cụ thể; chưa dùng để dẫn dắt nhóm đông người.</p>
+<h2>▸ Specialist·V2 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> dùng mind map <strong>dẫn dắt buổi brainstorm nhiều bên</strong> — vẽ real-time trên màn chia sẻ, gom ý kiến tản mạn vào cấu trúc, và biết &quot;lái&quot; khi các nhánh mọc lệch trọng tâm.</p>
+<p><strong>Tình huống thực tế — điều phối buổi brainstorm định hướng sản phẩm 2 năm với 3 nhóm.</strong> Đội An ninh, đội IT và ban lãnh đạo cùng ngồi — mỗi nhóm một mối quan tâm, nói chuyện dễ dẫm chân nhau. Bạn mở mind map trên màn hình chung và điều phối theo kỹ thuật:</p>
+<pre><code>KỸ THUẬT DẪN DẮT BẠN DÙNG:
+1. KHUNG TRƯỚC, Ý SAU   Vẽ sẵn 4 nhánh trống: Phát hiện / Phản ứng /
+                        Tuân thủ / Vận hành — ý kiến nào ném ra cũng
+                        có chỗ treo, không trôi mất.
+2. GHI NGAY, CÃI SAU    Mọi ý đều lên map trước (kể cả ý &quot;dở&quot;) —
+                        người góp ý thấy mình được ghi nhận, không
+                        phòng thủ; lọc để vòng sau.
+3. NHÁNH PHÌNH = TÍN HIỆU  Nhánh &quot;Phản ứng&quot; phình gấp 3 nhánh khác
+                        sau 30 phút → bạn chỉ vào map: &quot;cả phòng đang
+                        dồn quan tâm vào đây — mình đào tiếp chỗ này?&quot;
+                        Cả 3 nhóm gật — sự đồng thuận NHÌN THẤY ĐƯỢC.
+4. ĐÁNH DẤU NÓNG        ⭐ = nhiều bên cùng nêu · ⚡ = có xung đột
+                        (IT muốn tự động, An ninh muốn người duyệt)
+                        → danh sách ⚡ thành agenda buổi làm việc sau.
+</code></pre>
+<p>Kết thúc 2 tiếng: một bức map 60 nút thay cho biên bản 5 trang không ai đọc — và quan trọng hơn, 3 nhóm lần đầu <strong>nhìn thấy mối quan tâm của nhau</strong> trên cùng một hình.</p>
+<p><strong>Vì sao là mức ②:</strong> mind map thành công cụ điều phối tập thể — cấu trúc hoá buổi họp nhiều bên, làm lộ đồng thuận/xung đột; không chỉ là sơ đồ cá nhân.</p>
+<h2>▸ Specialist·V3 — ④ Chuyên sâu</h2>
+<p><strong>Khác V2:</strong> sản phẩm mind map trở thành <strong>tài liệu chiến lược chính thức</strong> — được cấp lãnh đạo dùng để ra quyết định ngân sách/lộ trình, có phiên bản, có chủ sở hữu, được cập nhật theo nhịp.</p>
+<p><strong>Tình huống thực tế — bản đồ chiến lược sản phẩm 3 năm sống bằng mind map.</strong> Sau chuỗi brainstorm, bạn chưng cất thành &quot;bản đồ chiến lược&quot; một trang — mind map 3 vòng: vòng trong (năm 1 — cam kết), vòng giữa (năm 2 — định hướng), vòng ngoài (năm 3 — thăm dò):</p>
+<pre><code>CÁCH BẠN VẬN HÀNH BẢN ĐỒ NHƯ MỘT TÀI LIỆU SỐNG:
+- Mỗi nút năm-1 gắn: chủ trì + quý dự kiến + trạng thái màu
+  (xanh đang chạy / vàng lệch / đỏ tắc)
+- Họp quý với lãnh đạo: chỉ rà CÁC NÚT ĐỔI MÀU — 30 phút thay vì
+  2 tiếng đọc báo cáo; quyết định &quot;đẩy nút vòng ngoài vào trong&quot;
+  (thăng cấp đầu tư) hay ngược lại đều đánh dấu ngay trên map.
+- Phiên bản hoá: map v3.2 được đính kèm tờ trình ngân sách năm —
+  hội đồng duyệt ngân sách đọc bản đồ này TRƯỚC KHI đọc bảng số.
+</code></pre>
+<p>Có lần hội đồng cắt 20% ngân sách — thay vì làm lại tờ trình 2 tuần, bạn mở map ngay trong phòng họp, kéo 2 nút từ vòng trong ra vòng giữa trước mặt mọi người, cả hội đồng thấy ngay &quot;cắt 20% nghĩa là mất cái gì&quot;. Quyết định chốt trong buổi đó. Đấy là lúc mind map vượt vai công cụ vẽ: nó là <strong>ngôn ngữ ra quyết định chung</strong> giữa bạn và cấp cao nhất.</p>
+<p><strong>Vì sao là mức ④:</strong> sản phẩm mind map có vòng đời, chủ sở hữu và vai trò chính thức trong quyết định ngân sách/chiến lược của đơn vị — đỉnh của kỹ năng là khi công cụ cá nhân trở thành hạ tầng ra quyết định của tổ chức. (Thang vùng này ①→②→④ — không có mốc ③ vì đây là vùng cuối của toàn thang.)</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/ba","c":"dimmed","children":"Giải pháp nghiệp vụ (BA)"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Mô hình hoá bằng sơ đồ tư duy (Mind mapping)"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/ba/ky-nang/19-danh-gia-uu-tien-trinh-bay-quyet-dinh","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Đánh giá ưu tiên yêu cầu & trình bày thông tin hỗ trợ ra quyết định"}]]}]}],["$","$L15",null,{"href":"/ba/ky-nang/21-kien-thuc-chuyen-sau-linh-vuc","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Kiến thức chuyên sâu nghiệp vụ theo lĩnh vực (tài chính/tài sản/nhân sự...)"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

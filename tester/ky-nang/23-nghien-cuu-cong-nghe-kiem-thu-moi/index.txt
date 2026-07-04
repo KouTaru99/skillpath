@@ -1,0 +1,89 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","tester","ky-nang","23-nghien-cuu-cong-nghe-kiem-thu-moi",""],"i":false,"f":[[["",{"children":[["role","tester","d"],{"children":["ky-nang",{"children":[["skill","23-nghien-cuu-cong-nghe-kiem-thu-moi","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","tester","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","23-nghien-cuu-cong-nghe-kiem-thu-moi","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T17ad,<h1>Nghiên cứu công nghệ/kỹ thuật kiểm thử mới (R&amp;D)</h1>
+<p><strong>Định nghĩa.</strong> Ở Specialist, Tester chuyển từ &quot;làm giỏi kiểm thử&quot; sang <strong>người dẫn dắt cả đơn vị về công nghệ/kỹ thuật kiểm thử</strong> — tự nghiên cứu độc lập (không cần ai giao đề bài), mang công nghệ mới về áp dụng <em>trước khi</em> nó thành chuẩn ngành. Bản lĩnh R&amp;D thật sự nằm ở chỗ <strong>phân biệt công nghệ đáng đầu tư với công nghệ chỉ hào nhoáng</strong> — thử thật, đo thật, rồi mới khuyến nghị.</p>
+<h2>▸ Specialist·V1 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Tự tìm hiểu một công nghệ/kỹ thuật kiểm thử mới ngoài phạm vi việc hàng ngày, thử ở quy mô nhỏ để đánh giá tiềm năng.</p>
+<p><strong>Tình huống thực tế — thử kỹ thuật sinh test case bằng AI trên module Phân tích log.</strong> Bạn nghe về <strong>kiểm thử dựa trên AI</strong> (dùng mô hình học máy đọc log sản phẩm để tự gợi ý test case) và tự đánh giá thay vì tin quảng cáo:</p>
+<pre><code>NGHIÊN CỨU NHỎ (tự làm, ngoài giờ dự án):
+  Câu hỏi: công cụ AI sinh test case từ log có gợi ý được case
+           mà con người bỏ sót không?
+  Phạm vi thử: module &quot;Phân tích log&quot; — 1 tuần log thật
+  Cách đánh giá: so bộ case AI gợi ý với bộ case team đang có
+  Ghi nhận ban đầu: AI gợi ý 3 case lạ (dựa mẫu log bất thường
+    hiếm gặp) — nhưng cũng đẻ ra 10 case rác trùng lặp.
+  → Kết luận sơ bộ: CÓ tiềm năng nhưng cần lọc; đáng thử tiếp
+    ở quy mô lớn hơn trước khi kết luận.
+</code></pre>
+<p><strong>Vì sao là mức ①:</strong> tự khởi xướng nghiên cứu và đánh giá tiềm năng ở quy mô nhỏ; chưa có kết quả đo lường đủ để khuyến nghị.</p>
+<h2>▸ Specialist·V2 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> áp dụng thử nghiệm <strong>có kết quả đo lường được</strong>, đủ số liệu để nói công nghệ này đáng hay không — dù chưa nhân rộng.</p>
+<p><strong>Tình huống thực tế — thử nghiệm có đối chứng trên 3 tháng log thật.</strong> Bạn nâng nghiên cứu nhỏ thành thử nghiệm có phương pháp:</p>
+<pre><code>THỬ NGHIỆM CÓ ĐO LƯỜNG — Công cụ sinh test case từ log (3 tháng)
+
+  Thiết kế: chạy công cụ trên log 3 tháng → lọc case hợp lệ →
+            bổ sung vào bộ test → đo trong 1 sprint
+
+  KẾT QUẢ ĐO ĐƯỢC:
+  - Công cụ gợi ý 5 case MỚI hợp lệ mà team chưa từng nghĩ tới
+    (đều dựa trên chuỗi hành vi log thật hiếm gặp)
+  - 2/5 case này bắt được bug thật khi đưa vào test
+  - Tỉ lệ phát hiện lỗi của bộ test tăng ~8%
+  - CHI PHÍ: cần 1 người lọc case rác ~2h/tuần (AI đẻ nhiều case
+    vô nghĩa) — chưa tự động lọc được
+
+  KẾT LUẬN: có giá trị THẬT (đo được) nhưng cần giải quyết khâu
+  lọc rác trước khi nhân rộng.
+</code></pre>
+<p>Khác V1 ở chỗ: mọi phát biểu đều có <strong>con số</strong> (8%, 2/5, 2h/tuần) — R&amp;D nghiêm túc là đo được, không phải &quot;cảm thấy hữu ích&quot;.</p>
+<p><strong>Vì sao là mức ②:</strong> thử nghiệm có phương pháp và số liệu đủ để quyết định; chưa ở tầm khuyến nghị chính thức cho cả đơn vị.</p>
+<h2>▸ Specialist·V3 — ④ Chuyên sâu</h2>
+<p><strong>Khác V2:</strong> nghiên cứu <strong>độc lập hoàn toàn</strong> và đủ uy tín để <strong>khuyến nghị áp dụng rộng cho cả đơn vị</strong> kèm lộ trình + chi phí/lợi ích — trở thành người mang công nghệ mới vào thực tế công ty.</p>
+<p><strong>Tình huống thực tế — đề xuất chính thức áp dụng công cụ sinh test case cho cả đơn vị.</strong> Sau khi giải quyết được khâu lọc rác (viết bộ lọc tự động), bạn viết đề xuất cấp đơn vị:</p>
+<pre><code>ĐỀ XUẤT ÁP DỤNG — Sinh test case từ log cho toàn bộ SP giám sát
+
+BẰNG CHỨNG      Thử nghiệm 3 tháng: +8% phát hiện lỗi, 2 bug thật
+                bắt thêm; sau khi thêm bộ lọc tự động, chi phí lọc
+                tay giảm từ 2h → 15 phút/tuần.
+PHẠM VI ÁP DỤNG 4 sản phẩm giám sát (đều có log dồi dào — phù hợp
+                nhất với kỹ thuật này).
+LỘ TRÌNH        Quý 1: áp 1 sản phẩm làm mẫu + đào tạo 2 người.
+                Quý 2: nhân ra 3 sản phẩm còn lại.
+CHI PHÍ/LỢI ÍCH Chi phí: license + ~10 ngày công tích hợp/sản phẩm.
+                Lợi ích: +8% phát hiện lỗi sớm ≈ giảm X bug lọt
+                production/năm (quy ra chi phí sự cố tránh được).
+RANH GIỚI       KHÔNG áp cho sản phẩm ít log (không đủ dữ liệu cho
+TRUNG THỰC      AI học) — chỉ rõ nơi công nghệ này KHÔNG hợp.
+</code></pre>
+<p>Dòng &quot;ranh giới trung thực&quot; (nói rõ chỗ công nghệ không hợp) là thứ làm đề xuất đáng tin — R&amp;D ở tầm chuyên gia không phải bán công nghệ, mà chỉ đúng chỗ nên và không nên dùng.</p>
+<p><strong>Vì sao là mức ④:</strong> nghiên cứu độc lập tới mức đủ thẩm quyền định hướng công nghệ cho cả đơn vị, với bằng chứng đo được và cả sự trung thực về giới hạn — trở thành người đầu tiên đưa công nghệ mới vào thực tế. (Thang vùng này ①→②→④ — không có mốc ③ vì đây là vùng cuối của toàn thang.)</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/tester","c":"dimmed","children":"Kiểm thử (Tester)"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Nghiên cứu công nghệ/kỹ thuật kiểm thử mới (R&D)"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/tester/ky-nang/22-quan-ly-nhom-kiem-thu","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Quản lý nhóm kiểm thử"}]]}]}],["$","$L15",null,{"href":"/tester/ky-nang/24-xay-dung-chien-luoc-kiem-thu","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Xây dựng chiến lược kiểm thử cho đơn vị"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

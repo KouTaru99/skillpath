@@ -1,0 +1,84 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","be","ky-nang","07-da-luong-concurrency",""],"i":false,"f":[[["",{"children":[["role","be","d"],{"children":["ky-nang",{"children":[["skill","07-da-luong-concurrency","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","be","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","07-da-luong-concurrency","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T1d60,<h1>Lập trình đa luồng (multithreading/concurrency)</h1>
+<p><strong>Định nghĩa.</strong> Một chương trình có thể chạy <strong>nhiều luồng (thread)</strong> song song để tận dụng CPU nhiều nhân, hoặc để không &quot;đứng hình&quot; khi chờ việc chậm (đọc file, gọi mạng). <strong>Đồng bộ (sync)</strong> nghĩa là chờ xong việc này mới làm việc kia; <strong>bất đồng bộ (async)</strong> nghĩa là giao việc rồi làm tiếp, xong thì được báo lại. Khi nhiều luồng cùng đụng vào một dữ liệu chung, cần <strong>lock</strong> (khoá) để tránh hai luồng ghi đè lẫn nhau.</p>
+<h2>▸ Entry — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Hiểu khái niệm thread, vòng đời thread (mới tạo → chạy → chờ → kết thúc), phân biệt sync/async, hiểu vì sao cần lock khi nhiều luồng cùng sửa 1 biến.</p>
+<p><strong>Ví dụ thực tế — race condition khi không có lock (Java).</strong></p>
+<pre><code class="language-java"><span class="hljs-comment">// ❌ Hai luồng cùng gọi increment() có thể &quot;giẫm&quot; lên nhau, mất 1 lần cộng</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Counter</span> {
+  <span class="hljs-keyword">private</span> <span class="hljs-type">int</span> <span class="hljs-variable">count</span> <span class="hljs-operator">=</span> <span class="hljs-number">0</span>;
+  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">increment</span><span class="hljs-params">()</span> { count++; }   <span class="hljs-comment">// đọc-cộng-ghi KHÔNG phải 1 thao tác nguyên tử</span>
+}
+
+<span class="hljs-comment">// ✅ Đồng bộ hoá (synchronized) — chỉ 1 luồng được vào tại một thời điểm</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">SafeCounter</span> {
+  <span class="hljs-keyword">private</span> <span class="hljs-type">int</span> <span class="hljs-variable">count</span> <span class="hljs-operator">=</span> <span class="hljs-number">0</span>;
+  <span class="hljs-keyword">public</span> <span class="hljs-keyword">synchronized</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">increment</span><span class="hljs-params">()</span> { count++; }
+}
+</code></pre>
+<p>Nếu 2 luồng cùng gọi <code>increment()</code> không có <code>synchronized</code>, cả hai có thể đọc cùng giá trị cũ rồi cùng ghi lại — kết quả cộng 2 lần nhưng số chỉ tăng 1. <code>synchronized</code> đảm bảo chỉ một luồng thao tác tại một thời điểm.</p>
+<p><strong>Vì sao là mức ①:</strong> hiểu khái niệm và nhận diện được vấn đề cơ bản (race condition) — chưa xử lý bài toán đa luồng phức tạp hay tối ưu hiệu năng.</p>
+<h2>▸ Ex·V1 — ② Biết làm</h2>
+<p><strong>Khác Entry:</strong> xử lý được <strong>concurrency</strong> ở mức ứng dụng thật — dùng <strong>connection pool</strong> (bể kết nối CSDL dùng chung, tránh mở/đóng kết nối liên tục quá tốn kém).</p>
+<p><strong>Ví dụ thực tế — connection pool cho kết nối CSDL (HikariCP, mặc định trong Spring Boot).</strong></p>
+<pre><code class="language-yaml"><span class="hljs-comment"># application.yml</span>
+<span class="hljs-attr">spring:</span>
+  <span class="hljs-attr">datasource:</span>
+    <span class="hljs-attr">hikari:</span>
+      <span class="hljs-attr">maximum-pool-size:</span> <span class="hljs-number">20</span>   <span class="hljs-comment"># tối đa 20 kết nối CSDL dùng chung cho mọi request</span>
+</code></pre>
+<p>Không có connection pool, mỗi request tự mở một kết nối CSDL mới rồi đóng lại — rất tốn tài nguyên khi có nhiều request cùng lúc. Pool giữ sẵn một số kết nối, request nào cần thì &quot;mượn&quot; rồi trả lại, không phải mở mới mỗi lần.</p>
+<p><strong>Vì sao là mức ②:</strong> hiểu và cấu hình được cơ chế quản lý tài nguyên dùng chung giữa nhiều luồng — không chỉ hiểu khái niệm lock cơ bản.</p>
+<h2>▸ Ex·V2 — ③ Thành thạo</h2>
+<p><strong>Khác V1:</strong> phân tích và xử lý được các vấn đề đa luồng khó (deadlock, hiệu năng) — không chỉ dùng đúng công cụ có sẵn.</p>
+<p><strong>Ví dụ thực tế — deadlock khi 2 luồng khoá chéo nhau.</strong></p>
+<pre><code class="language-java"><span class="hljs-comment">// Luồng A: khoá account1 trước, rồi account2</span>
+<span class="hljs-keyword">synchronized</span> (account1) {
+  <span class="hljs-keyword">synchronized</span> (account2) { transfer(account1, account2); }
+}
+<span class="hljs-comment">// Luồng B: khoá account2 trước, rồi account1 — NGƯỢC THỨ TỰ với luồng A</span>
+<span class="hljs-keyword">synchronized</span> (account2) {
+  <span class="hljs-keyword">synchronized</span> (account1) { transfer(account2, account1); }   <span class="hljs-comment">// ← DEADLOCK nếu chạy đồng thời với A</span>
+}
+</code></pre>
+<p>Nếu luồng A giữ <code>account1</code> chờ <code>account2</code>, còn luồng B giữ <code>account2</code> chờ <code>account1</code> — cả hai chờ nhau mãi mãi (deadlock). Bạn sửa bằng cách <strong>luôn khoá theo một thứ tự cố định</strong> (ví dụ luôn khoá account có ID nhỏ hơn trước) ở mọi luồng, loại bỏ khả năng chờ chéo.</p>
+<p><strong>Vì sao là mức ③:</strong> bạn phân tích và phòng tránh được các lỗi đa luồng khó (deadlock) — không chỉ dùng đúng cơ chế đồng bộ có sẵn.</p>
+<h2>▸ Senior·V2 — ④ Chuyên sâu</h2>
+<p><strong>Khác Ex·V2:</strong> tối ưu <strong>cấu hình</strong> đa luồng dựa trên đo đạc thật, không đoán mò — chọn đúng số luồng cho đúng loại tác vụ.</p>
+<p><strong>Ví dụ thực tế — chọn sai kích thước thread pool làm CPU nhàn rỗi dù &quot;đang bận&quot;.</strong></p>
+<pre><code class="language-java"><span class="hljs-comment">// ❌ Dùng chung 1 pool cố định cho cả tác vụ CPU-bound (tính toán) lẫn I/O-bound (gọi API ngoài)</span>
+<span class="hljs-type">ExecutorService</span> <span class="hljs-variable">pool</span> <span class="hljs-operator">=</span> Executors.newFixedThreadPool(<span class="hljs-number">10</span>);
+</code></pre>
+<p>Tác vụ <strong>I/O-bound</strong> (gọi API/CSDL) phần lớn thời gian là CHỜ, không tốn CPU — pool nhỏ khiến nhiều luồng phải xếp hàng dù CPU đang rảnh. Tác vụ <strong>CPU-bound</strong> (tính toán nặng) thì số luồng vượt quá số nhân CPU thực tế chỉ gây tranh chấp (context switching), không nhanh hơn. Bạn tách 2 pool riêng, đo bằng công cụ giám sát để chỉnh đúng kích thước theo loại tác vụ và số nhân CPU thật của server, thay vì chọn một con số &quot;cảm thấy hợp lý&quot;.</p>
+<p><strong>Vì sao là mức ④:</strong> bạn tối ưu cấu hình đa luồng dựa trên đo đạc và hiểu bản chất tác vụ — mức cao nhất của kỹ năng này trong thang Senior.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/be","c":"dimmed","children":"Dev Back-end"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Lập trình đa luồng (multithreading/concurrency)"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/be/ky-nang/06-csdl","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Cơ sở dữ liệu (SQL & NoSQL) — thiết kế & tối ưu"}]]}]}],["$","$L15",null,{"href":"/be/ky-nang/08-unit-test","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Unit test"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

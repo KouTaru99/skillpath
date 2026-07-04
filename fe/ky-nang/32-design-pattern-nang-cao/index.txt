@@ -1,0 +1,79 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","fe","ky-nang","32-design-pattern-nang-cao",""],"i":false,"f":[[["",{"children":[["role","fe","d"],{"children":["ky-nang",{"children":[["skill","32-design-pattern-nang-cao","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","fe","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","32-design-pattern-nang-cao","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T177f,<h1>Design pattern kiến trúc nâng cao (GoF/EIP)</h1>
+<p><strong>Định nghĩa.</strong> Khác <a href="/fe/ky-nang/11-oop-dp-algo-ds">OOP/Design Pattern cơ bản</a> (pattern ở tầm <strong>class/module</strong> — Strategy, Adapter, Factory), đây là pattern ở tầm <strong>kiến trúc toàn hệ thống</strong>: <strong>architectural pattern</strong> (Layered, Client-server, Master-slave, Pipe-filter, Broker, Event-bus, Model-view-controller, Peer-to-peer) và <strong>Enterprise Integration Pattern</strong> (mẫu giao tiếp chuẩn giữa các hệ thống khác nhau — Message Queue, Publish-Subscribe, Request-Reply). Mỗi pattern có đánh đổi rõ theo các khía cạnh: scalability, maintainability, reliability, availability, extensibility, performance, manageability, security.</p>
+<h2>▸ Specialist·V1 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Nhận diện và gọi đúng tên architectural pattern đang dùng trong hệ thống hiện tại, hiểu ưu/nhược điểm cơ bản của nó.</p>
+<p><strong>Ví dụ thực tế — nhận diện 2 pattern đang chạy trong chính hệ thống mình làm.</strong></p>
+<pre><code>Bên trong 1 service (order-service): Layered pattern
+  Controller → Service → Repository — mỗi tầng chỉ biết tầng ngay dưới nó.
+  Ưu: dễ maintain, mỗi tầng test riêng được. Nhược: thêm tầng = thêm độ trễ nhỏ.
+
+Giữa các service: Event-bus pattern (Publish-Subscribe — 1 kiểu Enterprise Integration Pattern)
+  order-service phát sự kiện lên message queue, nhiều service khác tự đăng ký lắng nghe.
+  Ưu: thêm service lắng nghe mới không cần sửa order-service (loose coupling).
+  Nhược: khó theo dõi luồng chạy (không thấy rõ &quot;ai gọi ai&quot; như gọi API trực tiếp).
+</code></pre>
+<p>Bạn gọi đúng tên pattern giúp trao đổi với đồng nghiệp/SA chính xác hơn là mô tả dài dòng — &quot;hệ thống dùng Event-bus giữa các service&quot; truyền đạt nhanh hơn nhiều so với vẽ lại cả luồng.</p>
+<p><strong>Vì sao là mức ①:</strong> bạn nhận diện và gọi tên đúng pattern đang tồn tại — chưa tự chọn pattern phù hợp cho một bài toán mới hay đánh giá đánh đổi sâu giữa các lựa chọn.</p>
+<h2>▸ Specialist·V2 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> tự <strong>chọn</strong> architectural pattern phù hợp cho một bài toán mới, có so sánh đánh đổi rõ ràng — không chỉ nhận diện pattern đã tồn tại sẵn.</p>
+<p><strong>Ví dụ thực tế — chọn giữa Broker pattern và Peer-to-peer cho bài toán tích hợp 5 hệ thống nội bộ.</strong> Công ty có 5 hệ thống cần trao đổi dữ liệu qua lại. Bạn so sánh 2 hướng:</p>
+<pre><code>Peer-to-peer (mỗi hệ thống gọi thẳng hệ thống khác):
+  Ưu: đơn giản ban đầu, không cần hạ tầng thêm.
+  Nhược: 5 hệ thống → tối đa 20 kết nối tay đôi, thêm hệ thống thứ 6 phải nối thêm 5 đường mới.
+
+Broker pattern (mọi hệ thống chỉ nói chuyện qua 1 broker trung tâm):
+  Ưu: mỗi hệ thống chỉ cần biết Broker (5 kết nối thay vì 20), thêm hệ thống mới chỉ nối 1 đường.
+  Nhược: Broker trở thành điểm chịu tải/rủi ro tập trung (single point of failure) —
+  cần đầu tư làm nó đủ tin cậy.
+
+Đề xuất: Broker pattern — vì công ty đã có kế hoạch thêm hệ thống thứ 6, 7 trong năm tới,
+chi phí đầu tư Broker đáng giá hơn nối tay đôi ngày càng phức tạp.
+</code></pre>
+<p>Bạn chọn pattern dựa trên <strong>xu hướng phát triển tương lai</strong> (sẽ thêm bao nhiêu hệ thống), không chỉ độ đơn giản hiện tại.</p>
+<p><strong>Vì sao là mức ②:</strong> bạn tự chọn được pattern phù hợp cho bài toán cụ thể, có so sánh đánh đổi — không chỉ nhận diện pattern có sẵn.</p>
+<h2>▸ Specialist·V3 — ④ Chuyên sâu</h2>
+<p><strong>Khác V2:</strong> đánh giá pattern theo <strong>đầy đủ các khía cạnh chất lượng hệ thống</strong> (scalability, maintainability, reliability, availability, extensibility, performance, manageability, security) — không chỉ 1-2 khía cạnh nổi bật, và đặt thành chuẩn kiến trúc chính thức.</p>
+<p><strong>Ví dụ thực tế — đánh giá đầy đủ khía cạnh trước khi chốt Broker pattern (từ mốc V2) thành chuẩn chính thức.</strong></p>
+<pre><code>Broker pattern — đánh giá đủ 8 khía cạnh trước khi chốt làm chuẩn công ty:
++ Scalability: tốt, thêm hệ thống mới chỉ nối 1 đường tới Broker
++ Extensibility: tốt, dễ thêm loại message mới
++ Maintainability: tốt, logic định tuyến tập trung 1 chỗ
+- Availability: RỦI RO — Broker chết thì mọi giao tiếp giữa hệ thống ngừng
+  → cần thêm: Broker chạy dạng cluster (nhiều bản sao), không phải 1 instance
+- Manageability: cần thêm công cụ giám sát riêng cho Broker (không có sẵn)
+- Security: cần xác thực giữa mỗi hệ thống và Broker (không phải ai gọi cũng được)
+</code></pre>
+<p>Bạn không chốt pattern chỉ vì nó giải quyết đúng vấn đề trước mắt (kết nối 5 hệ thống) — mà đánh giá đủ các khía cạnh còn thiếu (Availability, Security) và yêu cầu bổ sung trước khi cho phép dùng làm chuẩn chính thức của công ty.</p>
+<p><strong>Vì sao là mức ④:</strong> bạn đánh giá pattern một cách toàn diện theo mọi khía cạnh chất lượng hệ thống, không bỏ sót rủi ro — mức cao nhất, đủ tin cậy để đặt thành chuẩn kiến trúc chính thức.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/fe","c":"dimmed","children":"Dev Front-end"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Design pattern kiến trúc nâng cao (GoF/EIP)"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/fe/ky-nang/31-phong-van-tuyen-dung","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Tham gia phỏng vấn tuyển dụng"}]]}]}],["$","$L15",null,{"href":"/fe/ky-nang/33-giam-sat-hieu-nang-apm","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Giám sát & chẩn đoán hiệu năng hệ thống (APM)"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

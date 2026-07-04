@@ -1,0 +1,93 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","ba","ky-nang","12-phan-tich-thi-truong-doi-thu",""],"i":false,"f":[[["",{"children":[["role","ba","d"],{"children":["ky-nang",{"children":[["skill","12-phan-tich-thi-truong-doi-thu","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","ba","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","12-phan-tich-thi-truong-doi-thu","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T1aa9,<h1>Phân tích sản phẩm/ứng dụng thị trường &amp; đối thủ cạnh tranh</h1>
+<p><strong>Định nghĩa.</strong> Kỹ năng mới ở Senior — thay vì chỉ ghi nhận yêu cầu từ khách hàng nội bộ, BA chủ động <strong>nghiên cứu sản phẩm tương đương trên thị trường</strong> (competitor analysis — phân tích đối thủ cạnh tranh) để đề xuất tính năng đón đầu, định vị sản phẩm, và tránh xây lại thứ thị trường đã giải xong. Với sản phẩm giám sát an ninh, &quot;thị trường&quot; nghĩa là các hệ thống <strong>SIEM</strong> (Security Information and Event Management — quản lý sự kiện và thông tin an ninh) như Splunk, ELK Security, QRadar, Wazuh.</p>
+<h2>▸ Senior·V1 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Khi được giao, tìm hiểu và so sánh có cấu trúc với 1–2 sản phẩm tương đương — ra được bảng so sánh dùng được, không chỉ cảm nhận chung chung.</p>
+<p><strong>Tình huống thực tế — được giao khảo sát Splunk và Wazuh trong 1 tuần.</strong> Trưởng sản phẩm hỏi: &quot;hệ thống mình đang thiếu gì so với ngoài kia?&quot; Bạn không trả về một bài văn, mà một bảng so sánh theo nhóm tính năng:</p>
+<pre><code>SO SÁNH NHANH — hệ thống nội bộ vs Splunk vs Wazuh (06/2026)
+
+  Nhóm tính năng       | Nội bộ | Splunk | Wazuh | Ghi chú
+  ---------------------|--------|--------|-------|------------------------
+  Thu thập log đa nguồn| ✅ 3   | ✅ 100+| ✅ 50+| mình chỉ server/firewall
+                       | nguồn  | connector      | /app — thiếu cloud
+  Tương quan sự kiện   | ✅ theo| ✅ rule| ✅    | ngang tầm nhu cầu nội bộ
+                       | ngưỡng | engine mạnh    |
+  Threat Intelligence  | ❌     | ✅     | ✅    | đối chiếu IP với danh
+  (tình báo mối đe doạ)|        |        |       | sách đen công khai
+  Báo cáo tuân thủ     | ❌     | ✅     | ✅    | mẫu báo cáo ISO/PCI sẵn
+  Chi phí              | nội bộ | $$$ đắt| mã    |
+                       |        | theo GB| nguồn |
+                       |        | log    | mở    |
+</code></pre>
+<p>Kèm một kết luận 3 dòng: khoảng cách lớn nhất là Threat Intelligence và nguồn log cloud; báo cáo tuân thủ chưa gấp vì công ty chưa audit theo chuẩn đó.</p>
+<p><strong>Vì sao là mức ①:</strong> so sánh có cấu trúc, đúng trọng tâm khi <strong>được giao đề bài</strong>; chưa tự đề xuất hành động từ phân tích.</p>
+<h2>▸ Senior·V2 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> <strong>tự phát hiện</strong> khoảng trống không cần ai giao, và chuyển phân tích thành <strong>khuyến nghị cụ thể</strong> kèm chi phí/lợi ích để sản phẩm quyết được.</p>
+<p><strong>Tình huống thực tế — tự đề xuất tính năng Threat Intelligence vào roadmap.</strong> Từ bảng so sánh quý trước, bạn tự đào sâu tính năng có khoảng cách lớn nhất và trình bản đề xuất:</p>
+<pre><code>ĐỀ XUẤT — Bổ sung đối chiếu Threat Intelligence (TI)
+
+VẤN ĐỀ      70% cảnh báo hiện tại là cảnh báo giả; trực ca mất ~2h/ngày
+            lọc tay. Các SIEM thị trường đều giảm giả bằng TI: IP xuất
+            hiện trong danh sách đen công khai → tự nâng độ tin cậy.
+GIẢI PHÁP   Tích hợp 2 nguồn TI miễn phí (AbuseIPDB, AlienVault OTX);
+            cảnh báo có IP khớp danh sách đen → gắn nhãn &quot;TI xác nhận&quot;.
+LỢI ÍCH     Ước tính giảm 30-40% thời gian lọc tay (dựa trên tỉ lệ IP
+            tấn công cũ có mặt trong danh sách đen ~60%, đo thử 1 tuần
+            log thật).
+CHI PHÍ     ~3 tuần công Dev BE; nguồn TI miễn phí có giới hạn 1.000
+            truy vấn/ngày → đủ cho quy mô hiện tại, vượt thì trả phí.
+RỦI RO      Phụ thuộc dịch vụ ngoài → cần cơ chế cache + chạy tiếp
+            được khi nguồn TI sập.
+</code></pre>
+<p>Điểm khác biệt so với V1: con số &quot;60% IP khớp danh sách đen&quot; là bạn <strong>đo thử trên log thật một tuần</strong>, không chép từ tài liệu marketing của đối thủ.</p>
+<p><strong>Vì sao là mức ②:</strong> chủ động phát hiện + khuyến nghị được hành động cụ thể có số liệu tự kiểm chứng; chưa phải là hoạt động định kỳ ảnh hưởng chiến lược dài hạn.</p>
+<h2>▸ Senior·V3 — ③ Thành thạo</h2>
+<p><strong>Khác V2:</strong> phân tích thị trường thành <strong>nhịp định kỳ có phương pháp</strong>, là đầu vào chính thức cho roadmap hằng năm — và bạn biết phân biệt &quot;xu hướng thật&quot; với &quot;mốt marketing&quot;.</p>
+<p><strong>Tình huống thực tế — báo cáo xu hướng quý trở thành đầu vào roadmap.</strong> Bạn duy trì nhịp mỗi quý: rà release notes của 4 SIEM lớn, đọc 2 báo cáo ngành (Gartner, SANS), phỏng vấn nhanh đội vận hành về nỗi đau mới. Báo cáo quý III của bạn có một nhận định &quot;ngược dòng&quot; đáng giá:</p>
+<pre><code>TRÍCH BÁO CÁO XU HƯỚNG QUÝ III
+
+XU HƯỚNG THẬT (khuyến nghị theo):
+  - SOAR mini (tự động hoá phản ứng đơn giản: tự chặn IP sau khi
+    người duyệt 1 chạm) — cả 4 đối thủ đều đã có, đội vận hành
+    mình cũng đang xin. Đề xuất: đưa vào roadmap năm sau, phạm vi
+    &quot;duyệt 1 chạm&quot;, KHÔNG tự động hoàn toàn.
+
+MỐT MARKETING (khuyến nghị CHƯA theo):
+  - &quot;AI tự phân tích sự cố&quot; — mọi đối thủ đều quảng cáo, nhưng khảo
+    sát người dùng thực tế (diễn đàn SOC, 2 hội thảo) cho thấy tỉ lệ
+    tin dùng thấp vì hay suy đoán sai; chi phí xây rất lớn.
+    Đề xuất: theo dõi thêm 2 quý, chưa đầu tư.
+</code></pre>
+<p>Ban lãnh đạo dùng đúng khung này để chốt roadmap — và việc bạn dám ghi &quot;chưa nên làm AI&quot; (đi ngược trào lưu) với căn cứ khảo sát thật là thứ khiến báo cáo được tin.</p>
+<p><strong>Vì sao là mức ③:</strong> phân tích thị trường trở thành quy trình định kỳ ảnh hưởng quyết định chiến lược, có chính kiến được kiểm chứng — không còn là việc làm một lần khi được giao.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/ba","c":"dimmed","children":"Giải pháp nghiệp vụ (BA)"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Phân tích sản phẩm/ứng dụng thị trường & đối thủ cạnh tranh"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/ba/ky-nang/11-dam-phan-to-chuc-cuoc-hop","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Kỹ năng đàm phán & tổ chức cuộc họp"}]]}]}],["$","$L15",null,{"href":"/ba/ky-nang/13-kien-thuc-ux","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Kiến thức UX & định hướng UX sản phẩm"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

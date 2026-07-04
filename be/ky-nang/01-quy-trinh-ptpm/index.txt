@@ -1,0 +1,70 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","be","ky-nang","01-quy-trinh-ptpm",""],"i":false,"f":[[["",{"children":[["role","be","d"],{"children":["ky-nang",{"children":[["skill","01-quy-trinh-ptpm","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","be","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","01-quy-trinh-ptpm","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T155d,<h1>Quy trình phát triển phần mềm (Agile / Scrum)</h1>
+<p><strong>Định nghĩa.</strong> <strong>Agile</strong> là nhóm phương pháp phát triển phần mềm theo kiểu <em>lặp – tăng tiến</em> (iterative &amp; incremental): chia việc thành chu kỳ ngắn, giao giá trị sớm, lấy phản hồi liên tục thay vì làm một mạch theo kế hoạch cứng. <strong>Scrum</strong> là khung Agile phổ biến nhất: <strong>Sprint</strong> (chu kỳ 1–4 tuần), ba <strong>vai</strong> (Product Owner giữ giá trị sản phẩm, Scrum Master gỡ rào quy trình, Development Team thực thi), bốn <strong>sự kiện</strong> (Sprint Planning, Daily Standup, Sprint Review, Retrospective), ba <strong>tạo phẩm</strong> (Product Backlog, Sprint Backlog, Increment). Với một dev Back-end, đây là &quot;luật chơi&quot; của đội — API đúng logic vẫn lệch nhịp nếu không nắm quy trình.</p>
+<h2>▸ Entry — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Hiểu mình đang ở đâu trong Sprint, nhận và cập nhật task trên board (Jira), tham gia Daily đúng cách, hiểu Definition of Done.</p>
+<p><strong>Ví dụ thực tế — một ngày trong Sprint.</strong> Bạn nhận task &quot;Viết API lấy danh sách đơn hàng theo trạng thái&quot;, kéo thẻ <code>To Do → In Progress</code>. Trong Daily báo đúng 3 ý:</p>
+<pre><code>- Hôm qua: dựng xong entity Order + repository.
+- Hôm nay: viết API GET /api/orders?status=..., thêm phân trang.
+- Vướng: chưa rõ status &quot;đã huỷ&quot; có tính vào tổng doanh thu không → cần hỏi PO.
+</code></pre>
+<p>Task chỉ sang <code>Done</code> khi đạt Definition of Done (code + unit test + review), không phải khi &quot;chạy trên máy mình&quot;.</p>
+<p><strong>Vì sao là mức ①:</strong> theo được nhịp đội và quy ước, chưa tự chẻ việc hay ước lượng.</p>
+<h2>▸ Ex·V1 — ② Biết làm</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Tự chẻ một yêu cầu thành task nhỏ, ước lượng được, viết/hiểu tiêu chí nghiệm thu để biết khi nào việc thực sự xong.</p>
+<p><strong>Ví dụ thực tế — chẻ một User Story.</strong> Story: <em>&quot;Là hệ thống, cần gửi email xác nhận khi đơn hàng được tạo.&quot;</em> Bạn chẻ + ước lượng:</p>
+<pre><code>[BE] API tạo đơn hàng, phát sự kiện OrderCreated     — 2 point
+[BE] Service lắng nghe sự kiện, gửi email             — 3 point
+[QA] Kịch bản test: email gửi đúng nội dung, đúng địa chỉ — 1 point
+</code></pre>
+<p>Và viết tiêu chí nghiệm thu dạng Given/When/Then:</p>
+<pre><code class="language-gherkin"><span class="hljs-keyword">Scenario</span>: Gửi email khi tạo đơn hàng thành công
+  <span class="hljs-keyword">Given</span> khách hàng đã có email hợp lệ trong hệ thống
+  <span class="hljs-keyword">When</span> đơn hàng được tạo thành công
+  <span class="hljs-keyword">Then</span> hệ thống gửi email xác nhận trong vòng 1 phút
+</code></pre>
+<p><strong>Vì sao là mức ②:</strong> tự chia &amp; ước lượng việc của mình, ít lệ thuộc hướng dẫn.</p>
+<h2>▸ Ex·V3 — ③ Thành thạo</h2>
+<p><strong>Khác V1:</strong> hiểu sâu bản chất Agile/Scrum — vận dụng linh hoạt, nhận diện và chữa anti-pattern (scope creep, story quá to), không chỉ làm đúng thủ tục.</p>
+<p><strong>Ví dụ thực tế — chẻ story quá to theo nguyên tắc INVEST.</strong> Story &quot;Xây API quản lý đơn hàng&quot; quá lớn cho 1 Sprint. Bạn chẻ theo lát giá trị mỏng (vertical slice):</p>
+<pre><code>Sprint 1: API tạo đơn + xem chi tiết (đủ để demo 1 luồng hoàn chỉnh)
+Sprint 2: API cập nhật trạng thái + huỷ đơn
+Sprint 3: API tìm kiếm/lọc/phân trang
+</code></pre>
+<p>Mỗi lát đều tự giao được giá trị dùng ngay (không phải &quot;phải xong cả 3 lát mới demo được&quot;), thay vì chẻ theo tầng kỹ thuật (Sprint 1: chỉ có Entity, Sprint 2: chỉ có Repository...) khiến không Sprint nào demo được gì cho PO.</p>
+<p><strong>Vì sao là mức ③:</strong> vận dụng nguyên tắc Agile để chẻ việc thông minh, không chỉ tuân thủ hình thức.</p>
+<h2>▸ Senior·V2 — ④ Chuyên sâu</h2>
+<p><strong>Khác Ex·V3:</strong> hiểu đủ sâu để <strong>chọn đúng khung quy trình cho từng loại dự án</strong>, không áp Scrum như công thức duy nhất.</p>
+<p><strong>Ví dụ thực tế — đề xuất Kanban cho dự án vận hành/bảo trì hệ thống cũ.</strong> Dự án support-heavy nhận yêu cầu sửa lỗi/nâng cấp nhỏ lẻ tẻ suốt ngày — dồn thành Sprint 2 tuần không hợp lý (việc mới tới liên tục, không đợi được). Bạn đề xuất <strong>Kanban</strong>: không Sprint cố định, giới hạn <strong>WIP</strong> theo cột, đo bằng <strong>lead time</strong> thay vì velocity — khớp bản chất công việc hơn Scrum.</p>
+<p><strong>Vì sao là mức ④:</strong> bạn hiểu quy trình đủ sâu để <strong>chọn</strong> (không chỉ vận hành) khung phù hợp bản chất từng dự án.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/be","c":"dimmed","children":"Dev Back-end"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Quy trình phát triển phần mềm (Agile/Scrum)"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","div",null,{}],["$","$L15",null,{"href":"/be/ky-nang/02-doc-hieu-tai-lieu-giai-phap","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Đọc hiểu & soi lỗi tài liệu giải pháp"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

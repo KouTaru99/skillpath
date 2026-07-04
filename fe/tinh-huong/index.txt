@@ -1,0 +1,439 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","623","static/chunks/app/%5Brole%5D/tinh-huong/page-75cbdf0329292d64.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","623","static/chunks/app/%5Brole%5D/tinh-huong/page-75cbdf0329292d64.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","fe","tinh-huong",""],"i":false,"f":[[["",{"children":[["role","fe","d"],{"children":["tinh-huong",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","fe","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["tinh-huong",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","623","static/chunks/app/%5Brole%5D/tinh-huong/page-75cbdf0329292d64.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","623","static/chunks/app/%5Brole%5D/tinh-huong/page-75cbdf0329292d64.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","623","static/chunks/app/%5Brole%5D/tinh-huong/page-75cbdf0329292d64.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","623","static/chunks/app/%5Brole%5D/tinh-huong/page-75cbdf0329292d64.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","623","static/chunks/app/%5Brole%5D/tinh-huong/page-75cbdf0329292d64.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","623","static/chunks/app/%5Brole%5D/tinh-huong/page-75cbdf0329292d64.js"],"Box"]
+18:Tdfe5,<h1>Tình huống thực chiến — Dev Front-end (Angular)</h1>
+<blockquote>
+<p>50 issue/bug hay gặp khi làm việc thật, kèm bối cảnh · triệu chứng · nguyên nhân · cách xử (có code) · <strong>nguồn tra cứu</strong> (StackOverflow / GitHub Issues / tài liệu chính thức). Gom theo chủ đề để bạn tra theo đúng thứ đang gặp.</p>
+</blockquote>
+<h2>1. Change detection &amp; RxJS</h2>
+<h3>1. <code>ExpressionChangedAfterItHasBeenCheckedError</code> (NG0100)</h3>
+<p><strong>Bối cảnh:</strong> bạn set giá trị hiển thị (vd tiêu đề, cờ loading) trong <code>ngAfterViewInit</code>, hoặc bind vào một getter tính toán.
+<strong>Triệu chứng:</strong> app chạy được nhưng console đỏ: <code>ExpressionChangedAfterItHasBeenCheckedError: Expression has changed after it was checked</code> — chỉ xuất hiện ở dev mode.
+<strong>Nguyên nhân:</strong> ở dev mode Angular chạy change detection <strong>hai lần</strong> liên tiếp để kiểm tra tính nhất quán; nếu giá trị binding đổi giữa hai lần (vì bạn sửa nó <em>sau</em> khi view đã dựng), Angular báo lỗi để cảnh báo &quot;dữ liệu đổi sau khi đã vẽ&quot;.
+<strong>Cách xử:</strong> đặt giá trị khởi tạo ở <code>ngOnInit</code>/constructor. Nếu buộc đổi sau khi view dựng, hoãn một nhịp (microtask) để nằm ở chu kỳ CD sau:</p>
+<pre><code class="language-typescript"><span class="hljs-title function_">constructor</span>(<span class="hljs-params"><span class="hljs-keyword">private</span> <span class="hljs-attr">cdr</span>: <span class="hljs-title class_">ChangeDetectorRef</span></span>) {}
+<span class="hljs-title function_">ngAfterViewInit</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-title class_">Promise</span>.<span class="hljs-title function_">resolve</span>().<span class="hljs-title function_">then</span>(<span class="hljs-function">() =&gt;</span> { <span class="hljs-variable language_">this</span>.<span class="hljs-property">showBanner</span> = <span class="hljs-literal">true</span>; <span class="hljs-variable language_">this</span>.<span class="hljs-property">cdr</span>.<span class="hljs-title function_">detectChanges</span>(); });
+}
+</code></pre>
+<p><em>Nguồn: <a href="https://angular.dev/errors/NG0100">angular.dev/errors/NG0100</a> · <a href="https://blog.angular-university.io/angular-debugging/">angular-university.io</a></em></p>
+<h3>2. Rò bộ nhớ do quên <code>unsubscribe</code></h3>
+<p><strong>Bối cảnh:</strong> trong component bạn <code>subscribe()</code> thủ công một Observable sống lâu — <code>route.params</code>, <code>valueChanges</code>, <code>interval</code>, hoặc một service <code>BehaviorSubject</code>.
+<strong>Triệu chứng:</strong> vào–ra một màn nhiều lần thì handler chạy chồng nhau (2, 3, 4 lần...); app dùng lâu càng chậm, DevTools &gt; Memory thấy số listener tăng dần.
+<strong>Nguyên nhân:</strong> subscription không bị huỷ khi component destroy → giữ tham chiếu tới component cũ, không được thu hồi.
+<strong>Cách xử:</strong> ưu tiên <code>async</code> pipe (Angular tự huỷ). Nếu buộc subscribe tay, dùng pattern <code>takeUntil</code>:</p>
+<pre><code class="language-typescript"><span class="hljs-keyword">private</span> destroy$ = <span class="hljs-keyword">new</span> <span class="hljs-title class_">Subject</span>&lt;<span class="hljs-built_in">void</span>&gt;();
+<span class="hljs-title function_">ngOnInit</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-variable language_">this</span>.<span class="hljs-property">route</span>.<span class="hljs-property">params</span>.<span class="hljs-title function_">pipe</span>(<span class="hljs-title function_">takeUntil</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">destroy$</span>)).<span class="hljs-title function_">subscribe</span>(<span class="hljs-function"><span class="hljs-params">p</span> =&gt;</span> <span class="hljs-variable language_">this</span>.<span class="hljs-title function_">load</span>(p[<span class="hljs-string">&#x27;id&#x27;</span>]));
+}
+<span class="hljs-title function_">ngOnDestroy</span>(<span class="hljs-params"></span>) { <span class="hljs-variable language_">this</span>.<span class="hljs-property">destroy$</span>.<span class="hljs-title function_">next</span>(); <span class="hljs-variable language_">this</span>.<span class="hljs-property">destroy$</span>.<span class="hljs-title function_">complete</span>(); }
+</code></pre>
+<p>Lưu ý: đặt <code>takeUntil</code> <strong>cuối</strong> chuỗi <code>pipe</code> (sau các operator tạo subscription khác) để chắc chắn huỷ hết.
+<em>Nguồn: <a href="https://dev.to/theoklitosbam7/avoid-memory-leaks-in-angular-5gla">dev.to — Avoid Memory Leaks in Angular</a></em></p>
+<h3>3. <code>OnPush</code>: view không cập nhật dù dữ liệu đã đổi</h3>
+<p><strong>Bối cảnh:</strong> component đặt <code>ChangeDetectionStrategy.OnPush</code>, bạn thêm phần tử vào mảng bằng <code>this.items.push(x)</code> rồi thấy màn hình không đổi.
+<strong>Triệu chứng:</strong> dữ liệu trong code đúng nhưng template không render item mới.
+<strong>Nguyên nhân:</strong> <code>OnPush</code> chỉ chạy CD khi <strong>tham chiếu</strong> của <code>@Input</code> đổi; <code>push</code> sửa mảng tại chỗ nên tham chiếu giữ nguyên → Angular nghĩ &quot;không có gì đổi&quot;.
+<strong>Cách xử:</strong> cập nhật bất biến (tạo tham chiếu mới), hoặc chủ động đánh dấu:</p>
+<pre><code class="language-typescript"><span class="hljs-variable language_">this</span>.<span class="hljs-property">items</span> = [...<span class="hljs-variable language_">this</span>.<span class="hljs-property">items</span>, newItem];   <span class="hljs-comment">// tham chiếu mới → OnPush nhận ra</span>
+<span class="hljs-comment">// hoặc khi buộc mutate: this.cdr.markForCheck();</span>
+</code></pre>
+<p><em>Nguồn: <a href="https://angular.dev/best-practices/skipping-subtrees">Angular — Skipping component subtrees (OnPush)</a></em></p>
+<h3>4. <code>subscribe</code> lồng trong <code>subscribe</code> (nested subscribe)</h3>
+<p><strong>Bối cảnh:</strong> cần lấy user rồi lấy đơn hàng của user đó, bạn viết <code>getUser().subscribe(u =&gt; getOrders(u.id).subscribe(...))</code>.
+<strong>Triệu chứng:</strong> khi giá trị đầu đổi nhanh (đổi bộ lọc liên tục), kết quả cũ về muộn <strong>ghi đè</strong> kết quả mới; code khó đọc, dễ rò subscription.
+<strong>Nguyên nhân:</strong> subscribe lồng nhau không huỷ luồng cũ khi có giá trị mới → race condition, và mỗi lần lại tạo chuỗi subscription mới.
+<strong>Cách xử:</strong> dùng flattening operator: <code>switchMap</code> (huỷ cái cũ — hợp cho tìm kiếm/điều hướng), <code>concatMap</code> (tuần tự), <code>mergeMap</code> (song song):</p>
+<pre><code class="language-typescript"><span class="hljs-variable language_">this</span>.<span class="hljs-property">userId$</span>.<span class="hljs-title function_">pipe</span>(
+  <span class="hljs-title function_">switchMap</span>(<span class="hljs-function"><span class="hljs-params">id</span> =&gt;</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">api</span>.<span class="hljs-title function_">getOrders</span>(id)),   <span class="hljs-comment">// đổi user → huỷ query đơn cũ, không bị đè</span>
+).<span class="hljs-title function_">subscribe</span>(<span class="hljs-function"><span class="hljs-params">orders</span> =&gt;</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">orders</span> = orders);
+</code></pre>
+<p><em>Nguồn: <a href="https://www.angulartraining.com/daily-newsletter/anti-pattern-subscription-within-a-subscription/">Angular Training — Anti-pattern: subscription within a subscription</a></em></p>
+<h3>5. API bị gọi 2 lần vì dùng <code>| async</code> nhiều nơi</h3>
+<p><strong>Bối cảnh:</strong> cùng một <code>data$</code> (từ <code>http.get</code>) được <code>| async</code> ở nhiều chỗ trong template (vd vừa hiện loading, vừa hiện danh sách).
+<strong>Triệu chứng:</strong> tab Network thấy <strong>hai request giống hệt</strong> cho cùng dữ liệu.
+<strong>Nguyên nhân:</strong> Observable từ HttpClient là <em>cold</em> — mỗi lần <code>subscribe</code> (mỗi <code>async</code> pipe là một subscribe) sẽ kích một request mới.
+<strong>Cách xử:</strong> cache kết quả bằng <code>shareReplay(1)</code>, hoặc subscribe một lần rồi tái dùng bằng <code>as</code>:</p>
+<pre><code class="language-typescript"><span class="hljs-comment">// trong service</span>
+data$ = <span class="hljs-variable language_">this</span>.<span class="hljs-property">http</span>.<span class="hljs-property">get</span>&lt;<span class="hljs-title class_">Item</span>[]&gt;(<span class="hljs-string">&#x27;/api/items&#x27;</span>).<span class="hljs-title function_">pipe</span>(<span class="hljs-title function_">shareReplay</span>(<span class="hljs-number">1</span>));
+</code></pre>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">ng-container</span> *<span class="hljs-attr">ngIf</span>=<span class="hljs-string">&quot;data$ | async as data&quot;</span>&gt;</span>…dùng lại {{ data }} nhiều chỗ…<span class="hljs-tag">&lt;/<span class="hljs-name">ng-container</span>&gt;</span>
+</code></pre>
+<p><em>Nguồn: <a href="https://angular-university.io/lesson/reactive-angular-duplicate-http-requests-sharereplay">angular-university.io — Avoiding duplicate HTTP requests with shareReplay</a></em></p>
+<h2>2. Dependency Injection &amp; module</h2>
+<h3>6. <code>NullInjectorError: No provider for HttpClient</code></h3>
+<p><strong>Bối cảnh:</strong> vừa inject <code>HttpClient</code> vào một service để gọi API.
+<strong>Triệu chứng:</strong> app crash trắng màn, console: <code>NullInjectorError: No provider for _HttpClient!</code>.
+<strong>Nguyên nhân:</strong> chưa cung cấp provider cho <code>HttpClient</code> — Angular không tìm thấy trong cây injector.
+<strong>Cách xử:</strong> với app dùng NgModule (v9–12), import <code>HttpClientModule</code> vào <code>AppModule</code>:</p>
+<pre><code class="language-typescript"><span class="hljs-keyword">import</span> { <span class="hljs-title class_">HttpClientModule</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;@angular/common/http&#x27;</span>;
+<span class="hljs-meta">@NgModule</span>({ <span class="hljs-attr">imports</span>: [ <span class="hljs-title class_">BrowserModule</span>, <span class="hljs-title class_">HttpClientModule</span> ] })
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AppModule</span> {}
+</code></pre>
+<p>(Với unit test thì import <code>HttpClientTestingModule</code> vào <code>TestBed</code>.)
+<em>Nguồn: <a href="https://www.angularjswiki.com/angular/no-provider-for-httpclient/">Angular Wiki — No provider for HttpClient</a></em></p>
+<h3>7. Service tưởng singleton nhưng bị tạo nhiều bản</h3>
+<p><strong>Bối cảnh:</strong> bạn khai <code>providers: [CartService]</code> trong <code>@Component</code> hoặc trong một lazy module, rồi thấy state không đồng bộ giữa các màn.
+<strong>Triệu chứng:</strong> thêm hàng vào giỏ ở màn A, sang màn B thấy giỏ trống.
+<strong>Nguyên nhân:</strong> provider khai ở component/lazy module tạo <strong>instance riêng</strong> theo scope đó, không phải bản dùng chung toàn app.
+<strong>Cách xử:</strong> muốn dùng chung toàn app → <code>providedIn: 'root'</code>, và <strong>bỏ</strong> khỏi <code>providers</code> của component:</p>
+<pre><code class="language-typescript"><span class="hljs-meta">@Injectable</span>({ <span class="hljs-attr">providedIn</span>: <span class="hljs-string">&#x27;root&#x27;</span> })
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">CartService</span> {}
+</code></pre>
+<p><em>Nguồn: <a href="https://angular.dev/guide/di/dependency-injection-providers">Angular — DI providers &amp; scope</a></em></p>
+<h3>8. <code>Cannot instantiate cyclic dependency!</code> (NG0200)</h3>
+<p><strong>Bối cảnh:</strong> <code>UserService</code> inject <code>OrderService</code>, mà <code>OrderService</code> lại inject <code>UserService</code>.
+<strong>Triệu chứng:</strong> console: <code>NG0200: Circular dependency in DI detected</code>.
+<strong>Nguyên nhân:</strong> để tạo A cần B, để tạo B lại cần A → vòng lặp, DI không giải được.
+<strong>Cách xử:</strong> tốt nhất <strong>tách phần dùng chung ra service thứ ba</strong> mà cả hai cùng phụ thuộc; nếu buộc phải giữ vòng, dùng <code>forwardRef</code> để hoãn resolve:</p>
+<pre><code class="language-typescript"><span class="hljs-title function_">constructor</span>(<span class="hljs-params"><span class="hljs-meta">@Inject</span>(forwardRef(() =&gt; OrderService)) <span class="hljs-keyword">private</span> <span class="hljs-attr">orders</span>: <span class="hljs-title class_">OrderService</span></span>) {}
+</code></pre>
+<p><em>Nguồn: <a href="https://angular.dev/errors/NG0200">angular.dev/errors/NG0200</a></em></p>
+<h3>9. <code>StaticInjectorError</code> sau khi thêm service mới</h3>
+<p><strong>Bối cảnh:</strong> service mới của bạn phụ thuộc <code>Router</code>/<code>MatDialog</code>/một service của thư viện.
+<strong>Triệu chứng:</strong> <code>StaticInjectorError ... No provider for Router!</code> (hoặc token của thư viện).
+<strong>Nguyên nhân:</strong> thiếu import module cung cấp dependency đó (RouterModule, MatDialogModule…).
+<strong>Cách xử:</strong> đọc token trong thông báo lỗi → thêm đúng module vào <code>imports</code> của module chứa component/service.
+<em>Nguồn: <a href="https://angular.dev/errors/NG0201">angular.dev/errors/NG0201 — No provider found</a></em></p>
+<h3>10. Hai component nhận nhầm hai instance service khác nhau</h3>
+<p><strong>Bối cảnh:</strong> bạn vừa để <code>@Injectable({ providedIn: 'root' })</code> vừa thêm service vào <code>providers</code> của một component.
+<strong>Triệu chứng:</strong> state thay đổi ở component này không phản ánh ở component kia.
+<strong>Nguyên nhân:</strong> khai ở <code>providers</code> component tạo instance riêng, che mất bản root.
+<strong>Cách xử:</strong> thống nhất <strong>một nơi</strong> khai báo; state dùng chung phải cùng một instance (để ở root, gỡ khỏi <code>providers</code> component).
+<em>Nguồn: <a href="https://angular.dev/guide/di/hierarchical-dependency-injection">Angular — Hierarchical injectors</a></em></p>
+<h2>3. HTTP &amp; tích hợp API</h2>
+<h3>11. CORS bị chặn khi gọi API lúc dev</h3>
+<p><strong>Bối cảnh:</strong> Angular chạy <code>localhost:4200</code> gọi API <code>localhost:3000</code> (khác origin).
+<strong>Triệu chứng:</strong> console: <code>Access to XMLHttpRequest ... has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header</code>; request đỏ dù backend vẫn chạy.
+<strong>Nguyên nhân:</strong> trình duyệt chặn request cross-origin khi server không trả header CORS.
+<strong>Cách xử (dev):</strong> dùng proxy của Angular CLI để request đi cùng origin — tạo <code>proxy.conf.json</code>:</p>
+<pre><code class="language-json"><span class="hljs-punctuation">{</span> <span class="hljs-attr">&quot;/api&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span> <span class="hljs-attr">&quot;target&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;http://localhost:3000&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-attr">&quot;secure&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">false</span></span> <span class="hljs-punctuation">}</span> <span class="hljs-punctuation">}</span>
+</code></pre>
+<p>rồi <code>ng serve --proxy-config proxy.conf.json</code>, gọi <code>/api/...</code> thay vì URL đầy đủ. <em>(Production phải cấu hình CORS ở server, không dùng proxy này.)</em>
+<em>Nguồn: <a href="https://www.samjulien.com/proxy-angular-cli-cors/">samjulien.com — Proxy with Angular CLI to fix CORS</a></em></p>
+<h3>12. Gọi <code>http.get</code> mà không thấy request nào chạy</h3>
+<p><strong>Bối cảnh:</strong> viết <code>this.http.get('/api/x')</code> trong <code>ngOnInit</code> nhưng Network không có request.
+<strong>Triệu chứng:</strong> không có lỗi, chỉ đơn giản là request không được gửi.
+<strong>Nguyên nhân:</strong> Observable của HttpClient là <strong>cold</strong> — chỉ chạy khi có người <code>subscribe</code>. Không subscribe = &quot;bản thiết kế&quot; request chưa được thực thi.
+<strong>Cách xử:</strong> <code>.subscribe(...)</code> hoặc dùng <code>| async</code> trong template:</p>
+<pre><code class="language-typescript"><span class="hljs-variable language_">this</span>.<span class="hljs-property">http</span>.<span class="hljs-property">get</span>&lt;<span class="hljs-title class_">User</span>[]&gt;(<span class="hljs-string">&#x27;/api/users&#x27;</span>).<span class="hljs-title function_">subscribe</span>(<span class="hljs-function"><span class="hljs-params">users</span> =&gt;</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">users</span> = users);
+</code></pre>
+<p><em>Nguồn: <a href="https://angular.dev/guide/http/making-requests">Angular — Requesting data with HttpClient</a> · <a href="https://github.com/angular/angular/issues/7865">GitHub angular/angular#7865</a></em></p>
+<h3>13. Interceptor refresh token gây vòng lặp 401 vô hạn</h3>
+<p><strong>Bối cảnh:</strong> interceptor bắt 401 để gọi API refresh token, nhưng API refresh cũng trả 401.
+<strong>Triệu chứng:</strong> hàng loạt request 401 liên tục, app treo/đăng xuất bất thường.
+<strong>Nguyên nhân:</strong> request refresh cũng đi qua interceptor → 401 → lại gọi refresh → lặp.
+<strong>Cách xử:</strong> (1) bỏ qua interceptor cho chính endpoint refresh/logout; (2) dùng cờ <code>isRefreshing</code> + một <code>Subject</code> để các request song song <strong>chờ</strong> một lần refresh duy nhất thay vì mỗi cái tự refresh:</p>
+<pre><code class="language-typescript"><span class="hljs-keyword">if</span> (req.<span class="hljs-property">url</span>.<span class="hljs-title function_">includes</span>(<span class="hljs-string">&#x27;/auth/refresh&#x27;</span>)) <span class="hljs-keyword">return</span> next.<span class="hljs-title function_">handle</span>(req);   <span class="hljs-comment">// không tự bắt 401 ở đây</span>
+</code></pre>
+<p><em>Nguồn: <a href="https://www.intertech.com/angular-4-tutorial-handling-refresh-token-with-new-httpinterceptor/">Intertech — Handling refresh token with HttpInterceptor</a></em></p>
+<h3>14. Tải file nhưng nhận <code>[object Object]</code> / lỗi parse</h3>
+<p><strong>Bối cảnh:</strong> gọi API trả file PDF/CSV (blob) hoặc text thuần.
+<strong>Triệu chứng:</strong> Angular ném lỗi parse JSON, hoặc dữ liệu ra <code>[object Object]</code>.
+<strong>Nguyên nhân:</strong> mặc định HttpClient dùng <code>responseType: 'json'</code> nên cố parse mọi response thành JSON.
+<strong>Cách xử:</strong> khai đúng <code>responseType</code>:</p>
+<pre><code class="language-typescript"><span class="hljs-variable language_">this</span>.<span class="hljs-property">http</span>.<span class="hljs-title function_">get</span>(<span class="hljs-string">&#x27;/api/report&#x27;</span>, { <span class="hljs-attr">responseType</span>: <span class="hljs-string">&#x27;blob&#x27;</span> });   <span class="hljs-comment">// hoặc &#x27;text&#x27;</span>
+</code></pre>
+<p><em>Nguồn: <a href="https://angular.dev/api/common/http/HttpClient">Angular — HttpClient responseType</a></em></p>
+<h3>15. Interceptor viết xong nhưng không chạy</h3>
+<p><strong>Bối cảnh:</strong> vừa tạo <code>AuthInterceptor</code> để gắn token nhưng request không có header.
+<strong>Triệu chứng:</strong> interceptor như bị &quot;bỏ qua&quot;.
+<strong>Nguyên nhân:</strong> quên đăng ký provider, thiếu <code>multi: true</code>, hoặc đăng ký ở lazy module thay vì root.
+<strong>Cách xử:</strong> đăng ký ở <code>AppModule</code> với <code>multi: true</code> (thứ tự chạy theo thứ tự khai báo):</p>
+<pre><code class="language-typescript"><span class="hljs-attr">providers</span>: [{ <span class="hljs-attr">provide</span>: <span class="hljs-variable constant_">HTTP_INTERCEPTORS</span>, <span class="hljs-attr">useClass</span>: <span class="hljs-title class_">AuthInterceptor</span>, <span class="hljs-attr">multi</span>: <span class="hljs-literal">true</span> }]
+</code></pre>
+<p><em>Nguồn: <a href="https://angular.dev/guide/http/interceptors">Angular — HTTP interceptors</a></em></p>
+<h2>4. Forms &amp; validation</h2>
+<h3>16. <code>ExpressionChanged...</code> khi patch form trong <code>ngAfterViewInit</code></h3>
+<p><strong>Bối cảnh:</strong> đổ dữ liệu vào form (patchValue) sau khi view đã dựng.
+<strong>Triệu chứng:</strong> lỗi <code>ExpressionChangedAfterItHasBeenCheckedError</code> liên quan giá trị control.
+<strong>Nguyên nhân:</strong> giống NG0100 — thay đổi giá trị sau khi CD đã kiểm.
+<strong>Cách xử:</strong> patch form ở <code>ngOnInit</code> thay vì <code>ngAfterViewInit</code>.
+<em>Nguồn: <a href="https://angular.dev/errors/NG0100">angular.dev/errors/NG0100</a></em></p>
+<h3>17. <code>valueChanges</code> chạy cả khi tự <code>patchValue</code> bằng code → vòng lặp lưu</h3>
+<p><strong>Bối cảnh:</strong> bạn subscribe <code>form.valueChanges</code> để auto-save, đồng thời dùng <code>patchValue</code> để nạp dữ liệu.
+<strong>Triệu chứng:</strong> vừa nạp dữ liệu đã kích auto-save → có khi thành vòng lặp lưu vô tận.
+<strong>Nguyên nhân:</strong> <code>patchValue</code>/<code>setValue</code> mặc định phát <code>valueChanges</code>.
+<strong>Cách xử:</strong> tắt phát sự kiện khi cập nhật bằng code: <code>patchValue(v, { emitEvent: false })</code>. Lưu ý với <code>FormGroup</code>, control con vẫn có thể tự phát — nếu cần triệt để, patch từng control con với <code>emitEvent: false</code>.
+<em>Nguồn: <a href="https://github.com/angular/angular/issues/52135">GitHub angular/angular#52135 — partial ignore of valueChanges</a></em></p>
+<h3>18. Cảnh báo trộn <code>[(ngModel)]</code> với <code>formControlName</code></h3>
+<p><strong>Bối cảnh:</strong> đang dùng Reactive Form nhưng vẫn quen tay thêm <code>[(ngModel)]</code>.
+<strong>Triệu chứng:</strong> console warning: <em>&quot;It looks like you're using ngModel on the same form field as formControlName&quot;</em>.
+<strong>Nguyên nhân:</strong> trộn hai cơ chế form (template-driven và reactive) trên cùng một field.
+<strong>Cách xử:</strong> chọn một; trong reactive form chỉ dùng <code>formControlName</code>, bỏ <code>[(ngModel)]</code>.
+<em>Nguồn: <a href="https://angular.dev/guide/forms/reactive-forms">Angular — Reactive forms</a></em></p>
+<h3>19. Nhập sai nhưng không hiện lỗi validation</h3>
+<p><strong>Bối cảnh:</strong> đặt validator (vd <code>Validators.email</code>) nhưng lỗi không hiển thị khi người dùng bỏ trống/nhập sai.
+<strong>Triệu chứng:</strong> form invalid nhưng UI không báo gì; hoặc lỗi hiện ngay khi mới vào trang (khó chịu).
+<strong>Nguyên nhân:</strong> thường do điều kiện hiển thị chưa xét <code>touched</code>/<code>dirty</code>; và sau khi bấm Submit các field chưa &quot;touched&quot;.
+<strong>Cách xử:</strong></p>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">mat-error</span> *<span class="hljs-attr">ngIf</span>=<span class="hljs-string">&quot;ctrl.invalid &amp;&amp; (ctrl.dirty || ctrl.touched)&quot;</span>&gt;</span>Email chưa đúng<span class="hljs-tag">&lt;/<span class="hljs-name">mat-error</span>&gt;</span>
+</code></pre>
+<pre><code class="language-typescript"><span class="hljs-title function_">onSubmit</span>(<span class="hljs-params"></span>) { <span class="hljs-keyword">if</span> (<span class="hljs-variable language_">this</span>.<span class="hljs-property">form</span>.<span class="hljs-property">invalid</span>) { <span class="hljs-variable language_">this</span>.<span class="hljs-property">form</span>.<span class="hljs-title function_">markAllAsTouched</span>(); <span class="hljs-keyword">return</span>; } }
+</code></pre>
+<p><em>Nguồn: <a href="https://github.com/angular/material/issues/1633">GitHub angular/material#1633 — don't show errors until touched</a></em></p>
+<h3>20. Thêm/xoá field động không được</h3>
+<p><strong>Bối cảnh:</strong> form cho phép thêm nhiều số điện thoại/địa chỉ.
+<strong>Triệu chứng:</strong> không biết bind mảng control động thế nào.
+<strong>Nguyên nhân:</strong> dùng <code>FormControl</code> đơn lẻ không quản được danh sách động.
+<strong>Cách xử:</strong> dùng <code>FormArray</code>:</p>
+<pre><code class="language-typescript">phones = <span class="hljs-variable language_">this</span>.<span class="hljs-property">fb</span>.<span class="hljs-title function_">array</span>([]);
+<span class="hljs-title function_">addPhone</span>(<span class="hljs-params"></span>) { <span class="hljs-variable language_">this</span>.<span class="hljs-property">phones</span>.<span class="hljs-title function_">push</span>(<span class="hljs-variable language_">this</span>.<span class="hljs-property">fb</span>.<span class="hljs-title function_">control</span>(<span class="hljs-string">&#x27;&#x27;</span>)); }
+<span class="hljs-title function_">removePhone</span>(<span class="hljs-params"><span class="hljs-attr">i</span>: <span class="hljs-built_in">number</span></span>) { <span class="hljs-variable language_">this</span>.<span class="hljs-property">phones</span>.<span class="hljs-title function_">removeAt</span>(i); }
+</code></pre>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">formArrayName</span>=<span class="hljs-string">&quot;phones&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">input</span> *<span class="hljs-attr">ngFor</span>=<span class="hljs-string">&quot;let c of phones.controls; let i = index&quot;</span> [<span class="hljs-attr">formControlName</span>]=<span class="hljs-string">&quot;i&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p><em>Nguồn: <a href="https://angular.dev/guide/forms/dynamic-forms">Angular — FormArray / dynamic forms</a></em></p>
+<h2>5. Routing &amp; lazy load</h2>
+<h3>21. Refresh/mở thẳng route con → 404 sau khi deploy</h3>
+<p><strong>Bối cảnh:</strong> app chạy tốt khi bấm chuyển trang, nhưng F5 tại <code>/orders/123</code> thì 404.
+<strong>Triệu chứng:</strong> <code>404 Not Found</code> (hoặc &quot;The requested URL was not found on this server&quot;).
+<strong>Nguyên nhân:</strong> SPA — server tìm file thật theo URL, không có <code>/orders/123</code> nên trả 404. Chỉ Angular router mới biết route đó.
+<strong>Cách xử:</strong> cấu hình server fallback mọi route về <code>index.html</code>:</p>
+<pre><code class="language-nginx"><span class="hljs-section">location</span> / { <span class="hljs-attribute">try_files</span> <span class="hljs-variable">$uri</span> <span class="hljs-variable">$uri</span>/ /index.html; }
+</code></pre>
+<p><em>Nguồn: <a href="https://github.com/angular/angular/issues/19009">GitHub angular/angular#19009 — 404 on route refresh</a></em></p>
+<h3>22. Đổi trang nhưng không cuộn lên đầu</h3>
+<p><strong>Bối cảnh:</strong> từ trang danh sách (đã cuộn xuống) bấm vào chi tiết, trang mới vẫn ở vị trí cuộn cũ.
+<strong>Triệu chứng:</strong> vào trang mới đang lơ lửng giữa/cuối.
+<strong>Nguyên nhân:</strong> mặc định router <strong>không</strong> đụng vị trí cuộn khi đổi route.
+<strong>Cách xử:</strong></p>
+<pre><code class="language-typescript"><span class="hljs-title class_">RouterModule</span>.<span class="hljs-title function_">forRoot</span>(routes, { <span class="hljs-attr">scrollPositionRestoration</span>: <span class="hljs-string">&#x27;top&#x27;</span> })
+</code></pre>
+<p><em>Nguồn: <a href="https://angular.dev/api/router/InMemoryScrollingOptions">Angular — InMemoryScrollingOptions</a></em></p>
+<h3>23. Guard chạy nhưng vẫn vào được route</h3>
+<p><strong>Bối cảnh:</strong> <code>CanActivate</code> trả về một <code>Observable&lt;boolean&gt;</code> (vd kiểm quyền qua API).
+<strong>Triệu chứng:</strong> guard log ra nhưng người dùng vẫn vào được.
+<strong>Nguyên nhân:</strong> Observable chưa phát <code>false</code>/chưa complete đúng, hoặc quên <code>return</code>.
+<strong>Cách xử:</strong> đảm bảo trả Observable phát boolean và hoàn tất:</p>
+<pre><code class="language-typescript"><span class="hljs-title function_">canActivate</span>(): <span class="hljs-title class_">Observable</span>&lt;<span class="hljs-built_in">boolean</span>&gt; {
+  <span class="hljs-keyword">return</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">auth</span>.<span class="hljs-title function_">check</span>().<span class="hljs-title function_">pipe</span>(<span class="hljs-title function_">map</span>(<span class="hljs-function"><span class="hljs-params">ok</span> =&gt;</span> ok || <span class="hljs-variable language_">this</span>.<span class="hljs-property">router</span>.<span class="hljs-title function_">parseUrl</span>(<span class="hljs-string">&#x27;/login&#x27;</span>) <span class="hljs-keyword">as</span> <span class="hljs-built_in">any</span>));
+}
+</code></pre>
+<p><em>Nguồn: <a href="https://angular.dev/guide/routing/common-router-tasks">Angular — Route guards (CanActivate)</a></em></p>
+<h3>24. Mất query param khi điều hướng</h3>
+<p><strong>Bối cảnh:</strong> đang ở <code>/list?page=2&amp;status=open</code>, navigate sang chi tiết rồi quay lại thì mất filter.
+<strong>Triệu chứng:</strong> query param biến mất sau <code>router.navigate</code>.
+<strong>Nguyên nhân:</strong> mặc định navigate không giữ query param cũ.
+<strong>Cách xử:</strong> <code>this.router.navigate([...], { queryParamsHandling: 'merge' })</code> (hoặc <code>'preserve'</code>).
+<em>Nguồn: <a href="https://angular.dev/api/router/NavigationExtras">Angular — Router NavigationExtras</a></em></p>
+<h3>25. Lazy module không tải</h3>
+<p><strong>Bối cảnh:</strong> khai <code>loadChildren</code> cho một feature module.
+<strong>Triệu chứng:</strong> vào route lazy thì lỗi hoặc trắng, console báo không tìm thấy module.
+<strong>Nguyên nhân:</strong> sai đường dẫn/tên class trong <code>import(...)</code>, hoặc module thiếu <code>RouterModule.forChild</code>.
+<strong>Cách xử:</strong> kiểm khớp tên class và đường dẫn:</p>
+<pre><code class="language-typescript">{ <span class="hljs-attr">path</span>: <span class="hljs-string">&#x27;orders&#x27;</span>, <span class="hljs-attr">loadChildren</span>: <span class="hljs-function">() =&gt;</span> <span class="hljs-keyword">import</span>(<span class="hljs-string">&#x27;./orders/orders.module&#x27;</span>).<span class="hljs-title function_">then</span>(<span class="hljs-function"><span class="hljs-params">m</span> =&gt;</span> m.<span class="hljs-property">OrdersModule</span>) }
+</code></pre>
+<p><em>Nguồn: <a href="https://angular.dev/guide/ngmodules/lazy-loading">Angular — Lazy loading feature modules</a></em></p>
+<h2>6. CSS/layout &amp; responsive</h2>
+<h3>26. <code>z-index</code> đặt rồi mà không &quot;nổi&quot; lên trên</h3>
+<p><strong>Bối cảnh:</strong> đặt <code>z-index: 999</code> cho tooltip/dropdown nhưng nó vẫn bị phần tử khác che.
+<strong>Triệu chứng:</strong> phần tử có z-index cao vẫn nằm dưới.
+<strong>Nguyên nhân:</strong> (1) phần tử chưa có <code>position</code> khác <code>static</code> → <code>z-index</code> không có tác dụng (trừ trong flex/grid); (2) bị &quot;nhốt&quot; trong một <strong>stacking context</strong> của tổ tiên (tổ tiên có <code>transform</code>, <code>opacity &lt; 1</code>, <code>filter</code>...), nên z-index chỉ so trong context đó.
+<strong>Cách xử:</strong> thêm <code>position: relative</code> + <code>z-index</code>; kiểm tổ tiên gần nhất có tạo stacking context không, nếu có thì nâng z-index ở đúng tầng đó.
+<em>Nguồn: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context">MDN — Stacking context</a></em></p>
+<h3>27. Item flex tràn ra ngoài, <code>text-overflow: ellipsis</code> không ăn</h3>
+<p><strong>Bối cảnh:</strong> một hàng flex có text dài, muốn cắt bằng <code>…</code> nhưng nó đẩy layout rộng ra.
+<strong>Triệu chứng:</strong> text không cắt, item bung rộng hơn cha.
+<strong>Nguyên nhân:</strong> flex item mặc định <code>min-width: auto</code> = kích thước nội dung tối thiểu, nên không co nhỏ hơn text được.
+<strong>Cách xử:</strong> đặt <code>min-width: 0</code> cho flex item (và bọc text có <code>overflow:hidden; text-overflow:ellipsis; white-space:nowrap</code>):</p>
+<pre><code class="language-css"><span class="hljs-selector-class">.flex-item</span> { <span class="hljs-attribute">min-width</span>: <span class="hljs-number">0</span>; }
+<span class="hljs-selector-class">.flex-item</span> <span class="hljs-selector-class">.text</span> { <span class="hljs-attribute">overflow</span>: hidden; <span class="hljs-attribute">text-overflow</span>: ellipsis; <span class="hljs-attribute">white-space</span>: nowrap; }
+</code></pre>
+<p><em>Nguồn: <a href="https://css-tricks.com/flexbox-truncated-text/">CSS-Tricks — Flexbox and truncated text</a></em></p>
+<h3>28. <code>100vh</code> bị nhảy trên điện thoại</h3>
+<p><strong>Bối cảnh:</strong> làm màn full-height (hero/màn đăng nhập) bằng <code>height: 100vh</code>.
+<strong>Triệu chứng:</strong> trên mobile phần dưới bị thanh địa chỉ che, hoặc layout nhảy khi cuộn.
+<strong>Nguyên nhân:</strong> <code>100vh</code> trên mobile tính theo chiều cao khi thanh địa chỉ <strong>ẩn</strong>, lớn hơn vùng thực thấy lúc đầu.
+<strong>Cách xử:</strong> dùng đơn vị viewport động; <code>svh</code> an toàn cho phần lớn layout, có fallback <code>100vh</code> cho trình duyệt cũ:</p>
+<pre><code class="language-css"><span class="hljs-selector-class">.screen</span> { <span class="hljs-attribute">height</span>: <span class="hljs-number">100vh</span>; <span class="hljs-attribute">height</span>: <span class="hljs-number">100s</span>vh; }
+</code></pre>
+<p><em>Nguồn: <a href="https://css-tricks.com/the-trick-to-viewport-units-on-mobile/">CSS-Tricks — The trick to viewport units on mobile</a></em></p>
+<h3>29. <code>position: sticky</code> không dính</h3>
+<p><strong>Bối cảnh:</strong> làm header/cột dính khi cuộn.
+<strong>Triệu chứng:</strong> phần tử <code>sticky</code> cuộn đi mất như bình thường.
+<strong>Nguyên nhân:</strong> thiếu ngưỡng (<code>top</code>/<code>bottom</code>), hoặc một <strong>tổ tiên</strong> có <code>overflow: hidden/auto/scroll</code> khiến sticky &quot;dính&quot; trong khung cuộn đó.
+<strong>Cách xử:</strong> đặt <code>top: 0</code>; rà bỏ <code>overflow</code> không cần thiết ở tổ tiên gần nhất.
+<em>Nguồn: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position#sticky_positioning">MDN — position: sticky</a></em></p>
+<h3>30. CSS không &quot;xuyên&quot; được vào component con</h3>
+<p><strong>Bối cảnh:</strong> muốn style một phần tử bên trong component con (hoặc component thư viện như Angular Material).
+<strong>Triệu chứng:</strong> viết CSS trong component cha nhưng không ăn vào con.
+<strong>Nguyên nhân:</strong> Angular ViewEncapsulation gắn thuộc tính riêng cho mỗi component nên style bị giới hạn phạm vi.
+<strong>Cách xử:</strong> ưu tiên <strong>CSS custom properties</strong> (biến CSS không bị encapsulation chặn) hoặc <code>:host</code>; hạn chế <code>::ng-deep</code> (đã deprecated):</p>
+<pre><code class="language-css"><span class="hljs-comment">/* cha đặt biến, con dùng — không phá encapsulation */</span>
+app-child { <span class="hljs-attr">--accent</span>: <span class="hljs-number">#2f6fb3</span>; }
+</code></pre>
+<p><em>Nguồn: <a href="https://angular.dev/guide/components/styling">Angular — Component styling</a> · <a href="https://briantree.se/angular-ng-deep-alternatives/">Brian Treese — ng-deep alternatives</a></em></p>
+<h2>7. TypeScript &amp; build</h2>
+<h3>31. <code>Property 'x' does not exist on type ...</code></h3>
+<p><strong>Bối cảnh:</strong> dùng dữ liệu từ API mà chưa khai kiểu.
+<strong>Triệu chứng:</strong> đỏ ở IDE/khi build: <code>Property 'name' does not exist on type 'Object'</code>.
+<strong>Nguyên nhân:</strong> response mặc định kiểu chung, TS không biết có field <code>name</code>.
+<strong>Cách xử:</strong> khai interface và ép kiểu response:</p>
+<pre><code class="language-typescript"><span class="hljs-keyword">interface</span> <span class="hljs-title class_">User</span> { <span class="hljs-attr">id</span>: <span class="hljs-built_in">number</span>; <span class="hljs-attr">name</span>: <span class="hljs-built_in">string</span>; }
+<span class="hljs-variable language_">this</span>.<span class="hljs-property">http</span>.<span class="hljs-property">get</span>&lt;<span class="hljs-title class_">User</span>[]&gt;(<span class="hljs-string">&#x27;/api/users&#x27;</span>);   <span class="hljs-comment">// giờ TS biết có .name</span>
+</code></pre>
+<p><em>Nguồn: <a href="https://angular.dev/guide/http/making-requests#fetching-json-data">Angular — Typed HTTP responses</a></em></p>
+<h3>32. <code>Object is possibly 'null'</code></h3>
+<p><strong>Bối cảnh:</strong> truy cập thuộc tính của kết quả có thể null (vd <code>document.querySelector</code>, <code>@ViewChild</code>).
+<strong>Triệu chứng:</strong> lỗi biên dịch khi <code>strictNullChecks</code> bật.
+<strong>Nguyên nhân:</strong> TS strict mode buộc xử lý trường hợp null.
+<strong>Cách xử:</strong> optional chaining + nullish, hoặc guard rõ ràng:</p>
+<pre><code class="language-typescript"><span class="hljs-keyword">const</span> name = user?.<span class="hljs-property">profile</span>?.<span class="hljs-property">name</span> ?? <span class="hljs-string">&#x27;Ẩn danh&#x27;</span>;
+<span class="hljs-keyword">if</span> (<span class="hljs-variable language_">this</span>.<span class="hljs-property">input</span>) <span class="hljs-variable language_">this</span>.<span class="hljs-property">input</span>.<span class="hljs-property">nativeElement</span>.<span class="hljs-title function_">focus</span>();
+</code></pre>
+<p><em>Nguồn: <a href="https://www.typescriptlang.org/tsconfig#strictNullChecks">TypeScript Handbook — strictNullChecks</a></em></p>
+<h3>33. <code>Cannot find module '@app/...'</code></h3>
+<p><strong>Bối cảnh:</strong> dùng path alias cho import gọn.
+<strong>Triệu chứng:</strong> <code>Cannot find module '@app/services/...'</code>.
+<strong>Nguyên nhân:</strong> chưa khai <code>paths</code> trong <code>tsconfig.json</code>.
+<strong>Cách xử:</strong></p>
+<pre><code class="language-jsonc"><span class="hljs-attr">&quot;compilerOptions&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span> <span class="hljs-attr">&quot;baseUrl&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;./&quot;</span><span class="hljs-punctuation">,</span> <span class="hljs-attr">&quot;paths&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span> <span class="hljs-attr">&quot;@app/*&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">[</span><span class="hljs-string">&quot;src/app/*&quot;</span><span class="hljs-punctuation">]</span> <span class="hljs-punctuation">}</span> <span class="hljs-punctuation">}</span>
+</code></pre>
+<p><em>Nguồn: <a href="https://www.typescriptlang.org/tsconfig#paths">TypeScript — Module resolution / paths</a></em></p>
+<h3>34. Build production lỗi mà <code>ng serve</code> thì không</h3>
+<p><strong>Bối cảnh:</strong> dev chạy êm, chạy <code>ng build --configuration production</code> thì đỏ (thường lỗi template).
+<strong>Triệu chứng:</strong> lỗi kiểu ở template chỉ xuất hiện khi build prod.
+<strong>Nguyên nhân:</strong> production build dùng <strong>AOT + strict template</strong> bắt lỗi mà JIT dev bỏ qua.
+<strong>Cách xử:</strong> chạy build production sớm/trong CI để bắt lỗi; sửa binding/kiểu trong template cho khớp.
+<em>Nguồn: <a href="https://angular.dev/tools/cli/aot-compiler">Angular — AOT compilation</a></em></p>
+<h3>35. <code>Type 'X' is not assignable to type 'Y'</code></h3>
+<p><strong>Bối cảnh:</strong> gán giá trị vào biến/tham số có union/generic hẹp hơn.
+<strong>Triệu chứng:</strong> lỗi biên dịch không assign được.
+<strong>Nguyên nhân:</strong> kiểu nguồn rộng/khác kiểu đích.
+<strong>Cách xử:</strong> đọc kỹ union; đừng lạm dụng <code>any</code> — dùng <code>unknown</code> rồi thu hẹp, hoặc sửa lại type nguồn cho đúng.
+<em>Nguồn: <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html">TypeScript Handbook — Everyday types</a></em></p>
+<h2>8. Hiệu năng</h2>
+<h3>36. <code>*ngFor</code> danh sách lớn bị giật</h3>
+<p><strong>Bối cảnh:</strong> render bảng/list vài nghìn dòng, hoặc list cập nhật liên tục.
+<strong>Triệu chứng:</strong> cuộn giật, gõ/lọc chậm; Performance thấy layout/paint tốn nhiều thời gian.
+<strong>Nguyên nhân:</strong> (1) thiếu <code>trackBy</code> → mỗi lần dữ liệu đổi Angular dựng lại toàn bộ DOM; (2) render hết cả nghìn dòng cùng lúc.
+<strong>Cách xử:</strong> thêm <code>trackBy</code>; với danh sách rất lớn dùng CDK Virtual Scroll (chỉ render phần thấy):</p>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">cdk-virtual-scroll-viewport</span> <span class="hljs-attr">itemSize</span>=<span class="hljs-string">&quot;48&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;height: 400px&quot;</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> *<span class="hljs-attr">cdkVirtualFor</span>=<span class="hljs-string">&quot;let row of rows; trackBy: trackById&quot;</span>&gt;</span>{{ row.name }}<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">cdk-virtual-scroll-viewport</span>&gt;</span>
+</code></pre>
+<p><em>Nguồn: <a href="https://material.angular.io/cdk/scrolling/overview">Angular Material — CDK Scrolling (Virtual scroll)</a></em></p>
+<h3>37. Change detection chạy quá nhiều</h3>
+<p><strong>Bối cảnh:</strong> app phức tạp, thao tác nhỏ cũng thấy chậm.
+<strong>Triệu chứng:</strong> DevTools/Angular DevTools thấy nhiều chu kỳ CD không cần thiết.
+<strong>Nguyên nhân:</strong> mọi component chạy CD mặc định mỗi sự kiện; nặng nhất khi bind hàm trong template.
+<strong>Cách xử:</strong> đặt <code>ChangeDetectionStrategy.OnPush</code> + dùng <code>async</code> pipe; tránh gọi hàm trong template (xem ca 40).
+<em>Nguồn: <a href="https://angular.dev/best-practices/skipping-subtrees">Angular — Skipping component subtrees</a></em></p>
+<h3>38. Bundle phình to, tải trang chậm</h3>
+<p><strong>Bối cảnh:</strong> app ngày càng nặng, <code>main.js</code> lớn.
+<strong>Triệu chứng:</strong> thời gian tải đầu tăng; cảnh báo budget khi build.
+<strong>Nguyên nhân:</strong> import cả thư viện lớn khi chỉ dùng một hàm; không tách lazy.
+<strong>Cách xử:</strong> lazy load feature module; phân tích bằng <code>source-map-explorer dist/**/*.js</code> để thấy phần nào nặng; import lẻ (<code>import { debounce } from 'lodash-es'</code>).
+<em>Nguồn: <a href="https://web.dev/articles/reduce-javascript-payloads-with-code-splitting">web.dev — Reduce JavaScript payloads with code splitting</a></em></p>
+<h3>39. Ảnh nặng làm chậm LCP</h3>
+<p><strong>Bối cảnh:</strong> trang có ảnh lớn, điểm LCP (Largest Contentful Paint) kém.
+<strong>Triệu chứng:</strong> Lighthouse cảnh báo LCP cao; ảnh tải chậm.
+<strong>Nguyên nhân:</strong> ảnh không nén, sai kích thước, tải tất cả cùng lúc.
+<strong>Cách xử:</strong> <code>loading=&quot;lazy&quot;</code> cho ảnh dưới màn; nén + đúng kích thước + <code>srcset</code>; ưu tiên ảnh above-the-fold. Angular có <code>NgOptimizedImage</code> (<code>ngSrc</code>).
+<em>Nguồn: <a href="https://angular.dev/guide/image-optimization">Angular — NgOptimizedImage</a></em></p>
+<h3>40. Gọi hàm trong template chạy lại mỗi lần CD</h3>
+<p><strong>Bối cảnh:</strong> template có <code>{{ formatMoney(item.total) }}</code> hoặc <code>*ngIf=&quot;isAdmin()&quot;</code>.
+<strong>Triệu chứng:</strong> hàm bị gọi rất nhiều lần (đặt <code>console.log</code> trong hàm sẽ thấy), gây chậm.
+<strong>Nguyên nhân:</strong> hàm trong template được gọi <strong>mỗi chu kỳ change detection</strong>, dù input không đổi.
+<strong>Cách xử:</strong> chuyển sang <strong>pure pipe</strong> (chỉ tính lại khi input đổi), hoặc tính sẵn trong component:</p>
+<pre><code class="language-typescript"><span class="hljs-meta">@Pipe</span>({ <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;money&#x27;</span> }) <span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MoneyPipe</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">PipeTransform</span> {
+  <span class="hljs-title function_">transform</span>(<span class="hljs-params"><span class="hljs-attr">v</span>: <span class="hljs-built_in">number</span></span>) { <span class="hljs-keyword">return</span> v.<span class="hljs-title function_">toLocaleString</span>(<span class="hljs-string">&#x27;vi-VN&#x27;</span>) + <span class="hljs-string">&#x27;₫&#x27;</span>; }
+}
+<span class="hljs-comment">// template: {{ item.total | money }}</span>
+</code></pre>
+<p><em>Nguồn: <a href="https://medium.com/showpad-engineering/why-you-should-never-use-function-calls-in-angular-template-expressions-e1a50f9c0496">Showpad Engineering — Never use function calls in template expressions</a></em></p>
+<h2>9. Trình duyệt &amp; môi trường</h2>
+<h3>41. Máy khác kéo code về chạy lỗi lạ</h3>
+<p><strong>Bối cảnh:</strong> đồng đội mới clone repo, hoặc CI báo lỗi mà máy bạn chạy được.
+<strong>Triệu chứng:</strong> lỗi module/version kỳ lạ, không tái hiện trên máy bạn.
+<strong>Nguyên nhân:</strong> <code>node_modules</code> cũ/lệch phiên bản, Node version khác nhau.
+<strong>Cách xử:</strong> xoá <code>node_modules</code> + cài lại đúng lockfile bằng <code>npm ci</code>; đồng bộ Node version (<code>.nvmrc</code> + <code>nvm use</code>).
+<em>Nguồn: <a href="https://docs.npmjs.com/cli/v10/commands/npm-ci">npm docs — npm ci</a></em></p>
+<h3>42. Chạy Chrome ổn, Safari báo &quot;Invalid Date&quot;</h3>
+<p><strong>Bối cảnh:</strong> parse chuỗi ngày từ API: <code>new Date('2024-01-01 10:00')</code>.
+<strong>Triệu chứng:</strong> Chrome ra ngày đúng, Safari/Firefox ra <code>Invalid Date</code>.
+<strong>Nguyên nhân:</strong> Chrome khoan dung định dạng lạ (dấu cách thay <code>T</code>); Safari theo ISO 8601 nghiêm ngặt nên từ chối.
+<strong>Cách xử:</strong> dùng ISO chuẩn <code>2024-01-01T10:00:00</code>; hoặc thay <code>-</code> bằng <code>/</code> cho dạng ngày; luôn <code>isNaN(d.getTime())</code> để bắt lỗi parse.
+<em>Nguồn: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1265136">Bugzilla Mozilla #1265136 — new Date behaves differently across browsers</a></em></p>
+<h3>43. <code>localStorage</code> ném lỗi ở chế độ ẩn danh / Safari</h3>
+<p><strong>Bối cảnh:</strong> lưu cache/token vào <code>localStorage</code>.
+<strong>Triệu chứng:</strong> ở private mode (Safari cũ) hoặc khi hết dung lượng: <code>QuotaExceededError</code>, app crash.
+<strong>Nguyên nhân:</strong> một số môi trường chặn hoặc giới hạn <code>localStorage</code>.
+<strong>Cách xử:</strong> bọc <code>try/catch</code> khi đọc/ghi, có phương án dự phòng trong bộ nhớ:</p>
+<pre><code class="language-typescript"><span class="hljs-keyword">try</span> { <span class="hljs-variable language_">localStorage</span>.<span class="hljs-title function_">setItem</span>(k, v); } <span class="hljs-keyword">catch</span> { <span class="hljs-comment">/* fallback: giữ trong biến/service */</span> }
+</code></pre>
+<p><em>Nguồn: <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">MDN — Window.localStorage (exceptions)</a></em></p>
+<h3>44. Deploy xong người dùng vẫn thấy bản cũ</h3>
+<p><strong>Bối cảnh:</strong> vừa release bản mới nhưng người dùng phản ánh chưa thấy đổi.
+<strong>Triệu chứng:</strong> phải Ctrl+F5 mới thấy bản mới.
+<strong>Nguyên nhân:</strong> trình duyệt cache file JS/CSS cũ.
+<strong>Cách xử:</strong> Angular production đã hash tên file (<code>main.abc123.js</code>) để &quot;cache-bust&quot;; cấu hình server để <code>index.html</code> <strong>không cache</strong> còn file có hash cache dài:</p>
+<pre><code class="language-nginx"><span class="hljs-section">location</span> = /index.html { <span class="hljs-attribute">add_header</span> Cache-Control <span class="hljs-string">&quot;no-cache&quot;</span>; }
+<span class="hljs-section">location</span> /assets/ { <span class="hljs-attribute">add_header</span> Cache-Control <span class="hljs-string">&quot;max-age=31536000, immutable&quot;</span>; }
+</code></pre>
+<p><em>Nguồn: <a href="https://web.dev/articles/http-cache">web.dev — HTTP caching</a></em></p>
+<h3>45. Production gọi nhầm API localhost</h3>
+<p><strong>Bối cảnh:</strong> hardcode URL API trong service.
+<strong>Triệu chứng:</strong> bản production vẫn gọi <code>localhost:3000</code>, lỗi kết nối.
+<strong>Nguyên nhân:</strong> không dùng file môi trường; URL dev bị build cứng vào bản prod.
+<strong>Cách xử:</strong> để URL trong <code>environment.ts</code>/<code>environment.prod.ts</code> (Angular tự thay khi build với <code>fileReplacements</code>), build <code>--configuration production</code>:</p>
+<pre><code class="language-typescript"><span class="hljs-comment">// environment.prod.ts</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> environment = { <span class="hljs-attr">production</span>: <span class="hljs-literal">true</span>, <span class="hljs-attr">apiUrl</span>: <span class="hljs-string">&#x27;https://api.congty.com&#x27;</span> };
+</code></pre>
+<p><em>Nguồn: <a href="https://angular.dev/tools/cli/environments">Angular — Build environments (fileReplacements)</a></em></p>
+<h2>10. Git &amp; quy trình</h2>
+<h3>46. Conflict trong <code>package-lock.json</code></h3>
+<p><strong>Bối cảnh:</strong> hai người cùng thêm dependency, merge nhánh thì <code>package-lock.json</code> conflict hàng trăm dòng.
+<strong>Triệu chứng:</strong> conflict marker <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code> khắp file lock, sửa tay dễ hỏng.
+<strong>Nguyên nhân:</strong> file lock được sinh tự động, không nên sửa tay.
+<strong>Cách xử:</strong> lấy <code>package.json</code> đã merge đúng, rồi tái sinh lock: xoá lock (hoặc <code>git checkout --theirs package-lock.json</code>) → <code>npm install</code> → commit lại.
+<em>Nguồn: <a href="https://docs.npmjs.com/cli/v10/configuring-npm/package-lock-json">npm docs — package-lock.json</a></em></p>
+<h3>47. Lỡ commit file <code>.env</code> / secret</h3>
+<p><strong>Bối cảnh:</strong> vô tình <code>git add .</code> cả file chứa API key/token và đã push.
+<strong>Triệu chứng:</strong> secret nằm trong lịch sử repo (kể cả sau khi xoá ở commit sau vẫn còn trong history).
+<strong>Nguyên nhân:</strong> git giữ toàn bộ lịch sử; xoá ở commit mới không xoá ở commit cũ.
+<strong>Cách xử:</strong> <strong>coi như đã lộ → đổi ngay secret</strong>; gỡ khỏi toàn bộ history bằng <code>git filter-repo</code> (hoặc BFG); thêm vào <code>.gitignore</code>.
+<em>Nguồn: <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository">GitHub Docs — Removing sensitive data from a repository</a></em></p>
+<h3>48. Rơi vào &quot;detached HEAD&quot;</h3>
+<p><strong>Bối cảnh:</strong> <code>git checkout &lt;sha&gt;</code> để xem một commit cũ.
+<strong>Triệu chứng:</strong> git báo <em>&quot;You are in 'detached HEAD' state&quot;</em>; commit mới có nguy cơ &quot;mất&quot;.
+<strong>Nguyên nhân:</strong> HEAD trỏ thẳng vào một commit thay vì một nhánh.
+<strong>Cách xử:</strong> nếu đã lỡ commit và muốn giữ: <code>git switch -c ten-branch-moi</code>; nếu chỉ xem xong: <code>git switch main</code> để quay lại.
+<em>Nguồn: <a href="https://git-scm.com/docs/git-checkout#_detached_head">Git — Detached HEAD (git-checkout docs)</a></em></p>
+<h3>49. Lỡ <code>reset --hard</code> / rebase làm &quot;mất&quot; commit</h3>
+<p><strong>Bối cảnh:</strong> chạy <code>git reset --hard HEAD~3</code> rồi nhận ra vừa xoá mất việc.
+<strong>Triệu chứng:</strong> commit biến mất khỏi <code>git log</code>.
+<strong>Nguyên nhân:</strong> commit bị &quot;mồ côi&quot; (orphan) nhưng <strong>chưa bị xoá</strong> khỏi repo (git giữ ~90 ngày).
+<strong>Cách xử:</strong> <code>git reflog</code> để tìm lại SHA của trạng thái trước → <code>git reset --hard &lt;sha&gt;</code> (hoặc <code>git cherry-pick &lt;sha&gt;</code>).
+<em>Nguồn: <a href="https://graphite.com/guides/recovering-lost-commits-git-reflog">Graphite — Recovering lost commits with git reflog</a></em></p>
+<h3>50. Force push đè mất việc người khác</h3>
+<p><strong>Bối cảnh:</strong> rebase nhánh rồi <code>git push --force</code> lên nhánh chung.
+<strong>Triệu chứng:</strong> commit của đồng đội (họ push sau lần fetch của bạn) bị <strong>xoá</strong> khỏi remote.
+<strong>Nguyên nhân:</strong> <code>--force</code> ghi đè remote vô điều kiện.
+<strong>Cách xử:</strong> dùng <code>git push --force-with-lease</code> — chỉ đè nếu remote <strong>chưa</strong> có commit mới kể từ lần fetch cuối của bạn; nếu có, git chặn lại để bạn fetch trước.
+<em>Nguồn: <a href="https://www.atlassian.com/blog/it-teams/force-with-lease">Atlassian — --force considered harmful; understanding --force-with-lease</a></em></p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/fe","c":"dimmed","children":"Dev Front-end"}],["$","$L16",null,{"c":"dimmed","children":"Tình huống thực chiến"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

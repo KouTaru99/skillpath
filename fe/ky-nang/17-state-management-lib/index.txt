@@ -1,0 +1,117 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","fe","ky-nang","17-state-management-lib",""],"i":false,"f":[[["",{"children":[["role","fe","d"],{"children":["ky-nang",{"children":[["skill","17-state-management-lib","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","fe","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","17-state-management-lib","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T2d71,<h1>Thư viện quản lý State (Redux/NgRx/NgXS/Akita)</h1>
+<p><strong>Định nghĩa.</strong> Khi một state (giỏ hàng, thông tin đăng nhập, bộ lọc) cần hiển thị/đồng bộ ở <strong>nhiều component không liên quan trực tiếp</strong> (header, trang chi tiết, trang thanh toán), truyền qua <code>@Input</code>/<code>@Output</code> từng tầng (&quot;prop drilling&quot;) trở nên rối và dễ lệch. <strong>Thư viện quản lý State</strong> (Redux cho React; <strong>NgRx</strong>, NgXS, Akita cho Angular) giải quyết bằng một <strong>store tập trung, chỉ đọc từ bên ngoài</strong>: mọi thay đổi phải đi qua một <strong>action</strong> (mô tả &quot;chuyện gì xảy ra&quot;), một <strong>reducer</strong> tính state mới (hàm thuần, không side-effect), và side-effect (gọi API) tách riêng ở <strong>effect</strong>. Component chỉ <strong>đọc</strong> qua <strong>selector</strong> và <strong>phát action</strong>, không tự sửa state.</p>
+<h2>▸ Senior·V1 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Hiểu vì sao cần store tập trung, đọc được luồng action → reducer → selector đã có sẵn trong dự án, dùng store đúng cách (phát action, đọc qua selector) mà không tự ý sửa state trực tiếp.</p>
+<p><strong>Ví dụ thực tế — badge giỏ hàng đồng bộ ở khắp nơi (NgRx).</strong></p>
+<p>Action mô tả sự kiện, không mô tả cách xử lý:</p>
+<pre><code class="language-typescript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> <span class="hljs-title class_">CartActions</span> = <span class="hljs-title function_">createActionGroup</span>({
+  <span class="hljs-attr">source</span>: <span class="hljs-string">&#x27;Cart&#x27;</span>,
+  <span class="hljs-attr">events</span>: {
+    <span class="hljs-string">&#x27;Add Item&#x27;</span>: props&lt;{ <span class="hljs-attr">productId</span>: <span class="hljs-built_in">string</span>; <span class="hljs-attr">qty</span>: <span class="hljs-built_in">number</span> }&gt;(),
+  },
+});
+</code></pre>
+<p>Reducer — hàm thuần, nhận state cũ + action, trả state mới:</p>
+<pre><code class="language-typescript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> cartReducer = <span class="hljs-title function_">createReducer</span>(
+  initialState,
+  <span class="hljs-title function_">on</span>(<span class="hljs-title class_">CartActions</span>.<span class="hljs-property">addItem</span>, <span class="hljs-function">(<span class="hljs-params">state, { productId, qty }</span>) =&gt;</span> ({
+    ...state,
+    <span class="hljs-attr">items</span>: [...state.<span class="hljs-property">items</span>, { productId, qty }],
+  })),
+);
+</code></pre>
+<p>Selector — nơi DUY NHẤT component được đọc state ra:</p>
+<pre><code class="language-typescript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> selectCartCount = <span class="hljs-title function_">createSelector</span>(
+  selectCartState,
+  <span class="hljs-function">(<span class="hljs-params">state</span>) =&gt;</span> state.<span class="hljs-property">items</span>.<span class="hljs-title function_">reduce</span>(<span class="hljs-function">(<span class="hljs-params">sum, i</span>) =&gt;</span> sum + i.<span class="hljs-property">qty</span>, <span class="hljs-number">0</span>),
+);
+</code></pre>
+<p>Component chỉ phát action và đọc selector — không tự sửa state:</p>
+<pre><code class="language-typescript"><span class="hljs-meta">@Component</span>({ <span class="hljs-attr">selector</span>: <span class="hljs-string">&#x27;app-cart-badge&#x27;</span>, <span class="hljs-attr">template</span>: <span class="hljs-string">`&lt;span&gt;{{ count$ | async }}&lt;/span&gt;`</span> })
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">CartBadgeComponent</span> {
+  count$ = <span class="hljs-variable language_">this</span>.<span class="hljs-property">store</span>.<span class="hljs-title function_">select</span>(selectCartCount);   <span class="hljs-comment">// header đọc từ đây</span>
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params"><span class="hljs-keyword">private</span> <span class="hljs-attr">store</span>: <span class="hljs-title class_">Store</span></span>) {}
+}
+
+<span class="hljs-comment">// ở trang sản phẩm, khi bấm &quot;Thêm vào giỏ&quot;:</span>
+<span class="hljs-variable language_">this</span>.<span class="hljs-property">store</span>.<span class="hljs-title function_">dispatch</span>(<span class="hljs-title class_">CartActions</span>.<span class="hljs-title function_">addItem</span>({ <span class="hljs-attr">productId</span>: <span class="hljs-string">&#x27;A1&#x27;</span>, <span class="hljs-attr">qty</span>: <span class="hljs-number">1</span> }));
+<span class="hljs-comment">// badge ở header tự cập nhật — không cần header và trang sản phẩm biết về nhau</span>
+</code></pre>
+<p><strong>Vì sao là mức ①:</strong> bạn dùng đúng store đã có sẵn trong dự án (phát action, đọc selector), chưa tự thiết kế store mới hay xử lý state phức tạp có side-effect (effect) — đó là việc của các mốc sau.</p>
+<h2>▸ Senior·V2 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> tự thiết kế store cho một module mới, và xử lý <strong>side-effect</strong> (gọi API) đúng chỗ bằng <strong>effect</strong> thay vì gọi thẳng trong component.</p>
+<p><strong>Ví dụ thực tế — effect gọi API khi action được phát, tách khỏi component hoàn toàn.</strong></p>
+<pre><code class="language-typescript"><span class="hljs-meta">@Injectable</span>()
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">CartEffects</span> {
+  addItem$ = <span class="hljs-title function_">createEffect</span>(<span class="hljs-function">() =&gt;</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">actions$</span>.<span class="hljs-title function_">pipe</span>(
+    <span class="hljs-title function_">ofType</span>(<span class="hljs-title class_">CartActions</span>.<span class="hljs-property">addItem</span>),
+    <span class="hljs-title function_">mergeMap</span>(<span class="hljs-function">(<span class="hljs-params">{ productId, qty }</span>) =&gt;</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">api</span>.<span class="hljs-title function_">addToCart</span>(productId, qty).<span class="hljs-title function_">pipe</span>(
+      <span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">cart</span>) =&gt;</span> <span class="hljs-title class_">CartActions</span>.<span class="hljs-title function_">addItemSuccess</span>({ cart })),
+      <span class="hljs-title function_">catchError</span>(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> <span class="hljs-title function_">of</span>(<span class="hljs-title class_">CartActions</span>.<span class="hljs-title function_">addItemFailure</span>({ <span class="hljs-attr">error</span>: err.<span class="hljs-property">message</span> }))),
+    )),
+  ));
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params"><span class="hljs-keyword">private</span> <span class="hljs-attr">actions$</span>: <span class="hljs-title class_">Actions</span>, <span class="hljs-keyword">private</span> <span class="hljs-attr">api</span>: <span class="hljs-title class_">CartApi</span></span>) {}
+}
+</code></pre>
+<p>Component chỉ <code>dispatch(CartActions.addItem(...))</code> — không biết và không cần biết có gọi API hay không, effect lo hết phần side-effect + lỗi.</p>
+<p><strong>Vì sao là mức ②:</strong> bạn tự thiết kế được luồng state có side-effect cho một module, không chỉ dùng store người khác đã dựng sẵn.</p>
+<h2>▸ Senior·V3 — ③ Thành thạo</h2>
+<p><strong>Khác V2:</strong> đặt ra <strong>chuẩn tổ chức store cho cả ứng dụng lớn</strong> (nhiều module, nhiều team cùng đóng góp state), không chỉ một module đơn lẻ.</p>
+<p><strong>Ví dụ thực tế — chia store theo &quot;feature state&quot; thay vì một store khổng lồ dùng chung.</strong></p>
+<pre><code class="language-typescript"><span class="hljs-comment">// ❌ một root reducer khổng lồ, mọi team đều sửa vào cùng 1 file → xung đột merge liên tục</span>
+<span class="hljs-comment">// ✅ mỗi feature module tự đăng ký state của mình (lazy-loaded)</span>
+<span class="hljs-meta">@NgModule</span>({
+  <span class="hljs-attr">imports</span>: [<span class="hljs-title class_">StoreModule</span>.<span class="hljs-title function_">forFeature</span>(<span class="hljs-string">&#x27;orders&#x27;</span>, ordersReducer)],   <span class="hljs-comment">// team Orders tự quản state của mình</span>
+})
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">OrdersModule</span> {}
+</code></pre>
+<p>Mỗi team quản lý phần state của module mình, chỉ những gì thật sự dùng chung (thông tin đăng nhập, giỏ hàng) mới đặt ở root store — giảm xung đột khi nhiều người cùng sửa store, và state của module nào chỉ tải khi module đó được tải (đỡ nặng ứng dụng ban đầu).</p>
+<p><strong>Vì sao là mức ③:</strong> bạn đặt được chuẩn tổ chức state ở quy mô nhiều team cùng làm, không chỉ tự thiết kế tốt cho phần việc của mình.</p>
+<h2>▸ Specialist·V2 — ④ Chuyên sâu</h2>
+<p><strong>Khác Senior·V3:</strong> đặt ra <strong>hướng dẫn lựa chọn công cụ quản lý State cho toàn đơn vị</strong> (không chỉ tổ chức tốt trong một app) — khi nào bắt buộc dùng NgRx, khi nào service đơn giản là đủ.</p>
+<p><strong>Ví dụ thực tế — hướng dẫn chọn công cụ, áp dụng cho mọi dự án mới của đơn vị.</strong></p>
+<pre><code>Hướng dẫn chọn state management (áp dụng khi khởi tạo dự án mới):
+
+- State đơn giản, ít luồng phụ thuộc chéo (&lt; 3 màn hình chia sẻ state)
+  → Service + BehaviorSubject. KHÔNG bắt buộc NgRx — tránh boilerplate thừa.
+
+- State phức tạp, nhiều team cùng đóng góp, cần time-travel debug khi lỗi khó tái hiện
+  → NgRx bắt buộc, theo chuẩn &quot;feature state&quot; đã thiết lập.
+
+- Ngoại lệ: nếu team dưới 3 người và dự án dự kiến &lt; 6 tháng → luôn chọn phương án đơn giản
+  trước, dù state có phức tạp, vì chi phí học NgRx không đáng cho dự án ngắn hạn.
+</code></pre>
+<p>Bạn không áp một công cụ &quot;chuẩn&quot; cho mọi dự án — mà đặt ra <strong>tiêu chí quyết định</strong> để mọi team tự áp dụng đúng theo bối cảnh của họ, giảm việc mỗi dự án mới lại tranh cãi lại từ đầu.</p>
+<p><strong>Vì sao là mức ④:</strong> bạn đặt ra được chuẩn quyết định công nghệ ở tầm <strong>toàn đơn vị</strong>, không chỉ tổ chức tốt trong phạm vi một ứng dụng.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/fe","c":"dimmed","children":"Dev Front-end"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Thư viện quản lý State (Redux/NgRx/NgXS/Akita)"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/fe/ky-nang/16-docker","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Docker (đóng gói ứng dụng)"}]]}]}],["$","$L15",null,{"href":"/fe/ky-nang/18-phan-tich-thiet-ke-he-thong","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Phân tích & thiết kế hệ thống"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

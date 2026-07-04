@@ -1,0 +1,183 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","fe","ky-nang","05-framework-fe",""],"i":false,"f":[[["",{"children":[["role","fe","d"],{"children":["ky-nang",{"children":[["skill","05-framework-fe","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","fe","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","05-framework-fe","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T51ed,<h1>Framework Front-end (Angular)</h1>
+<p><strong>Định nghĩa.</strong> Framework Front-end giúp dựng giao diện theo <strong>component</strong> (khối UI đóng gói tái dùng), tự quản lý render khi dữ liệu đổi, thay vì thao tác DOM thủ công. Ví dụ dưới dùng <strong>Angular</strong> — framework nhiều sinh viên và doanh nghiệp Việt Nam đang dùng — đi kèm <strong>TypeScript</strong>, <strong>RxJS</strong> (lập trình bất đồng bộ theo luồng dữ liệu) và <strong>Dependency Injection</strong> (tiêm phụ thuộc). Code minh hoạ theo Angular <strong>v9–v12</strong> (thời NgModule cổ điển, chưa có standalone component hay signals), vì đó là phiên bản phổ biến ở nhiều dự án đang chạy.</p>
+<h2>▸ Entry — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Hiểu component, template và <strong>data binding</strong>: hiển thị dữ liệu (<code>{{ }}</code>, <code>[prop]</code>), bắt sự kiện (<code>(click)</code>), lặp danh sách (<code>*ngFor</code>), rẽ nhánh (<code>*ngIf</code>); truyền dữ liệu cha → con bằng <code>@Input</code>, phát sự kiện con → cha bằng <code>@Output</code>.</p>
+<p><strong>Ví dụ thực tế — một item thông báo trong hệ thống nội bộ.</strong></p>
+<pre><code class="language-typescript"><span class="hljs-comment">// notification-item.component.ts</span>
+<span class="hljs-meta">@Component</span>({
+  <span class="hljs-attr">selector</span>: <span class="hljs-string">&#x27;app-notification-item&#x27;</span>,
+  <span class="hljs-attr">template</span>: <span class="hljs-string">`
+    &lt;li [class.unread]=&quot;!item.read&quot;&gt;
+      &lt;strong&gt;{{ item.title }}&lt;/strong&gt;
+      &lt;span class=&quot;time&quot;&gt;{{ item.createdAt | date: &#x27;short&#x27; }}&lt;/span&gt;
+      &lt;button *ngIf=&quot;!item.read&quot; (click)=&quot;read.emit(item.id)&quot;&gt;Đánh dấu đã đọc&lt;/button&gt;
+    &lt;/li&gt;
+  `</span>,
+})
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">NotificationItemComponent</span> {
+  <span class="hljs-meta">@Input</span>() item!: <span class="hljs-title class_">Notification</span>;                 <span class="hljs-comment">// nhận dữ liệu từ component cha</span>
+  <span class="hljs-meta">@Output</span>() read = <span class="hljs-keyword">new</span> <span class="hljs-title class_">EventEmitter</span>&lt;<span class="hljs-built_in">number</span>&gt;();  <span class="hljs-comment">// phát sự kiện lên cha</span>
+}
+</code></pre>
+<p><code>[class.unread]</code> gắn class theo điều kiện, <code>| date</code> là pipe định dạng, <code>(click)</code> bắt sự kiện, <code>@Output</code> + <code>EventEmitter</code> để cha xử lý logic (component con chỉ &quot;báo lên&quot;, không tự gọi API).</p>
+<p><strong>Vì sao là mức ①:</strong> dựng được component hiển thị + tương tác cơ bản, chưa gọi dữ liệu hay quản trạng thái.</p>
+<h2>▸ Ex·V1 — ② Biết làm</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Tách logic ra <strong>service</strong> và tiêm bằng DI; gọi API qua <strong>HttpClient</strong> (trả về <code>Observable</code>); dùng <strong><code>async</code> pipe</strong> để tự subscribe/unsubscribe; tối ưu <code>*ngFor</code> bằng <code>trackBy</code>.</p>
+<p><strong>Ví dụ thực tế — màn danh sách thông báo lấy từ API.</strong></p>
+<pre><code class="language-typescript"><span class="hljs-comment">// notification.service.ts</span>
+<span class="hljs-meta">@Injectable</span>({ <span class="hljs-attr">providedIn</span>: <span class="hljs-string">&#x27;root&#x27;</span> })
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">NotificationService</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params"><span class="hljs-keyword">private</span> <span class="hljs-attr">http</span>: <span class="hljs-title class_">HttpClient</span></span>) {}
+  <span class="hljs-title function_">getAll</span>(): <span class="hljs-title class_">Observable</span>&lt;<span class="hljs-title class_">Notification</span>[]&gt; {
+    <span class="hljs-keyword">return</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">http</span>.<span class="hljs-property">get</span>&lt;<span class="hljs-title class_">Notification</span>[]&gt;(<span class="hljs-string">&#x27;/api/notifications&#x27;</span>);
+  }
+  <span class="hljs-title function_">markRead</span>(<span class="hljs-attr">id</span>: <span class="hljs-built_in">number</span>): <span class="hljs-title class_">Observable</span>&lt;<span class="hljs-built_in">void</span>&gt; {
+    <span class="hljs-keyword">return</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">http</span>.<span class="hljs-property">post</span>&lt;<span class="hljs-built_in">void</span>&gt;(<span class="hljs-string">`/api/notifications/<span class="hljs-subst">${id}</span>/read`</span>, {});
+  }
+}
+</code></pre>
+<pre><code class="language-typescript"><span class="hljs-comment">// notification-list.component.ts</span>
+<span class="hljs-meta">@Component</span>({
+  <span class="hljs-attr">selector</span>: <span class="hljs-string">&#x27;app-notification-list&#x27;</span>,
+  <span class="hljs-attr">template</span>: <span class="hljs-string">`
+    &lt;ul *ngIf=&quot;items$ | async as items; else loading&quot;&gt;
+      &lt;app-notification-item
+        *ngFor=&quot;let n of items; trackBy: trackById&quot;
+        [item]=&quot;n&quot; (read)=&quot;onRead(n.id)&quot;&gt;
+      &lt;/app-notification-item&gt;
+    &lt;/ul&gt;
+    &lt;ng-template #loading&gt;Đang tải…&lt;/ng-template&gt;
+  `</span>,
+})
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">NotificationListComponent</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">OnInit</span> {
+  items$!: <span class="hljs-title class_">Observable</span>&lt;<span class="hljs-title class_">Notification</span>[]&gt;;
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params"><span class="hljs-keyword">private</span> <span class="hljs-attr">service</span>: <span class="hljs-title class_">NotificationService</span></span>) {}
+  <span class="hljs-title function_">ngOnInit</span>(<span class="hljs-params"></span>) { <span class="hljs-variable language_">this</span>.<span class="hljs-property">items$</span> = <span class="hljs-variable language_">this</span>.<span class="hljs-property">service</span>.<span class="hljs-title function_">getAll</span>(); }
+  <span class="hljs-title function_">trackById</span>(<span class="hljs-params"><span class="hljs-attr">_</span>: <span class="hljs-built_in">number</span>, <span class="hljs-attr">n</span>: <span class="hljs-title class_">Notification</span></span>) { <span class="hljs-keyword">return</span> n.<span class="hljs-property">id</span>; }   <span class="hljs-comment">// giúp Angular không render lại cả danh sách</span>
+  <span class="hljs-title function_">onRead</span>(<span class="hljs-params"><span class="hljs-attr">id</span>: <span class="hljs-built_in">number</span></span>) { <span class="hljs-variable language_">this</span>.<span class="hljs-property">service</span>.<span class="hljs-title function_">markRead</span>(id).<span class="hljs-title function_">subscribe</span>(); }
+}
+</code></pre>
+<p><code>async</code> pipe tự lo vòng đời subscribe (không rò bộ nhớ), <code>ng-template #loading</code> cho trạng thái tải, <code>trackBy</code> để Angular chỉ cập nhật item đổi thay vì dựng lại toàn danh sách.</p>
+<p><strong>Vì sao là mức ②:</strong> tách service/DI, gọi API đúng luồng Observable, xử lý vòng đời gọn.</p>
+<h2>▸ Ex·V2 — ③ Thành thạo</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> RxJS nâng cao để xử lý luồng phức tạp (<code>debounceTime</code>, <code>switchMap</code>, <code>distinctUntilChanged</code>), tối ưu change detection bằng <strong><code>OnPush</code></strong>, quản state dùng chung qua service + <code>BehaviorSubject</code>, và hiểu khi nào phải tự <code>unsubscribe</code> (dùng <code>takeUntil</code>).</p>
+<p><strong>Ví dụ 1 — ô tìm kiếm sản phẩm có gợi ý, chống &quot;kết quả cũ về muộn&quot; (race condition).</strong></p>
+<pre><code class="language-typescript"><span class="hljs-meta">@Component</span>({
+  <span class="hljs-attr">selector</span>: <span class="hljs-string">&#x27;app-product-search&#x27;</span>,
+  <span class="hljs-attr">changeDetection</span>: <span class="hljs-title class_">ChangeDetectionStrategy</span>.<span class="hljs-property">OnPush</span>,   <span class="hljs-comment">// chỉ render lại khi input/Observable đổi</span>
+  <span class="hljs-attr">template</span>: <span class="hljs-string">`
+    &lt;input [formControl]=&quot;keyword&quot; placeholder=&quot;Tìm sản phẩm…&quot; /&gt;
+    &lt;app-product-card *ngFor=&quot;let p of (results$ | async)&quot; [product]=&quot;p&quot;&gt;&lt;/app-product-card&gt;
+  `</span>,
+})
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">ProductSearchComponent</span> {
+  keyword = <span class="hljs-keyword">new</span> <span class="hljs-title class_">FormControl</span>(<span class="hljs-string">&#x27;&#x27;</span>);
+  results$ = <span class="hljs-variable language_">this</span>.<span class="hljs-property">keyword</span>.<span class="hljs-property">valueChanges</span>.<span class="hljs-title function_">pipe</span>(
+    <span class="hljs-title function_">debounceTime</span>(<span class="hljs-number">300</span>),          <span class="hljs-comment">// gom phím: chỉ chạy sau khi ngừng gõ 300ms</span>
+    <span class="hljs-title function_">distinctUntilChanged</span>(),     <span class="hljs-comment">// bỏ qua nếu từ khoá không đổi</span>
+    <span class="hljs-title function_">switchMap</span>(<span class="hljs-function">(<span class="hljs-params">kw</span>) =&gt;</span> <span class="hljs-variable language_">this</span>.<span class="hljs-property">api</span>.<span class="hljs-title function_">search</span>(kw)),  <span class="hljs-comment">// switchMap HUỶ request cũ khi có từ khoá mới → hết race</span>
+  );
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params"><span class="hljs-keyword">private</span> <span class="hljs-attr">api</span>: <span class="hljs-title class_">ProductApi</span></span>) {}
+}
+</code></pre>
+<p>Điểm cốt lõi: <code>switchMap</code> tự huỷ request trước đó, nên kết quả của từ khoá cũ về muộn không ghi đè kết quả mới — lỗi rất hay gặp nếu tự viết bằng <code>subscribe</code> lồng nhau.</p>
+<p><strong>Ví dụ 2 — state giỏ hàng dùng chung nhiều màn qua service <code>BehaviorSubject</code>.</strong></p>
+<pre><code class="language-typescript"><span class="hljs-meta">@Injectable</span>({ <span class="hljs-attr">providedIn</span>: <span class="hljs-string">&#x27;root&#x27;</span> })
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">CartStore</span> {
+  <span class="hljs-keyword">private</span> <span class="hljs-keyword">readonly</span> items$ = <span class="hljs-keyword">new</span> <span class="hljs-title class_">BehaviorSubject</span>&lt;<span class="hljs-title class_">CartItem</span>[]&gt;([]);
+  <span class="hljs-keyword">readonly</span> count$ = <span class="hljs-variable language_">this</span>.<span class="hljs-property">items$</span>.<span class="hljs-title function_">pipe</span>(<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">items</span>) =&gt;</span> items.<span class="hljs-property">length</span>));   <span class="hljs-comment">// dẫn xuất số lượng</span>
+  <span class="hljs-keyword">readonly</span> total$ = <span class="hljs-variable language_">this</span>.<span class="hljs-property">items$</span>.<span class="hljs-title function_">pipe</span>(
+    <span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">items</span>) =&gt;</span> items.<span class="hljs-title function_">reduce</span>(<span class="hljs-function">(<span class="hljs-params">s, i</span>) =&gt;</span> s + i.<span class="hljs-property">price</span> * i.<span class="hljs-property">qty</span>, <span class="hljs-number">0</span>)),
+  );
+
+  <span class="hljs-title function_">add</span>(<span class="hljs-params"><span class="hljs-attr">item</span>: <span class="hljs-title class_">CartItem</span></span>) {
+    <span class="hljs-variable language_">this</span>.<span class="hljs-property">items$</span>.<span class="hljs-title function_">next</span>([...<span class="hljs-variable language_">this</span>.<span class="hljs-property">items$</span>.<span class="hljs-property">value</span>, item]);   <span class="hljs-comment">// đổi state bất biến → OnPush nhận ra</span>
+  }
+}
+</code></pre>
+<p>Icon giỏ hàng ở header và trang thanh toán cùng subscribe <code>count$</code>/<code>total$</code> qua <code>async</code> pipe — một nguồn state, mọi nơi đồng bộ. Đổi state theo kiểu bất biến (<code>[...]</code>) để <code>OnPush</code> phát hiện thay đổi.</p>
+<p><strong>Vì sao là mức ③:</strong> bạn làm chủ luồng bất đồng bộ và change detection, xử lý được các bug tinh vi (race, rò bộ nhớ) mà mức dưới hay dính.</p>
+<h2>▸ Ex·V3 — ③ Thành thạo (mở rộng phạm vi — kiến trúc app lớn)</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Cùng mức &quot;thành thạo&quot; nhưng áp ở <strong>quy mô ứng dụng lớn</strong>: chia module (core/shared/feature), <strong>lazy load</strong> để giảm bundle ban đầu, <strong>HTTP interceptor</strong> xử lý xuyên suốt (token, lỗi), <strong>route guard</strong> chặn truy cập, và đặt convention cho cả team.</p>
+<p><strong>Ví dụ 1 — lazy load module báo cáo (chỉ tải khi vào route đó).</strong></p>
+<pre><code class="language-typescript"><span class="hljs-keyword">const</span> <span class="hljs-attr">routes</span>: <span class="hljs-title class_">Routes</span> = [
+  { <span class="hljs-attr">path</span>: <span class="hljs-string">&#x27;orders&#x27;</span>, <span class="hljs-attr">loadChildren</span>: <span class="hljs-function">() =&gt;</span> <span class="hljs-keyword">import</span>(<span class="hljs-string">&#x27;./orders/orders.module&#x27;</span>).<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">m</span>) =&gt;</span> m.<span class="hljs-property">OrdersModule</span>) },
+  {
+    <span class="hljs-attr">path</span>: <span class="hljs-string">&#x27;reports&#x27;</span>,
+    <span class="hljs-attr">canActivate</span>: [<span class="hljs-title class_">AdminGuard</span>],
+    <span class="hljs-attr">loadChildren</span>: <span class="hljs-function">() =&gt;</span> <span class="hljs-keyword">import</span>(<span class="hljs-string">&#x27;./reports/reports.module&#x27;</span>).<span class="hljs-title function_">then</span>(<span class="hljs-function">(<span class="hljs-params">m</span>) =&gt;</span> m.<span class="hljs-property">ReportsModule</span>),
+  },
+];
+</code></pre>
+<p>Module báo cáo nặng (biểu đồ, export) chỉ tải khi người dùng thực sự mở — trang đăng nhập/dashboard nhẹ hơn hẳn.</p>
+<p><strong>Ví dụ 2 — interceptor gắn token &amp; xử lý hết phiên (401) một chỗ cho toàn app.</strong></p>
+<pre><code class="language-typescript"><span class="hljs-meta">@Injectable</span>()
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AuthInterceptor</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">HttpInterceptor</span> {
+  <span class="hljs-title function_">constructor</span>(<span class="hljs-params"><span class="hljs-keyword">private</span> <span class="hljs-attr">auth</span>: <span class="hljs-title class_">AuthService</span>, <span class="hljs-keyword">private</span> <span class="hljs-attr">router</span>: <span class="hljs-title class_">Router</span></span>) {}
+
+  <span class="hljs-title function_">intercept</span>(<span class="hljs-attr">req</span>: <span class="hljs-title class_">HttpRequest</span>&lt;<span class="hljs-built_in">any</span>&gt;, <span class="hljs-attr">next</span>: <span class="hljs-title class_">HttpHandler</span>): <span class="hljs-title class_">Observable</span>&lt;<span class="hljs-title class_">HttpEvent</span>&lt;<span class="hljs-built_in">any</span>&gt;&gt; {
+    <span class="hljs-keyword">const</span> authReq = req.<span class="hljs-title function_">clone</span>({ <span class="hljs-attr">setHeaders</span>: { <span class="hljs-title class_">Authorization</span>: <span class="hljs-string">`Bearer <span class="hljs-subst">${<span class="hljs-variable language_">this</span>.auth.token}</span>`</span> } });
+    <span class="hljs-keyword">return</span> next.<span class="hljs-title function_">handle</span>(authReq).<span class="hljs-title function_">pipe</span>(
+      <span class="hljs-title function_">catchError</span>(<span class="hljs-function">(<span class="hljs-params"><span class="hljs-attr">err</span>: <span class="hljs-title class_">HttpErrorResponse</span></span>) =&gt;</span> {
+        <span class="hljs-keyword">if</span> (err.<span class="hljs-property">status</span> === <span class="hljs-number">401</span>) <span class="hljs-variable language_">this</span>.<span class="hljs-property">router</span>.<span class="hljs-title function_">navigate</span>([<span class="hljs-string">&#x27;/login&#x27;</span>]);   <span class="hljs-comment">// hết phiên → về đăng nhập</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-title function_">throwError</span>(err);
+      }),
+    );
+  }
+}
+<span class="hljs-comment">// Đăng ký trong AppModule:</span>
+<span class="hljs-comment">// providers: [{ provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }]</span>
+</code></pre>
+<p>Mọi request tự động có token, mọi lỗi 401 tự động đưa về đăng nhập — không phải lặp lại logic này ở từng service.</p>
+<p><strong>Ví dụ 3 — cấu trúc module cho team đọc là hiểu.</strong></p>
+<pre><code>app/
+├── core/        (service dùng toàn app, interceptor, guard — import 1 lần ở AppModule)
+├── shared/      (component/pipe/directive dùng lại — import ở nhiều feature module)
+└── features/
+    ├── orders/  (OrdersModule + routing riêng, lazy load)
+    └── reports/ (ReportsModule + routing riêng, lazy load)
+</code></pre>
+<p><strong>Vì sao vẫn là ③:</strong> bạn áp năng lực &quot;thành thạo&quot; lên tầm hệ thống và đội ngũ, không chỉ một màn hình.</p>
+<h2>▸ Senior·V2 — ④ Chuyên sâu</h2>
+<p><strong>Khác Ex·V3:</strong> không chỉ tổ chức tốt module <em>trong</em> một dự án mà <strong>đóng gói năng lực đó thành thư viện dùng chung cho nhiều dự án</strong> trong công ty.</p>
+<p><strong>Ví dụ thực tế — Angular library nội bộ cho <code>AuthInterceptor</code> + <code>CartStore</code> (đã viết ở các mốc trước).</strong></p>
+<pre><code class="language-bash">ng generate library @company/auth-kit
+<span class="hljs-comment"># publish nội bộ: mọi dự án FE trong công ty cài về dùng, không copy-paste lại interceptor</span>
+</code></pre>
+<pre><code class="language-typescript"><span class="hljs-comment">// dự án khác chỉ cần:</span>
+<span class="hljs-keyword">import</span> { <span class="hljs-title class_">AuthInterceptorModule</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;@company/auth-kit&#x27;</span>;
+</code></pre>
+<p>Thay vì mỗi dự án tự viết lại <code>AuthInterceptor</code>, tự vá lại bug tương tự — một thư viện trung tâm, sửa một chỗ, mọi dự án nhận bản vá khi nâng version.</p>
+<p><strong>Vì sao là mức ④:</strong> bạn hiểu framework đủ sâu để <strong>trừu tượng hoá</strong> năng lực đã làm chủ thành công cụ dùng lại được ở quy mô công ty, không chỉ giải quyết cho dự án đang chạy.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/fe","c":"dimmed","children":"Dev Front-end"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Framework FE (Angular)"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/fe/ky-nang/04-html-css-js","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"HTML / CSS / JavaScript"}]]}]}],["$","$L15",null,{"href":"/fe/ky-nang/06-ux-ui-co-ban","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"UX/UI cơ bản"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

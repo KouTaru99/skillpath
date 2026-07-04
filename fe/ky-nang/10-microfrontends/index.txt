@@ -1,0 +1,171 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","fe","ky-nang","10-microfrontends",""],"i":false,"f":[[["",{"children":[["role","fe","d"],{"children":["ky-nang",{"children":[["skill","10-microfrontends","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","fe","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","10-microfrontends","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T41b9,<h1>Microfrontends</h1>
+<p><strong>Định nghĩa.</strong> <strong>Microfrontends (MFE)</strong> là kiến trúc chia một ứng dụng Front-end lớn thành nhiều mảnh <strong>build &amp; deploy độc lập</strong>, rồi <strong>ghép lại lúc chạy (runtime)</strong> thành một trang người dùng thấy liền mạch. Mỗi mảnh do một đội sở hữu, <strong>có thể khác framework/version</strong> (Angular 12 · React · Angular 15…). Điều làm nên microfrontend <strong>không phải</strong> số lượng repo, mà là: <em>mỗi mảnh deploy độc lập + ghép lúc runtime</em>.</p>
+<p><strong>Đừng lẫn với monorepo.</strong> Đây là hai trục <strong>vuông góc</strong>, không phải một:</p>
+<ul>
+<li><strong>Monorepo / poly-repo</strong> = câu hỏi <em>&quot;code nằm ở đâu&quot;</em> (một repo nhiều app, hay mỗi app một repo). Chuyện <strong>build-time / tổ chức mã</strong>.</li>
+<li><strong>Microfrontend</strong> = câu hỏi <em>&quot;các mảnh deploy &amp; ghép thế nào&quot;</em>. Chuyện <strong>runtime / kiến trúc</strong>.</li>
+</ul>
+<p>Bạn có thể monorepo mà mỗi app vẫn deploy riêng (là microfrontend), hoặc poly-repo (cũng microfrontend). Nên <strong>đừng đo microfrontend bằng số repo</strong>.</p>
+<pre><code>┌────────────────────────────────────────────────────┐
+│  Trình duyệt — người dùng thấy 1 trang liền mạch     │
+│  ┌──────────────────────────────────────────────┐   │
+│  │  SHELL (host) — router nạp MFE theo route       │  │
+│  └─────┬─────────────┬─────────────┬────────────┘   │
+│        │             │             │                │
+│  ┌─────▼─────┐ ┌─────▼─────┐ ┌─────▼──────┐         │
+│  │ Sản phẩm  │ │ Giỏ hàng  │ │ Tài khoản  │         │
+│  │ Angular12 │ │ React     │ │ Angular15  │         │
+│  │ Team A    │ │ Team B    │ │ Team C     │         │
+│  └─────┬─────┘ └─────┬─────┘ └─────┬──────┘         │
+│        └─────────────┴─────────────┘                │
+│              Event bus (chia sẻ state)              │
+└────────────────────────────────────────────────────┘
+ Mỗi MFE: repo riêng · build riêng · deploy riêng · URL riêng
+</code></pre>
+<p><strong>Các kiểu ghép (khác nhau ở &quot;đa framework/version được tới đâu&quot;):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Kiểu tích hợp</th>
+<th>Đa framework/version?</th>
+<th>Đánh đổi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Web Components / iframe / <strong>single-spa</strong> (cô lập runtime)</td>
+<td>✅ thoải mái</td>
+<td>mỗi mảnh tự mang runtime → tải trùng, nặng hơn</td>
+</tr>
+<tr>
+<td><strong>Webpack Module Federation</strong> + <code>shared: singleton</code></td>
+<td>⚠️ buộc <strong>cùng/tương thích version</strong> framework</td>
+<td>nhẹ (dùng chung 1 bản), nhưng lệ thuộc version</td>
+</tr>
+<tr>
+<td>Module Federation <strong>không</strong> share framework</td>
+<td>✅ đa version</td>
+<td>mỗi mảnh tự bundle → tải trùng</td>
+</tr>
+</tbody>
+</table>
+<p>Và <strong>router không phải kênh giao tiếp duy nhất</strong>: router lo <em>điều hướng</em> (ghép mảnh theo URL); còn chia sẻ <em>state/dữ liệu</em> (đăng nhập, giỏ hàng) thì cần thêm <strong>event bus / custom event / shared state</strong>.</p>
+<h2>▸ Ex·V2 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Hiểu microfrontend là gì, <strong>phân biệt với monorepo</strong>, biết các kiểu ghép, và một mảnh phải <strong>tự chứa</strong> (không phụ thuộc ngầm mảnh khác).</p>
+<p><strong>Cấu trúc thư mục — hai cách để cùng ra một kiến trúc microfrontend:</strong></p>
+<pre><code># Cách A — poly-repo (mỗi MFE một repo, độc lập nhất)
+shell-app/         → repo Host: router trỏ tới từng MFE
+products-mfe/      → repo Team A (Angular 12), tự CI/CD lên products.cty.com
+cart-mfe/          → repo Team B (React)
+account-mfe/       → repo Team C (Angular 15)
+
+# Cách B — monorepo (Nx) — VẪN là microfrontend
+my-workspace/
+  apps/  shell/  products/  cart/  account/   ← mỗi app vẫn build &amp; deploy RIÊNG
+  libs/  shared-ui/  shared-auth/             ← code dùng chung (lợi thế monorepo)
+</code></pre>
+<p><strong>Ví dụ ghép cơ bản (Angular 12+ / Webpack 5, dùng <code>@angular-architects/module-federation</code>).</strong> Mảnh &quot;products&quot; phơi module ra:</p>
+<pre><code class="language-javascript"><span class="hljs-comment">// products-mfe/webpack.config.js</span>
+<span class="hljs-keyword">new</span> <span class="hljs-title class_">ModuleFederationPlugin</span>({
+  <span class="hljs-attr">name</span>: <span class="hljs-string">&#x27;products&#x27;</span>,
+  <span class="hljs-attr">filename</span>: <span class="hljs-string">&#x27;remoteEntry.js&#x27;</span>,                 <span class="hljs-comment">// shell sẽ tải file này</span>
+  <span class="hljs-attr">exposes</span>: { <span class="hljs-string">&#x27;./Module&#x27;</span>: <span class="hljs-string">&#x27;./src/app/products/products.module.ts&#x27;</span> },
+});
+</code></pre>
+<p>Shell nạp mảnh đó theo route — <strong>điểm mấu chốt là URL <code>remoteEntry</code></strong> (nơi mảnh đang deploy):</p>
+<pre><code class="language-typescript">{
+  <span class="hljs-attr">path</span>: <span class="hljs-string">&#x27;products&#x27;</span>,
+  <span class="hljs-attr">loadChildren</span>: <span class="hljs-function">() =&gt;</span> <span class="hljs-title function_">loadRemoteModule</span>({
+    <span class="hljs-attr">type</span>: <span class="hljs-string">&#x27;module&#x27;</span>,
+    <span class="hljs-attr">remoteEntry</span>: <span class="hljs-string">&#x27;https://products.cty.com/remoteEntry.js&#x27;</span>,   <span class="hljs-comment">// ← mảnh &quot;ở&quot; đâu</span>
+    <span class="hljs-attr">exposedModule</span>: <span class="hljs-string">&#x27;./Module&#x27;</span>,
+  }).<span class="hljs-title function_">then</span>(<span class="hljs-function"><span class="hljs-params">m</span> =&gt;</span> m.<span class="hljs-property">ProductsModule</span>),
+}
+</code></pre>
+<p><strong>Vì sao là mức ①:</strong> nắm khái niệm và ghép được theo mẫu, chưa xử vấn đề khó (chia sẻ dependency, đa framework, giao tiếp).</p>
+<h2>▸ Ex·V3 — ② Biết làm</h2>
+<p><strong>Khác V2:</strong> <strong>chọn đúng kiểu tích hợp</strong> theo nhu cầu và xử các bài toán thực — chia sẻ dependency (kèm đánh đổi version), giao tiếp giữa mảnh, giữ nhất quán đăng nhập/giao diện.</p>
+<p><strong>Ví dụ 1 — cùng stack Angular: Module Federation share singleton (nhẹ, nhưng ràng version).</strong></p>
+<pre><code class="language-javascript"><span class="hljs-attr">shared</span>: {
+  <span class="hljs-string">&#x27;@angular/core&#x27;</span>:   { <span class="hljs-attr">singleton</span>: <span class="hljs-literal">true</span>, <span class="hljs-attr">strictVersion</span>: <span class="hljs-literal">true</span>, <span class="hljs-attr">requiredVersion</span>: <span class="hljs-string">&#x27;^12.0.0&#x27;</span> },
+  <span class="hljs-string">&#x27;@angular/common&#x27;</span>: { <span class="hljs-attr">singleton</span>: <span class="hljs-literal">true</span>, <span class="hljs-attr">strictVersion</span>: <span class="hljs-literal">true</span>, <span class="hljs-attr">requiredVersion</span>: <span class="hljs-string">&#x27;^12.0.0&#x27;</span> },
+  <span class="hljs-attr">rxjs</span>:              { <span class="hljs-attr">singleton</span>: <span class="hljs-literal">true</span> },
+}
+</code></pre>
+<p><code>singleton: true</code> để shell và các mảnh <strong>dùng chung một bản Angular</strong> (đỡ tải trùng, tránh hai bản Angular đập nhau). <strong>Đánh đổi:</strong> các mảnh phải cùng/tương thích major version — đây chính là lý do &quot;MF share singleton&quot; <strong>không</strong> cho đa version tự do.</p>
+<p><strong>Ví dụ 2 — cần đa framework/version thật (Angular + React): đừng share, hãy cô lập.</strong>
+Khi các mảnh khác framework, bỏ share framework (mỗi mảnh tự bundle), hoặc gói mảnh thành <strong>Web Component</strong> để shell nhúng như thẻ HTML thường:</p>
+<pre><code class="language-html"><span class="hljs-comment">&lt;!-- shell nhúng mảnh React như custom element, không cần biết nó viết bằng gì --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">cart-widget</span> <span class="hljs-attr">user-id</span>=<span class="hljs-string">&quot;42&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">cart-widget</span>&gt;</span>
+</code></pre>
+<p>Trả giá: tải trùng runtime; đổi lại các mảnh thực sự độc lập công nghệ (đúng lời hứa gốc của microfrontend). Công cụ phổ biến cho hướng này: <strong>single-spa</strong>.</p>
+<p><strong>Ví dụ 3 — giao tiếp giữa mảnh qua event bus (không gọi thẳng vào nhau).</strong></p>
+<pre><code class="language-typescript"><span class="hljs-comment">// mảnh &quot;cart&quot; phát sự kiện khi thêm hàng</span>
+<span class="hljs-variable language_">window</span>.<span class="hljs-title function_">dispatchEvent</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">CustomEvent</span>(<span class="hljs-string">&#x27;cart:add&#x27;</span>, { <span class="hljs-attr">detail</span>: { id, qty } }));
+<span class="hljs-comment">// mảnh &quot;header&quot; lắng nghe để cập nhật badge — hai mảnh không phụ thuộc cứng</span>
+<span class="hljs-variable language_">window</span>.<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">&#x27;cart:add&#x27;</span>, <span class="hljs-function">(<span class="hljs-params"><span class="hljs-attr">e</span>: <span class="hljs-built_in">any</span></span>) =&gt;</span> <span class="hljs-variable language_">this</span>.<span class="hljs-title function_">updateBadge</span>(e.<span class="hljs-property">detail</span>));
+</code></pre>
+<p>Router điều hướng giữa các mảnh; event bus lo chia sẻ state (giỏ hàng, phiên đăng nhập). Gọi thẳng service của mảnh khác sẽ khoá chặt chúng lại — mất tính độc lập.</p>
+<p><strong>Vì sao là mức ②:</strong> chọn được kiểu tích hợp hợp bối cảnh và giải quyết các đánh đổi cốt lõi (version, đa framework, giao tiếp) — không đóng khung microfrontend vào một cách duy nhất.</p>
+<h2>▸ Senior·V1 — ③ Thành thạo</h2>
+<p><strong>Khác Ex·V3:</strong> không chỉ ghép được mảnh mà <strong>vận hành nó ở production</strong> — CI/CD độc lập cho từng mảnh, kiểm tra hợp đồng giữa shell/remote trước khi deploy, và biết <strong>khi nào KHÔNG nên</strong> chọn microfrontend.</p>
+<p><strong>Ví dụ 1 — pipeline deploy độc lập cho một mảnh (không kéo theo cả hệ thống).</strong></p>
+<pre><code class="language-yaml"><span class="hljs-comment"># products-mfe/.github/workflows/deploy.yml — chỉ deploy khi mảnh này đổi</span>
+<span class="hljs-attr">on:</span>
+  <span class="hljs-attr">push:</span>
+    <span class="hljs-attr">paths:</span> [<span class="hljs-string">&#x27;products-mfe/**&#x27;</span>]
+<span class="hljs-attr">jobs:</span>
+  <span class="hljs-attr">deploy:</span>
+    <span class="hljs-attr">steps:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">run:</span> <span class="hljs-string">npm</span> <span class="hljs-string">run</span> <span class="hljs-string">build</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">run:</span> <span class="hljs-string">aws</span> <span class="hljs-string">s3</span> <span class="hljs-string">sync</span> <span class="hljs-string">dist/</span> <span class="hljs-string">s3://products.cty.com</span>   <span class="hljs-comment"># remoteEntry.js mới, shell tự nạp bản mới</span>
+</code></pre>
+<p>Đây là lợi ích cốt lõi mà PDF career-path gọi là &quot;thành thạo lập trình theo mô hình microfrontends&quot;: mảnh &quot;products&quot; đổi và lên production mà không cần build lại &quot;cart&quot; hay &quot;account&quot;.</p>
+<p><strong>Ví dụ 2 — kiểm hợp đồng (contract test) giữa shell và remote trước khi deploy.</strong></p>
+<pre><code class="language-typescript"><span class="hljs-comment">// shell kỳ vọng remote &quot;products&quot; phơi đúng shape này — chạy trong CI của remote trước khi deploy</span>
+<span class="hljs-title function_">it</span>(<span class="hljs-string">&#x27;remoteEntry phơi đúng ProductsModule&#x27;</span>, <span class="hljs-title function_">async</span> () =&gt; {
+  <span class="hljs-keyword">const</span> remote = <span class="hljs-keyword">await</span> <span class="hljs-title function_">loadRemoteModule</span>({ <span class="hljs-attr">remoteEntry</span>: <span class="hljs-variable constant_">STAGING_URL</span>, <span class="hljs-attr">exposedModule</span>: <span class="hljs-string">&#x27;./Module&#x27;</span> });
+  <span class="hljs-title function_">expect</span>(remote.<span class="hljs-property">ProductsModule</span>).<span class="hljs-title function_">toBeDefined</span>();
+});
+</code></pre>
+<p>Không có test này, một remote đổi tên export có thể làm sập shell mà CI riêng của remote vẫn xanh.</p>
+<p><strong>Ví dụ 3 — biết khi nào KHÔNG nên dùng microfrontend.</strong> Team 5 người, 1 sản phẩm, không có nhu cầu deploy độc lập theo đội → microfrontend chỉ thêm độ phức tạp vận hành (nhiều pipeline, nhiều nơi theo dõi lỗi, đồng bộ version framework) mà không đổi lại lợi ích gì — ở quy mô này, một Angular app thường (monolith FE) là lựa chọn đúng, không phải &quot;lỗi thời&quot;.</p>
+<p><strong>Vì sao là mức ③:</strong> bạn làm chủ microfrontend <strong>ở vòng đời thật</strong> (deploy, kiểm hợp đồng, vận hành) chứ không chỉ ghép được lúc code, và đủ tỉnh táo để không áp nó vào nơi không cần.</p>
+<h2>▸ Senior·V2 — ④ Chuyên sâu</h2>
+<p><strong>Khác Senior·V1:</strong> không chỉ vận hành một hệ microfrontend có sẵn mà <strong>thiết kế bộ khung (platform) cho các đội khác dựng mảnh mới lên đó</strong> — chuẩn hoá cách một mảnh &quot;gia nhập&quot; hệ thống.</p>
+<p><strong>Ví dụ thực tế — bộ khung &quot;onboarding&quot; cho một mảnh mới.</strong> Khi công ty có thêm đội mới muốn thêm mảnh &quot;Khuyến mãi&quot; vào shell hiện có, bạn không để họ tự mò cách tích hợp — bạn định nghĩa sẵn: template repo có cấu hình Module Federation chuẩn, checklist bắt buộc (đăng ký route với shell, đúng version Angular singleton, có healthcheck, có contract test với shell), và tài liệu &quot;thêm một microfrontend mới trong 1 ngày&quot; thay vì vài tuần dò dẫm.</p>
+<p><strong>Vì sao là mức ④:</strong> bạn thiết kế được <strong>nền tảng</strong> cho microfrontend mở rộng bền vững qua nhiều đội, không chỉ vận hành tốt hệ hiện có.</p>
+<hr>
+<p><em>Nguồn: <a href="https://martinfowler.com/articles/micro-frontends.html">martinfowler.com — Micro Frontends</a> · <a href="https://micro-frontends.org/">micro-frontends.org</a> · <a href="https://single-spa.js.org/">single-spa</a> · <a href="https://webpack.js.org/concepts/module-federation/">webpack — Module Federation</a> · <a href="https://www.npmjs.com/package/@angular-architects/module-federation">@angular-architects/module-federation</a></em></p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/fe","c":"dimmed","children":"Dev Front-end"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Microfrontends"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/fe/ky-nang/09-unit-test","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Unit test"}]]}]}],["$","$L15",null,{"href":"/fe/ky-nang/11-oop-dp-algo-ds","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"OOP / Design Pattern / Algorithm / Data Structure"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

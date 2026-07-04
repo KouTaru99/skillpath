@@ -1,0 +1,78 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","tester","ky-nang","10-kiem-thu-api-tu-dong-hoa",""],"i":false,"f":[[["",{"children":[["role","tester","d"],{"children":["ky-nang",{"children":[["skill","10-kiem-thu-api-tu-dong-hoa","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","tester","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","10-kiem-thu-api-tu-dong-hoa","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T1756,<h1>Kiểm thử API &amp; công cụ tự động hoá</h1>
+<p><strong>Định nghĩa.</strong> Thay vì test qua giao diện (chậm, dễ sót), Tester dùng công cụ gọi thẳng API (như <strong>Postman</strong>) để kiểm chứng logic backend độc lập với UI, và dùng <strong>công cụ/framework tự động hoá có sẵn</strong> (Selenium/Playwright cho web, Appium cho mobile, JMeter cho tải) để chạy lại hàng loạt test case không cần thao tác tay. Với Tester ở mức này, trọng tâm là <strong>dùng công cụ có sẵn cho hiệu quả</strong> — chưa cần tự xây framework từ đầu (việc của cấp cao hơn).</p>
+<h2>▸ Ex·V2 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Dùng công cụ gọi API có sẵn (Postman) để test một endpoint theo mẫu — kiểm chứng cả luồng đúng lẫn luồng lỗi.</p>
+<p><strong>Tình huống thực tế — test API tạo cảnh báo bằng Postman.</strong> API <code>POST /api/alerts</code> (tạo cảnh báo thủ công, dùng khi diễn tập). Bạn test cả hai mặt:</p>
+<pre><code>POSTMAN — POST /api/alerts
+
+  CA THUẬN (dữ liệu hợp lệ):
+    Body: { &quot;severity&quot;: &quot;high&quot;, &quot;source_ip&quot;: &quot;192.168.1.1&quot; }
+    → Mong đợi: 201 Created + response có &quot;id&quot; mới sinh
+      + &quot;created_at&quot; gần thời điểm hiện tại
+
+  CA LỖI (thiếu trường bắt buộc):
+    Body: { &quot;source_ip&quot;: &quot;192.168.1.1&quot; }   ← thiếu severity
+    → Mong đợi: 400 Bad Request + message rõ &quot;severity is required&quot;
+      (KHÔNG phải 500 — thiếu input là lỗi lường trước được)
+
+  CA LỖI (giá trị lạ):
+    Body: { &quot;severity&quot;: &quot;SUPER_CRITICAL&quot;, ... }  ← enum không hợp lệ
+    → Mong đợi: 400 + báo giá trị không thuộc {low, medium, high}
+</code></pre>
+<p>Test thẳng API bắt được điều test qua UI khó thấy: giao diện thường chỉ cho chọn enum từ dropdown (không bao giờ gửi được giá trị lạ), nhưng kẻ tấn công gọi thẳng API thì gửi được — nên ca &quot;giá trị lạ&quot; là bắt buộc với sản phẩm an ninh.</p>
+<p><strong>Vì sao là mức ①:</strong> dùng đúng công cụ có sẵn cho ca đơn theo mẫu; chưa tự dựng bộ test chạy lặp tự động.</p>
+<h2>▸ Ex·V3 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> dùng công cụ/framework để <strong>tự động hoá</strong> — gom test rời thành bộ chạy lại được nhiều lần, gắn assertion (kiểm tra tự động) để không phải mắt người soi từng response.</p>
+<p><strong>Tình huống thực tế 1 — Postman Collection có assertion, chạy mỗi build.</strong> Bạn gom các API test thủ công thành một collection có kiểm tra tự động bằng script:</p>
+<pre><code class="language-javascript"><span class="hljs-comment">// Postman — tab &quot;Tests&quot; của request POST /api/alerts (ca thuận)</span>
+pm.<span class="hljs-title function_">test</span>(<span class="hljs-string">&quot;Status 201&quot;</span>, <span class="hljs-function">() =&gt;</span> pm.<span class="hljs-property">response</span>.<span class="hljs-property">to</span>.<span class="hljs-property">have</span>.<span class="hljs-title function_">status</span>(<span class="hljs-number">201</span>));
+pm.<span class="hljs-title function_">test</span>(<span class="hljs-string">&quot;Có id mới&quot;</span>, <span class="hljs-function">() =&gt;</span> {
+  <span class="hljs-keyword">const</span> body = pm.<span class="hljs-property">response</span>.<span class="hljs-title function_">json</span>();
+  pm.<span class="hljs-title function_">expect</span>(body.<span class="hljs-property">id</span>).<span class="hljs-property">to</span>.<span class="hljs-property">be</span>.<span class="hljs-title function_">a</span>(<span class="hljs-string">&quot;number&quot;</span>);
+  pm.<span class="hljs-title function_">expect</span>(body.<span class="hljs-property">severity</span>).<span class="hljs-property">to</span>.<span class="hljs-title function_">eql</span>(<span class="hljs-string">&quot;high&quot;</span>);
+});
+pm.<span class="hljs-title function_">test</span>(<span class="hljs-string">&quot;Phản hồi &lt; 500ms&quot;</span>, <span class="hljs-function">() =&gt;</span> pm.<span class="hljs-title function_">expect</span>(pm.<span class="hljs-property">response</span>.<span class="hljs-property">responseTime</span>).<span class="hljs-property">to</span>.<span class="hljs-title function_">below</span>(<span class="hljs-number">500</span>));
+</code></pre>
+<p>Chạy cả collection (20 request) mỗi khi có build mới — 30 giây thay cho 30 phút test tay, và không bao giờ &quot;quên&quot; case nào.</p>
+<p><strong>Tình huống thực tế 2 — kịch bản Selenium cho luồng UI lặp lại.</strong> Với phần giao diện, bạn viết kịch bản tự động cho luồng smoke hay phải chạy đi chạy lại:</p>
+<pre><code>Kịch bản Selenium &quot;smoke đăng nhập + xem cảnh báo&quot;:
+  1. Mở /login → điền tài khoản qa_auto → submit
+  2. Chờ dashboard load → khẳng định URL = /dashboard
+  3. Vào /alerts → khẳng định bảng có ≥1 dòng
+  4. Khẳng định cột &quot;mức độ&quot; của dòng đầu hiển thị đúng badge màu
+→ Chạy tự động mỗi sáng trước khi Tester bắt đầu test tay:
+  build &quot;sống&quot; thì mới đáng test sâu.
+</code></pre>
+<p><strong>Vì sao là mức ②:</strong> dùng công cụ tự động hoá có sẵn để tăng tốc kiểm thử lặp lại và biến &quot;test tay tốn công&quot; thành &quot;chạy một nút&quot;; chưa cần tự thiết kế framework tự động hoá từ nền.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/tester","c":"dimmed","children":"Kiểm thử (Tester)"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Kiểm thử API & công cụ tự động hoá"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/tester/ky-nang/09-giao-thuc-mang","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Giao thức mạng (HTTP/HTTPS)"}]]}]}],["$","$L15",null,{"href":"/tester/ky-nang/11-uoc-luong-no-luc-rui-ro","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Ước lượng nỗ lực & rủi ro kiểm thử"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

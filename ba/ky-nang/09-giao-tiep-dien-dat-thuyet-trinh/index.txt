@@ -1,0 +1,68 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","ba","ky-nang","09-giao-tiep-dien-dat-thuyet-trinh",""],"i":false,"f":[[["",{"children":[["role","ba","d"],{"children":["ky-nang",{"children":[["skill","09-giao-tiep-dien-dat-thuyet-trinh","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","ba","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","09-giao-tiep-dien-dat-thuyet-trinh","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T10c1,<h1>Giao tiếp, diễn đạt &amp; thuyết trình</h1>
+<p><strong>Định nghĩa.</strong> BA là cầu nối giữa khách hàng (nói ngôn ngữ nghiệp vụ) và Dev (nói ngôn ngữ kỹ thuật) — kỹ năng giao tiếp/diễn đạt quyết định thông tin có bị &quot;tam sao thất bản&quot; qua mỗi lần truyền đạt hay không. Ba biểu hiện cụ thể của người diễn đạt tốt: nói bằng <strong>ví dụ đời thật</strong> thay vì thuật ngữ; <strong>cấu trúc trước chi tiết sau</strong> (kết luận → lý do → chi tiết); và <strong>đổi ngôn ngữ theo người nghe</strong> — cùng một nội dung, nói với Dev khác nói với lãnh đạo.</p>
+<h2>▸ Ex·V1 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Diễn đạt rõ ràng yêu cầu cho nhóm nhỏ (đội dự án), dùng ví dụ cụ thể để mọi người hình dung giống nhau — không gây hiểu nhầm.</p>
+<p><strong>Tình huống thực tế — trình bày yêu cầu &quot;Cảnh báo tự động&quot; ở buổi kick-off.</strong> Thay vì đọc PTYC từng dòng (cả phòng ngủ gật), bạn mở đầu bằng một ví dụ ai cũng biết:</p>
+<pre><code>CÁCH NÓI GÂY HIỂU NHẦM (đọc tài liệu):
+  &quot;Hệ thống thực hiện tương quan sự kiện đa nguồn và phát sinh
+   cảnh báo theo ngưỡng cấu hình động...&quot;
+
+CÁCH BẠN NÓI (ví dụ trước, thuật ngữ sau):
+  &quot;Giống thẻ tín dụng bị quẹt bất thường thì ngân hàng gọi ngay:
+   hệ thống mình canh log 24/7, thấy dấu hiệu lạ — ví dụ một máy
+   tính 2h sáng tự nhiên gửi 10GB ra nước ngoài — thì báo động.
+   Trong tài liệu, phần 'thấy dấu hiệu lạ' gọi là tương quan sự
+   kiện, phần 'báo động' là luồng cảnh báo — giờ mình đi từng phần.&quot;
+</code></pre>
+<p>Sau buổi đó, Dev BE nói lại đúng ý bạn cho một bạn vắng họp — thông tin truyền qua một lớp mà không méo, đó là thước đo thật của diễn đạt rõ.</p>
+<p><strong>Vì sao là mức ①:</strong> truyền đạt chính xác trong phạm vi đội dự án bằng ví dụ tốt; chưa cần điều chỉnh linh hoạt cho nhiều loại khán giả khác nhau.</p>
+<h2>▸ Ex·V2 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> thuyết trình cho <strong>khán giả đa dạng</strong> (khách hàng, lãnh đạo, kỹ thuật) — biết cắt cùng một nội dung thành các &quot;phiên bản&quot; khác nhau theo mối quan tâm của từng người nghe.</p>
+<p><strong>Tình huống thực tế — một giải pháp, hai bài trình bày trong cùng tuần.</strong> Giải pháp &quot;Phân quyền xem cảnh báo&quot; cần trình cho 2 nhóm. Bạn chuẩn bị 2 phiên bản từ cùng một tài liệu:</p>
+<pre><code>VỚI ĐỘI DEV (45 phút, đi sâu):
+  - Mô hình 3 vai + bảng ma trận quyền từng màn hình
+  - Luồng kiểm tra quyền: đăng nhập → token chứa vai → API lọc
+    dữ liệu theo nhóm tài sản
+  - 15 phút Q&amp;A về case biên: user thuộc 2 phòng ban thì sao?
+
+VỚI LÃNH ĐẠO KHÁCH HÀNG (10 phút, đi đúng mối quan tâm):
+  - Slide 1: &quot;Ai thấy gì&quot; — 1 hình 3 vòng tròn, 0 thuật ngữ
+  - Slide 2: Rủi ro giải quyết được: nhân viên thường không còn
+    thấy log nhạy cảm (đúng nỗi lo họ nêu buổi khảo sát)
+  - Slide 3: Cần lãnh đạo quyết 1 việc: ai là người gán nhóm
+    tài sản → xin chốt luôn trong họp
+</code></pre>
+<p>Điểm quan trọng nhất của bản lãnh đạo: <strong>kết thúc bằng một quyết định cần họ đưa ra</strong> — lãnh đạo không đến họp để nghe kể, họ đến để quyết. Buổi 10 phút chốt được điều mà 3 email trước đó không chốt nổi.</p>
+<p><strong>Vì sao là mức ②:</strong> chủ động thiết kế nội dung theo từng đối tượng nghe và mục tiêu của buổi nói (thông báo ≠ xin quyết định) — không dùng một bài trình bày cho mọi người.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/ba","c":"dimmed","children":"Giải pháp nghiệp vụ (BA)"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Giao tiếp, diễn đạt & thuyết trình"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/ba/ky-nang/08-ho-tro-nghiem-thu","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Hỗ trợ nghiệm thu sản phẩm/hệ thống với khách hàng"}]]}]}],["$","$L15",null,{"href":"/ba/ky-nang/10-tu-duy-phan-bien","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Tư duy phản biện"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

@@ -1,0 +1,313 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","878","static/chunks/app/%5Brole%5D/phong-van/page-f09746d2184495c4.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","878","static/chunks/app/%5Brole%5D/phong-van/page-f09746d2184495c4.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","be","phong-van",""],"i":false,"f":[[["",{"children":[["role","be","d"],{"children":["phong-van",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","be","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["phong-van",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","878","static/chunks/app/%5Brole%5D/phong-van/page-f09746d2184495c4.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","878","static/chunks/app/%5Brole%5D/phong-van/page-f09746d2184495c4.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","878","static/chunks/app/%5Brole%5D/phong-van/page-f09746d2184495c4.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","878","static/chunks/app/%5Brole%5D/phong-van/page-f09746d2184495c4.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","878","static/chunks/app/%5Brole%5D/phong-van/page-f09746d2184495c4.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","878","static/chunks/app/%5Brole%5D/phong-van/page-f09746d2184495c4.js"],"Box"]
+18:Tb79b,<h1>Lab phỏng vấn — Dev Back-end</h1>
+<blockquote>
+<p>Kịch bản thoại thật, viết theo đúng vùng năng lực bạn đang ở, ví dụ minh hoạ bằng Java/Spring Boot. Từ Entry đến Experienced·V2, mỗi vùng mô phỏng <strong>1 buổi phỏng vấn trọn vẹn</strong>. Từ Experienced·V3 trở lên, buổi phỏng vấn thật tách thành nhiều vòng riêng — mỗi vùng có 3 lab: <strong>kỹ thuật sâu</strong>, <strong>case thiết kế</strong>, <strong>hành vi &amp; lãnh đạo</strong>.</p>
+</blockquote>
+<hr>
+<h2>Entry</h2>
+<h3>Lab — Phỏng vấn thực tập sinh / fresher</h3>
+<p><strong>Bối cảnh:</strong> phỏng vấn vị trí thực tập sinh/fresher Back-end (Java) tại một công ty phần mềm cỡ nhỏ. Online, 30 phút. Người phỏng vấn: <strong>anh Sơn</strong>, Dev BE 2 năm kinh nghiệm, ứng viên <strong>Bảo</strong> — mới ra trường.</p>
+<p><strong>Sơn:</strong> Chào Bảo, anh Sơn đây. Em kể sơ về đồ án/dự án gần nhất em làm được không?</p>
+<p><strong>Bảo:</strong> Dạ em làm đồ án quản lý sinh viên, viết bằng Java, có kết nối CSDL MySQL, chưa dùng Spring Boot mà làm thuần JDBC thôi ạ.</p>
+<p><strong>Sơn:</strong> Ok, không sao. Em hiểu &quot;lớp&quot; (class) và &quot;đối tượng&quot; (object) khác nhau chỗ nào?</p>
+<p><strong>Bảo:</strong> Dạ, class là bản thiết kế/khuôn mẫu, còn object là một thực thể cụ thể được tạo ra từ class đó. Ví dụ class <code>SinhVien</code> định nghĩa có tên, mã số; mỗi object là 1 sinh viên cụ thể như &quot;Nguyễn Văn A, mã 001&quot;.</p>
+<p><strong>Sơn:</strong> Tốt. Em viết câu lệnh SQL để lấy danh sách sinh viên có điểm trung bình trên 8 như thế nào?</p>
+<p><strong>Bảo:</strong> Dạ, <code>SELECT * FROM sinh_vien WHERE diem_tb &gt; 8;</code></p>
+<p><strong>Sơn:</strong> Được. Giờ mình làm một bài nhỏ, anh chia sẻ màn hình nhé.</p>
+<pre><code class="language-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Calculator</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-type">int</span> <span class="hljs-title function_">divide</span><span class="hljs-params">(<span class="hljs-type">int</span> a, <span class="hljs-type">int</span> b)</span> {
+        <span class="hljs-keyword">return</span> a / b;
+    }
+}
+</code></pre>
+<p><strong>Sơn:</strong> Đoạn này chạy bị crash khi gọi <code>divide(10, 0)</code>. Em biết vì sao và sửa thế nào không?</p>
+<p><strong>Bảo:</strong> [suy nghĩ] Dạ, chia cho 0 với số nguyên sẽ ném ra lỗi <code>ArithmeticException</code> ạ. Em sẽ kiểm tra <code>b</code> trước khi chia, nếu <code>b == 0</code> thì báo lỗi rõ ràng thay vì để chương trình crash đột ngột.</p>
+<pre><code class="language-java"><span class="hljs-keyword">public</span> <span class="hljs-type">int</span> <span class="hljs-title function_">divide</span><span class="hljs-params">(<span class="hljs-type">int</span> a, <span class="hljs-type">int</span> b)</span> {
+    <span class="hljs-keyword">if</span> (b == <span class="hljs-number">0</span>) {
+        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">IllegalArgumentException</span>(<span class="hljs-string">&quot;Không thể chia cho 0&quot;</span>);
+    }
+    <span class="hljs-keyword">return</span> a / b;
+}
+</code></pre>
+<p><strong>Sơn:</strong> Tốt, biết ném lỗi có ý nghĩa thay vì để crash mù mờ. Em có biết debug bằng cách nào ngoài in ra màn hình không?</p>
+<p><strong>Bảo:</strong> Dạ em có dùng breakpoint trong IntelliJ, đặt điểm dừng rồi xem giá trị biến lúc đó, chạy từng dòng một.</p>
+<p><strong>Sơn:</strong> Ok. Hai câu cuối — em biết Git cơ bản chưa?</p>
+<p><strong>Bảo:</strong> Dạ em biết <code>git add</code>, <code>git commit</code>, <code>git push</code>, <code>git pull</code> để đồng bộ code với GitHub, hồi làm đồ án nhóm em có dùng để tránh ghi đè code của nhau.</p>
+<p><strong>Sơn:</strong> Được. Cuối cùng, kể anh nghe một lần em tự học thêm gì đó ngoài chương trình học.</p>
+<p><strong>Bảo:</strong> Dạ, làm đồ án em thấy viết JDBC thuần phải tự đóng mở connection rất dễ quên, em có tìm hiểu thử một chút về JPA/Hibernate qua video hướng dẫn, thấy nó tự động hoá việc đó nhưng em chưa áp dụng thật vào đồ án vì thời gian không kịp.</p>
+<p><strong>Sơn:</strong> Tốt, biết được hướng đi xa hơn dù chưa áp dụng. Cảm ơn Bảo.</p>
+<p><strong>Góc nhìn người chấm:</strong> ở Entry, tín hiệu quan trọng là <strong>hiểu bản chất lỗi trước khi sửa</strong> (Bảo giải thích đúng nguyên nhân <code>ArithmeticException</code> thay vì chỉ đoán cách fix), và có ý thức tự học công nghệ liên quan dù chưa áp dụng thực tế.</p>
+<hr>
+<h2>Experienced · Vùng 1</h2>
+<h3>Lab — Phỏng vấn Dev Back-end, tuyển chính thức</h3>
+<p><strong>Bối cảnh:</strong> ứng viên <strong>Tuấn</strong> (~6-9 tháng kinh nghiệm) phỏng vấn vào vị trí chính thức. Người phỏng vấn: <strong>chị Hạnh</strong>, Dev BE lâu năm. Online, 45 phút.</p>
+<p><strong>Hạnh:</strong> Chào Tuấn, chị Hạnh đây. Em code Spring Boot được bao lâu rồi?</p>
+<p><strong>Tuấn:</strong> Dạ em làm Spring Boot khoảng 6 tháng, chủ yếu viết REST API cho một hệ thống quản lý kho hàng.</p>
+<p><strong>Hạnh:</strong> Em phân biệt <code>@Controller</code> và <code>@RestController</code> thế nào?</p>
+<p><strong>Tuấn:</strong> Dạ <code>@RestController</code> là kết hợp của <code>@Controller</code> và <code>@ResponseBody</code>, nghĩa là mọi method trong class đó mặc định trả về dữ liệu (thường là JSON) thẳng vào response body, chứ không trả về tên view như <code>@Controller</code> thường dùng cho render HTML.</p>
+<p><strong>Hạnh:</strong> Tốt. Giờ nói về HTTP status code — khi nào em trả về 400 và khi nào trả về 404?</p>
+<p><strong>Tuấn:</strong> Dạ 400 là khi request của client sai định dạng hoặc thiếu dữ liệu bắt buộc, ví dụ thiếu trường <code>name</code> khi tạo sản phẩm. Còn 404 là khi request đúng định dạng nhưng tài nguyên được yêu cầu không tồn tại, ví dụ gọi <code>GET /products/999</code> mà id 999 không có trong hệ thống.</p>
+<p><strong>Hạnh:</strong> Chuẩn. Em có dùng <code>@Transactional</code> chưa, và hiểu nó làm gì không?</p>
+<p><strong>Tuấn:</strong> Dạ có, em đặt <code>@Transactional</code> ở method service khi có nhiều thao tác ghi CSDL cần thành công cùng lúc, ví dụ trừ tồn kho và tạo đơn hàng phải cùng thành công hoặc cùng rollback, không để trường hợp trừ tồn kho rồi nhưng tạo đơn hàng lại lỗi.</p>
+<p><strong>Hạnh:</strong> Được, giờ làm 1 bài nhỏ, chị share màn hình.</p>
+<pre><code class="language-java"><span class="hljs-meta">@GetMapping(&quot;/products/{id}&quot;)</span>
+<span class="hljs-keyword">public</span> Product <span class="hljs-title function_">getProduct</span><span class="hljs-params">(<span class="hljs-meta">@PathVariable</span> Long id)</span> {
+    <span class="hljs-keyword">return</span> productRepository.findById(id).get();
+}
+</code></pre>
+<p><strong>Hạnh:</strong> Đoạn này đang bị lỗi 500 khi gọi id không tồn tại, thay vì trả về 404 gọn gàng. Em sửa thế nào?</p>
+<p><strong>Tuấn:</strong> Dạ, <code>findById</code> trả về <code>Optional</code>, gọi thẳng <code>.get()</code> khi rỗng sẽ ném <code>NoSuchElementException</code> → Spring mặc định trả 500. Em sẽ xử lý rõ ràng:</p>
+<pre><code class="language-java"><span class="hljs-meta">@GetMapping(&quot;/products/{id}&quot;)</span>
+<span class="hljs-keyword">public</span> ResponseEntity&lt;Product&gt; <span class="hljs-title function_">getProduct</span><span class="hljs-params">(<span class="hljs-meta">@PathVariable</span> Long id)</span> {
+    <span class="hljs-keyword">return</span> productRepository.findById(id)
+        .map(ResponseEntity::ok)
+        .orElse(ResponseEntity.notFound().build());
+}
+</code></pre>
+<p><strong>Hạnh:</strong> Tốt, xử lý đúng chỗ. Câu hành vi — kể chị nghe một lần em phải tự học điều gì đó để hoàn thành task.</p>
+<p><strong>Tuấn:</strong> Dạ, em được giao viết chức năng gửi email xác nhận đơn hàng, trước giờ em chưa làm. Em đọc doc của Spring Mail, làm theo ví dụ cơ bản chạy được trong buổi sáng, chiều gặp vấn đề là gửi bất đồng bộ bị lỗi vì thiếu cấu hình <code>@EnableAsync</code>, em tra Stack Overflow thấy đúng vấn đề và thêm annotation đó thì hết lỗi.</p>
+<p><strong>Hạnh:</strong> Tốt, cảm ơn Tuấn, còn câu hỏi gì cho chị không?</p>
+<p><strong>Tuấn:</strong> Dạ, team mình review code có bắt buộc viết test trước khi merge không ạ?</p>
+<p><strong>Hạnh:</strong> Có, ít nhất test cho service logic. Cảm ơn em.</p>
+<p><strong>Góc nhìn người chấm:</strong> Tuấn hiểu đúng lý do đằng sau mỗi lựa chọn (annotation, status code, transaction) chứ không chỉ nhớ cú pháp — đây là tín hiệu phân biệt Ex·V1 với Entry.</p>
+<hr>
+<h2>Experienced · Vùng 2</h2>
+<blockquote>
+<p>Từ vùng này trở lên, một buổi phỏng vấn thật thường <strong>tách thành nhiều vòng riêng</strong> — nên mỗi vùng có 3 lab. Ứng viên <strong>Diệu</strong> (~1.5-2 năm kinh nghiệm) phỏng vấn tại một công ty sản phẩm. Người phỏng vấn: <strong>anh Long</strong>, Tech Lead. Chưa có vòng system design thật sự (kỹ năng đó chỉ xuất hiện từ Senior) — vòng 2 vẫn là <strong>case thực chiến</strong> đọc code tìm vấn đề, chưa phải case thiết kế kiến trúc.</p>
+</blockquote>
+<h3>Lab 1 — Vòng kỹ thuật sâu (~25 phút)</h3>
+<p><strong>Long:</strong> Chào Diệu, anh Long đây. Vòng này mình đi kỹ thuật khoảng 25 phút. API của em có endpoint nào phải gọi đồng thời từ nhiều request cùng lúc, dễ gây tranh chấp dữ liệu không?</p>
+<p><strong>Diệu:</strong> Dạ có ạ, endpoint đặt hàng khi số lượng tồn kho có hạn — nếu 2 người cùng đặt hàng sản phẩm cuối cùng cùng lúc, có nguy cơ cả 2 request đều đọc thấy còn hàng rồi cùng trừ, dẫn tới âm kho.</p>
+<p><strong>Long:</strong> Em xử lý race condition đó thế nào?</p>
+<p><strong>Diệu:</strong> Dạ em dùng khoá lạc quan (<code>@Version</code> — optimistic locking) của JPA, nếu 2 transaction cùng sửa 1 dòng thì transaction sau sẽ phát hiện version đã đổi và bị lỗi, em bắt lỗi đó và cho retry hoặc báo hết hàng cho request đến sau.</p>
+<p><strong>Long:</strong> Vì sao chọn optimistic locking thay vì pessimistic locking (khoá bi quan)?</p>
+<p><strong>Diệu:</strong> Dạ vì tình huống tranh chấp thực tế không xảy ra quá thường xuyên (không phải lúc nào cũng có 2 người mua cùng lúc), nên optimistic locking đỡ tốn chi phí khoá liên tục hơn so với pessimistic — pessimistic sẽ khoá dòng dữ liệu đó lại, làm chậm các request khác dù phần lớn thời gian không có tranh chấp thật.</p>
+<p><strong>Long:</strong> Tốt, biết cân đánh đổi. Em viết index cho bảng CSDL dựa trên tiêu chí gì?</p>
+<p><strong>Diệu:</strong> Dạ em index những cột hay dùng trong mệnh đề <code>WHERE</code>, <code>JOIN</code>, <code>ORDER BY</code> với dữ liệu lớn — ví dụ cột <code>customer_id</code> trong bảng đơn hàng vì hay query theo khách hàng. Em tránh index bừa vì mỗi index làm chậm thao tác ghi (INSERT/UPDATE phải cập nhật cả index).</p>
+<p><strong>Long:</strong> Tốt, vậy là xong phần kỹ thuật, hẹn Diệu vòng sau.</p>
+<h3>Lab 2 — Vòng case thực chiến (~20 phút)</h3>
+<p><strong>Long:</strong> Chào Diệu lại, vòng này mình làm 1 bài đọc code nhỏ.</p>
+<pre><code class="language-java"><span class="hljs-keyword">for</span> (Order order : orders) {
+    <span class="hljs-type">Customer</span> <span class="hljs-variable">customer</span> <span class="hljs-operator">=</span> customerRepository.findById(order.getCustomerId()).get();
+    order.setCustomerName(customer.getName());
+}
+</code></pre>
+<p><strong>Long:</strong> Đoạn này chạy đúng nhưng chậm khi danh sách đơn hàng lớn, em thấy vấn đề gì không?</p>
+<p><strong>Diệu:</strong> [đọc một lúc] Dạ đây là vấn đề N+1 query — với mỗi đơn hàng trong vòng lặp, code lại gọi 1 query riêng để lấy khách hàng, nếu có 1000 đơn hàng thì chạy 1000 query riêng lẻ thay vì 1 query gộp.</p>
+<p><strong>Long:</strong> Sửa thế nào?</p>
+<p><strong>Diệu:</strong> Dạ em sẽ lấy hết <code>customerId</code> cần thiết trước, gọi 1 lần <code>findAllById</code> để lấy tất cả customer về 1 lần, rồi map lại bằng một <code>Map&lt;Long, Customer&gt;</code> trong bộ nhớ, thay vì query trong vòng lặp.</p>
+<p><strong>Long:</strong> Chuẩn, vậy là xong case, hẹn Diệu vòng cuối.</p>
+<h3>Lab 3 — Vòng hành vi (~15 phút)</h3>
+<p><strong>Long:</strong> Chào Diệu, vòng cuối rồi. Kể anh nghe một lần em phát hiện bug do mình gây ra sau khi lên production.</p>
+<p><strong>Diệu:</strong> Dạ có lần em sửa logic tính phí vận chuyển, test trên máy với vài đơn hàng mẫu thấy đúng nên merge. Sau đó phát hiện đơn hàng có nhiều sản phẩm từ nhiều kho khác nhau bị tính phí sai, vì em quên xử lý trường hợp đó trong lúc code — bộ test em viết chỉ có case 1 kho. Em sửa lại và bổ sung test case cho đúng tình huống nhiều kho, rút kinh nghiệm là phải liệt kê hết các trường hợp dữ liệu thực tế trước khi viết test, không chỉ test theo happy path.</p>
+<p><strong>Long:</strong> Tốt, rút kinh nghiệm cụ thể. Câu cuối — kể anh nghe một lần em phải tự học một công nghệ mới để hoàn thành task đúng hạn.</p>
+<p><strong>Diệu:</strong> Dạ, có lần em được giao tích hợp thanh toán qua một cổng thanh toán em chưa dùng bao giờ, có 2 ngày để làm xong. Em đọc tài liệu tích hợp chính thức trước, làm theo sandbox demo của họ chạy được trong buổi sáng. Chiều gặp vấn đề chữ ký (signature) xác thực callback bị sai do em hiểu nhầm thứ tự ghép chuỗi tham số, em tra kỹ lại ví dụ mẫu bằng ngôn ngữ khác của họ (PHP) để đối chiếu logic, phát hiện ra lỗi và sửa đúng.</p>
+<p><strong>Long:</strong> Ổn. Em có câu hỏi gì cho anh không?</p>
+<p><strong>Diệu:</strong> Dạ, team mình có yêu cầu coverage test tối thiểu không hay chấm theo mức độ ý nghĩa ạ?</p>
+<p><strong>Long:</strong> Không ép % cứng, chủ yếu coverage không được tụt và test đúng chỗ hay lỗi. Cảm ơn Diệu, rõ ràng.</p>
+<p><strong>Góc nhìn người chấm (cả 3 vòng):</strong> Diệu cho tín hiệu tốt về <strong>cân nhắc đánh đổi kỹ thuật có lý do</strong> (optimistic vs pessimistic locking) và <strong>nhận diện đúng vấn đề hiệu năng kinh điển</strong> (N+1 query) — đây là mức kỳ vọng chính xác ở Ex·V2 khi CSDL đã lên mức ③. Ở vòng hành vi, Diệu biết <strong>tra cứu chéo tài liệu để xác minh</strong> khi gặp bế tắc, không chỉ đoán mò.</p>
+<hr>
+<h2>Experienced · Vùng 3</h2>
+<blockquote>
+<p>Đỉnh của Experienced — Java và CSDL đã chạm ④ (2 kỹ năng lõi nhất của BE), chưa có vòng system design (bắt đầu rõ từ Senior). Ứng viên <strong>Vinh</strong> (~3 năm) phỏng vấn xác nhận lên vùng cao nhất Experienced. Người phỏng vấn: <strong>chị Thu</strong>, Senior Dev BE. 3 vòng riêng.</p>
+</blockquote>
+<h3>Lab 1 — Vòng kỹ thuật sâu</h3>
+<p><strong>Thu:</strong> Chào Vinh, chị Thu đây. Em hiểu <code>ExecutorService</code> và thread pool dùng để làm gì trong Java không?</p>
+<p><strong>Vinh:</strong> Dạ, thay vì tự tạo <code>Thread</code> mới cho mỗi tác vụ (tốn chi phí tạo/huỷ thread), <code>ExecutorService</code> quản lý một nhóm thread có sẵn, tái sử dụng cho nhiều tác vụ, mình chỉ submit task vào và nó tự phân phối cho thread rảnh.</p>
+<p><strong>Thu:</strong> Em từng gặp deadlock chưa, nó xảy ra khi nào?</p>
+<p><strong>Vinh:</strong> Dạ, deadlock xảy ra khi 2 thread cùng chờ khoá (lock) mà thread kia đang giữ — ví dụ thread A giữ khoá 1 và chờ khoá 2, còn thread B giữ khoá 2 và chờ khoá 1, cả hai chờ nhau mãi mãi. Cách phòng tránh phổ biến là luôn lấy khoá theo 1 thứ tự cố định ở mọi nơi trong code.</p>
+<p><strong>Thu:</strong> Tốt. Em từng dùng <code>EXPLAIN</code> để phân tích query chậm chưa?</p>
+<p><strong>Vinh:</strong> Dạ có, em dùng <code>EXPLAIN ANALYZE</code> trong PostgreSQL để xem query có dùng đúng index không hay đang full table scan, từ đó quyết định có cần thêm index hay viết lại query.</p>
+<p><strong>Thu:</strong> Em phân biệt clustered và non-clustered index thế nào?</p>
+<p><strong>Vinh:</strong> Dạ clustered index quyết định thứ tự vật lý dữ liệu được lưu trên đĩa theo cột đó (mỗi bảng chỉ có 1 clustered index, thường là primary key), còn non-clustered index là một cấu trúc riêng trỏ ngược lại tới dòng dữ liệu gốc, một bảng có thể có nhiều non-clustered index.</p>
+<p><strong>Thu:</strong> Chuẩn. Cảm ơn Vinh.</p>
+<h3>Lab 2 — Vòng case thiết kế</h3>
+<p><strong>Thu:</strong> Case nhỏ ở tầm module thôi, chưa phải cả hệ thống. Team đang có 1 API lấy danh sách đơn hàng kèm chi tiết sản phẩm, đang chậm dần khi dữ liệu lớn lên. Em thiết kế lại thế nào?</p>
+<p><strong>Vinh:</strong> Dạ đầu tiên em sẽ profile để biết chậm ở tầng nào — CSDL hay xử lý ở code. Nếu do CSDL, em xem lại index cho các cột filter/sort, và cân nhắc phân trang (pagination) thay vì trả hết dữ liệu 1 lần — nhiều API kiểu này hay bị lỗi trả về toàn bộ hàng chục nghìn dòng cùng lúc.</p>
+<p><strong>Thu:</strong> Giả sử đã có pagination và index rồi, vẫn còn chậm vì mỗi đơn hàng cần join với bảng sản phẩm và bảng khách hàng, em tính sao?</p>
+<p><strong>Vinh:</strong> Dạ em sẽ xem việc join đó có đang bị N+1 không, đảm bảo dùng 1 câu query với JOIN tường minh hoặc dùng <code>@EntityGraph</code>/fetch join của JPA để lấy hết trong 1 lần thay vì lazy-load từng cái riêng lẻ. Nếu dữ liệu sản phẩm/khách hàng ít thay đổi, em cũng cân nhắc thêm cache ở tầng ứng dụng (ví dụ Redis) cho những dữ liệu tra cứu nhiều nhưng ít đổi.</p>
+<p><strong>Thu:</strong> Em có nghĩ tới việc tách endpoint này ra một service riêng (microservice) không?</p>
+<p><strong>Vinh:</strong> Dạ ở quy mô hiện tại em nghĩ chưa cần thiết — vấn đề chính là tối ưu query/cache, chưa phải vấn đề về ranh giới nghiệp vụ hay đội ngũ cần tách riêng. Tách service sớm khi chưa thật sự cần sẽ tạo thêm độ phức tạp vận hành không đáng có.</p>
+<p><strong>Thu:</strong> Đúng, quyết định đúng lúc.</p>
+<h3>Lab 3 — Vòng hành vi</h3>
+<p><strong>Thu:</strong> Kể chị nghe một lần em phải làm việc dưới áp lực deadline gấp.</p>
+<p><strong>Vinh:</strong> Dạ có lần phát hiện lỗi bảo mật nhỏ (một endpoint quên kiểm tra quyền) chỉ 1 ngày trước khi release lớn. Em không sửa vội theo cách đầu tiên nghĩ ra, mà khoanh vùng đúng những endpoint bị ảnh hưởng, thêm kiểm tra quyền tối thiểu cần thiết, viết test cho đúng case đó, và báo ngay cho lead biết mức độ ảnh hưởng thay vì tự âm thầm sửa và im lặng.</p>
+<p><strong>Thu:</strong> Tốt, minh bạch và có kiểm soát. Em từng đề xuất cải tiến quy trình team chưa?</p>
+<p><strong>Vinh:</strong> Dạ có, team em trước hay bị trường hợp merge xong mới phát hiện thiếu migration script CSDL đồng bộ. Em đề xuất thêm bước bắt buộc: mọi merge request có thay đổi entity phải kèm file migration tương ứng, kiểm tra tự động trong CI, từ đó giảm hẳn tình trạng thiếu đồng bộ.</p>
+<p><strong>Thu:</strong> Cảm ơn Vinh, hẹn phản hồi sớm.</p>
+<p><strong>Góc nhìn người chấm (cả 3 vòng):</strong> Vinh hiểu sâu cơ chế bên dưới (thread pool, deadlock, loại index) chứ không chỉ biết dùng API; ở case thiết kế biết <strong>giới hạn phạm vi giải pháp phù hợp quy mô</strong> (không đề xuất tách microservice khi chưa cần); ở vòng hành vi, xử lý sự cố bảo mật có kiểm soát và minh bạch — đúng tầm &quot;đỉnh Experienced&quot;.</p>
+<hr>
+<h2>Senior · Vùng 1</h2>
+<blockquote>
+<p>Bắt đầu vùng Senior — 2 nhóm mới <strong>Kiến trúc &amp; thiết kế giải pháp</strong> và <strong>Quản lý &amp; lãnh đạo kỹ thuật</strong>, cùng 2 kỹ năng BE-riêng: <strong>Remote debug</strong> và <strong>Container Orchestration &amp; Cloud Native</strong>. Ứng viên <strong>Trâm</strong> (~4 năm) phỏng vấn lên Senior. Người phỏng vấn: <strong>anh Phúc</strong>, Engineering Manager.</p>
+</blockquote>
+<h3>Lab 1 — Vòng kỹ thuật sâu</h3>
+<p><strong>Phúc:</strong> Chào Trâm, anh Phúc đây. Em từng phải debug một lỗi chỉ xảy ra ở môi trường server, không tái hiện được ở máy local chưa?</p>
+<p><strong>Trâm:</strong> Dạ có, có lần một job chạy nền bị treo chỉ ở production, không tái hiện được ở local. Em dùng remote debug — kết nối IDE trực tiếp vào JVM đang chạy ở server qua cổng debug đã bật sẵn, đặt breakpoint để xem trạng thái thật của luồng lúc đó, thay vì đoán mò qua log.</p>
+<p><strong>Phúc:</strong> Tốt. Em biết gì về container orchestration, ví dụ Kubernetes?</p>
+<p><strong>Trâm:</strong> Dạ em mới tìm hiểu ở mức khái niệm — hiểu là khi có nhiều container Docker chạy trên nhiều máy, Kubernetes giúp tự động triển khai, scale, và khởi động lại container nếu nó bị crash, thay vì phải quản lý thủ công từng container. Em chưa trực tiếp vận hành cụm Kubernetes thật.</p>
+<p><strong>Phúc:</strong> Không sao, biết ý tưởng ở mức bắt đầu là đủ cho vùng này. Em có review code cho ai chưa?</p>
+<p><strong>Trâm:</strong> Dạ em mới review vài merge request nhỏ, tập trung xem logic đúng không và có test kèm theo không, chưa dám góp ý sâu về kiến trúc.</p>
+<p><strong>Phúc:</strong> Ổn, cảm ơn Trâm.</p>
+<h3>Lab 2 — Vòng case thiết kế</h3>
+<p><strong>Phúc:</strong> Case ở mức bắt đầu làm kiến trúc: team sắp làm 1 module hoàn toàn mới &quot;Quản lý khuyến mãi&quot;. Em tổ chức package/luồng dữ liệu thế nào?</p>
+<p><strong>Trâm:</strong> Dạ em tách theo tính năng — package <code>promotion</code> riêng gồm controller/service/repository/entity của module đó, không gộp chung vào các package <code>controller</code>/<code>service</code> dùng chung của cả dự án. Về giao tiếp với module đơn hàng đã có sẵn, em sẽ định nghĩa 1 interface rõ ràng (ví dụ <code>PromotionService.applyDiscount(...)</code>) để module đơn hàng gọi qua, tránh 2 module đọc thẳng vào bảng CSDL của nhau.</p>
+<p><strong>Phúc:</strong> Vì sao tránh đọc thẳng CSDL của nhau?</p>
+<p><strong>Trâm:</strong> Dạ vì nếu module khuyến mãi sau này đổi cấu trúc bảng, sẽ làm vỡ module đơn hàng nếu nó đọc trực tiếp. Qua interface/service, module khuyến mãi có thể tự do đổi bên trong miễn là giữ đúng hợp đồng (contract) đã thống nhất.</p>
+<p><strong>Phúc:</strong> Tốt, tư duy ranh giới module rõ ràng dù chưa tách microservice thật.</p>
+<h3>Lab 3 — Vòng hành vi &amp; lãnh đạo</h3>
+<p><strong>Phúc:</strong> Kể anh nghe lần đầu em phân task cho một bạn khác.</p>
+<p><strong>Trâm:</strong> Dạ em được giao chia việc module khuyến mãi trên cho em và 1 bạn mới. Em nhận phần logic tính toán phức tạp hơn, giao bạn đó phần CRUD cơ bản kèm ghi chú rõ ràng trong ticket, vì bạn đó mới quen codebase.</p>
+<p><strong>Phúc:</strong> Em mentor ai chưa?</p>
+<p><strong>Trâm:</strong> Dạ em mới dừng ở mức trả lời câu hỏi khi được hỏi trực tiếp, chưa chủ động đứng ra kèm cặp bài bản — em nghĩ đây là điều cần học thêm.</p>
+<p><strong>Phúc:</strong> Nhận thức đúng hướng. Cảm ơn Trâm.</p>
+<p><strong>Góc nhìn người chấm (Senior·V1):</strong> giống tinh thần chung của vùng khởi đầu Senior — tín hiệu quan trọng là <strong>biết ranh giới năng lực hiện tại</strong> (thành thật về Kubernetes, về mentor) hơn là cố tỏ ra đã vững.</p>
+<hr>
+<h2>Senior · Vùng 2</h2>
+<blockquote>
+<p>Ứng viên <strong>Đông</strong> phỏng vấn chuyển việc ở vùng Senior·V2. Người phỏng vấn: <strong>chị My</strong>, Engineering Manager.</p>
+</blockquote>
+<h3>Lab 1 — Vòng kỹ thuật sâu</h3>
+<p><strong>My:</strong> Chào Đông, chị My đây. Em từng viết load test hoặc performance test cho API chưa?</p>
+<p><strong>Đông:</strong> Dạ có, em dùng JMeter mô phỏng nhiều request đồng thời vào 1 endpoint hay bị nghi ngờ chậm, đo được throughput và độ trễ ở các mức tải khác nhau, từ đó biết được ngưỡng chịu tải thực tế trước khi triển khai thật.</p>
+<p><strong>My:</strong> Tốt. Pipeline CI/CD của team em có những bước gì?</p>
+<p><strong>Đông:</strong> Dạ gồm: build, chạy unit test, chạy static analysis (SonarQube) để bắt code smell/lỗ hổng cơ bản, build image Docker, rồi deploy tự động lên môi trường staging; deploy production cần duyệt thủ công thêm 1 bước.</p>
+<p><strong>My:</strong> Em có kinh nghiệm gì về container orchestration nâng cao hơn không?</p>
+<p><strong>Đông:</strong> Dạ em có tự vận hành thử 1 cụm Kubernetes nhỏ ở môi trường học, hiểu về Pod, Service, Deployment, và cách cấu hình health check để Kubernetes tự khởi động lại container lỗi — nhưng ở công ty hiện tại team em vẫn triển khai bằng Docker Compose đơn giản hơn, chưa dùng Kubernetes thật cho production.</p>
+<p><strong>My:</strong> Cảm ơn Đông, câu trả lời rõ ràng.</p>
+<h3>Lab 2 — Vòng case thiết kế</h3>
+<p><strong>My:</strong> Case lớn hơn: hệ thống hiện tại là 1 monolith đang phình to, đội ngũ đông lên gây khó phối hợp deploy. Em thiết kế hướng đi thế nào, và phản biện gì nếu ai đó muốn tách hết thành microservices ngay lập tức?</p>
+<p><strong>Đông:</strong> Dạ em sẽ không tách hết cùng lúc — rủi ro rất cao. Em xác định trước ranh giới nghiệp vụ nào độc lập rõ ràng nhất và ít phụ thuộc dữ liệu chéo nhất (ví dụ module thông báo/email), tách module đó ra service riêng trước làm thí điểm, có đo lường lợi ích thực tế (dễ deploy riêng, dễ scale riêng) trước khi tách tiếp phần khác.</p>
+<p><strong>My:</strong> Nếu team háo hức muốn tách hết vì &quot;microservices là chuẩn hiện đại&quot;, em nói gì?</p>
+<p><strong>Đông:</strong> Dạ em sẽ chỉ ra chi phí thật: mỗi service tách ra thêm độ phức tạp vận hành (network call thay vì gọi hàm trực tiếp, cần theo dõi phân tán, cần xử lý lỗi mạng), và nếu ranh giới nghiệp vụ chọn sai sẽ phải gọi qua lại giữa các service liên tục — tệ hơn cả để chung trong monolith. Tách nên đi theo nhu cầu thật (đội nào cần deploy độc lập, phần nào cần scale riêng), không phải theo trào lưu.</p>
+<p><strong>My:</strong> Phản biện có cơ sở, tốt.</p>
+<h3>Lab 3 — Vòng hành vi &amp; lãnh đạo</h3>
+<p><strong>My:</strong> Kể chị nghe một lần em mentor một bạn chưa tiến bộ như mong đợi.</p>
+<p><strong>Đông:</strong> Dạ có 1 bạn hay viết code chạy được nhưng không xử lý exception rõ ràng, dễ để lộ lỗi hệ thống ra ngoài. Em giải thích vài lần nhưng bạn vẫn quên. Em đổi cách — tạo hẳn 1 checklist review kèm ví dụ cụ thể trước/sau, để bạn tự đối chiếu trước khi gửi review thay vì chỉ nghe giải thích miệng, và bạn cải thiện rõ rệt sau đó.</p>
+<p><strong>My:</strong> Em tổ chức seminar chưa?</p>
+<p><strong>Đông:</strong> Dạ em tổ chức 1 buổi chia sẻ về N+1 query sau khi team gặp sự cố hiệu năng liên quan, dùng chính case thật của team làm ví dụ nên mọi người dễ liên hệ hơn là lý thuyết suông.</p>
+<p><strong>My:</strong> Cảm ơn Đông.</p>
+<p><strong>Góc nhìn người chấm (Senior·V2):</strong> Đông biết <strong>phản biện có cơ sở chi phí/lợi ích</strong> (microservices) và <strong>điều chỉnh cách mentor khi cách cũ chưa hiệu quả</strong> — đúng mức trưởng thành kỳ vọng ở V2.</p>
+<hr>
+<h2>Senior · Vùng 3</h2>
+<blockquote>
+<p>Đỉnh Senior. Ứng viên <strong>Hùng</strong> phỏng vấn ở vùng cao nhất Senior. Người phỏng vấn: <strong>anh Việt</strong>, Head of Engineering.</p>
+</blockquote>
+<h3>Lab 1 — Vòng kỹ thuật sâu</h3>
+<p><strong>Việt:</strong> Chào Hùng, anh Việt đây. Em chịu trách nhiệm chất lượng kỹ thuật cho cả 1 hệ thống backend chưa?</p>
+<p><strong>Hùng:</strong> Dạ có, em phụ trách chính mảng backend của 1 sản phẩm, khoảng 5 dev.</p>
+<p><strong>Việt:</strong> Em đảm bảo chất lượng đồng đều khi nhiều người cùng code thế nào?</p>
+<p><strong>Hùng:</strong> Dạ em thiết lập static analysis bắt buộc qua CI (SonarQube chặn merge nếu vi phạm ngưỡng), checklist review chung, và quy định coverage test không được tụt. Những quyết định kiến trúc lớn đều viết tài liệu ngắn nêu lý do, để cả team cùng hiểu.</p>
+<p><strong>Việt:</strong> Em có kinh nghiệm điều tra sự cố production nghiêm trọng chưa?</p>
+<p><strong>Hùng:</strong> Dạ có, từng có sự cố memory leak khiến service phải restart định kỳ để không bị crash. Em dùng heap dump phân tích bằng công cụ profiling, tìm ra 1 cache tự viết không có cơ chế giới hạn kích thước (unbounded cache) khiến bộ nhớ tăng dần không bao giờ giải phóng. Em sửa bằng cách giới hạn kích thước cache và thêm TTL (thời gian sống) cho từng entry.</p>
+<p><strong>Việt:</strong> Rất cụ thể, cảm ơn Hùng.</p>
+<h3>Lab 2 — Vòng case thiết kế</h3>
+<p><strong>Việt:</strong> Case lớn: công ty có 3 sản phẩm backend viết bởi 3 team khác nhau, mỗi cái tự implement riêng việc xác thực (authentication) và mỗi cái một kiểu, có chỗ còn lỗi bảo mật cũ. Em thiết kế giải pháp thế nào?</p>
+<p><strong>Hùng:</strong> Dạ em sẽ tách logic xác thực thành 1 service dùng chung hoặc 1 thư viện nội bộ (tuỳ mức độ sẵn sàng tách service thật), chuẩn hoá theo 1 cơ chế đã được duyệt bảo mật (ví dụ JWT với thời gian sống ngắn + refresh token, lưu đúng cách). Khi có lỗ hổng, chỉ cần vá 1 nơi và các sản phẩm nâng version thay vì sửa 3 lần riêng lẻ.</p>
+<p><strong>Việt:</strong> Nếu 1 team dùng kiến trúc quá khác, chưa migrate ngay được, em xử lý sao?</p>
+<p><strong>Hùng:</strong> Dạ em vá lỗ hổng cụ thể ở sản phẩm đó trước (ngắn hạn, ưu tiên an toàn), đồng thời lên lộ trình migrate dần có deadline rõ ràng (dài hạn), không để &quot;từ từ&quot; kéo dài vô thời hạn.</p>
+<p><strong>Việt:</strong> Cân bằng hợp lý. Em trình bày quyết định này cho các team bằng hình thức nào?</p>
+<p><strong>Hùng:</strong> Dạ em viết tài liệu ngắn kiểu ADR nêu bối cảnh, các lựa chọn đã cân nhắc, quyết định cuối và lý do, để sau này không phải giải thích lại từ đầu.</p>
+<h3>Lab 3 — Vòng hành vi &amp; lãnh đạo</h3>
+<p><strong>Việt:</strong> Kể anh nghe một lần em hoà giải bất đồng giữa 2 thành viên team.</p>
+<p><strong>Hùng:</strong> Dạ có 2 bạn tranh cãi về việc nên dùng REST hay message queue (bất đồng bộ) cho 1 luồng xử lý. Em tổ chức 1 buổi ngắn để cả 2 trình bày lý do, cùng liệt kê ràng buộc thực tế (có cần phản hồi ngay cho user không, có chấp nhận xử lý trễ vài giây không), từ đó cả 2 tự thống nhất được hướng đi dựa trên tiêu chí cụ thể thay vì ai thuyết phục hơn.</p>
+<p><strong>Việt:</strong> Em tham gia phỏng vấn tuyển dụng chưa?</p>
+<p><strong>Hùng:</strong> Dạ em có tham gia vòng kỹ thuật cho ứng viên Junior/Middle, tập trung xem cách tư duy hơn là chỉ đúng/sai.</p>
+<p><strong>Việt:</strong> Cảm ơn Hùng, cảm ơn em đã dành thời gian.</p>
+<p><strong>Góc nhìn người chấm (Senior·V3):</strong> Hùng cho thấy tư duy hệ thống cấp cao — giải pháp xác thực dùng chung có lộ trình cụ thể, xử lý mâu thuẫn bằng <strong>tiêu chí chung</strong> thay vì phân xử đúng/sai, và kinh nghiệm điều tra sự cố production bằng công cụ đúng (heap dump) chứ không đoán mò.</p>
+<hr>
+<h2>Specialist · Vùng 1</h2>
+<blockquote>
+<p>Từ &quot;chuyên gia kỹ thuật&quot; sang <strong>người ra quyết định công nghệ cấp đơn vị</strong>. Ứng viên <strong>Yến</strong> phỏng vấn cho vị trí Principal Engineer/Head of Backend. Người phỏng vấn: <strong>anh Kiên</strong>, Director of Engineering.</p>
+</blockquote>
+<h3>Lab 1 — Vòng kỹ thuật &amp; chiến lược công nghệ</h3>
+<p><strong>Kiên:</strong> Chào Yến, anh Kiên đây. Em có quy trình gì để đánh giá công nghệ mới trước khi đưa vào dùng thật?</p>
+<p><strong>Yến:</strong> Dạ em làm prototype nhỏ kiểm chứng đúng vấn đề trước, đánh giá chi phí vận hành lâu dài (cộng đồng, tần suất breaking change), rồi thử ở 1 phần không quan trọng trước khi áp dụng rộng.</p>
+<p><strong>Kiên:</strong> Em có cách giám sát hiệu năng hệ thống chủ động ở production không?</p>
+<p><strong>Yến:</strong> Dạ em thiết lập APM để theo dõi latency, tỷ lệ lỗi, và tài nguyên (CPU/memory) theo thời gian thực, đặt cảnh báo tự động khi vượt ngưỡng sau mỗi lần deploy, thay vì đợi user báo cáo.</p>
+<p><strong>Kiên:</strong> Em đảm bảo yêu cầu phi chức năng (NFR) ở tầng backend bằng cách nào?</p>
+<p><strong>Yến:</strong> Dạ em đưa các yêu cầu như khả năng mở rộng, bảo mật thành checklist bắt buộc trong review kiến trúc trước khi 1 tính năng lớn được duyệt.</p>
+<h3>Lab 2 — Vòng case chiến lược công nghệ</h3>
+<p><strong>Kiên:</strong> Case: ban lãnh đạo cân nhắc chuyển 1 phần hệ thống sang kiến trúc serverless, trong khi hiện tại toàn bộ chạy trên server truyền thống. Em tư vấn thế nào?</p>
+<p><strong>Yến:</strong> Dạ em sẽ không quyết định theo trào lưu. Em xem xét: phần nào của hệ thống có traffic không đều (phù hợp serverless — trả tiền theo lượt gọi), phần nào chạy liên tục ổn định (server truyền thống vẫn rẻ hơn), và chi phí vận hành thêm 1 kiểu hạ tầng mới (đội ngũ có kỹ năng serverless chưa, công cụ giám sát có hỗ trợ tốt không).</p>
+<p><strong>Kiên:</strong> Giả sử có 1 job xử lý batch dữ liệu ban đêm, ít khi chạy nhưng khi chạy cần nhiều tài nguyên. Em quyết định thế nào?</p>
+<p><strong>Yến:</strong> Dạ đây là ứng viên tốt cho serverless — traffic không đều, chạy ngắn rồi kết thúc, trả tiền theo lượt chạy sẽ rẻ hơn giữ 1 server chạy 24/7 chỉ để phục vụ vài giờ ban đêm.</p>
+<p><strong>Kiên:</strong> Tốt, quyết định dựa trên đặc điểm tải thực tế chứ không cảm tính.</p>
+<h3>Lab 3 — Vòng hành vi, đào tạo &amp; tuyển dụng</h3>
+<p><strong>Kiên:</strong> Em từng xây quy trình đào tạo bài bản cho cả đội chưa?</p>
+<p><strong>Yến:</strong> Dạ em xây lộ trình onboarding cho BE dev mới — tuần đầu đọc kiến trúc + sửa 1 bug nhỏ có hướng dẫn, tuần 2 làm 1 API nhỏ có review sát, đánh giá theo checklist năng lực rõ ràng.</p>
+<p><strong>Kiên:</strong> Em tham gia tuyển dụng ở mức nào?</p>
+<p><strong>Yến:</strong> Dạ em mới phỏng vấn kỹ thuật cho vị trí Senior trở xuống, chưa được giao quyết định cuối cho vị trí cấp cao.</p>
+<p><strong>Kiên:</strong> Cảm ơn Yến, rõ ràng và biết giới hạn hiện tại.</p>
+<p><strong>Góc nhìn người chấm (Specialist·V1):</strong> Yến nhìn quyết định công nghệ (serverless) dựa trên <strong>đặc điểm tải thực tế và chi phí vận hành dài hạn</strong>, không theo trào lưu — đúng bản chất Specialist.</p>
+<hr>
+<h2>Specialist · Vùng 2</h2>
+<blockquote>
+<p>Ứng viên <strong>Đạt Anh</strong> phỏng vấn vị trí Head of Backend tại một tập đoàn lớn hơn. Người phỏng vấn: <strong>chị Lan</strong>, CTO.</p>
+</blockquote>
+<h3>Lab 1 — Vòng kỹ thuật &amp; giám sát hệ thống</h3>
+<p><strong>Lan:</strong> Chào Đạt Anh, chị Lan đây. Em xây hệ thống giám sát chung cho nhiều sản phẩm backend thế nào?</p>
+<p><strong>Đạt Anh:</strong> Dạ em chuẩn hoá 1 bộ dashboard chung — mọi service báo cáo latency, tỷ lệ lỗi, tài nguyên vào cùng 1 hệ thống giám sát trung tâm, giúp so sánh service nào lệch chuẩn để phát hiện vấn đề hệ thống thay vì chỉ cục bộ.</p>
+<p><strong>Lan:</strong> Em có ví dụ về xây framework/nền tảng dùng chung giúp tăng tốc các team khác không?</p>
+<p><strong>Đạt Anh:</strong> Dạ em xây 1 starter template Spring Boot nội bộ, đã cấu hình sẵn logging chuẩn, health check, kết nối CSDL theo chuẩn bảo mật công ty — dev mới chỉ cần clone và code nghiệp vụ, không phải tự thiết lập lại từ đầu mỗi lần tạo service mới.</p>
+<p><strong>Lan:</strong> Rất thực tế.</p>
+<h3>Lab 2 — Vòng case xây dựng nền tảng dùng chung</h3>
+<p><strong>Lan:</strong> Case: 5 sản phẩm, mỗi cái tự implement lại xác thực khác nhau, có sản phẩm còn lỗi bảo mật cũ. Em xây giải pháp nền tảng dùng chung thế nào?</p>
+<p><strong>Đạt Anh:</strong> Dạ em tách xác thực thành 1 service/thư viện dùng chung, đóng gói pattern bảo mật đã duyệt. Khi phát hiện lỗ hổng, chỉ vá 1 chỗ và nâng version, không sửa 5 lần.</p>
+<p><strong>Lan:</strong> Nếu 1 sản phẩm cũ không thể áp ngay, em xử lý sao?</p>
+<p><strong>Đạt Anh:</strong> Dạ vá lỗ hổng cụ thể ở sản phẩm đó trước, đồng thời lên lộ trình migrate dần có deadline, không để kéo dài vô thời hạn.</p>
+<h3>Lab 3 — Vòng hành vi &amp; quản lý dự án</h3>
+<p><strong>Lan:</strong> Em quản lý 1 dự án gấp liên quan nhiều team backend chưa?</p>
+<p><strong>Đạt Anh:</strong> Dạ có, ra mắt tính năng lớn cần 3 team backend đồng bộ 1 phần API chung. Em tổ chức lên kế hoạch chung từ đầu, chia rõ phần độc lập/phần cần đồng bộ, và check-in ngắn hàng ngày để phát hiện sớm ai bị chặn bởi team khác.</p>
+<p><strong>Lan:</strong> Kết quả?</p>
+<p><strong>Đạt Anh:</strong> Dạ ra mắt đúng hạn, 1 team chậm 1 ngày nhưng phát hiện sớm nên các team khác kịp điều chỉnh, không vỡ dây chuyền.</p>
+<p><strong>Lan:</strong> Cảm ơn Đạt Anh.</p>
+<p><strong>Góc nhìn người chấm (Specialist·V2):</strong> Đạt Anh xây <strong>đòn bẩy cho cả đơn vị</strong> (starter template, service xác thực dùng chung) và <strong>phát hiện rủi ro sớm qua cơ chế</strong> (check-in hàng ngày) thay vì chỉ hy vọng suôn sẻ.</p>
+<hr>
+<h2>Specialist · Vùng 3</h2>
+<blockquote>
+<p>Vùng cuối cùng của toàn bộ thang BE (10/10). Ứng viên <strong>Sang</strong> phỏng vấn vị trí Head of Backend/Principal Engineer cấp tập đoàn. Người phỏng vấn: <strong>anh Minh</strong>, VP Engineering.</p>
+</blockquote>
+<h3>Lab 1 — Vòng nghiên cứu &amp; phát triển công nghệ (R&amp;D)</h3>
+<p><strong>Minh:</strong> Chào Sang, anh Minh đây. Em từng dẫn dắt đánh giá và áp dụng 1 công nghệ hoàn toàn mới ở quy mô lớn chưa?</p>
+<p><strong>Sang:</strong> Dạ có, em dẫn dắt việc đánh giá chuyển 1 phần hệ thống sang kiến trúc event-driven (dùng message queue) thay vì gọi đồng bộ trực tiếp giữa các service. Em lập tiêu chí: độ phức tạp vận hành thêm (cần theo dõi message, xử lý message trùng/mất), độ trễ chấp nhận được của nghiệp vụ, và khả năng đội ngũ vận hành hệ thống phân tán.</p>
+<p><strong>Minh:</strong> Kết quả và bài học?</p>
+<p><strong>Sang:</strong> Dạ áp dụng thành công cho các luồng không cần phản hồi ngay (như gửi thông báo, đồng bộ dữ liệu báo cáo), nhưng em không áp dụng cho các luồng cần phản hồi tức thì (như xác nhận thanh toán) — bài học là chọn lọc đúng chỗ cần, không áp dụng đại trà vì &quot;công nghệ mới nghe hay&quot;.</p>
+<h3>Lab 2 — Vòng case sở hữu Tech Stack &amp; đảm bảo NFR toàn đơn vị</h3>
+<p><strong>Minh:</strong> Case lớn: chuẩn hoá Tech Stack cho 8 sản phẩm backend của tập đoàn, hiện dùng 3 ngôn ngữ/framework khác nhau. Em tiếp cận thế nào?</p>
+<p><strong>Sang:</strong> Dạ em không ép đổi hết ngay — chi phí và rủi ro quá lớn. Em chọn 1 stack chuẩn cho <strong>mọi sản phẩm mới</strong> từ thời điểm quyết định, phân loại 3 stack cũ theo mức độ hoạt động (sắp deprecate thì giữ nguyên, còn phát triển lâu dài thì lên lộ trình migrate dần), và đảm bảo NFR tối thiểu (bảo mật, khả năng chịu tải) là bắt buộc cho MỌI sản phẩm bất kể stack, không thương lượng.</p>
+<p><strong>Minh:</strong> Nếu 1 team phản đối vì đã đầu tư nhiều vào stack cũ, em xử lý sao?</p>
+<p><strong>Sang:</strong> Dạ em lắng nghe lý do cụ thể, nếu chính đáng thì kéo dài lộ trình cho team đó, nhưng minh bạch rằng đây là quyết định chiến lược cấp cao nhất — chỉ đàm phán được tốc độ, không đàm phán hướng đi.</p>
+<h3>Lab 3 — Vòng quản lý dự án &amp; xây dựng đội ngũ cấp đơn vị</h3>
+<p><strong>Minh:</strong> Em xây quy trình đào tạo &amp; đánh giá đội ngũ ở quy mô toàn đơn vị thế nào?</p>
+<p><strong>Sang:</strong> Dạ em xây khung năng lực áp dụng cho mọi BE dev trong đơn vị, chia theo cấp độ rõ ràng kèm minh chứng cụ thể, để 1 dev Senior ở team A được đánh giá cùng tiêu chuẩn với team B.</p>
+<p><strong>Minh:</strong> Em quản lý ưu tiên giữa nhiều team, nhiều deadline chồng chéo thế nào?</p>
+<p><strong>Sang:</strong> Dạ em duy trì 1 roadmap ưu tiên cấp đơn vị, để khi có 2 việc gấp cùng lúc, quyết định ưu tiên dựa trên mức độ ảnh hưởng đã thống nhất từ trước, không dựa vào tiếng nói to nhất trong phòng họp.</p>
+<p><strong>Minh:</strong> Cảm ơn Sang, buổi trao đổi rất giá trị.</p>
+<p><strong>Góc nhìn người chấm (Specialist·V3 — đỉnh toàn thang):</strong> Sang thể hiện tư duy tầm cao nhất — mọi quyết định (event-driven, chuẩn hoá Tech Stack, ưu tiên dự án) đều <strong>có chọn lọc, có lộ trình, phân biệt rõ cái gì thương lượng được / cái gì là ranh giới cứng</strong> (NFR bắt buộc, hướng chiến lược đã chốt) — đúng bản chất người <strong>thiết kế cách cả một đơn vị lớn cùng vận hành nhất quán</strong>.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/be","c":"dimmed","children":"Dev Back-end"}],["$","$L16",null,{"c":"dimmed","children":"Lab phỏng vấn"}]]}],false,["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

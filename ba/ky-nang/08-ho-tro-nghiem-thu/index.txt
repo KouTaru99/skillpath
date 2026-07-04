@@ -1,0 +1,69 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","ba","ky-nang","08-ho-tro-nghiem-thu",""],"i":false,"f":[[["",{"children":[["role","ba","d"],{"children":["ky-nang",{"children":[["skill","08-ho-tro-nghiem-thu","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","ba","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","08-ho-tro-nghiem-thu","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T13f6,<h1>Hỗ trợ nghiệm thu sản phẩm/hệ thống với khách hàng</h1>
+<p><strong>Định nghĩa.</strong> Khi sản phẩm hoàn thành, BA hỗ trợ AM/PM (Account Manager — người quản lý quan hệ khách hàng / Project Manager — quản lý dự án) trong buổi <strong>nghiệm thu</strong> (acceptance — khách hàng xác nhận chính thức sản phẩm đạt yêu cầu để thanh toán/đóng dự án). Vai của BA: là người <strong>nắm yêu cầu gốc rõ nhất phòng họp</strong> — chuẩn bị bảng đối chiếu yêu cầu ↔ kết quả, demo, và giải thích khi khách thắc mắc. Nghiệm thu suôn sẻ hay bế tắc phụ thuộc phần lớn vào khâu chuẩn bị của BA.</p>
+<h2>▸ Ex·V2 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Chuẩn bị bộ tài liệu đối chiếu yêu cầu–kết quả cho buổi nghiệm thu, demo theo kịch bản, và giải thích rõ khi khách hàng hỏi.</p>
+<p><strong>Tình huống thực tế — chuẩn bị nghiệm thu module &quot;Cảnh báo tự động&quot;.</strong> Một tuần trước buổi nghiệm thu, bạn dựng bảng đối chiếu từng dòng yêu cầu trong PTYC đã ký:</p>
+<pre><code>BẢNG ĐỐI CHIẾU NGHIỆM THU — Module Cảnh báo tự động
+
+  # | Yêu cầu (PTYC đã ký)            | Kết quả  | Cách chứng minh
+ ---|---------------------------------|----------|--------------------
+  1 | Cảnh báo Cao gửi email + SMS    | ✅ Đạt   | Demo bắn thử 1 cảnh
+    | trong 30 giây                   |          | báo giả lập, bấm giờ
+  2 | Gộp cảnh báo cùng loại trong    | ✅ Đạt   | Demo bắn 20 cảnh báo
+    | cửa sổ 5 phút                   |          | → hiện 1 sự cố
+  3 | Export báo cáo tuần định dạng   | ✅ Đạt   | Mở file mẫu đã export
+    | theo mẫu nội bộ                 |          |
+  4 | Tích hợp lịch trực ca           | ⚠️ Đạt   | Demo + LƯU Ý: lịch
+    |                                 | một phần | nghỉ lễ nhập tay
+</code></pre>
+<p>Trong buổi demo, khách hàng hỏi: &quot;Sao cảnh báo mức Thấp không gửi email?&quot; — bạn mở đúng mục PTYC đã ký: chỉ Trung bình/Cao gửi email, mức Thấp chỉ ghi log (chính khách chốt để tránh ngợp hộp thư). Thắc mắc đóng ngay tại chỗ, không thành &quot;nghi án thiếu tính năng&quot;. Điểm khôn ngoan thứ hai: dòng 4 bạn <strong>chủ động khai báo hạn chế trước</strong> thay vì chờ khách phát hiện — mất 2 phút giải thích, đổi lấy niềm tin cho cả buổi.</p>
+<p><strong>Vì sao là mức ①:</strong> chuẩn bị và hỗ trợ tốt một buổi nghiệm thu cụ thể theo kịch bản; chưa phải tự xử lý khi buổi nghiệm thu phát sinh bất đồng lớn.</p>
+<h2>▸ Ex·V3 — ② Biết làm</h2>
+<p><strong>Khác V2:</strong> khi buổi nghiệm thu phát sinh <strong>bất đồng</strong> (khách cho rằng thiếu tính năng, kết quả không như kỳ vọng), bạn giữ được buổi họp không bế tắc và tìm ra hướng xử lý các bên chấp nhận.</p>
+<p><strong>Tình huống thực tế — khách nói &quot;thiếu tính năng&quot; dù PTYC đã ký không có.</strong> Giữa buổi nghiệm thu, trưởng đội An ninh mạng nói: &quot;Tôi tưởng hệ thống tự chặn IP tấn công chứ? Chỉ cảnh báo thôi thì thiếu.&quot; Không khí căng — AM nhìn sang bạn. Cách bạn xử lý:</p>
+<pre><code>1. KHÔNG ĐÔI CO ĐÚNG/SAI TRƯỚC MẶT KHÁCH
+   Không nói &quot;anh ký PTYC rồi&quot; (đúng nhưng đẩy khách vào thế mất mặt).
+2. TÁCH SỰ VIỆC KHỎI CẢM XÚC
+   &quot;Em xác nhận lại: nhu cầu tự chặn IP là có thật và quan trọng.
+    Trong phạm vi đã ký (mục 2.1) hệ thống dừng ở cảnh báo — vì lúc
+    khảo sát mình thống nhất chưa cho hệ thống tự can thiệp mạng,
+    sợ chặn nhầm IP nội bộ. Biên bản ngày 15/03 có ghi lý do này.&quot;
+3. CHUYỂN BẤT ĐỒNG THÀNH VIỆC LÀM TIẾP
+   Đề xuất tại chỗ: nghiệm thu phạm vi đã ký hôm nay; nhu cầu &quot;tự
+   chặn IP&quot; ghi nhận thành yêu cầu giai đoạn 2, kèm buổi khảo sát
+   riêng về rủi ro chặn nhầm. Khách đồng ý ký nghiệm thu.
+</code></pre>
+<p>Mấu chốt: nhờ mục 5 &quot;câu hỏi đã chốt&quot; trong PTYC và biên bản có ghi <strong>lý do</strong> loại tính năng này ra từ đầu (không chỉ ghi &quot;không làm&quot;), bạn có bằng chứng thuyết phục mà không cần thắng-thua với khách.</p>
+<p><strong>Vì sao là mức ②:</strong> xử lý được bất đồng thật trong nghiệm thu — giữ quan hệ, giữ tiến độ ký, và biến tranh cãi thành phạm vi giai đoạn sau; không chỉ chạy đúng kịch bản khi mọi thứ suôn sẻ.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/ba","c":"dimmed","children":"Giải pháp nghiệp vụ (BA)"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Hỗ trợ nghiệm thu sản phẩm/hệ thống với khách hàng"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/ba/ky-nang/07-quan-ly-tai-lieu-yeu-cau-thay-doi","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Cập nhật, quản lý & lưu trữ tài liệu/yêu cầu thay đổi theo quy trình"}]]}]}],["$","$L15",null,{"href":"/ba/ky-nang/09-giao-tiep-dien-dat-thuyet-trinh","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Giao tiếp, diễn đạt & thuyết trình"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

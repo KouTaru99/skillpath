@@ -1,0 +1,68 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","ba","ky-nang","07-quan-ly-tai-lieu-yeu-cau-thay-doi",""],"i":false,"f":[[["",{"children":[["role","ba","d"],{"children":["ky-nang",{"children":[["skill","07-quan-ly-tai-lieu-yeu-cau-thay-doi","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","ba","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","07-quan-ly-tai-lieu-yeu-cau-thay-doi","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T1212,<h1>Cập nhật, quản lý &amp; lưu trữ tài liệu/yêu cầu thay đổi theo quy trình</h1>
+<p><strong>Định nghĩa.</strong> Yêu cầu luôn thay đổi giữa dự án — BA phải có kỷ luật <strong>cập nhật tài liệu ngay khi có thay đổi</strong> và <strong>quản lý lịch sử thay đổi</strong> (change log — ai đề xuất, khi nào, ảnh hưởng gì), tránh tình trạng tài liệu nói một đằng, code chạy một nẻo mà không ai biết bản nào đúng. Nguyên tắc vàng: tài liệu chỉ có giá trị khi nó là <strong>nguồn sự thật duy nhất</strong> — một tài liệu lệch thực tế còn nguy hiểm hơn không có tài liệu, vì người đọc tin nhầm.</p>
+<h2>▸ Ex·V1 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Cập nhật tài liệu đúng và kịp thời khi có thay đổi nhỏ, có ghi vết ai-đổi-gì-khi-nào, và báo cho đúng người bị ảnh hưởng.</p>
+<p><strong>Tình huống thực tế — một con số đổi, ba việc phải làm.</strong> Khách hàng nhắn qua chat: &quot;đổi ngưỡng 5 lần đăng nhập sai thành 3 lần nhé&quot;. Nhiều BA mới sẽ chỉ trả lời &quot;dạ vâng&quot; — còn bạn làm đủ ba việc trong ngày:</p>
+<pre><code>1. SỬA TÀI LIỆU   PTYC GP-007: N mặc định 5 → 3.
+2. GHI VẾT        Bảng lịch sử thay đổi cuối tài liệu:
+   | v1.2 | 03/07 | Đổi N mặc định 5→3 | A.Tuấn (email 03/07) |
+   (kèm link email — lời nhắn chat được bạn xin xác nhận lại
+    qua email vì thay đổi liên quan chính sách bảo mật)
+3. BÁO ĐÚNG NGƯỜI Nhắn kênh chung + tag Dev đang code GP-007 và Tester
+   đang viết case: &quot;N đổi 5→3, tài liệu đã cập nhật v1.2&quot;.
+</code></pre>
+<p>Chi tiết &quot;xin xác nhận email&quot; cứu bạn 2 tháng sau: khách hàng khác trong chính đội đó thắc mắc &quot;ai cho đổi thành 3?&quot; — bạn mở đúng dòng change log kèm link email, câu chuyện kết thúc trong 1 phút thay vì thành cuộc điều tra.</p>
+<p><strong>Vì sao là mức ①:</strong> giữ được kỷ luật cập nhật-ghi vết-thông báo cho thay đổi nhỏ; chưa cần đánh giá tác động cho thay đổi lớn.</p>
+<h2>▸ Ex·V3 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> với <strong>yêu cầu thay đổi lớn</strong>, biết đánh giá tác động (impact analysis) trước khi để nó chảy vào dự án — trả lời được &quot;đổi cái này thì đụng những gì, tốn bao nhiêu, có đáng không&quot;.</p>
+<p><strong>Tình huống thực tế — khách đòi gộp 2 màn hình khi Dev đã code xong 80%.</strong> Giữa sprint, khách hàng đề xuất: gộp màn &quot;Danh sách cảnh báo&quot; và &quot;Danh sách sự cố&quot; thành 1 màn duy nhất. Bạn không chuyển thẳng cho Dev (&quot;khách bảo đổi thì đổi&quot;), cũng không từ chối thay khách — mà làm bản đánh giá tác động một trang:</p>
+<pre><code>ĐÁNH GIÁ TÁC ĐỘNG — Yêu cầu thay đổi CR-011 (gộp 2 màn hình)
+
+PHẠM VI ẢNH HƯỞNG
+  - FE: đập 2 màn đã xong 80%, làm lại màn mới có tab/bộ lọc hợp nhất
+  - BE: thêm API trộn 2 nguồn dữ liệu + phân trang chung
+  - Tài liệu: 2 PTYC + 6 test case phải viết lại
+CHI PHÍ ƯỚC TÍNH   +8 ngày công, sprint hiện tại trễ ~1 tuần
+LÝ DO KHÁCH MUỐN   Trực ca phải mở 2 tab, hay bỏ sót sự cố mới
+                   (nhu cầu gốc: NHÌN 1 CHỖ, không nhất thiết GỘP MÀN)
+PHƯƠNG ÁN
+  A. Gộp màn như đề xuất          — 8 ngày, trễ sprint
+  B. Thêm badge đếm sự cố mới +   — 1.5 ngày, đúng nhu cầu gốc
+     phím tắt chuyển nhanh 2 màn
+  C. Dời gộp màn sang phiên bản 2 — 0 ngày sprint này
+ĐỀ XUẤT: B trước, đo lại sau 1 tháng; nếu vẫn bất tiện → A ở bản 2.
+</code></pre>
+<p>Khách hàng chọn B — vì bạn đào ra <strong>nhu cầu gốc</strong> (&quot;nhìn 1 chỗ&quot;) thay vì thực hiện nguyên văn giải pháp khách tự nghĩ (&quot;gộp màn&quot;). Tiết kiệm 6.5 ngày công và sprint không trễ.</p>
+<p><strong>Vì sao là mức ②:</strong> biến yêu cầu thay đổi thành quyết định có cân nhắc chi phí/lợi ích với nhiều phương án — làm người gác cổng tác động, không phải thư ký ghi chép.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/ba","c":"dimmed","children":"Giải pháp nghiệp vụ (BA)"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Cập nhật, quản lý & lưu trữ tài liệu/yêu cầu thay đổi theo quy trình"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/ba/ky-nang/06-giai-dap-trao-doi-nghiep-vu","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Giải đáp, trao đổi thắc mắc nghiệp vụ với đội dự án"}]]}]}],["$","$L15",null,{"href":"/ba/ky-nang/08-ho-tro-nghiem-thu","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Hỗ trợ nghiệm thu sản phẩm/hệ thống với khách hàng"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

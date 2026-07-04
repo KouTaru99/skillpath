@@ -1,0 +1,88 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","ba","ky-nang","14-de-xuat-cach-tiep-can-ky-thuat",""],"i":false,"f":[[["",{"children":[["role","ba","d"],{"children":["ky-nang",{"children":[["skill","14-de-xuat-cach-tiep-can-ky-thuat","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","ba","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","14-de-xuat-cach-tiep-can-ky-thuat","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T199e,<h1>Đề xuất cách tiếp cận &amp; kỹ thuật phân tích phù hợp dự án</h1>
+<p><strong>Định nghĩa.</strong> Không phải dự án nào cũng cần cùng một kỹ thuật phân tích — Senior BA biết <strong>chọn đúng công cụ cho đúng bài toán</strong>: khi nào dùng BPMN, khi nào chỉ cần use case đơn giản, khi nào cần mô hình dữ liệu chi tiết, và quan trọng không kém — khi nào <strong>không cần</strong> vẽ gì cả. Chọn sai hai chiều đều đắt: tài liệu quá nặng cho dự án nhỏ làm chậm tiến độ; tài liệu quá nhẹ cho bài toán phức tạp làm Dev code sai.</p>
+<h2>▸ Senior·V1 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Khi được hỏi, đề xuất được cách tiếp cận phù hợp cho một dự án cụ thể — kèm lý do vì sao chọn nhẹ/nặng.</p>
+<p><strong>Tình huống thực tế — chặn đứng bộ tài liệu quá nặng cho việc nhỏ.</strong> BA junior trong nhóm chuẩn bị làm tính năng &quot;thêm bộ lọc theo loại tấn công vào màn danh sách&quot; — và định viết đủ bộ: BPMN, use case diagram, mô hình dữ liệu. Bạn được hỏi ý kiến và đề xuất:</p>
+<pre><code>BÀI TOÁN: thêm 1 dropdown lọc vào màn có sẵn — không luồng mới,
+          không dữ liệu mới, không vai người dùng mới.
+
+ĐỀ XUẤT CÁCH TIẾP CẬN
+  ✅ CẦN:   PTYC ngắn 1 trang — danh sách giá trị lọc, hành vi khi
+            kết hợp với các bộ lọc có sẵn, giá trị mặc định.
+  ❌ KHÔNG: BPMN (không có quy trình mới), use case diagram (không
+            actor mới), mô hình dữ liệu (không bảng mới).
+  LÝ DO:    2 ngày công tài liệu cho 1 ngày công code là tỉ lệ ngược.
+            Rủi ro của tính năng nằm ở CHI TIẾT HÀNH VI (lọc kết hợp),
+            không nằm ở LUỒNG — nên đầu tư vào bảng hành vi, không
+            phải sơ đồ.
+</code></pre>
+<p><strong>Vì sao là mức ①:</strong> chọn đúng độ nặng-nhẹ tài liệu cho một dự án cụ thể khi được hỏi, có lý do rõ; chưa tự thiết kế tổ hợp kỹ thuật cho bài toán phức tạp.</p>
+<h2>▸ Senior·V2 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> với dự án phức tạp, <strong>tự quyết định tổ hợp nhiều kỹ thuật</strong> — kỹ thuật nào cho tầng nào của bài toán, và trình tự làm cái nào trước.</p>
+<p><strong>Tình huống thực tế — thiết kế bộ công cụ phân tích cho module &quot;Tương quan cảnh báo đa nguồn&quot;.</strong> Module mới toanh: nhiều nguồn log, nhiều quy tắc gộp, nhiều vai người dùng. Bạn tự quyết định &quot;bản đồ kỹ thuật&quot;:</p>
+<pre><code>TẦNG BÀI TOÁN                    → KỸ THUẬT CHỌN         → VÌ SAO
+  Luồng xử lý tổng thể            BPMN (1 sơ đồ chính)     nhiều rẽ nhánh,
+  (log vào → chuẩn hoá → tương                             khách cần duyệt
+  quan → sinh sự cố → cảnh báo)                            được bằng mắt
+  Quy tắc gộp cảnh báo            BẢNG QUYẾT ĐỊNH          logic dạng &quot;nếu-thì&quot;
+  (cùng IP? cùng loại? cửa sổ     (decision table)         nhiều tổ hợp — bảng
+  thời gian?)                                              đủ, sơ đồ sẽ rối
+  Cấu trúc lưu tương quan         Mô hình dữ liệu quan hệ  Dev cần chốt quan hệ
+                                                           alert–incident sớm
+  Ai làm gì trên module           Use case theo VAI        3 vai khác hẳn nhau
+                                  (vận hành/quản trị/xem)
+TRÌNH TỰ: BPMN duyệt với khách TRƯỚC (chốt nghiệp vụ) → bảng quyết
+định + mô hình dữ liệu làm SONG SONG với thiết kế kỹ thuật của Dev.
+</code></pre>
+<p>Điểm trưởng thành nhất: chọn <strong>bảng quyết định</strong> cho quy tắc gộp thay vì cố nhét mọi thứ vào BPMN — biết mỗi kỹ thuật mạnh ở đâu và giới hạn ở đâu.</p>
+<p><strong>Vì sao là mức ②:</strong> tự tin phối hợp nhiều kỹ thuật đúng tầng bài toán và sắp trình tự hợp lý; phạm vi vẫn trong dự án mình phụ trách.</p>
+<h2>▸ Senior·V3 — ③ Thành thạo</h2>
+<p><strong>Khác V2:</strong> cách tiếp cận bạn chọn trở thành <strong>khuôn mẫu cho nhóm BA</strong> — bạn chuẩn hoá &quot;bài toán dạng nào dùng bộ công cụ nào&quot; để cả nhóm chọn đúng mà không cần hỏi bạn từng lần.</p>
+<p><strong>Tình huống thực tế — chuẩn hoá khung chọn kỹ thuật cho cả nhóm BA.</strong> Sau vài dự án, bạn nhận ra nhóm BA 5 người mỗi người chọn kỹ thuật theo thói quen riêng — người nghiện BPMN vẽ cả cho việc 1 ngày công, người chỉ viết chữ kể cả luồng phức tạp. Bạn đúc kết thành khung chọn nhanh, đưa vào tài liệu onboarding của nhóm:</p>
+<pre><code>KHUNG CHỌN KỸ THUẬT PHÂN TÍCH (nhóm BA — v1)
+
+Trả lời 3 câu hỏi trước khi mở công cụ vẽ:
+  Q1. Có QUY TRÌNH mới/đổi không?     → Có: BPMN. Không: bỏ qua.
+  Q2. Logic có dạng NHIỀU TỔ HỢP      → Có: bảng quyết định.
+      điều kiện không?                  (đừng nhét vào BPMN)
+  Q3. Có DỮ LIỆU mới/quan hệ đổi?     → Có: mô hình quan hệ TRƯỚC
+                                        khi Dev thiết kế bảng.
+Quy tắc chung:
+  - Tính năng ≤3 ngày công Dev → chỉ PTYC 1 trang, miễn sơ đồ.
+  - Mọi sơ đồ phải có NGƯỜI ĐỌC cụ thể (khách duyệt? Dev code?
+    Tester viết case?). Sơ đồ không ai đọc = xoá.
+</code></pre>
+<p>Một quý sau, review chéo trong nhóm cho thấy tài liệu đồng đều hẳn — và BA junior mới vào tự chọn đúng công cụ ngay dự án đầu nhờ khung này.</p>
+<p><strong>Vì sao là mức ③:</strong> nâng từ &quot;mình chọn đúng&quot; lên &quot;cả nhóm chọn đúng&quot; — chuẩn hoá được phương pháp, ảnh hưởng chất lượng phân tích của tổ chức, không chỉ của dự án mình làm.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/ba","c":"dimmed","children":"Giải pháp nghiệp vụ (BA)"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Đề xuất cách tiếp cận & kỹ thuật phân tích phù hợp dự án"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/ba/ky-nang/13-kien-thuc-ux","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Kiến thức UX & định hướng UX sản phẩm"}]]}]}],["$","$L15",null,{"href":"/ba/ky-nang/15-thiet-ke-dfd","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Thiết kế luồng dữ liệu hệ thống (DFD)"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

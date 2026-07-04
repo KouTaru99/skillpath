@@ -1,0 +1,96 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","ba","ky-nang","17-cai-tien-luong-giai-phap-tu-van-khach-hang",""],"i":false,"f":[[["",{"children":[["role","ba","d"],{"children":["ky-nang",{"children":[["skill","17-cai-tien-luong-giai-phap-tu-van-khach-hang","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","ba","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","17-cai-tien-luong-giai-phap-tu-van-khach-hang","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T1f24,<h1>Cải tiến luồng giải pháp nghiệp vụ, tư vấn khách hàng giải pháp tối ưu</h1>
+<p><strong>Định nghĩa.</strong> Senior BA không chỉ ghi nhận yêu cầu mà chủ động <strong>tư vấn ngược lại khách hàng</strong> khi thấy giải pháp họ đề xuất chưa tối ưu — vai trò chuyển từ &quot;người ghi chép&quot; sang &quot;người tư vấn&quot;. Nguyên tắc tư vấn có sức nặng: luôn tách <strong>nhu cầu gốc</strong> (điều khách cần đạt) khỏi <strong>giải pháp khách tự nghĩ</strong> (cách họ tưởng phải làm), và thuyết phục bằng <strong>số liệu/đánh đổi</strong>, không bằng &quot;kinh nghiệm của em cho thấy&quot;.</p>
+<h2>▸ Senior·V1 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Nhận ra điểm bất hợp lý rõ ràng trong một luồng cụ thể và tư vấn phương án tốt hơn — có lý do nghiệp vụ, khách nghe được.</p>
+<p><strong>Tình huống thực tế — tư vấn lại yêu cầu &quot;mọi cảnh báo phải duyệt tay trước khi gửi&quot;.</strong> Khách hàng vừa bị một đợt cảnh báo giả làm phiền lãnh đạo, nên yêu cầu: mọi email cảnh báo phải qua người duyệt. Bạn không ghi nhận nguyên văn mà tư vấn:</p>
+<pre><code>NHU CẦU GỐC (đào ra được):  đừng làm phiền lãnh đạo vì cảnh báo giả.
+GIẢI PHÁP KHÁCH TỰ NGHĨ:    duyệt tay 100% trước khi gửi.
+
+BẠN CHỈ RA CHỖ GÃY:
+  Cảnh báo mức Cao là lúc CẦN NHANH NHẤT — chờ người duyệt lúc
+  2h sáng nghĩa là +30-60 phút phản ứng. Tấn công thật diễn ra
+  trong phút, không trong giờ. Giải pháp khách nghĩ chữa đúng
+  bệnh &quot;phiền&quot; nhưng gây bệnh &quot;chậm&quot; nặng hơn.
+
+TƯ VẤN PHƯƠNG ÁN:
+  - Mức Cao:            gửi TỰ ĐỘNG ngay (chấp nhận thi thoảng giả —
+                        giá của trễ đắt hơn giá của giả)
+  - Trung bình/Thấp:    gộp thành bản tin 2 lần/ngày, có người duyệt
+  - Riêng gửi LÃNH ĐẠO: chỉ sự cố đã được người trực XÁC NHẬN thật
+    (đúng nhu cầu gốc: lãnh đạo hết bị phiền, người trực vẫn nhanh)
+</code></pre>
+<p>Dòng cuối là mấu chốt: tách &quot;ai nhận gì&quot; ra — lãnh đạo và người trực có nhu cầu tốc độ khác nhau, một chính sách chung cho cả hai mới là gốc rễ vấn đề.</p>
+<p><strong>Vì sao là mức ①:</strong> tư vấn được cho một luồng cụ thể khi bất hợp lý đã khá rõ; chưa phải thiết kế lại quy trình lớn với phân tích đánh đổi định lượng.</p>
+<h2>▸ Senior·V2 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> tư vấn ở <strong>phạm vi cả quy trình nghiệp vụ lớn</strong>, thuyết phục bằng phân tích đánh đổi <strong>định lượng</strong> — đủ sức làm khách đổi hướng một quyết định họ đã tin là đúng.</p>
+<p><strong>Tình huống thực tế — khách muốn quy trình xử lý sự cố 100% thủ công, bạn thuyết phục bằng số.</strong> Sau một sự cố chặn nhầm IP của đối tác, khách hàng muốn mọi bước xử lý sự cố đều phải người duyệt: &quot;chậm mà chắc&quot;. Bạn không cãi bằng quan điểm — bạn dựng mô phỏng số từ dữ liệu 3 tháng log thật:</p>
+<pre><code>PHÂN TÍCH ĐÁNH ĐỔI — 2 phương án quy trình xử lý sự cố
+(số liệu: 3 tháng gần nhất — 1.240 sự cố, đỉnh điểm 87 sự cố/ngày
+ trong đợt quét diện rộng 12/05)
+
+                          100% THỦ CÔNG        PHƯƠNG ÁN LAI (đề xuất)
+Bước tự động              0                    phân loại + gộp + tra TI
+Bước người duyệt          MỌI bước             chỉ 2 quyết định: chặn IP,
+                                               khoá tài khoản
+T.gian xử lý TB/sự cố     ~25 phút             ~8 phút
+NGÀY ĐỈNH ĐIỂM (87 sự cố) 87×25' = 36 GIỜ      87×8' = 11.6 giờ
+→ với 2 người/ca          QUÁ TẢI GẤP 3        căng nhưng sống được
+Rủi ro &quot;chặn nhầm&quot;        thấp                 = thủ công (vì 2 quyết định
+                                               nguy hiểm VẪN người duyệt)
+</code></pre>
+<p>Câu chốt của bạn trong buổi trình: &quot;Phương án lai giữ nguyên chỗ anh cần chắc — chặn IP vẫn là người quyết. Nó chỉ tự động hoá chỗ máy làm tốt hơn người: phân loại và gộp. Còn 100% thủ công thì ngày như 12/05, quy trình của mình tự sập trước khi kẻ tấn công làm gì thêm.&quot; Khách đổi quyết định — vì con số 36 giờ/ngày tự nói.</p>
+<p><strong>Vì sao là mức ②:</strong> tư vấn đổi hướng được một quyết định lớn bằng phân tích định lượng từ dữ liệu thật, thiết kế phương án giữ đúng chỗ khách cần an tâm — không chỉ góp ý điểm nhỏ bằng lý lẽ định tính.</p>
+<h2>▸ Senior·V3 — ③ Thành thạo</h2>
+<p><strong>Khác V2:</strong> chủ động <strong>rà và cải tiến các luồng nghiệp vụ định kỳ</strong> như một phần vai trò — nhìn thấy chi phí ẩn của quy trình hiện tại mà chính khách hàng đã quen tới mức không thấy nữa, và dẫn dắt lộ trình cải tiến qua nhiều giai đoạn.</p>
+<p><strong>Tình huống thực tế — tự phát hiện &quot;nghi lễ thừa&quot; tồn tại 2 năm và dẫn lộ trình bỏ nó.</strong> Không ai yêu cầu, bạn dành mỗi quý một buổi ngồi quan sát đội vận hành làm việc thật. Quý này bạn phát hiện: mỗi sự cố đóng xong, người trực phải điền <strong>báo cáo 14 trường</strong> — tồn tại từ 2 năm trước theo yêu cầu của một trưởng phòng đã chuyển công tác.</p>
+<pre><code>PHÂN TÍCH GIÁ TRỊ 14 TRƯỜNG BÁO CÁO (đối chiếu: ai ĐỌC trường nào?)
+  - 5 trường: hệ thống đã tự có (thời gian, IP, loại...) → điền lại = thừa
+  - 4 trường: không ai đọc trong 6 tháng qua (kiểm tra log truy cập
+    báo cáo) → thừa
+  - 3 trường: chỉ dùng khi audit → không cần điền NGAY lúc đóng sự cố
+  - 2 trường: thật sự có giá trị vận hành (nguyên nhân gốc, bài học)
+
+CHI PHÍ ẨN: 6 phút/báo cáo × ~400 sự cố/tháng = 40 giờ công/tháng
+            — hơn 1 người-tuần mỗi tháng cho việc gần như không ai đọc.
+
+LỘ TRÌNH CẢI TIẾN (3 bước, không sốc):
+  B1: 5 trường tự động điền sẵn — không cần xin phép ai, làm ngay
+  B2: 4 trường không ai đọc → ẩn đi 1 quý, ai cần thì lên tiếng
+      (không ai lên tiếng → bỏ hẳn)
+  B3: trình khách mẫu báo cáo mới 2 trường + phần tự động — kèm
+      con số 40 giờ/tháng tiết kiệm
+</code></pre>
+<p>Sáu tuần sau, mẫu báo cáo mới được duyệt. Đội vận hành gọi đó là &quot;cải tiến được cảm ơn nhiều nhất năm&quot; — dù không ai từng <em>yêu cầu</em> nó, vì họ đã quen chịu đựng tới mức không nghĩ đó là vấn đề.</p>
+<p><strong>Vì sao là mức ③:</strong> cải tiến luồng trở thành hoạt động chủ động có nhịp, phát hiện được chi phí ẩn mà người trong cuộc không còn thấy, và dẫn dắt thay đổi theo lộ trình khéo — đây là tầm &quot;người tư vấn tin cậy&quot;, vượt hẳn &quot;người phản hồi yêu cầu&quot;.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/ba","c":"dimmed","children":"Giải pháp nghiệp vụ (BA)"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Cải tiến luồng giải pháp nghiệp vụ, tư vấn khách hàng giải pháp tối ưu"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/ba/ky-nang/16-review-tai-lieu-giai-phap","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Review tài liệu giải pháp nghiệp vụ"}]]}]}],["$","$L15",null,{"href":"/ba/ky-nang/18-xay-dung-tai-lieu-chi-tieu-ky-thuat","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Xây dựng tài liệu chỉ tiêu kỹ thuật dự án/sản phẩm"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

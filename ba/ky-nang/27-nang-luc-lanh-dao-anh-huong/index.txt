@@ -1,0 +1,103 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","ba","ky-nang","27-nang-luc-lanh-dao-anh-huong",""],"i":false,"f":[[["",{"children":[["role","ba","d"],{"children":["ky-nang",{"children":[["skill","27-nang-luc-lanh-dao-anh-huong","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","ba","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","27-nang-luc-lanh-dao-anh-huong","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T215c,<h1>Năng lực lãnh đạo &amp; ảnh hưởng ở tầm tổ chức</h1>
+<p><strong>Định nghĩa.</strong> Bộ năng lực mềm cao nhất của career-path BA: <strong>giải quyết vấn đề</strong> ở độ phức tạp tổ chức, <strong>ảnh hưởng đến người khác dù không có quyền quản lý trực tiếp</strong> (influence without authority), <strong>chủ động phản hồi</strong> khi thấy điều đe doạ thành công chung (không đợi được hỏi), và <strong>thuyết trình giải pháp với cấp lãnh đạo</strong> đủ sức nặng để đổi quyết định. Ở tầng này, &quot;vốn&quot; của bạn không phải chức vụ mà là <strong>uy tín tích luỹ</strong>: chuỗi lần nói đúng, dám nói sớm, và nói có căn cứ.</p>
+<h2>▸ Specialist·V1 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Chủ động lên tiếng khi phát hiện vấn đề ảnh hưởng dự án — dù không thuộc &quot;phận sự&quot;, không ai hỏi, và nói theo cách người nghe tiếp nhận được.</p>
+<p><strong>Tình huống thực tế — lên tiếng về một quyết định kiến trúc không ai hỏi mình.</strong> Trong buổi họp kỹ thuật bạn ngồi dự thính, team quyết dùng chung một CSDL cho cả log nhạy cảm lẫn log thường &quot;cho nhanh&quot;. Không ai hỏi BA. Bạn xin 2 phút:</p>
+<pre><code>CÁCH LÊN TIẾNG (đúng vai, không lấn sân):
+  &quot;Em không có ý kiến về mặt kỹ thuật — nhưng có 1 dữ kiện nghiệp
+   vụ mọi người cần trước khi chốt: log nhạy cảm theo quy định
+   lưu vết QĐ-047 phải kiểm soát truy cập RIÊNG và ghi vết người
+   đọc. Nếu chung CSDL, đến đợt audit mình phải chứng minh cách
+   ly truy cập ở tầng ứng dụng — kinh nghiệm đợt audit trước là
+   họ không chấp nhận cách ly mềm. Đề nghị mình cân nhắc dữ kiện
+   này trước khi chốt — quyết thế nào em theo.&quot;
+
+VÌ SAO CÁCH NÓI NÀY LỌT TAI:
+  - Đứng đúng vai: đưa DỮ KIỆN nghiệp vụ, không phán kỹ thuật
+  - Có căn cứ trích được (QĐ-047, kinh nghiệm audit trước)
+  - Chừa quyền quyết cho đúng người (&quot;quyết thế nào em theo&quot;)
+</code></pre>
+<p>Team tách CSDL ngay hôm đó. Sáu tháng sau đợt audit soi đúng chỗ này — và từ đó bạn được mời họp kiến trúc <em>chính thức</em>, không còn dự thính.</p>
+<p><strong>Vì sao là mức ①:</strong> dám và biết cách lên tiếng đúng lúc-đúng vai khi không ai hỏi; ảnh hưởng còn ở phạm vi từng vấn đề cụ thể.</p>
+<h2>▸ Specialist·V2 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> <strong>thay đổi được quyết định của nhóm mình không quản lý</strong> — bằng dữ liệu, ví dụ cụ thể và cách trình bày đặt mình vào lợi ích của người nghe, không phải bằng cãi thắng.</p>
+<p><strong>Tình huống thực tế — thuyết phục team kỹ thuật đảo một quyết định đã chốt.</strong> Team kỹ thuật đã chốt phương án đồng bộ dữ liệu sang hệ thống báo cáo bằng cách cho hệ thống báo cáo <strong>đọc thẳng CSDL</strong> của hệ thống giám sát (&quot;nhanh, đỡ viết API&quot;). Bạn thấy rủi ro dài hạn nhưng bạn không có quyền phủ quyết. Cách bạn tạo ảnh hưởng:</p>
+<pre><code>BƯỚC 1 — HIỂU VÌ SAO HỌ CHỌN VẬY (không mở màn bằng phản đối)
+  Nói chuyện riêng với trưởng nhóm kỹ thuật: hoá ra sức ép chính
+  là deadline — API &quot;xịn&quot; tốn 2 tuần họ không có.
+
+BƯỚC 2 — ĐÓNG KHUNG THEO NỖI ĐAU CỦA HỌ (không phải của mình)
+  Không nói &quot;sai nguyên tắc kiến trúc&quot; (nỗi đau của bạn) mà đưa
+  kịch bản chạm họ: &quot;Lần tới mình đổi cấu trúc bảng cảnh báo —
+  việc anh đang định làm quý sau — hệ thống báo cáo bên kia vỡ
+  theo, và người bị gọi lúc nửa đêm là team anh, vì bên đó có
+  biết gì về schema mình đâu.&quot;
+
+BƯỚC 3 — HẠ GIÁ CHI PHÍ CỦA PHƯƠNG ÁN ĐÚNG
+  Đề xuất API RÚT GỌN: chỉ 2 endpoint đúng nhu cầu báo cáo hiện
+  tại (không phải bộ API đầy đủ 2 tuần) — bạn tự viết trước phần
+  đặc tả dữ liệu, Dev chỉ còn ~3 ngày công.
+
+KẾT QUẢ: trưởng nhóm tự trình bày lại phương án API rút gọn trong
+họp như thể đồng thiết kế — bạn để họ đứng tên chung. Quyết định
+đảo mà không ai &quot;thua&quot;.
+</code></pre>
+<p>Ba kỹ thuật ảnh hưởng nằm cả trong đó: hiểu động cơ trước khi phản biện, đóng khung theo lợi ích người nghe, và <strong>chia công trạng</strong> — người ta đổi ý dễ hơn nhiều khi việc đổi ý làm họ đẹp lên chứ không xấu đi.</p>
+<p><strong>Vì sao là mức ②:</strong> đổi được quyết định đã chốt của nhóm ngoài quyền hạn bằng phương pháp ảnh hưởng có ý thức; phạm vi là quyết định cấp team/dự án.</p>
+<h2>▸ Specialist·V3 — ④ Chuyên sâu</h2>
+<p><strong>Khác V2:</strong> ảnh hưởng tới <strong>quyết định chiến lược ở cấp lãnh đạo cao nhất</strong> — trình bày trước ban lãnh đạo về vấn đề tầm tổ chức, chịu được phản biện gắt, và đủ uy tín để nói điều lãnh đạo không muốn nghe.</p>
+<p><strong>Tình huống thực tế — thuyết trình ban lãnh đạo về tái cấu trúc chiến lược lưu trữ dữ liệu ATTT.</strong> Bạn phát hiện vấn đề tầm tổ chức: 5 hệ thống đang lưu dữ liệu ATTT theo 5 chính sách khác nhau — có chỗ log nhạy cảm giữ 3 năm không ai đụng (rủi ro lộ + tốn kém), có chỗ 3 tháng đã xoá (vi phạm quy định điều tra). Không ai giao bạn việc này. Bạn xin 20 phút trong họp giao ban lãnh đạo quý:</p>
+<pre><code>CẤU TRÚC 20 PHÚT (thiết kế cho người nghe là CEO/CFO/CISO):
+  Phút 1-3    MỞ BẰNG RỦI RO TIỀN TƯƠI: &quot;Nếu bị yêu cầu cung cấp
+              log điều tra giai đoạn X, mình KHÔNG cung cấp được —
+              đã xoá. Mức phạt theo quy định: [con số]. Ngược lại
+              mình đang trả [con số] mỗi năm để lưu thứ không được
+              phép dùng.&quot;
+  Phút 4-10   Bức tranh 5 hệ thống — 1 hình duy nhất, tô đỏ 2 chỗ
+              vi phạm, tô vàng 3 chỗ lãng phí
+  Phút 11-15  Đề xuất: 1 chính sách phân loại-lưu trữ thống nhất
+              4 bậc + lộ trình 3 quý, chi phí ròng ÂM (tiết kiệm
+              lưu trữ &gt; chi phí làm)
+  Phút 16-20  Xin đúng 2 quyết định: duyệt chính sách khung + chỉ
+              định 1 người chủ trì có quyền xuyên hệ thống
+
+PHẢN BIỆN GẮT NHẤT (CFO): &quot;Sao việc này lại từ BA mà không từ
+trưởng CNTT?&quot; — bạn trả lời thẳng: &quot;Vì nó nằm GIỮA các hệ thống —
+mỗi trưởng hệ thống đều đúng trong phạm vi mình, không ai sai cả,
+nên không ai thấy. Nhìn thấy khoảng giữa là việc của phân tích
+nghiệp vụ, và đó là lý do em đứng đây.&quot;
+</code></pre>
+<p>Ban lãnh đạo duyệt cả 2 đề nghị. Nhưng thứ đáng giá hơn nghị quyết: từ quý đó, các tờ trình chiến lược có mục &quot;ý kiến phân tích nghiệp vụ&quot; — <strong>vai BA được thể chế hoá ở tầng ra quyết định</strong>, bắt đầu từ uy tín một người.</p>
+<p><strong>Vì sao là mức ④:</strong> chủ động đặt được vấn đề tầm tổ chức lên bàn lãnh đạo cao nhất, trình bày bằng ngôn ngữ của họ (rủi ro-tiền-quyết định), chịu được phản biện và đổi được cả vị thế của nghề trong tổ chức — ảnh hưởng ở mức cao nhất mà một cá nhân không chức vụ có thể đạt. (Thang vùng này ①→②→④ — không có mốc ③ vì đây là vùng cuối của toàn thang.)</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/ba","c":"dimmed","children":"Giải pháp nghiệp vụ (BA)"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Năng lực lãnh đạo & ảnh hưởng ở tầm tổ chức"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/ba/ky-nang/26-dao-tao-quan-ly-nhom-ba","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Đào tạo & quản lý nhóm chuyên môn BA"}]]}]}],["$","div",null,{}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

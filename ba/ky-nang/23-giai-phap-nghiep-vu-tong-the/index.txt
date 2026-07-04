@@ -1,0 +1,100 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","ba","ky-nang","23-giai-phap-nghiep-vu-tong-the",""],"i":false,"f":[[["",{"children":[["role","ba","d"],{"children":["ky-nang",{"children":[["skill","23-giai-phap-nghiep-vu-tong-the","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","ba","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","23-giai-phap-nghiep-vu-tong-the","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T1fd8,<h1>Phân tích &amp; xây dựng giải pháp nghiệp vụ tổng thể, toàn trình, liên thông hệ thống</h1>
+<p><strong>Định nghĩa.</strong> Khác biệt lớn nhất giữa Specialist và Senior: Senior làm dự án có <strong>phạm vi đã xác định</strong>, Specialist làm bài toán có <strong>phạm vi chưa xác định</strong> — phải tự phân tích và xây dựng giải pháp <strong>tổng thể</strong> (nhiều hệ thống), <strong>toàn trình</strong> (end-to-end — từ đầu tới cuối luồng nghiệp vụ, không dừng ở ranh giới một hệ thống), <strong>liên thông</strong> (các hệ thống nói chuyện được với nhau). Đây là vùng làm việc mà câu hỏi khó nhất không phải &quot;làm thế nào&quot; mà là &quot;bài toán thật sự là gì&quot;.</p>
+<h2>▸ Specialist·V1 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Tham gia phân tích một phần của bài toán liên thông — nắm được các vấn đề đặc thù của tích hợp nhiều hệ thống (khớp dữ liệu, ai là nguồn sự thật, lệch nhịp cập nhật).</p>
+<p><strong>Tình huống thực tế — phân tích phần giao tiếp giữa hệ thống giám sát và hệ thống quản lý tài sản.</strong> Công ty muốn: cảnh báo hiện rõ &quot;thuộc thiết bị nào, ai quản lý&quot; — dữ liệu này nằm bên hệ thống quản lý tài sản CNTT. Bạn phụ trách phân tích điểm nối:</p>
+<pre><code>PHÂN TÍCH ĐIỂM TÍCH HỢP — Giám sát ↔ Quản lý tài sản
+
+KHỚP DỮ LIỆU BẰNG GÌ?  Cảnh báo có IP; tài sản có IP + mã thiết bị.
+  → Khớp bằng IP. NHƯNG: IP cấp động (DHCP) đổi theo ngày!
+  → Phải khớp bằng IP + THỜI ĐIỂM (tài sản nào giữ IP đó LÚC cảnh
+    báo xảy ra) — chi tiết này quyết định cả thiết kế tích hợp.
+AI LÀ NGUỒN SỰ THẬT?   Tên người quản lý thiết bị: lấy bên tài sản,
+  KHÔNG lưu bản sao bên giám sát (tránh 2 nơi 2 tên khác nhau).
+LỆCH NHỊP?             Tài sản cập nhật 1 lần/ngày — cảnh báo cần
+  real-time → chấp nhận độ trễ 1 ngày cho thông tin &quot;ai quản lý&quot;,
+  ghi rõ vào tài liệu để không ai kỳ vọng nhầm.
+</code></pre>
+<p>Phát hiện &quot;IP động&quot; là loại vấn đề chỉ lộ ra khi phân tích tích hợp thật — trên giấy, &quot;khớp bằng IP&quot; nghe hiển nhiên đúng.</p>
+<p><strong>Vì sao là mức ①:</strong> phân tích chắc một phần của bài toán liên thông với các câu hỏi đặc thù tích hợp; chưa chủ trì cả luồng xuyên hệ thống.</p>
+<h2>▸ Specialist·V2 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> <strong>chủ trì cả một luồng nghiệp vụ xuyên nhiều hệ thống</strong> — vẽ được bức tranh toàn trình, chốt điểm tích hợp, và thiết kế cả kịch bản &quot;một hệ thống trục trặc thì luồng sống sao&quot;.</p>
+<p><strong>Tình huống thực tế — chủ trì luồng &quot;phát hiện → xử lý → báo cáo tuân thủ&quot; xuyên 3 hệ thống.</strong> Yêu cầu từ ban ATTT: mọi sự cố phải chảy tự động vào báo cáo tuân thủ quý, không ai phải gõ lại. Bạn chủ trì thiết kế toàn trình:</p>
+<pre><code>LUỒNG TOÀN TRÌNH (3 hệ thống)
+
+[GIÁM SÁT]──sự cố đóng──▶[QL TÀI SẢN]──gắn thiết bị/đơn vị──▶[BC TUÂN THỦ]
+                          (làm giàu dữ liệu)                  (tổng hợp quý)
+
+QUYẾT ĐỊNH CHỐT (những câu không hệ thống đơn lẻ nào trả lời được):
+1. KHI NÀO đẩy dữ liệu? Sự cố ĐÓNG mới đẩy (đang mở còn đổi) —
+   nhưng báo cáo quý cần cả &quot;sự cố mở kéo dài&quot; → thêm luồng phụ:
+   sự cố mở &gt;30 ngày cũng đẩy, gắn nhãn &quot;chưa đóng&quot;.
+2. HỆ THỐNG GIỮA (tài sản) SẬP thì sao? Không được chặn luồng:
+   sự cố xếp hàng đợi (queue), tự đẩy lại khi tài sản sống dậy;
+   quá 48h → báo động cho quản trị, sự cố đẩy thẳng sang báo cáo
+   với trường thiết bị = &quot;chưa làm giàu&quot; (có còn hơn mất).
+3. SỬA LẠI SỰ CỐ ĐÃ ĐẨY? Cho phép trong 7 ngày — sau đó khoá
+   (báo cáo tuân thủ đã chốt kỳ không được đổi số liệu ngầm).
+</code></pre>
+<p>Điểm ăn tiền của người chủ trì: quyết định số 2 và 3 — <strong>thiết kế cho lúc trục trặc và cho vòng đời dữ liệu</strong>, thứ mà nếu để từng đội tự làm phần mình, không ai nhận trách nhiệm nghĩ hộ.</p>
+<p><strong>Vì sao là mức ②:</strong> chủ trì trọn luồng xuyên 3 hệ thống với đầy đủ kịch bản lỗi và vòng đời dữ liệu; bài toán tuy lớn nhưng phạm vi vẫn được giao tương đối rõ.</p>
+<h2>▸ Specialist·V3 — ④ Chuyên sâu</h2>
+<p><strong>Khác V2:</strong> nhận đề bài <strong>mơ hồ hoàn toàn</strong> từ lãnh đạo — tự định hình phạm vi bài toán (cái gì thuộc, cái gì không), rồi mới xây giải pháp. Năng lực lõi ở đây là <strong>biến một câu nói thành một bài toán giải được</strong>.</p>
+<p><strong>Tình huống thực tế — từ câu &quot;muốn nhìn toàn cảnh an ninh cả công ty&quot; thành lộ trình 18 tháng.</strong> Ban lãnh đạo nói đúng một câu như vậy. Không có danh sách yêu cầu, không có phạm vi. Bạn làm việc mà không ai giao cụ thể được:</p>
+<pre><code>BƯỚC 1 — ĐỊNH NGHĨA LẠI CÂU HỎI (3 tuần phỏng vấn 8 bên)
+  &quot;Toàn cảnh&quot; với mỗi người một nghĩa:
+   CEO      = &quot;công ty có đang bị tấn công không, thiệt hại bao nhiêu&quot;
+   Ban ATTT = &quot;điểm mù ở đâu, đơn vị nào tuân thủ kém&quot;
+   Vận hành = &quot;một màn hình thay vì 5 hệ thống phải mở&quot;
+  → Bạn chốt lại thành 3 BÀI TOÁN TÁCH ĐƯỢC, không phải 1:
+    (A) bảng điều hành rủi ro cho lãnh đạo, (B) bản đồ phủ giám
+    sát cho ban ATTT, (C) màn hợp nhất cho vận hành.
+
+BƯỚC 2 — VẼ RANH GIỚI (quan trọng nhất: cái KHÔNG làm)
+  KHÔNG gộp 5 hệ thống làm 1 (đập xây lại = 3 năm + rủi ro chết
+  giữa đường). CHỈ xây 1 lớp liên thông đọc dữ liệu từ 5 hệ thống
+  hiện có. Ranh giới này trình lãnh đạo duyệt TRƯỚC khi phân tích
+  chi tiết — định phạm vi xong mới làm, không vừa làm vừa phình.
+
+BƯỚC 3 — LỘ TRÌNH THEO GIÁ TRỊ
+  6 tháng đầu: (C) màn vận hành hợp nhất — đau nhất, thấy ngay.
+  6 tháng sau: (B) bản đồ phủ — cần dữ liệu (C) tích luỹ.
+  6 tháng cuối: (A) bảng lãnh đạo — cần (B) để số liệu đáng tin.
+  (Thứ tự NGƯỢC với mong muốn ban đầu của CEO — bạn thuyết phục
+  được: bảng lãnh đạo xây trước sẽ đẹp mà rỗng, vì dữ liệu nền
+  chưa sạch. CEO chấp nhận chờ để có số thật.)
+</code></pre>
+<p>Mười tám tháng sau hệ thống chạy đủ 3 phần — nhưng khoảnh khắc &quot;Specialist&quot; thật sự là ở Bước 1–2: khi chưa ai nói được mình muốn gì, bạn là người <strong>định hình được bài toán để mọi người cùng muốn một thứ</strong>.</p>
+<p><strong>Vì sao là mức ④:</strong> tự định hình phạm vi từ đề bài một câu, dám chốt cái không-làm, và dẫn lộ trình nhiều pha xuyên tổ chức — đỉnh của nghề phân tích: giải bài toán chưa được ra đề. (Thang vùng này ①→②→④ — không có mốc ③ vì đây là vùng cuối của toàn thang.)</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/ba","c":"dimmed","children":"Giải pháp nghiệp vụ (BA)"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Phân tích & xây dựng giải pháp nghiệp vụ tổng thể, toàn trình, liên thông hệ thống"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/ba/ky-nang/22-visual-design","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Visual design của sản phẩm/ứng dụng"}]]}]}],["$","$L15",null,{"href":"/ba/ky-nang/24-tham-dinh-huong-dan-giai-phap","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Thẩm định & hướng dẫn giải pháp cho thành viên trong nhóm"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

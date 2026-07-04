@@ -1,0 +1,82 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","be","ky-nang","03-lap-trinh-an-toan",""],"i":false,"f":[[["",{"children":[["role","be","d"],{"children":["ky-nang",{"children":[["skill","03-lap-trinh-an-toan","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","be","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","03-lap-trinh-an-toan","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T1b32,<h1>Lập trình an toàn (Secure Coding)</h1>
+<p><strong>Định nghĩa.</strong> Viết code phòng ngừa lỗ hổng bảo mật ngay từ khâu lập trình. Tham chiếu phổ biến là <strong>OWASP Top 10</strong> (injection, hỏng xác thực/phân quyền, lộ dữ liệu nhạy cảm...). Ở phía Back-end, trọng tâm: chống <strong>SQL injection</strong>, <strong>hash mật khẩu</strong> đúng cách (không lưu plain text), không lộ <strong>secret</strong> (connection string, API key) trong code/log. Với công ty an ninh mạng, đây là kỹ năng bắt buộc xuyên suốt mọi level.</p>
+<h2>▸ Entry — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Biết các lỗ hổng phổ biến, không hardcode secret trong code, dùng tham số hoá câu SQL (không nối chuỗi trực tiếp), hash mật khẩu thay vì lưu plain text.</p>
+<p><strong>Ví dụ thực tế — chống SQL injection + hash mật khẩu (Java/Spring).</strong></p>
+<pre><code class="language-java"><span class="hljs-comment">// ❌ NGUY HIỂM: nối chuỗi trực tiếp → kẻ xấu truyền username = &quot;&#x27; OR &#x27;1&#x27;=&#x27;1&quot; là vào được</span>
+<span class="hljs-type">String</span> <span class="hljs-variable">sql</span> <span class="hljs-operator">=</span> <span class="hljs-string">&quot;SELECT * FROM users WHERE username = &#x27;&quot;</span> + username + <span class="hljs-string">&quot;&#x27;&quot;</span>;
+
+<span class="hljs-comment">// ✅ AN TOÀN: tham số hoá (JPA/Spring Data tự làm điều này khi dùng đúng cách)</span>
+<span class="hljs-meta">@Query(&quot;SELECT u FROM User u WHERE u.username = :username&quot;)</span>
+User <span class="hljs-title function_">findByUsername</span><span class="hljs-params">(<span class="hljs-meta">@Param(&quot;username&quot;)</span> String username)</span>;
+</code></pre>
+<pre><code class="language-java"><span class="hljs-comment">// ❌ NGUY HIỂM: lưu mật khẩu dạng thường</span>
+user.setPassword(rawPassword);
+
+<span class="hljs-comment">// ✅ AN TOÀN: hash bằng BCrypt trước khi lưu — dù lộ DB, mật khẩu vẫn không đọc được</span>
+user.setPassword(passwordEncoder.encode(rawPassword));
+</code></pre>
+<p><strong>Vì sao là mức ①:</strong> nhận ra rủi ro và tránh lỗi cơ bản, chưa áp dụng nhất quán toàn luồng.</p>
+<h2>▸ Ex·V1 — ② Biết làm</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Áp dụng nhất quán trong mọi API — kiểm quyền ở backend (không tin FE), validate input đầy đủ, không lộ thông tin nhạy cảm qua thông báo lỗi.</p>
+<p><strong>Ví dụ thực tế — kiểm quyền ở backend, không chỉ dựa vào FE ẩn nút.</strong></p>
+<pre><code class="language-java"><span class="hljs-meta">@DeleteMapping(&quot;/api/orders/{id}&quot;)</span>
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">deleteOrder</span><span class="hljs-params">(<span class="hljs-meta">@PathVariable</span> Long id, Authentication auth)</span> {
+  <span class="hljs-type">Order</span> <span class="hljs-variable">order</span> <span class="hljs-operator">=</span> orderRepository.findById(id).orElseThrow();
+  <span class="hljs-keyword">if</span> (!order.getCustomerId().equals(getCurrentUserId(auth))) {
+    <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">AccessDeniedException</span>(<span class="hljs-string">&quot;Không có quyền xoá đơn của người khác&quot;</span>);
+  }
+  orderRepository.delete(order);
+}
+</code></pre>
+<p>Dù FE có ẩn nút &quot;Xoá&quot; khi không phải chủ đơn, backend vẫn PHẢI tự kiểm — vì ai đó có thể gọi thẳng API bằng Postman, bỏ qua giao diện.</p>
+<p><strong>Vì sao là mức ②:</strong> bảo mật thành thói quen trong từng API, không chỉ tránh lỗi rõ ràng.</p>
+<h2>▸ Ex·V3 — ③ Thành thạo</h2>
+<p><strong>Khác V1:</strong> nắm vững lập trình an toàn ở tầm hệ thống — đề xuất và triển khai giải pháp bảo mật, không chỉ tự phòng thủ trong code của mình.</p>
+<p><strong>Ví dụ thực tế — đề xuất rate limiting để chống brute-force đăng nhập.</strong> Bạn nhận thấy API <code>/api/login</code> không giới hạn số lần thử — kẻ xấu có thể dò mật khẩu bằng cách gọi liên tục. Bạn đề xuất và triển khai:</p>
+<pre><code class="language-java"><span class="hljs-meta">@RateLimiter(name = &quot;login&quot;, fallbackMethod = &quot;loginFallback&quot;)</span>
+<span class="hljs-meta">@PostMapping(&quot;/api/login&quot;)</span>
+<span class="hljs-keyword">public</span> TokenResponse <span class="hljs-title function_">login</span><span class="hljs-params">(<span class="hljs-meta">@RequestBody</span> LoginRequest req)</span> { ... }
+
+<span class="hljs-keyword">public</span> TokenResponse <span class="hljs-title function_">loginFallback</span><span class="hljs-params">(LoginRequest req, Throwable t)</span> {
+  <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">TooManyRequestsException</span>(<span class="hljs-string">&quot;Thử lại sau ít phút&quot;</span>);
+}
+</code></pre>
+<p>Giới hạn số lần gọi <code>/api/login</code> từ cùng một IP trong một khoảng thời gian — chặn kiểu tấn công dò mật khẩu hàng loạt, một lớp phòng thủ mà từng API riêng lẻ không tự có.</p>
+<p><strong>Vì sao là mức ③:</strong> bạn chủ động đề xuất giải pháp bảo mật ở tầm hệ thống — không chỉ viết code an toàn cho phần việc của mình.</p>
+<h2>▸ Senior·V3 — ④ Chuyên sâu</h2>
+<p><strong>Khác Ex·V3:</strong> đánh giá rủi ro bảo mật <strong>trước khi code</strong> (threat modeling) ngay từ khâu thiết kế, không chỉ review sau khi đã có code.</p>
+<p><strong>Ví dụ thực tế — threat modeling cho API &quot;chia sẻ đơn hàng qua link công khai&quot;.</strong> Trước khi ai viết dòng code nào, bạn đặt câu hỏi phòng thủ: Link có đoán được không (nếu dùng <code>orderId=123</code> tuần tự → kẻ xấu dò hết đơn người khác, cần đổi sang token ngẫu nhiên)? Link có hết hạn không? Ai xem link có thấy thông tin nhạy cảm (địa chỉ đầy đủ) không? Ba câu hỏi này được đặt ra khi sửa còn rẻ — phát hiện muộn (sau khi đã có schema, dữ liệu thật) sẽ tốn công hơn nhiều.</p>
+<p><strong>Vì sao là mức ④:</strong> bạn chủ động đánh giá rủi ro bảo mật ở khâu thiết kế — mức phòng thủ sâu nhất, rẻ nhất.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/be","c":"dimmed","children":"Dev Back-end"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Lập trình an toàn (secure coding)"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/be/ky-nang/02-doc-hieu-tai-lieu-giai-phap","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Đọc hiểu & soi lỗi tài liệu giải pháp"}]]}]}],["$","$L15",null,{"href":"/be/ky-nang/04-java","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Java (ngôn ngữ lập trình)"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

@@ -1,0 +1,96 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","tester","ky-nang","25-tu-van-lua-chon-cong-nghe-kiem-thu",""],"i":false,"f":[[["",{"children":[["role","tester","d"],{"children":["ky-nang",{"children":[["skill","25-tu-van-lua-chon-cong-nghe-kiem-thu","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","tester","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","25-tu-van-lua-chon-cong-nghe-kiem-thu","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T1885,<h1>Tư vấn lựa chọn công nghệ/công cụ kiểm thử</h1>
+<p><strong>Định nghĩa.</strong> Specialist Tester được các dự án tìm tới để <strong>tư vấn chọn công nghệ/công cụ kiểm thử</strong> phù hợp — vai trò như &quot;kiến trúc sư mảng kiểm thử&quot;, đảm bảo lựa chọn nhất quán và hợp cảnh, thay vì mỗi dự án tự chọn ngẫu nhiên rồi phân tán kiến thức. Nguyên tắc tư vấn cốt lõi: <strong>công cụ tốt nhất không phải công cụ mạnh nhất, mà công cụ hợp với hạ tầng + kỹ năng sẵn có + khả năng hỗ trợ chéo</strong> của đơn vị.</p>
+<h2>▸ Specialist·V1 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Tư vấn cho một dự án cụ thể khi được hỏi — chọn theo bối cảnh thật, không theo &quot;công cụ đang hot&quot;.</p>
+<p><strong>Tình huống thực tế — dự án mới hỏi chọn công cụ tự động hoá test API.</strong> Bạn không đáp &quot;dùng cái xịn nhất&quot; mà tư vấn theo bối cảnh:</p>
+<pre><code>CÂU HỎI: dự án mới nên dùng gì để tự động hoá test API?
+
+BẠN HỎI LẠI TRƯỚC KHI TƯ VẤN:
+  - Đơn vị đã có hạ tầng CI/CD gì? → đã có Jenkins chạy Newman
+  - Team quen công cụ nào? → đa số biết Postman
+  - Có nhu cầu đặc biệt (tải lớn, mã hoá lạ)? → không
+
+TƯ VẤN: dùng Postman + Newman (chạy collection trong CI).
+  LÝ DO: không phải vì nó mạnh nhất — mà vì (1) hạ tầng CI đã hỗ
+  trợ sẵn, (2) team đã quen (không tốn thời gian học), (3) khi
+  cần người dự án khác hỗ trợ, họ vào được ngay.
+  → Chọn công cụ &quot;lạ mà mạnh&quot; ở đây = tự tạo ốc đảo không ai đỡ được.
+</code></pre>
+<p><strong>Vì sao là mức ①:</strong> tư vấn đúng cho một dự án dựa trên bối cảnh thật khi được hỏi; chưa cân nhắc tính nhất quán xuyên nhiều dự án.</p>
+<h2>▸ Specialist·V2 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> tư vấn cho <strong>nhiều dự án cùng lúc</strong>, cân nhắc tính nhất quán toàn cục — đôi khi khuyên một dự án <em>không</em> dùng công cụ tối ưu riêng để cả đơn vị đồng bộ.</p>
+<p><strong>Tình huống thực tế — 3 dự án định chọn 3 công cụ test hiệu năng khác nhau.</strong> Mỗi dự án có lý lẽ riêng, nhưng bạn nhìn bức tranh đơn vị:</p>
+<pre><code>HIỆN TRẠNG: 3 dự án định chọn 3 công cụ test hiệu năng khác nhau
+  DA: k6 (dev thích viết bằng JS)
+  DB: Gatling (một bạn từng dùng)
+  DC: JMeter (quen thuộc)
+
+TƯ VẤN THỐNG NHẤT: cả 3 dùng JMeter.
+  ĐÁNH ĐỔI THÀNH THẬT:
+  - k6/Gatling có điểm mạnh riêng — chọn JMeter KHÔNG phải vì nó
+    tốt nhất từng mặt.
+  - NHƯNG: thống nhất 1 công cụ → Tester hỗ trợ chéo được giữa 3
+    dự án, kịch bản tải tái dùng được, kiến thức không phân mảnh
+    3 hòn đảo, tuyển/đào tạo cũng dễ.
+  → Với đơn vị, giá trị của NHẤT QUÁN &gt; lợi ích lẻ của công cụ
+    tối ưu riêng từng dự án.
+  (Ngoại lệ: nếu 1 dự án có nhu cầu ĐẶC THÙ mà JMeter không đáp
+   ứng nổi → mới tách; hiện không dự án nào rơi vào ca đó.)
+</code></pre>
+<p>Điểm trưởng thành: dám khuyên một dự án hy sinh tối ưu cục bộ vì lợi ích toàn cục — và nói rõ đánh đổi, kèm ngoại lệ, để lời tư vấn có sức nặng.</p>
+<p><strong>Vì sao là mức ②:</strong> tư vấn cân bằng lợi ích nhiều dự án + tính nhất quán đơn vị; chưa ở tầm ban hành chuẩn quyết định.</p>
+<h2>▸ Specialist·V3 — ④ Chuyên sâu</h2>
+<p><strong>Khác V2:</strong> trở thành người <strong>quyết định chuẩn công nghệ kiểm thử cho toàn đơn vị</strong> — chủ động ban hành danh mục công cụ chuẩn, có tiếng nói quyết khi có đề xuất công cụ mới, không chỉ tư vấn khi được hỏi.</p>
+<p><strong>Tình huống thực tế — rà soát và ban hành danh mục công cụ chuẩn.</strong> Bạn chủ động dọn &quot;khu rừng công cụ&quot; mọc rải rác trong đơn vị:</p>
+<pre><code>DANH MỤC CÔNG CỤ KIỂM THỬ CHUẨN — Đơn vị An ninh mạng (v1)
+
+  Loại kiểm thử        | Công cụ chuẩn | Ghi chú
+  ---------------------|---------------|-------------------------
+  Test API tự động     | Postman/Newman| tích hợp CI sẵn
+  Test UI tự động      | Playwright    | (chuyển dần từ Selenium
+                       |               |  — lý do: nhanh, ổn định hơn)
+  Test hiệu năng       | JMeter        | kịch bản tải tái dùng chung
+  Quản lý test case    | TestRail      | đồng bộ với Jira
+  Quản lý bug          | Jira          | chuẩn báo cáo bug đơn vị
+
+  CƠ CHẾ QUYẾT ĐỊNH CÔNG CỤ MỚI:
+  - Ai muốn đưa công cụ ngoài danh mục → trình bày: giải quyết
+    vấn đề gì danh mục hiện KHÔNG làm được? chi phí chuyển đổi?
+  - Bạn là người có tiếng nói quyết định cuối (kèm lý do), tránh
+    &quot;khu rừng công cụ&quot; mọc lại.
+  - Danh mục rà lại mỗi năm (công nghệ đổi — vd Selenium→Playwright).
+</code></pre>
+<p>Ở mức này bạn không đợi được hỏi — bạn <strong>định hình môi trường công cụ</strong> của cả đơn vị và giữ nó không phân mảnh, đồng thời đủ mở để đón công nghệ mới có lý do chính đáng.</p>
+<p><strong>Vì sao là mức ④:</strong> chủ động ban hành và làm chủ chuẩn công nghệ kiểm thử toàn đơn vị, có cơ chế quyết định công cụ mới — từ &quot;tư vấn bị động&quot; lên &quot;định hình chuẩn chủ động&quot;. (Thang vùng này ①→②→④ — không có mốc ③ vì đây là vùng cuối của toàn thang.)</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/tester","c":"dimmed","children":"Kiểm thử (Tester)"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Tư vấn lựa chọn công nghệ/công cụ kiểm thử"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/tester/ky-nang/24-xay-dung-chien-luoc-kiem-thu","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Xây dựng chiến lược kiểm thử cho đơn vị"}]]}]}],["$","$L15",null,{"href":"/tester/ky-nang/26-dao-tao-lan-toa-kien-thuc","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Đào tạo, lan toả kiến thức chuyên sâu"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

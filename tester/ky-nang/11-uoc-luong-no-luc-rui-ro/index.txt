@@ -1,0 +1,83 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","tester","ky-nang","11-uoc-luong-no-luc-rui-ro",""],"i":false,"f":[[["",{"children":[["role","tester","d"],{"children":["ky-nang",{"children":[["skill","11-uoc-luong-no-luc-rui-ro","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","tester","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","11-uoc-luong-no-luc-rui-ro","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T12eb,<h1>Ước lượng nỗ lực &amp; rủi ro kiểm thử</h1>
+<p><strong>Định nghĩa.</strong> Trước khi bắt tay test, Tester cần trả lời: &quot;việc này mất bao lâu?&quot; (ước lượng nỗ lực) và &quot;cái gì có thể khiến việc test không kịp/không đủ?&quot; (xác định rủi ro), để <strong>báo sớm thay vì im lặng tới hạn mới biết không kịp</strong>. Ước lượng tốt không phải đoán mò — mà là chia nhỏ công việc thành các phần đo được rồi cộng lại, kèm phần đệm cho việc test-lại sau khi dev fix bug.</p>
+<h2>▸ Ex·V1 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Ước lượng nỗ lực và nhận diện rủi ro cho <strong>task được giao</strong> (một chức năng cụ thể) — chia nhỏ được, không phán một con số cảm tính.</p>
+<p><strong>Tình huống thực tế — ước lượng test &quot;Export báo cáo cảnh báo ra PDF&quot;.</strong> Thay vì trả lời &quot;chắc 2 ngày&quot;, bạn chia nhỏ để con số có cơ sở và lộ ra rủi ro:</p>
+<pre><code>ƯỚC LƯỢNG — Test Export báo cáo PDF
+
+  Hạng mục                                    | Nỗ lực
+  --------------------------------------------|--------
+  Viết kịch bản test                          | 0.5 ngày
+  Test dữ liệu ít / nhiều / RỖNG              | 0.5 ngày
+  Test định dạng PDF trên 3 trình duyệt       | 0.5 ngày
+  Test phân quyền (ai được export dữ liệu gì) | 0.5 ngày
+  Đệm test-lại sau khi dev fix (~30%)         | 0.5 ngày
+  --------------------------------------------|--------
+  TỔNG                                        | 2.5 ngày
+
+  RỦI RO ĐÃ NHẬN DIỆN (báo sớm):
+  ⚠️ Chưa có dữ liệu mẫu ĐỦ LỚN (hàng nghìn cảnh báo) để test
+     hiệu năng export → xin team chuẩn bị TRƯỚC, không thì tới
+     lúc test mới phát hiện thiếu, trễ nửa ngày.
+  ⚠️ Báo cáo chứa log an ninh nhạy cảm → phân quyền là vùng
+     rủi ro cao, đã tách riêng 0.5 ngày (không gộp vào &quot;test chung&quot;).
+</code></pre>
+<p>Việc tách hẳn dòng &quot;đệm test-lại 30%&quot; là dấu hiệu Tester biết nghề: bug được fix rồi vẫn phải test lại + hồi quy, ước lượng bỏ quên phần này là lý do phổ biến nhất khiến test trễ.</p>
+<p><strong>Vì sao là mức ①:</strong> ước lượng có cơ sở và nhận diện rủi ro đúng cho phạm vi task của chính mình; chưa lập kế hoạch cho nhiều task/nhiều người.</p>
+<h2>▸ Ex·V3 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> ước lượng và lập kế hoạch cho <strong>phạm vi rộng — cả một tính năng lớn/một phần dự án nhiều người</strong> — biết xử lý phụ thuộc giữa các phần để không tắc nghẽn.</p>
+<p><strong>Tình huống thực tế — lập kế hoạch test cho cả module &quot;Cảnh báo tự động&quot; (4 tính năng, 2 Tester).</strong> Bạn không chỉ cộng nỗ lực mà phải sắp thứ tự theo phụ thuộc:</p>
+<pre><code>KẾ HOẠCH TEST MODULE CẢNH BÁO TỰ ĐỘNG (sprint 10 ngày, 2 Tester)
+
+  Tính năng               | Nỗ lực | Phụ thuộc
+  ------------------------|--------|---------------------------
+  A. Sinh cảnh báo        | 1.5 ng | không — test được ngay
+  B. Tương quan → sự cố   | 2 ng   | cần A xong (gộp cái gì?)
+  C. Dashboard tổng hợp   | 1.5 ng | cần B xong (đếm sự cố)
+  D. Gửi email/SMS        | 1 ng   | cần A xong
+  TỔNG                    | 6 ngày công / 2 người = 3 ngày lịch
+
+  RỦI RO LỚN NHẤT = CHUỖI PHỤ THUỘC A→B→C:
+  Nếu chờ A xong hẳn mới làm B, B xong mới làm C → nối đuôi,
+  1 khâu trễ là cả chuỗi trễ.
+
+  ĐỀ XUẤT SẮP VIỆC (chống tắc nghẽn):
+  - Tester 1: A trước (mở khoá cho B,D) → rồi B
+  - Tester 2: D song song (chỉ cần A) → rồi hỗ trợ C sau khi B xong
+  - Đề nghị dev giao A + B SỚM trong sprint (đầu chuỗi phụ thuộc),
+    C giao muộn cũng được (cuối chuỗi).
+</code></pre>
+<p>Giá trị của mức này: nhìn ra <strong>chuỗi phụ thuộc A→B→C là điểm gãy tiềm tàng</strong> và chủ động đề xuất thứ tự giao việc cho cả dev lẫn Tester — quản lý rủi ro ở tầm nhiều người, không chỉ ước lượng việc mình.</p>
+<p><strong>Vì sao là mức ②:</strong> ước lượng và điều phối rủi ro ở phạm vi nhiều task/nhiều người có phụ thuộc lẫn nhau, không chỉ tính việc của riêng mình.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/tester","c":"dimmed","children":"Kiểm thử (Tester)"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Ước lượng nỗ lực & rủi ro kiểm thử"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/tester/ky-nang/10-kiem-thu-api-tu-dong-hoa","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Kiểm thử API & công cụ tự động hoá"}]]}]}],["$","$L15",null,{"href":"/tester/ky-nang/12-nghiep-vu-he-thong-san-pham","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Nghiệp vụ hệ thống của sản phẩm"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

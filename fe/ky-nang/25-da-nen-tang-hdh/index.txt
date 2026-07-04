@@ -1,0 +1,81 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","fe","ky-nang","25-da-nen-tang-hdh",""],"i":false,"f":[[["",{"children":[["role","fe","d"],{"children":["ky-nang",{"children":[["skill","25-da-nen-tang-hdh","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","fe","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","25-da-nen-tang-hdh","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T1e1f,<h1>Triển khai đa nền tảng hệ điều hành</h1>
+<p><strong>Định nghĩa.</strong> Đảm bảo ứng dụng build/chạy/deploy được trên các hệ điều hành khác nhau — máy dev thường là Windows/macOS, nhưng server production hầu hết chạy <strong>Linux</strong>. &quot;Chạy được trên máy mình&quot; không có nghĩa là chạy được ở mọi nơi; khác biệt HĐH (phân biệt hoa/thường tên file, dấu phân cách đường dẫn, xuống dòng) là nguồn bug âm thầm rất hay gặp.</p>
+<h2>▸ Senior·V2 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Nhận biết và sửa được lỗi &quot;chỉ chạy trên máy mình&quot; do khác biệt HĐH — phổ biến nhất là phân biệt hoa/thường tên file và đường dẫn viết tay.</p>
+<p><strong>Ví dụ thực tế — build chạy OK trên Windows của bạn, nhưng CI (Linux) báo lỗi không tìm thấy file.</strong></p>
+<pre><code class="language-typescript"><span class="hljs-comment">// ❌ import sai hoa/thường — Windows/macOS mặc định KHÔNG phân biệt hoa thường tên file</span>
+<span class="hljs-keyword">import</span> { <span class="hljs-title class_">UserCard</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;./components/UserCard&#x27;</span>;   <span class="hljs-comment">// file thật tên: &#x27;components/userCard.tsx&#x27;</span>
+
+<span class="hljs-comment">// ✅ đúng tuyệt đối theo tên file thật — chạy được ở mọi HĐH</span>
+<span class="hljs-keyword">import</span> { <span class="hljs-title class_">UserCard</span> } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;./components/userCard&#x27;</span>;
+</code></pre>
+<p>Trên Windows, <code>UserCard</code> và <code>userCard</code> trỏ về cùng một file nên bạn không thấy lỗi khi dev — nhưng <strong>Linux (server CI/production) phân biệt hoa/thường</strong>, cùng một sai lệch đó làm build gãy hẳn. Tương tự với đường dẫn: dùng <code>path.join(a, b)</code> thay vì tự nối chuỗi <code>a + '/' + b</code> (Windows dùng <code>\</code>, không phải <code>/</code>).</p>
+<p><strong>Vì sao là mức ①:</strong> bạn nhận ra và sửa được lớp lỗi phổ biến nhất do khác biệt HĐH — chưa tự thiết lập quy trình/công cụ để cả team tránh lặp lại (việc đó ở mốc sau).</p>
+<h2>▸ Senior·V3 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> thiết lập được <strong>công cụ/quy trình chặn lỗi đa nền tảng ngay trong CI</strong>, để cả team không lặp lại lỗi tương tự — không chỉ tự sửa khi gặp.</p>
+<p><strong>Ví dụ thực tế — CI chạy trên Linux dù cả team dev trên Windows/macOS, bắt lỗi trước khi merge.</strong></p>
+<pre><code class="language-yaml"><span class="hljs-comment"># CI luôn chạy trên ubuntu-latest — dù 90% team dev bằng Windows/macOS</span>
+<span class="hljs-attr">jobs:</span>
+  <span class="hljs-attr">build:</span>
+    <span class="hljs-attr">runs-on:</span> <span class="hljs-string">ubuntu-latest</span>
+    <span class="hljs-attr">steps:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">run:</span> <span class="hljs-string">npm</span> <span class="hljs-string">ci</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">run:</span> <span class="hljs-string">npm</span> <span class="hljs-string">run</span> <span class="hljs-string">build</span>   <span class="hljs-comment"># lỗi hoa/thường tên file sẽ lộ ra Ở ĐÂY, trước khi merge</span>
+</code></pre>
+<p>Bạn chủ động chọn CI chạy trên Linux (dù không ai trong team dev trực tiếp trên Linux) — chính vì đó là môi trường production thật. Một lỗi phân biệt hoa/thường mà máy dev Windows không bao giờ thấy sẽ tự lộ ra trong CI, chặn PR trước khi ai đó merge nhầm.</p>
+<p><strong>Vì sao là mức ②:</strong> bạn thiết lập được cơ chế <strong>tự động phát hiện</strong> lỗi đa nền tảng cho cả team — không chỉ tự mình cẩn thận từng lần.</p>
+<h2>▸ Specialist·V2 — ③ Thành thạo</h2>
+<p><strong>Khác V1:</strong> thiết kế để sản phẩm <strong>triển khai được ở nhiều môi trường hạ tầng khác nhau</strong> của khách hàng — không chỉ chạy đúng trên nhiều HĐH máy tính cá nhân.</p>
+<p><strong>Ví dụ thực tế — cùng một sản phẩm phải chạy được cả ở server nội bộ khách hàng (on-premise) lẫn trên cloud.</strong> Một số khách hàng (cơ quan nhà nước, ngân hàng) yêu cầu triển khai trong hạ tầng riêng của họ (on-premise) vì lý do bảo mật/pháp lý, số khác chấp nhận triển khai trên cloud công cộng. Bạn thiết kế để một bộ mã nguồn chạy được cả hai:</p>
+<pre><code>- Đóng gói toàn bộ bằng Docker + docker-compose — chạy giống nhau dù trên máy chủ
+  vật lý của khách hàng hay trên cloud (không phụ thuộc dịch vụ riêng của 1 nhà cung cấp cloud).
+- Cấu hình qua biến môi trường (địa chỉ CSDL, dung lượng lưu trữ...) thay vì hard-code
+  giả định &quot;luôn có sẵn dịch vụ X của cloud Y&quot;.
+- Tài liệu triển khai tách riêng 2 phần: &quot;triển khai on-premise&quot; và &quot;triển khai cloud&quot;,
+  dùng chung một bộ Docker image.
+</code></pre>
+<p>Nhờ thiết kế này, đội triển khai không phải viết lại sản phẩm cho từng loại khách hàng — chỉ khác cách vận hành hạ tầng bên dưới.</p>
+<p><strong>Vì sao là mức ③:</strong> bạn thiết kế được khả năng tương thích với nhiều môi trường hạ tầng khách hàng khác nhau — đúng nhiệm vụ &quot;thiết kế đa nền tảng&quot; mà career-path Specialist nhấn mạnh.</p>
+<h2>▸ Specialist·V3 — ④ Chuyên sâu</h2>
+<p><strong>Khác V2:</strong> đặt ra <strong>chuẩn tương thích đa nền tảng cho mọi sản phẩm mới</strong> của đơn vị (không chỉ thiết kế cho một sản phẩm cụ thể) — chính sách bắt buộc ngay từ đầu, không phải xử lý sau khi khách hàng yêu cầu.</p>
+<p><strong>Ví dụ thực tế — chính sách &quot;đa nền tảng ngay từ đầu&quot; cho mọi dự án mới.</strong></p>
+<pre><code>Chuẩn bắt buộc khi khởi tạo dự án mới (đơn vị áp dụng cho mọi sản phẩm):
+1. Đóng gói bằng Docker ngay từ Sprint đầu tiên (không để tới lúc cần deploy mới đóng gói).
+2. KHÔNG hard-code giả định hạ tầng cụ thể (tên miền, dịch vụ cloud riêng) — luôn qua
+   biến môi trường, kiểm tra bằng cách thử chạy trên 2 môi trường khác nhau trước khi release.
+3. Checklist &quot;sẵn sàng đa nền tảng&quot; là một mục bắt buộc trong Definition of Done.
+</code></pre>
+<p>Nhờ đặt chuẩn này ngay từ đầu, khi có khách hàng mới yêu cầu triển khai on-premise, đội không phải &quot;thiết kế lại&quot; (như cách làm ở mốc V2) mà sản phẩm đã sẵn sàng từ trước.</p>
+<p><strong>Vì sao là mức ④:</strong> bạn đặt ra được chính sách phòng ngừa cho toàn đơn vị, không chỉ giải quyết bài toán đa nền tảng khi nó đã xuất hiện — mức cao nhất của kỹ năng này.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/fe","c":"dimmed","children":"Dev Front-end"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Triển khai đa nền tảng hệ điều hành"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/fe/ky-nang/24-fullstack","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Lập trình fullstack"}]]}]}],["$","$L15",null,{"href":"/fe/ky-nang/26-state-session-sync","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"State/session synchronization"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

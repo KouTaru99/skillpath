@@ -1,0 +1,92 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","fe","ky-nang","24-fullstack",""],"i":false,"f":[[["",{"children":[["role","fe","d"],{"children":["ky-nang",{"children":[["skill","24-fullstack","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","fe","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","24-fullstack","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T1ec7,<h1>Lập trình fullstack</h1>
+<p><strong>Định nghĩa.</strong> Tự viết được cả Front-end lẫn Back-end cho một tính năng trọn vẹn. Khác <a href="/fe/ky-nang/12-csdl-co-ban">CSDL cơ bản + web server</a> (đọc hiểu đủ để phối hợp): ở đây bạn <strong>tự tay code</strong> phần Back-end (thường <strong>Java/Spring</strong> theo stack career-path VCS) khi cần — không chỉ đọc hiểu code người khác viết.</p>
+<h2>▸ Senior·V2 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Tự viết được một API Back-end đơn giản (CRUD) bằng Java/Spring Boot để phục vụ tính năng mình đang làm, khi team Back-end bận hoặc thiếu người — không chỉ đọc hiểu code Back-end.</p>
+<p><strong>Ví dụ thực tế — tự viết API &quot;ghi chú nội bộ cho đơn hàng&quot; (BE team chưa kịp làm).</strong></p>
+<pre><code class="language-java"><span class="hljs-meta">@RestController</span>
+<span class="hljs-meta">@RequestMapping(&quot;/api/orders/{orderId}/notes&quot;)</span>
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">OrderNoteController</span> {
+
+  <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> OrderNoteRepository repo;
+  <span class="hljs-keyword">public</span> <span class="hljs-title function_">OrderNoteController</span><span class="hljs-params">(OrderNoteRepository repo)</span> { <span class="hljs-built_in">this</span>.repo = repo; }
+
+  <span class="hljs-meta">@GetMapping</span>
+  <span class="hljs-keyword">public</span> List&lt;OrderNote&gt; <span class="hljs-title function_">list</span><span class="hljs-params">(<span class="hljs-meta">@PathVariable</span> Long orderId)</span> {
+    <span class="hljs-keyword">return</span> repo.findByOrderId(orderId);
+  }
+
+  <span class="hljs-meta">@PostMapping</span>
+  <span class="hljs-keyword">public</span> ResponseEntity&lt;OrderNote&gt; <span class="hljs-title function_">create</span><span class="hljs-params">(<span class="hljs-meta">@PathVariable</span> Long orderId, <span class="hljs-meta">@RequestBody</span> NoteDto dto)</span> {
+    <span class="hljs-type">OrderNote</span> <span class="hljs-variable">saved</span> <span class="hljs-operator">=</span> repo.save(<span class="hljs-keyword">new</span> <span class="hljs-title class_">OrderNote</span>(orderId, dto.content()));
+    <span class="hljs-keyword">return</span> ResponseEntity.status(HttpStatus.CREATED).body(saved);
+  }
+}
+</code></pre>
+<pre><code class="language-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">interface</span> <span class="hljs-title class_">OrderNoteRepository</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_">JpaRepository</span>&lt;OrderNote, Long&gt; {
+  List&lt;OrderNote&gt; <span class="hljs-title function_">findByOrderId</span><span class="hljs-params">(Long orderId)</span>;   <span class="hljs-comment">// Spring Data tự sinh câu query từ tên hàm</span>
+}
+</code></pre>
+<p>Bạn tự code đủ để tính năng FE của mình có API dùng ngay, thay vì bị chặn (block) chờ Back-end rảnh tay — miễn tính năng đủ đơn giản (CRUD cơ bản, không đụng nghiệp vụ phức tạp hay bảo mật nhạy cảm).</p>
+<p><strong>Vì sao là mức ①:</strong> bạn tự viết được API đơn giản để không bị phụ thuộc hoàn toàn vào Back-end — chưa đảm nhận được phần Back-end phức tạp (giao dịch, bảo mật, hiệu năng) một mình.</p>
+<h2>▸ Senior·V3 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> tự xử lý được phần Back-end có <strong>giao dịch (transaction)</strong> — nhiều bước phải cùng thành công hoặc cùng thất bại, không để dữ liệu lệch nửa chừng.</p>
+<p><strong>Ví dụ thực tế — API &quot;chuyển đơn hàng sang trạng thái đã thanh toán&quot; phải cập nhật 2 bảng cùng lúc.</strong></p>
+<pre><code class="language-java"><span class="hljs-meta">@Transactional</span>   <span class="hljs-comment">// nếu bước 2 lỗi, bước 1 cũng tự động bị huỷ (rollback) — không lệch dữ liệu</span>
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">markAsPaid</span><span class="hljs-params">(Long orderId)</span> {
+  <span class="hljs-type">Order</span> <span class="hljs-variable">order</span> <span class="hljs-operator">=</span> orderRepo.findById(orderId).orElseThrow();
+  order.setStatus(<span class="hljs-string">&quot;PAID&quot;</span>);
+  orderRepo.save(order);                                    <span class="hljs-comment">// bước 1</span>
+
+  inventoryRepo.decreaseStock(order.getProductId(), order.getQty());  <span class="hljs-comment">// bước 2 — trừ kho</span>
+}
+</code></pre>
+<p>Không có <code>@Transactional</code>, nếu bước 2 (trừ kho) lỗi giữa chừng, đơn hàng đã bị đánh dấu &quot;đã thanh toán&quot; nhưng kho chưa trừ — dữ liệu lệch nhau vĩnh viễn. Bạn hiểu và áp dụng đúng ranh giới giao dịch, không chỉ viết CRUD đơn lẻ.</p>
+<p><strong>Vì sao là mức ②:</strong> bạn xử lý đúng các thao tác Back-end nhiều bước cần toàn vẹn dữ liệu — không chỉ viết được API CRUD đơn giản từng bảng riêng lẻ.</p>
+<h2>▸ Specialist·V2 — ③ Thành thạo</h2>
+<p><strong>Khác V1:</strong> tự viết được phần <strong>kiểm quyền (authorization)</strong> đúng cách ở Back-end, không chỉ dựa vào FE ẩn nút — nhắc lại đúng nguyên tắc đã học ở <a href="/fe/ky-nang/03-lap-trinh-an-toan">Lập trình an toàn</a> nhưng lần này tự tay code phần đó.</p>
+<p><strong>Ví dụ thực tế — API &quot;xoá đơn hàng&quot; chỉ admin mới được gọi, kiểm tra Ở BACKEND chứ không chỉ ẩn nút FE.</strong></p>
+<pre><code class="language-java"><span class="hljs-meta">@DeleteMapping(&quot;/api/orders/{id}&quot;)</span>
+<span class="hljs-meta">@PreAuthorize(&quot;hasRole(&#x27;ADMIN&#x27;)&quot;)</span>   <span class="hljs-comment">// Spring Security tự chặn nếu không phải role ADMIN</span>
+<span class="hljs-keyword">public</span> ResponseEntity&lt;Void&gt; <span class="hljs-title function_">delete</span><span class="hljs-params">(<span class="hljs-meta">@PathVariable</span> Long id, Authentication auth)</span> {
+  <span class="hljs-type">Order</span> <span class="hljs-variable">order</span> <span class="hljs-operator">=</span> orderRepo.findById(id).orElseThrow();
+  <span class="hljs-keyword">if</span> (!canManage(auth, order)) {
+    <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">AccessDeniedException</span>(<span class="hljs-string">&quot;Không có quyền xoá đơn này&quot;</span>);   <span class="hljs-comment">// kiểm thêm ở mức nghiệp vụ</span>
+  }
+  orderRepo.delete(order);
+  <span class="hljs-keyword">return</span> ResponseEntity.noContent().build();
+}
+</code></pre>
+<p>Bạn tự viết đủ 2 lớp kiểm quyền: <code>@PreAuthorize</code> (kiểm role chung) và kiểm nghiệp vụ cụ thể (<code>canManage</code>, ví dụ chỉ được xoá đơn thuộc chi nhánh mình quản lý) — không dừng ở việc ẩn nút &quot;Xoá&quot; phía FE như mức Senior đã cảnh báo.</p>
+<p><strong>Vì sao là mức ③:</strong> bạn tự tay hiện thực được lớp bảo mật Back-end quan trọng nhất (kiểm quyền), không chỉ viết CRUD/transaction — mức cao nhất của kỹ năng fullstack trong thang này.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/fe","c":"dimmed","children":"Dev Front-end"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Lập trình fullstack"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/fe/ky-nang/23-sockets-rmi","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Lập trình giao tiếp mạng (Sockets, RMI)"}]]}]}],["$","$L15",null,{"href":"/fe/ky-nang/25-da-nen-tang-hdh","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Triển khai đa nền tảng hệ điều hành"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

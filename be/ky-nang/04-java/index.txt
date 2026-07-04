@@ -1,0 +1,88 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","be","ky-nang","04-java",""],"i":false,"f":[[["",{"children":[["role","be","d"],{"children":["ky-nang",{"children":[["skill","04-java","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","be","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","04-java","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T17b6,<h1>Java (ngôn ngữ lập trình)</h1>
+<p><strong>Định nghĩa.</strong> Java là ngôn ngữ hướng đối tượng chạy trên <strong>JVM</strong> (Java Virtual Machine — máy ảo giúp cùng một chương trình chạy được trên nhiều hệ điều hành), phổ biến nhất cho Back-end doanh nghiệp tại Việt Nam (bao gồm Viettel/VCS), thường đi kèm framework <strong>Spring Boot</strong>. Trang này minh hoạ bằng Java/Spring Boot xuyên suốt — dù career-path liệt kê thêm C/C++, Python, Go là các lựa chọn khác.</p>
+<h2>▸ Entry — ② Biết làm</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Viết code Java rõ ràng, nắm nguyên tắc <strong>SOLID</strong> cơ bản, xử lý ngoại lệ (exception) đúng cách, tuân coding convention.</p>
+<p><strong>Ví dụ thực tế — xử lý ngoại lệ đúng cách khi tìm đơn hàng không tồn tại.</strong></p>
+<pre><code class="language-java"><span class="hljs-meta">@GetMapping(&quot;/api/orders/{id}&quot;)</span>
+<span class="hljs-keyword">public</span> Order <span class="hljs-title function_">getOrder</span><span class="hljs-params">(<span class="hljs-meta">@PathVariable</span> Long id)</span> {
+  <span class="hljs-keyword">return</span> orderRepository.findById(id)
+      .orElseThrow(() -&gt; <span class="hljs-keyword">new</span> <span class="hljs-title class_">OrderNotFoundException</span>(<span class="hljs-string">&quot;Không tìm thấy đơn hàng: &quot;</span> + id));
+}
+
+<span class="hljs-comment">// ❌ KHÔNG nên: bắt Exception rồi nuốt lỗi, không ai biết chuyện gì xảy ra</span>
+<span class="hljs-keyword">try</span> {
+  <span class="hljs-keyword">return</span> orderRepository.findById(id).get();
+} <span class="hljs-keyword">catch</span> (Exception e) {
+  <span class="hljs-keyword">return</span> <span class="hljs-literal">null</span>;   <span class="hljs-comment">// caller nhận null, không biết là lỗi hay đơn hàng thật sự rỗng</span>
+}
+</code></pre>
+<p><code>orElseThrow</code> với exception có tên rõ ràng (<code>OrderNotFoundException</code>) giúp lỗi được xử lý đúng chỗ (Spring tự dịch thành HTTP 404 nếu có <code>@ExceptionHandler</code>), thay vì nuốt lỗi âm thầm bằng <code>catch (Exception e)</code> chung chung.</p>
+<p><strong>Vì sao là mức ②:</strong> viết code rõ ràng, xử lý ngoại lệ có chủ đích — đã đủ để làm task được giao mà không cần người khác chỉnh lại nhiều.</p>
+<h2>▸ Ex·V1 — ③ Thành thạo</h2>
+<p><strong>Khác Entry:</strong> thành thạo ngôn ngữ đủ để tự đọc hiểu tài liệu và code các chức năng phức tạp mà không cần hướng dẫn.</p>
+<p><strong>Ví dụ thực tế — dùng Stream API để xử lý dữ liệu gọn, thay vì vòng lặp thủ công.</strong></p>
+<pre><code class="language-java"><span class="hljs-comment">// ❌ Vòng lặp thủ công dài dòng</span>
+List&lt;String&gt; names = <span class="hljs-keyword">new</span> <span class="hljs-title class_">ArrayList</span>&lt;&gt;();
+<span class="hljs-keyword">for</span> (Order o : orders) {
+  <span class="hljs-keyword">if</span> (o.getStatus().equals(<span class="hljs-string">&quot;COMPLETED&quot;</span>)) {
+    names.add(o.getCustomerName());
+  }
+}
+
+<span class="hljs-comment">// ✅ Stream API — ngắn gọn, rõ ý định</span>
+List&lt;String&gt; names = orders.stream()
+    .filter(o -&gt; o.getStatus().equals(<span class="hljs-string">&quot;COMPLETED&quot;</span>))
+    .map(Order::getCustomerName)
+    .collect(Collectors.toList());
+</code></pre>
+<p>Bạn dùng đúng tính năng ngôn ngữ (Stream, Optional, generics) để code ngắn gọn và ít lỗi hơn, không chỉ viết được mà viết đúng &quot;chất Java&quot;.</p>
+<p><strong>Vì sao là mức ③:</strong> thành thạo ngôn ngữ, code các chức năng có logic phức tạp mà không cần người hướng dẫn.</p>
+<h2>▸ Ex·V3 — ④ Chuyên sâu</h2>
+<p><strong>Khác V1:</strong> phân tích và <strong>tối ưu hiệu năng</strong> dựa trên hiểu biết sâu về cách Java thực thi — không chỉ viết code đúng chức năng.</p>
+<p><strong>Ví dụ thực tế — phát hiện và sửa vấn đề tạo object thừa trong vòng lặp nóng (hot loop).</strong></p>
+<pre><code class="language-java"><span class="hljs-comment">// ❌ Tạo mới StringBuilder ở mỗi vòng lặp — tốn bộ nhớ, tăng áp lực Garbage Collector</span>
+<span class="hljs-keyword">for</span> (Order o : orders) {
+  <span class="hljs-type">StringBuilder</span> <span class="hljs-variable">sb</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">StringBuilder</span>();   <span class="hljs-comment">// 10.000 đơn = 10.000 object bị tạo rồi bỏ</span>
+  sb.append(o.getId()).append(<span class="hljs-string">&quot;:&quot;</span>).append(o.getStatus());
+  results.add(sb.toString());
+}
+
+<span class="hljs-comment">// ✅ Dùng String.format hoặc text block đơn giản, hoặc tái sử dụng builder nếu vòng lặp lớn</span>
+<span class="hljs-keyword">for</span> (Order o : orders) {
+  results.add(o.getId() + <span class="hljs-string">&quot;:&quot;</span> + o.getStatus());   <span class="hljs-comment">// JVM tự tối ưu nối chuỗi đơn giản</span>
+}
+</code></pre>
+<p>Với vòng lặp xử lý hàng chục nghìn bản ghi, tạo object thừa liên tục làm Garbage Collector phải dọn dẹp thường xuyên hơn, ảnh hưởng hiệu năng tổng thể — bạn nhận ra và sửa nhờ hiểu cách JVM quản lý bộ nhớ, không chỉ nhờ code chạy đúng.</p>
+<p><strong>Vì sao là mức ④:</strong> bạn hiểu đủ sâu cơ chế thực thi của Java để tối ưu hiệu năng thực chất — mức cao nhất của kỹ năng ngôn ngữ trong thang Entry→Experienced.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/be","c":"dimmed","children":"Dev Back-end"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Java (ngôn ngữ lập trình)"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/be/ky-nang/03-lap-trinh-an-toan","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Lập trình an toàn (secure coding)"}]]}]}],["$","$L15",null,{"href":"/be/ky-nang/05-oop-dp-algo-ds","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"OOP / Design Pattern / Algorithm / Data Structure"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

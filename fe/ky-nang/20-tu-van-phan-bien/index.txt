@@ -1,0 +1,86 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","fe","ky-nang","20-tu-van-phan-bien",""],"i":false,"f":[[["",{"children":[["role","fe","d"],{"children":["ky-nang",{"children":[["skill","20-tu-van-phan-bien","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","fe","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","20-tu-van-phan-bien","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T1d8a,<h1>Tư vấn &amp; phản biện giải pháp phát triển phần mềm</h1>
+<p><strong>Định nghĩa.</strong> Đưa ý kiến chuyên môn khi dự án đang cân nhắc một quyết định kỹ thuật hoặc quy trình — có lý lẽ và dẫn chứng, không chỉ &quot;em thấy nên...&quot;. Khác <a href="/fe/ky-nang/02-doc-hieu-tai-lieu-giai-phap">Đọc hiểu &amp; soi lỗi tài liệu giải pháp</a> (phản biện một tài liệu đã viết ra): ở đây bạn tư vấn cho một <strong>quyết định</strong> — có thể còn đang bàn, chưa thành tài liệu.</p>
+<h2>▸ Senior·V2 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Được hỏi ý kiến về một quyết định kỹ thuật trong phạm vi mình rành, đưa ra ý kiến có phân tích đánh đổi rõ ràng thay vì cảm tính.</p>
+<p><strong>Tình huống thực tế — được hỏi &quot;nên chọn NgRx hay chỉ dùng service + BehaviorSubject?&quot; cho dự án mới.</strong></p>
+<p>Bạn không trả lời cảm tính &quot;NgRx xịn hơn&quot; — mà phân tích theo bối cảnh cụ thể của dự án:</p>
+<pre><code>Dự án: 4 người, thời hạn 2 tháng, state không quá phức tạp (giỏ hàng + user).
+
+→ NgRx: chuẩn hoá tốt, dễ mở rộng về sau, NHƯNG boilerplate nhiều
+  (action/reducer/effect/selector cho từng thứ nhỏ) — chậm tiến độ ban đầu.
+
+→ Service + BehaviorSubject: nhanh viết, đủ dùng cho state không quá phức tạp,
+  NHƯNG nếu dự án phình to sau này, khó mở rộng bằng NgRx.
+
+Đề xuất: dùng Service + BehaviorSubject cho giai đoạn này (khớp deadline + độ phức
+tạp hiện tại) — và ghi chú trong tài liệu: &quot;khi state phức tạp hơn (nhiều luồng phụ
+thuộc chéo), cân nhắc chuyển sang NgRx&quot;.
+</code></pre>
+<p><strong>Vì sao là mức ①:</strong> bạn tư vấn có lý lẽ dựa trên bối cảnh dự án (thời gian, quy mô, độ phức tạp) thay vì chọn công nghệ vì nó &quot;hot&quot; — nhưng còn giới hạn trong phạm vi kỹ thuật mình rành, chưa tư vấn được các quyết định liên quan tới kiến trúc toàn hệ thống.</p>
+<h2>▸ Senior·V3 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> chủ động <strong>phản biện</strong> một quyết định kiến trúc đã được đề xuất (không chỉ được hỏi mới góp ý), kể cả khi ý kiến ngược với số đông.</p>
+<p><strong>Tình huống thực tế — team định tách một tính năng nhỏ thành microservice riêng, bạn phản biện.</strong> Cuộc họp đang thống nhất tách &quot;tính năng đánh giá sản phẩm&quot; (review) thành một service riêng vì &quot;microservice là chuẩn hiện đại&quot;. Bạn chủ động nêu phản biện:</p>
+<pre><code>- Tính năng review hiện chỉ ~500 dòng code, 1 người maintain, không có nhu cầu scale riêng.
+- Tách ra sẽ phải thêm: CI/CD riêng, DB riêng, network call thêm giữa 2 service,
+  cơ chế đồng bộ dữ liệu — chi phí vận hành TĂNG mà chưa có lợi ích rõ ràng.
+- Đề xuất: giữ trong monolith, tách module rõ ràng bên trong (package riêng) —
+  tách thật thành service khi có nhu cầu scale độc lập hoặc team riêng phụ trách.
+</code></pre>
+<p>Bạn không phản đối vì &quot;ngại thay đổi&quot;, mà đưa lý lẽ cụ thể về chi phí/lợi ích — và team đổi quyết định nhờ phản biện có căn cứ.</p>
+<p><strong>Vì sao là mức ②:</strong> bạn chủ động phản biện quyết định kiến trúc bằng lý lẽ cụ thể, kể cả khi phải nói ngược số đông — không chỉ góp ý khi được hỏi.</p>
+<h2>▸ Specialist·V1 — ③ Thành thạo</h2>
+<p><strong>Khác Senior·V3:</strong> phối hợp và phản biện trực tiếp với <strong>SA (Solution Architect)</strong> hoặc bên thứ ba (đối tác, vendor) về giải pháp kiến trúc — không chỉ phản biện nội bộ trong team.</p>
+<p><strong>Tình huống thực tế — phản biện đề xuất kiến trúc từ một vendor bên ngoài.</strong> Một vendor đề xuất tích hợp SDK của họ bằng cách nhúng trực tiếp iframe của họ vào mọi trang sản phẩm, kèm quyền truy cập rộng vào dữ liệu người dùng &quot;để tiện tối ưu trải nghiệm&quot;. Bạn phản biện với SA và vendor:</p>
+<pre><code>- iframe của bên thứ ba trên MỌI trang = mở rộng đáng kể bề mặt tấn công (attack surface),
+  nếu vendor bị xâm nhập, ảnh hưởng lan sang toàn bộ sản phẩm.
+- Quyền truy cập dữ liệu &quot;rộng&quot; không rõ phạm vi — vi phạm nguyên tắc least privilege.
+- Đề xuất thay thế: chỉ nhúng ở trang cần thiết, giới hạn quyền truy cập dữ liệu
+  theo từng trường cụ thể (không &quot;toàn bộ&quot;), và có hợp đồng xử lý dữ liệu rõ ràng.
+</code></pre>
+<p>Bạn đứng ở vị trí bảo vệ lợi ích kỹ thuật/an toàn của đơn vị khi làm việc với bên ngoài, không chỉ đồng ý theo đề xuất có sẵn vì &quot;vendor là chuyên gia&quot;.</p>
+<p><strong>Vì sao là mức ③:</strong> bạn phản biện được ở tầm hợp tác với SA/bên thứ ba, đại diện tiếng nói kỹ thuật của đơn vị — không chỉ phản biện trong phạm vi nội bộ team.</p>
+<h2>▸ Specialist·V2 — ④ Chuyên sâu</h2>
+<p><strong>Khác V1:</strong> phản biện được cả <strong>chiến lược công nghệ dài hạn</strong> của đơn vị (không chỉ một giải pháp/dự án cụ thể), dựa trên xu hướng ngành và rủi ro dài hạn.</p>
+<p><strong>Ví dụ thực tế — phản biện đề xuất &quot;chuyển toàn bộ hệ thống sang kiến trúc serverless&quot; từ lãnh đạo.</strong> Lãnh đạo đơn vị, sau khi nghe hội thảo, đề xuất chuyển toàn bộ hệ thống sang serverless &quot;để tiết kiệm chi phí và hiện đại hoá&quot;. Bạn phản biện dựa trên phân tích thực tế:</p>
+<pre><code>- Serverless tiết kiệm chi phí THẬT khi tải không đều (nhiều lúc gần như 0 request) —
+  nhưng hệ thống hiện tại có tải ổn định 24/7, nên chi phí serverless có thể CAO HƠN
+  hạ tầng hiện tại, không phải thấp hơn.
+- Chi phí chuyển đổi: toàn bộ team cần học lại mô hình mới, thời gian ước tính 6-9 tháng,
+  trong lúc đó vẫn phải maintain hệ thống cũ song song.
+- Đề xuất: chỉ áp dụng serverless cho các tác vụ tải không đều thật sự (xử lý ảnh, export
+  báo cáo định kỳ) — KHÔNG chuyển toàn bộ hệ thống lõi đang chạy ổn định.
+</code></pre>
+<p>Bạn phản biện dựa trên dữ kiện cụ thể của chính hệ thống, không phải xu hướng chung của ngành — dù đề xuất đến từ lãnh đạo.</p>
+<p><strong>Vì sao là mức ④:</strong> bạn phản biện được ở tầm <strong>chiến lược công nghệ dài hạn</strong>, đủ tự tin và có dữ kiện để nói ngược một đề xuất từ cấp lãnh đạo khi cần — mức cao nhất của kỹ năng tư vấn/phản biện.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/fe","c":"dimmed","children":"Dev Front-end"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Tư vấn & phản biện giải pháp PTPM"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/fe/ky-nang/19-uml-er","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Công cụ thiết kế UML / ER Diagram"}]]}]}],["$","$L15",null,{"href":"/fe/ky-nang/21-database-design-tuning","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Database design & query, query tuning"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

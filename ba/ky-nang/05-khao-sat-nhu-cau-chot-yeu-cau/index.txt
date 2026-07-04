@@ -1,0 +1,77 @@
+1:"$Sreact.fragment"
+2:I[90533,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"ColorSchemeScript"]
+3:I[3601,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"MantineProvider"]
+4:I[54086,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","177","static/chunks/app/layout-b6b42c6a250d127e.js"],"AppFrame"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/skillpath/_next/static/css/20040591499c58bd.css","style"]
+:HL["/skillpath/_next/static/css/e35dfb38818993df.css","style"]
+:HL["/skillpath/_next/static/css/f055e431c58b907b.css","style"]
+0:{"P":null,"b":"vipJbLalCHTCvOLYcwDyJ","p":"/skillpath","c":["","ba","ky-nang","05-khao-sat-nhu-cau-chot-yeu-cau",""],"i":false,"f":[[["",{"children":[["role","ba","d"],{"children":["ky-nang",{"children":[["skill","05-khao-sat-nhu-cau-chot-yeu-cau","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/skillpath/_next/static/css/20040591499c58bd.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/skillpath/_next/static/css/e35dfb38818993df.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/skillpath/_next/static/css/f055e431c58b907b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"vi","suppressHydrationWarning":true,"data-mantine-color-scheme":"light","children":[["$","head",null,{"children":["$","$L2",null,{"defaultColorScheme":"light"}]}],["$","body",null,{"children":["$","$L3",null,{"theme":{"primaryColor":"indigo","primaryShade":{"light":6},"defaultRadius":"md","fontFamily":"-apple-system, system-ui, \"Segoe UI\", Roboto, sans-serif","fontFamilyMonospace":"ui-monospace, \"SF Mono\", Menlo, monospace","headings":{"fontWeight":"650","sizes":{"h1":{"fontSize":"1.75rem","lineHeight":"1.25"},"h2":{"fontSize":"1.35rem","lineHeight":"1.3"},"h3":{"fontSize":"1.1rem"}}}},"defaultColorScheme":"light","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}]]}],{"children":[["role","ba","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["ky-nang",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["skill","05-khao-sat-nhu-cau-chot-yeu-cau","d"],["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",null,["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[13877,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Container"]
+13:I[64153,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Breadcrumbs"]
+14:I[77147,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Anchor"]
+15:I[52619,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],""]
+16:I[70305,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Text"]
+17:I[67623,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Box"]
+18:T1418,<h1>Khảo sát nhu cầu &amp; chốt thống nhất yêu cầu với khách hàng</h1>
+<p><strong>Định nghĩa.</strong> Trước khi viết PTYC, BA phải <strong>khảo sát đúng nhu cầu thật</strong> của khách hàng (thường khác với điều họ nói ban đầu), rồi <strong>chốt thống nhất bằng văn bản</strong> để tránh tranh cãi &quot;tôi không yêu cầu vậy&quot; về sau. Hai kỹ thuật lõi: đặt câu hỏi mở để đào nhu cầu gốc (&quot;anh cần nó để giải quyết việc gì?&quot;), và xác nhận lại bằng văn bản có chữ ký/email đồng ý — lời nói trong họp không phải là cam kết.</p>
+<h2>▸ Ex·V1 — ① Nhập môn</h2>
+<p><strong>Ở mức này bạn làm chủ được gì.</strong> Khảo sát nhu cầu cho 1 yêu cầu cụ thể: biết hỏi đào sâu thay vì ghi nguyên văn, và xác nhận lại bằng văn bản trước khi viết PTYC.</p>
+<p><strong>Tình huống thực tế — từ &quot;muốn xem lịch sử cảnh báo&quot; đến yêu cầu chốt được.</strong> Đội An ninh mạng nói một câu: &quot;muốn xem được lịch sử cảnh báo&quot;. Bạn không ghi nguyên văn rồi đi viết PTYC, mà hỏi đào:</p>
+<pre><code>HỎI ĐÀO NHU CẦU GỐC
+  &quot;Anh cần xem lịch sử để làm gì?&quot;   → &quot;Điều tra sự cố: khi phát hiện máy
+                                        nhiễm mã độc, cần tra ngược xem IP
+                                        đó từng bị cảnh báo gì 3 tháng qua.&quot;
+HỎI CHỐT PHẠM VI
+  Xem lùi bao lâu?                   → 12 tháng (quy định lưu vết nội bộ)
+  Cần lọc theo gì?                   → theo IP là chính, thêm loại tấn công
+  Có cần export không?               → Có — đính kèm báo cáo điều tra
+
+EMAIL XÁC NHẬN (gửi ngay sau buổi trao đổi)
+  &quot;Em tóm tắt yêu cầu đã thống nhất sáng nay: tra cứu cảnh báo theo IP
+   trong 12 tháng, lọc theo loại tấn công, export Excel. Ngoài phạm vi:
+   chưa làm tìm kiếm toàn văn trong log. Anh xác nhận giúp em trước thứ 5.&quot;
+</code></pre>
+<p>Câu hỏi &quot;để làm gì&quot; đổi hẳn thiết kế: nhu cầu thật là <strong>tra ngược theo IP phục vụ điều tra</strong>, không phải &quot;xem danh sách cũ&quot; — màn hình đúng phải là ô tìm kiếm IP, không phải bảng phân trang 10.000 dòng.</p>
+<p><strong>Vì sao là mức ①:</strong> khảo sát và chốt được yêu cầu với 1 nhóm khách hàng cho 1 tính năng cụ thể; chưa phải dàn xếp nhiều bên có kỳ vọng xung đột.</p>
+<h2>▸ Ex·V2 — ② Biết làm</h2>
+<p><strong>Khác V1:</strong> khảo sát và chốt yêu cầu cho <strong>tính năng lớn có nhiều bên liên quan</strong> (stakeholder) với kỳ vọng khác nhau — biết tách vòng khảo sát, tổng hợp mâu thuẫn và đưa các bên về một phương án chốt.</p>
+<p><strong>Tình huống thực tế — chốt yêu cầu &quot;Phân quyền xem cảnh báo theo phòng ban&quot; giữa 3 bên.</strong> Tính năng đụng tới đội An ninh mạng, đội IT hạ tầng và ban lãnh đạo — khảo sát chung 1 buổi sẽ thành cãi nhau. Bạn tách 3 vòng phỏng vấn riêng rồi tổng hợp:</p>
+<pre><code>BẢNG TỔNG HỢP KỲ VỌNG (gửi cả 3 bên trước buổi chốt)
+
+  Bên          | Muốn gì                        | Lo ngại gì
+  -------------|--------------------------------|---------------------------
+  An ninh mạng | Thấy TOÀN BỘ cảnh báo mọi      | Phân quyền chặt quá làm
+               | phòng ban (để tương quan)      | chậm điều tra
+  IT hạ tầng   | Chỉ thấy cảnh báo server do    | Không muốn chịu trách nhiệm
+               | mình quản                      | cảnh báo ngoài phạm vi
+  Lãnh đạo     | Chỉ số tổng hợp, KHÔNG cần     | Sợ dữ liệu nhạy cảm lộ
+               | chi tiết log                   | ra ngoài đội chuyên trách
+
+  ĐIỂM CHUNG   Ai cũng đồng ý: log chi tiết chỉ đội An ninh xem.
+  ĐIỂM VÊNH    IT muốn &quot;chỉ của mình&quot; vs An ninh muốn &quot;thấy tất cả&quot;.
+
+  PHƯƠNG ÁN ĐỀ XUẤT ĐỂ CHỐT
+  3 vai: An ninh = thấy tất cả · IT = cảnh báo thuộc nhóm tài sản mình
+  quản · Lãnh đạo = dashboard tổng hợp không log. Buổi chốt chỉ còn
+  quyết 1 câu: nhóm tài sản do ai gán? → chốt: đội An ninh gán.
+</code></pre>
+<p>Nhờ tách vòng + tổng hợp trước, buổi chốt chung chỉ mất 45 phút thay vì 3 tiếng tranh cãi, và biên bản chốt có đủ 3 chữ ký.</p>
+<p><strong>Vì sao là mức ②:</strong> xử lý được khảo sát nhiều bên có kỳ vọng mâu thuẫn — biết cấu trúc quá trình (tách vòng → tổng hợp → đề xuất → chốt), không chỉ nghe 1 khách hàng đơn lẻ rồi ghi lại.</p>
+7:["$","$L12",null,{"size":"md","py":"md","children":[["$","$L13",null,{"mb":"lg","fz":"sm","children":[["$","$L14",null,{"component":"$15","href":"/","c":"dimmed","children":"Trang chủ"}],["$","$L14",null,{"component":"$15","href":"/ba","c":"dimmed","children":"Giải pháp nghiệp vụ (BA)"}],["$","$L16",null,{"c":"dimmed","lineClamp":1,"children":"Khảo sát nhu cầu & chốt thống nhất yêu cầu với khách hàng"}]]}],["$","$L17",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$18"}}],"$L19","$L1a"]}]
+1b:I[71165,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Divider"]
+1c:I[67661,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Group"]
+1d:I[44634,["545","static/chunks/c16f53c3-af690cd7e9e36a24.js","435","static/chunks/435-cc49eae2b730c262.js","478","static/chunks/478-fa66d40d7710b75d.js","443","static/chunks/app/%5Brole%5D/ky-nang/%5Bskill%5D/page-a2c7a657da759b9b.js"],"Card"]
+19:["$","$L1b",null,{"my":"xl"}]
+1a:["$","$L1c",null,{"grow":true,"align":"stretch","wrap":"nowrap","children":[["$","$L15",null,{"href":"/ba/ky-nang/04-nam-vung-nghiep-vu-san-pham","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"← Kỹ năng trước"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Nắm vững nghiệp vụ trong mảng sản phẩm liên quan"}]]}]}],["$","$L15",null,{"href":"/ba/ky-nang/06-giai-dap-trao-doi-nghiep-vu","style":{"textDecoration":"none"},"children":["$","$L1d",null,{"withBorder":true,"radius":"md","padding":"sm","h":"100%","ta":"right","children":[["$","$L16",null,{"size":"xs","c":"dimmed","children":"Kỹ năng tiếp →"}],["$","$L16",null,{"size":"sm","fw":500,"children":"Giải đáp, trao đổi thắc mắc nghiệp vụ với đội dự án"}]]}]}]]}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+b:{"metadata":[["$","title","0",{"children":"SkillPath — ôn kỹ năng phỏng vấn thăng cấp"}],["$","meta","1",{"name":"description","content":"Tra cứu kỹ năng cần có theo từng role · level · vùng: định nghĩa và ví dụ thực tế để ôn cho buổi phỏng vấn thăng cấp."}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"
